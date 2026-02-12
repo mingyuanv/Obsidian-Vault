@@ -1,0 +1,206 @@
+{
+  "recentFiles": [
+    {
+      "basename": "嵌入式数据结构",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/嵌入式数据结构.md"
+    },
+    {
+      "basename": "C语言扩展积累学习",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/C语言扩展积累学习.md"
+    },
+    {
+      "basename": "嵌入式C语言",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/嵌入式C语言.md"
+    },
+    {
+      "basename": "应用开发",
+      "path": "全志V3s芯片开发/全志V3s开发记录/应用开发.md"
+    },
+    {
+      "basename": "linux开发工具软件",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/linux开发工具软件.md"
+    },
+    {
+      "basename": "第七期 设备树",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第七、八期 设备树/第七期 设备树.md"
+    },
+    {
+      "basename": "第75章 ConfigFS的核心数据结构 - 设备树插件",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第七、八期 设备树/第75章 ConfigFS的核心数据结构 - 设备树插件.md"
+    },
+    {
+      "basename": "第68章 ranges属性实验",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第七、八期 设备树/第68章 ranges属性实验.md"
+    },
+    {
+      "basename": "系统编译与烧写",
+      "path": "RK3568（linux学习）/rk3568芯片开发/系统编译与烧写.md"
+    },
+    {
+      "basename": "第64章 device_node转换成platform_device实验",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第七、八期 设备树/第64章 device_node转换成platform_device实验.md"
+    },
+    {
+      "basename": "第65章 设备树下platform_device和platform_driver匹配实验",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第七、八期 设备树/第65章 设备树下platform_device和platform_driver匹配实验.md"
+    },
+    {
+      "basename": "开发记录",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/开发记录.md"
+    },
+    {
+      "basename": "RK3568驱动指南｜第七期-设备树-第65章 设备树下platform_device和platform_driver匹配实验_rk3568 显示驱动-CSDN博客",
+      "path": "Clippings/RK3568驱动指南｜第七期-设备树-第65章 设备树下platform_device和platform_driver匹配实验_rk3568 显示驱动-CSDN博客.md"
+    },
+    {
+      "basename": "第63章 dtb展开成device_node实验",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第七、八期 设备树/第63章 dtb展开成device_node实验.md"
+    },
+    {
+      "basename": "RK3568驱动指南｜第七篇-第62章 dtb文件格式讲解_rk3568 多dtb-CSDN博客",
+      "path": "Clippings/RK3568驱动指南｜第七篇-第62章 dtb文件格式讲解_rk3568 多dtb-CSDN博客.md"
+    },
+    {
+      "basename": "学习obsidian",
+      "path": "未整理(其他)/学习obsidian.md"
+    },
+    {
+      "basename": "第62章 dtb文件格式讲解",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第七、八期 设备树/第62章 dtb文件格式讲解.md"
+    },
+    {
+      "basename": "Linux系统编程篇",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/Linux系统编程篇.md"
+    },
+    {
+      "basename": "驱动框架总结",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/实践总结扩展/驱动框架总结.md"
+    },
+    {
+      "basename": "报错与解决",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/报错与解决.md"
+    },
+    {
+      "basename": "第32章 Linux内核打印实验",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第四期 高级字符设备进阶/第32章 Linux内核打印实验.md"
+    },
+    {
+      "basename": "第28章 IO多路复用实验",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第四期 高级字符设备进阶/第28章 IO多路复用实验.md"
+    },
+    {
+      "basename": "第31章 信号驱动IO实验",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第四期 高级字符设备进阶/第31章 信号驱动IO实验.md"
+    },
+    {
+      "basename": "第31章 秒字符设备驱动实验",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第四期 高级字符设备进阶/第31章 秒字符设备驱动实验.md"
+    },
+    {
+      "basename": "第30章 定时器实验",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第四期 高级字符设备进阶/第30章 定时器实验.md"
+    },
+    {
+      "basename": "第38章 驱动调试方法实验",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第四期 高级字符设备进阶/第38章 驱动调试方法实验.md"
+    },
+    {
+      "basename": "第37章 优化驱动稳定性和效率实验",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第四期 高级字符设备进阶/第37章 优化驱动稳定性和效率实验.md"
+    },
+    {
+      "basename": "第36章 封装驱动API接口实验",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第四期 高级字符设备进阶/第36章 封装驱动API接口实验.md"
+    },
+    {
+      "basename": "linux命令",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/linux命令.md"
+    },
+    {
+      "basename": "第四期 高级字符设备进阶",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第四期 高级字符设备进阶/第四期 高级字符设备进阶.md"
+    },
+    {
+      "basename": "shell语言学习",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/shell语言学习.md"
+    },
+    {
+      "basename": "第34~35章IOCTL传参实验",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第四期 高级字符设备进阶/第34~35章IOCTL传参实验.md"
+    },
+    {
+      "basename": "开发环境塔建配置、文件传输",
+      "path": "RK3568（linux学习）/rk3568芯片开发/开发环境塔建配置、文件传输.md"
+    },
+    {
+      "basename": "杂项设备",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/实践总结扩展/杂项设备.md"
+    },
+    {
+      "basename": "第33章llseek定位设备驱动实验",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第四期 高级字符设备进阶/第33章llseek定位设备驱动实验.md"
+    },
+    {
+      "basename": "RK3568驱动指南｜第四篇 高级字符设备进阶-第32章 Linux内核打印实验_rk3568 2d图形处理器-CSDN博客",
+      "path": "Clippings/RK3568驱动指南｜第四篇 高级字符设备进阶-第32章 Linux内核打印实验_rk3568 2d图形处理器-CSDN博客.md"
+    },
+    {
+      "basename": "Makefile语法学习",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/Makefile语法学习.md"
+    },
+    {
+      "basename": "第十期 热插拔",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/第十期 热插拔.md"
+    },
+    {
+      "basename": "开发板启动和系统测试",
+      "path": "RK3568（linux学习）/rk3568芯片开发/开发板启动和系统测试.md"
+    },
+    {
+      "basename": "linux系统扩展功能开发（未）",
+      "path": "RK3568（linux学习）/rk3568芯片开发/Linux系统开发（未）/linux系统扩展功能开发（未）.md"
+    },
+    {
+      "basename": "第二十五期_USB",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/第二十五期_USB.md"
+    },
+    {
+      "basename": "RK3568驱动指南｜第四篇-高级字符设备进阶-第30章 定时器实验_rk3568 硬件定时器-CSDN博客",
+      "path": "Clippings/RK3568驱动指南｜第四篇-高级字符设备进阶-第30章 定时器实验_rk3568 硬件定时器-CSDN博客.md"
+    },
+    {
+      "basename": "Linux驱动调试方法",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/Linux驱动调试方法.md"
+    },
+    {
+      "basename": "RK3568驱动指南｜第四篇-高级字符设备进阶-第29章 信号驱动IO实验-CSDN博客",
+      "path": "Clippings/RK3568驱动指南｜第四篇-高级字符设备进阶-第29章 信号驱动IO实验-CSDN博客.md"
+    },
+    {
+      "basename": "驱动开发",
+      "path": "全志V3s芯片开发/全志V3s开发记录/驱动开发.md"
+    },
+    {
+      "basename": "开发准备",
+      "path": "全志V3s芯片开发/全志V3s开发记录/开发准备.md"
+    },
+    {
+      "basename": "系统开发",
+      "path": "全志V3s芯片开发/全志V3s开发记录/系统开发.md"
+    },
+    {
+      "basename": "烧录与启动",
+      "path": "全志V3s芯片开发/全志V3s开发记录/烧录与启动.md"
+    },
+    {
+      "basename": "file-20250810171706422",
+      "path": "RK3568（linux学习）/rk3568芯片开发/assets/开发环境塔建配置、文件传输/file-20250810171706422.pdf"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false,
+  "maxLength": null,
+  "openType": "tab"
+}

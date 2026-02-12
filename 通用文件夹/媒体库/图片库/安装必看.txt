@@ -1,0 +1,7 @@
+1.安装Fences4_setup_sd.exe。
+
+2.将stardock.fences x64-patch.exe复制到安装目录。
+
+3.在安装目录下运行stardock.fences x64-patch.exe，点击Patch，执行完全部文件覆盖。
+
+4.重启电脑。

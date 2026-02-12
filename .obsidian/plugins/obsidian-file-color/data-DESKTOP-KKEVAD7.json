@@ -1,0 +1,412 @@
+{
+  "cascadeColors": false,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "y8kLuoSO7woG_3RGRS3ke",
+      "name": "红色",
+      "value": "#ff0000"
+    },
+    {
+      "id": "7m7PAR96YDqaIv0VW7GRe",
+      "name": "绿色",
+      "value": "#1cc610"
+    },
+    {
+      "id": "LCuuCKlvMz3l5vD9YHJq7",
+      "name": "蓝色",
+      "value": "#0000ff"
+    },
+    {
+      "id": "aeu4BbSMriFS6qQjCAfxX",
+      "name": "黄色",
+      "value": "#9cba08"
+    },
+    {
+      "id": "k5vLia7IdJpJXTCxk4EVH",
+      "name": "紫色",
+      "value": "#b543ea"
+    },
+    {
+      "id": "b8-4xZC6542C1dOnEOIm6",
+      "name": "浅蓝",
+      "value": "#1785d9"
+    },
+    {
+      "id": "Pxai0sapjHG9gNWY6C0yb",
+      "name": "",
+      "value": "#e61ecb"
+    },
+    {
+      "id": "yXI91WVtIATZFYzY9SFMK",
+      "name": "",
+      "value": "#ffffff"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "君正T23N芯片开发/【君正T32N-PIKE开发板】",
+      "color": "y8kLuoSO7woG_3RGRS3ke"
+    },
+    {
+      "path": "君正T23N芯片开发/sdk_资料库",
+      "color": "y8kLuoSO7woG_3RGRS3ke"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T32N-PIKE开发板】/AI扩展",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "君正T23N芯片开发/君正T23N文件系统框架",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】",
+      "color": "y8kLuoSO7woG_3RGRS3ke"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/wifi开发记录",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/知识积累/AI扩展",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/知识积累",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/知识积累/总结提取",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "RK3568（linux学习）",
+      "color": "k5vLia7IdJpJXTCxk4EVH"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/知识积累/网页知识学习",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "君正T23N芯片开发/sdk_资料库/君正T23N开发资料/BSP",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T32N-PIKE开发板】/4.busybox工具集编译及根文件系统制作.md",
+      "color": "7m7PAR96YDqaIv0VW7GRe"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T32N-PIKE开发板】/5.T31驱动移植及加载、测试.md",
+      "color": "7m7PAR96YDqaIv0VW7GRe"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T32N-PIKE开发板】/AI扩展/编译 Linux 内核时，系统找不到 `gcc`（主机编译器）.md",
+      "color": "7m7PAR96YDqaIv0VW7GRe"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T32N-PIKE开发板】/AI扩展/T23N芯片.md",
+      "color": "7m7PAR96YDqaIv0VW7GRe"
+    },
+    {
+      "path": "君正T23N芯片开发/sdk_资料库/君正T23N开发资料/BSP/T23 BSP开发参考V1.1.pdf",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "君正T23N芯片开发/sdk_资料库/君正T23N开发资料/T23 文件系统制作指南.pdf",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "君正T23N芯片开发/sdk_资料库/君正T23N开发资料/T23 软件资源编译指南.pdf",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "君正T23N芯片开发/sdk_资料库/君正T23N开发资料/T23N_ds_v1.0_for_xz(中文).pdf",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/知识积累/AI扩展/固件文件选择与命名.md",
+      "color": "7m7PAR96YDqaIv0VW7GRe"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/知识积累/AI扩展/查找文件的命令主要有find和locate.md",
+      "color": "7m7PAR96YDqaIv0VW7GRe"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/知识积累/AI扩展/平台架构.md",
+      "color": "aeu4BbSMriFS6qQjCAfxX"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/知识积累/AI扩展/ATBM6031-X接口类型.md",
+      "color": "7m7PAR96YDqaIv0VW7GRe"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/知识积累/总结提取/SDIO wifi总结.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/知识积累/网页知识学习/SDIO wifi驱动框架.md",
+      "color": "7m7PAR96YDqaIv0VW7GRe"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/wifi开发记录/wifi引脚接口(原理图分析).md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/wifi开发记录/1.wifi环镜配置.md",
+      "color": "7m7PAR96YDqaIv0VW7GRe"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/wifi开发记录/报错与解决.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/知识积累/AI扩展/程序员必备的ai.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/wifi开发记录/wifi驱动调试记录-高拓讯达.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/BSP驱动开发",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/BSP驱动开发/君正T23芯片上的资源.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T32N-PIKE开发板】/报错与解决.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T32N-PIKE开发板】/君正T23N-sdk资料整理归纳.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "君正T23N芯片开发/sdk_资料库/wifi开发资料库-高拓/wifi_资料库/ATBM WIFI4 驱动配置说明_FAQ_V4.4.pdf",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/BSP驱动开发/3、BSP驱动开发记录.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "君正T23-ZN芯片开发/君正T23-ZN",
+      "color": "y8kLuoSO7woG_3RGRS3ke"
+    },
+    {
+      "path": "君正T23-ZN芯片开发/sdk资料库",
+      "color": "y8kLuoSO7woG_3RGRS3ke"
+    },
+    {
+      "path": "君正T23-ZN芯片开发/sdk资料库/其它资料",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "君正T23-ZN芯片开发/sdk资料库/Ingenic_Zeratul_T23_SDK使用说明.pdf",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "君正T23-ZN芯片开发/sdk资料库/Ingenic_Zeratul_T23_sensor移植调试说明.pdf",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "回收站/shell脚本语言（未整理）.md",
+      "color": "7m7PAR96YDqaIv0VW7GRe"
+    },
+    {
+      "path": "未整理(其他)/学习obsidian.md",
+      "color": "7m7PAR96YDqaIv0VW7GRe"
+    },
+    {
+      "path": "RK3568（linux学习）/linux开发资料库/代码库",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "君正T23-ZN芯片开发/sdk资料库/泰芯wifi开发资料",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "君正T23-ZN芯片开发/sdk资料库/泰芯wifi开发资料/泰芯Linux_WiFi_SMAC驱动开发指南.pdf",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "君正T23N芯片开发/sdk_资料库/君正T23N开发资料",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "君正T23N芯片开发/sdk_资料库/wifi开发资料库-高拓",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "君正T23N芯片开发/sdk_资料库/其他资料",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/BSP驱动开发/报错与解决.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/BSP驱动开发/1、君正t23内核分析理解.md",
+      "color": "7m7PAR96YDqaIv0VW7GRe"
+    },
+    {
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/BSP驱动开发/USB烧录.md",
+      "color": "7m7PAR96YDqaIv0VW7GRe"
+    },
+    {
+      "path": "未整理(其他)/考试.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "未来规划（实习、英语）",
+      "color": "k5vLia7IdJpJXTCxk4EVH"
+    },
+    {
+      "path": "RK3568（linux学习）/linux开发资料库",
+      "color": "y8kLuoSO7woG_3RGRS3ke"
+    },
+    {
+      "path": "RK3568（linux学习）/linux开发资料库/rk3568迅为开发pdf",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "Excalidraw/未来规划.excalidraw.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "Excalidraw",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "RK3568（linux学习）/rk3568芯片开发",
+      "color": "y8kLuoSO7woG_3RGRS3ke"
+    },
+    {
+      "path": "未来规划（实习、英语）/英语规划（出国）/英语未来规划.excalidraw.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "未来规划（实习、英语）/英语规划（出国）",
+      "color": "k5vLia7IdJpJXTCxk4EVH"
+    },
+    {
+      "path": "未来规划（实习、英语）/英语规划（出国）/资料库",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "未来规划（实习、英语）/英语规划（出国）/资料收集.md",
+      "color": "7m7PAR96YDqaIv0VW7GRe"
+    },
+    {
+      "path": "未来规划（实习、英语）/英语规划（出国）/英语学习规划.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "Excalidraw/待办便签.excalidraw.md",
+      "color": "k5vLia7IdJpJXTCxk4EVH"
+    },
+    {
+      "path": "全志V3s芯片开发/全志V3s开发记录/资源收集.md",
+      "color": "7m7PAR96YDqaIv0VW7GRe"
+    },
+    {
+      "path": "全志V3s芯片开发/CSDN开发文档",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "全志V3s芯片开发/全志V3s开发记录/报错与解决.md",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "全志V3s芯片开发/全志V3s开发记录/开发准备.md",
+      "color": "7m7PAR96YDqaIv0VW7GRe"
+    },
+    {
+      "path": "全志V3s芯片开发/全志V3s开发记录/系统开发.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "全志V3s芯片开发/全志V3s开发记录/烧录与启动.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "全志V3s芯片开发/全志V3s开发记录",
+      "color": "y8kLuoSO7woG_3RGRS3ke"
+    },
+    {
+      "path": "全志V3s芯片开发/全志V3s开发记录/驱动开发.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "未整理(其他)/报错与解决.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "全志V3s芯片开发/全志V3s开发记录/应用开发.md",
+      "color": "7m7PAR96YDqaIv0VW7GRe"
+    },
+    {
+      "path": "未来规划（实习、英语）/英语规划（出国）/英语学习资料.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "RV1106（桌面机器人Echo）/资料库/硬件原理图",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "RV1106（桌面机器人Echo）/资料汇总（桌面机器人）.md",
+      "color": "aeu4BbSMriFS6qQjCAfxX"
+    },
+    {
+      "path": "RV1106（桌面机器人Echo）/了解AI桌面机器人-Echo.md",
+      "color": "aeu4BbSMriFS6qQjCAfxX"
+    },
+    {
+      "path": "RV1106（桌面机器人Echo）/Echo-AI桌面机器人开发.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "linux内核开发",
+      "color": "k5vLia7IdJpJXTCxk4EVH"
+    },
+    {
+      "path": "RK3568（linux学习）/rk3568芯片开发/报错与解决.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "RK3568（linux学习）/rk3568芯片开发/Linux系统开发（未）/开发板使用实时系统.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "RK3568（linux学习）/rk3568芯片开发/开发板硬件开发/电路原理图符号解析.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "RK3568（linux学习）/rk3568芯片开发/开发板硬件开发/电路引脚命名解析.md",
+      "color": "7m7PAR96YDqaIv0VW7GRe"
+    },
+    {
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/设备树/设备树实例分析总结.md",
+      "color": "7m7PAR96YDqaIv0VW7GRe"
+    },
+    {
+      "path": "RK3568（linux学习）/rk3568芯片开发/Android系统开发（未）",
+      "color": "b8-4xZC6542C1dOnEOIm6"
+    },
+    {
+      "path": "RK3568（linux学习）/rk3568芯片开发/Android系统开发（未）/Android底层开发入门篇①.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    }
+  ]
+}

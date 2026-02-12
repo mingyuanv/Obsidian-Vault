@@ -1,0 +1,37 @@
+# 定义了sc2232传感器的相关参数
+sensor:sc2232
+isp_param:isp_clk=200000000  # ISP时钟频率设置为200MHz
+carrier_server_param:--nrvbs 3  # 载体服务器参数，指定NRVBS值为3
+
+# 定义了gc2053传感器的相关参数
+sensor:gc2053
+sensor_param:sensor_max_fps=25 data_interface=1  # 传感器参数，最大帧率为25FPS，数据接口类型为1
+isp_param:isp_clk=200000000  # ISP时钟频率设置为200MHz
+carrier_server_param:--nrvbs 2  # 载体服务器参数，指定NRVBS值为2
+
+# 定义了sc2135传感器的相关参数
+sensor:sc2135
+isp_param:isp_clk=200000000  # ISP时钟频率设置为200MHz
+carrier_server_param:--nrvbs 3  # 载体服务器参数，指定NRVBS值为3
+
+# 定义了imx307传感器的相关参数
+sensor:imx307
+isp_param:isp_clk=200000000  # ISP时钟频率设置为200MHz
+carrier_server_param:--nrvbs 2  # 载体服务器参数，指定NRVBS值为2
+
+# 定义了os05a10传感器的相关参数
+sensor:os05a10
+sensor_param:sensor_max_fps=25  # 传感器参数，最大帧率为25FPS
+isp_param:isp_clk=200000000  # ISP时钟频率设置为200MHz
+carrier_server_param:--nrvbs 2  # 载体服务器参数，指定NRVBS值为2
+
+# 定义了jxf23传感器的相关参数
+sensor:jxf23
+sensor_param:sensor_max_fps=25 data_interface=1  # 传感器参数，最大帧率为25FPS，数据接口类型为1
+isp_param:isp_clk=200000000  # ISP时钟频率设置为200MHz
+carrier_server_param:--nrvbs 2  # 载体服务器参数，指定NRVBS值为2
+
+# 定义了jxf38p传感器的相关参数
+sensor:jxf38p
+isp_param:isp_clk=200000000  # ISP时钟频率设置为200MHz
+carrier_server_param:--nrvbs 2 --i2c=0x40 --fps=15  # 载体服务器参数，包含NRVBS、I2C地址和FPS设定

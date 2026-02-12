@@ -1,0 +1,32 @@
+# 定义交叉编译器路径
+# 设置CC变量为交叉编译器的完整路径，该编译器用于编译针对ARM架构的目标代码
+CC=/usr/local/arm64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc
+
+# 生成可执行文件 app
+# 规则：当gps.o、uart.o或main.o中的任何一个比app新或者app不存在时，将触发此规则
+# 动作：使用$(CC)命令链接gps.o、uart.o和main.o目标文件，生成名为app的可执行文件
+app: gps.o uart.o main.o
+	$(CC) -o app gps.o uart.o main.o
+
+# 编译 gps 模块
+# 规则：当gps.c的内容较gps.o新，或者gps.h被修改导致依赖关系发生变化时，将触发此规则
+# 动作：使用$(CC)命令编译gps.c源文件，生成名为gps.o的目标文件（不进行链接）
+gps.o: gps.c gps.h
+	$(CC) -c gps.c
+
+# 编译 uart 模块
+# 规则：当uart.c的内容较uart.o新时，将触发此规则
+# 动作：使用$(CC)命令编译uart.c源文件，生成名为uart.o的目标文件（不进行链接）
+uart.o: uart.c
+	$(CC) -c uart.c 
+
+# 编译主程序入口 main 模块
+# 动作：使用$(CC)命令编译main.c源文件，生成名为main.o的目标文件（不进行链接）
+main.o: uart.o gps.o gps.h
+	$(CC) -c gps.c uart.c main.c
+
+# 清除编译生成的目标文件和可执行文件
+# 规则：clean是一个伪目标，不会生成任何文件
+# 动作：执行rm命令删除所有以.o结尾的目标文件以及最终生成的app可执行文件
+clean:
+	rm -f app *.o

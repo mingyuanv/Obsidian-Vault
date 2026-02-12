@@ -1,0 +1,599 @@
+Xshell 6 (Build 0095)
+Copyright (c) 2002 NetSarang Computer, Inc. All rights reserved.
+
+Type `help' to learn how to use Xshell prompt.
+[D:\~]$ 
+
+Connecting to COM5...
+Connected.
+
+ÿ
+Ingenic-uc1_1 login: 
+Ingenic-uc1_1 login: 
+Ingenic-uc1_1 login: 
+Ingenic-uc1_1 login: root
+Jan  1 00:01:25 login[59]: root login on 'console'
+[root@Ingenic-uc1_1:~]# ls
+bin      etc      linuxrc  mnt      proc     run      sys      tmp      var
+dev      lib      media    opt      root     sbin     system   usr
+[root@Ingenic-uc1_1:~]# ifconfig -a
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:6 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:402 (402.0 B)  TX bytes:402 (402.0 B)
+
+p2p0      Link encap:Ethernet  HWaddr 9A:A8:29:52:A2:4D  
+          BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+wlan0     Link encap:Ethernet  HWaddr 98:A8:29:52:A2:4D  
+          inet addr:192.168.8.117  Bcast:192.168.8.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84 errors:0 dropped:32 overruns:0 frame:0
+          TX packets:5 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:13301 (12.9 KiB)  TX bytes:1070 (1.0 KiB)
+
+[root@Ingenic-uc1_1:~]# 
+
+U-Boot SPL 2013.07 (Apr 08 2025 - 16:32:23)
+Board info: T23N
+
+apll_freq = 1188000000 
+mpll_freq = 1200000000 
+sdram init start
+DDR clk rate 600000000
+DDR_PAR of eFuse: 00000000 00000000
+sdram init finished
+image entry point: 0x80100000
+
+
+U-Boot 2013.07 (Apr 08 2025 - 16:32:23)
+
+Board: ISVP (Ingenic XBurst T23 SoC)
+DRAM:  64 MiB
+Top of RAM usable for U-Boot at: 84000000
+Reserving 441k for U-Boot at: 83f90000
+Reserving 32784k for malloc() at: 81f8c000
+Reserving 32 Bytes for Board Info at: 81f8bfe0
+Reserving 124 Bytes for Global Data at: 81f8bf64
+Reserving 128k for boot params() at: 81f6bf64
+Stack Pointer at: 81f6bf48
+Now running in RAM - U-Boot at: 83f90000
+MMC:   msc: 0
+the manufacturer 20
+SF: Detected XM25QH128C
+
+*** Warning - bad CRC, using default environment
+
+In:    serial
+Out:   serial
+Err:   serial
+Net:   ====>PHY not found!Jz4775-9161
+Hit any key to stop autoboot:  0 
+the manufacturer 20
+SF: Detected XM25QH128C
+
+--->probe spend 5 ms
+SF: 2621440 bytes @ 0x40000 Read: OK
+--->read spend 843 ms
+## Booting kernel from Legacy Image at 80600000 ...
+   Image Name:   Linux-3.10.14__isvp_pike_1.0__
+   Image Type:   MIPS Linux Kernel Image (lzma compressed)
+   Data Size:    1869516 Bytes = 1.8 MiB
+   Load Address: 80010000
+   Entry Point:  803f5710
+   Verifying Checksum ... OK
+   Uncompressing Kernel Image ... OK
+
+Starting kernel ...
+
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 3.10.14__isvp_pike_1.0__ (ming@ming) (gcc version 5.4.0 (Ingenic Ingenic r3.3.0-gcc540 Smaller Size 2023.05-22) ) #2 PREEMPT Wed Apr 23 21:21:39 CST 2025
+[    0.000000] bootconsole [early0] enabled
+[    0.000000] CPU0 RESET ERROR PC:00800250
+[    0.000000] CPU0 revision is: 00d00100 (Ingenic Xburst)
+[    0.000000] FPU revision is: 00b70000
+[    0.000000] cgu_vpu clk should be opened!
+[    0.000000] CCLK:1188MHz L2CLK:594Mhz H0CLK:200MHz H2CLK:200Mhz PCLK:100Mhz
+[    0.000000] Determined physical RAM map:
+[    0.000000]  memory: 0053b000 @ 00010000 (usable)
+[    0.000000]  memory: 00035000 @ 0054b000 (usable after init)
+[    0.000000] User-defined physical RAM map:
+[    0.000000]  memory: 02900000 @ 00000000 (usable)
+[    0.000000] Zone ranges:
+[    0.000000]   Normal   [mem 0x00000000-0x028fffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x00000000-0x028fffff]
+[    0.000000] Primary instruction cache 16kB, 8-way, VIPT, linesize 32 bytes.
+[    0.000000] Primary data cache 16kB, 8-way, VIPT, no aliases, linesize 32 bytes
+[    0.000000] pls check processor_id[0x00d00100],sc_jz not support!
+[    0.000000] MIPS secondary cache 64kB, 8-way, linesize 32 bytes.
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping off.  Total pages: 10414
+[    0.000000] Kernel command line: console=ttyS1,115200n8 mem=41M@0x0 rmem=23M@0x2900000 init=/linuxrc rootfstype=squashfs root=/dev/mtdblock2 rw mtdparts=jz_sfc:256k(boot),2560k(kernel),2048k(root),-(appfs)
+[    0.000000] PID hash table entries: 256 (order: -2, 1024 bytes)
+[    0.000000] Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+[    0.000000] Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.000000] Memory: 35276k/41984k available (4023k kernel code, 6708k reserved, 1330k data, 212k init, 0k highmem)
+[    0.000000] SLUB: HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] Preemptible hierarchical RCU implementation.
+[    0.000000] NR_IRQS:347
+[    0.000000] clockevents_config_and_register success.
+[    0.000020] Calibrating delay loop... 1185.38 BogoMIPS (lpj=5926912)
+[    0.087810] pid_max: default: 32768 minimum: 301
+[    0.092708] Mount-cache hash table entries: 512
+[    0.097752] Initializing cgroup subsys debug
+[    0.102010] Initializing cgroup subsys freezer
+[    0.106546] Initializing cgroup subsys perf_event
+[    0.111507] Performance counters: Either hardware does not support performance counters, or not yet implemented.
+[    0.124766] regulator-dummy: no parameters
+[    0.129086] NET: Registered protocol family 16
+[    0.146586] bio: create slab <bio-0> at 0
+[    0.152750] jz-dma jz-dma: JZ SoC DMA initialized
+[    0.157901] SCSI subsystem initialized
+[    0.161834] usbcore: registered new interface driver usbfs
+[    0.167417] usbcore: registered new interface driver hub
+[    0.172864] usbcore: registered new device driver usb
+[    0.178142]  (null): set:61  hold:62 dev=100000000 h=125 l=125
+[    0.184104]  (null): set:61  hold:62 dev=100000000 h=125 l=125
+[    0.191903] Switching to clocksource jz_clocksource
+[    0.196862] cfg80211: Calling CRDA to update world regulatory domain
+[    0.203914] NET: Registered protocol family 2
+[    0.208831] TCP established hash table entries: 512 (order: 0, 4096 bytes)
+[    0.215788] TCP bind hash table entries: 512 (order: -1, 2048 bytes)
+[    0.222186] TCP: Hash tables configured (established 512 bind 512)
+[    0.228518] TCP: reno registered
+[    0.231721] UDP hash table entries: 256 (order: 0, 4096 bytes)
+[    0.237683] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[    0.244242] NET: Registered protocol family 1
+[    0.248916] RPC: Registered named UNIX socket transport module.
+[    0.254919] RPC: Registered udp transport module.
+[    0.259614] RPC: Registered tcp transport module.
+[    0.264399] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.271233] freq_udelay_jiffys[0].max_num = 10
+[    0.275705] cpufreq 	udelay 	loops_per_jiffy	
+[    0.280075] 12000	 59867	 59867	
+[    0.283354] 24000	 119735	 119735	
+[    0.286785] 60000	 299338	 299338	
+[    0.290228] 120000	 598677	 598677	
+[    0.293810] 200000	 997796	 997796	
+[    0.297292] 300000	 1496694	 1496694	
+[    0.301000] 600000	 2993389	 2993389	
+[    0.304731] 792000	 3951274	 3951274	
+[    0.308416] 1008000	 5028895	 5028895	
+[    0.312212] 1200000	 5986779	 5986779	
+[    0.320880] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    0.327696] jffs2: version 2.2. © 2001-2006 Red Hat, Inc.
+[    0.333619] fuse init (API version 7.22)
+[    0.337800] msgmni has been set to 68
+[    0.343733] io scheduler noop registered
+[    0.347661] io scheduler cfq registered (default)
+[    0.352446] jz-pwm jz-pwm: period_ns:max=2730666,min=42
+[    0.358131] wait stable.[288][cgu_vpu]
+[    0.361854] cgu_vpu can not set to 450000000, will change!!!
+[    0.369138] jz-uart.1: ttyS1 at MMIO 0x10031000 (irq = 58) is a uart1
+[    0.377016] console [ttyS1] enabled, bootconsole disabled
+[    0.377016] console [ttyS1] enabled, bootconsole disabled
+[    0.392187] brd: module loaded
+[    0.397586] loop: module loaded
+[    0.401481] zram: Created 2 device(s) ...
+[    0.405780] logger: created 256K log 'log_main'
+[    0.423377] jz SADC driver registeres over!
+[    0.428194] jz TCU driver register completed
+[    0.433185] the id code = 204018, the flash name is XM25QH128C
+[    0.439271] jz-sfc jz-sfc: sfc use DMA mode
+[    0.443616] jz-sfc jz-sfc: nor flash now use standard mode!
+[    0.449383] JZ SFC Controller for SFC channel 0 driver register
+[    0.455536] 4 cmdlinepart partitions found on MTD device jz_sfc
+[    0.461663] Creating 4 MTD partitions on "jz_sfc":
+[    0.466642] 0x000000000000-0x000000040000 : "boot"
+[    0.472127] 0x000000040000-0x0000002c0000 : "kernel"
+[    0.477851] 0x0000002c0000-0x0000004c0000 : "root"
+[    0.483390] 0x0000004c0000-0x000001000000 : "appfs"
+[    0.488969] SPI NOR MTD LOAD OK
+[    0.492278] tun: Universal TUN/TAP device driver, 1.6
+[    0.497554] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+[    0.504122] usbcore: registered new interface driver cdc_ether
+[    0.510204] usbcore: registered new interface driver net1080
+[    0.516154] usbcore: registered new interface driver cdc_subset
+[    0.522321] usbcore: registered new interface driver zaurus
+[    0.528204] usbcore: registered new interface driver cdc_ncm
+[    0.534238] DWC IN OTG MODE
+[    0.537776] dwc2 dwc2: Keep PHY ON
+[    0.541300] dwc2 dwc2: Using Buffer DMA mode
+[    0.545768] dwc2 dwc2: Core Release: 3.00a
+[    0.550046] dwc2 dwc2: DesignWare USB2.0 High-Speed Host Controller
+[    0.556574] dwc2 dwc2: new USB bus registered, assigned bus number 1
+[    0.563979] hub 1-0:1.0: USB hub found
+[    0.567884] hub 1-0:1.0: 1 port detected
+[    0.572074] dwc2 dwc2: DWC2 Host Initialized
+[    0.576748] usbcore: registered new interface driver cdc_acm
+[    0.582608] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+[    0.591038] usbcore: registered new interface driver usb-storage
+[    0.597296] i2c /dev entries driver
+[    0.601417] cgu_msc0 can not set to 24000000, will change!!!
+[    0.607358] jzmmc_v1.2 jzmmc_v1.2.0: vmmc regulator missing
+[    0.613495] jzmmc_v1.2 jzmmc_v1.2.0: register success!
+[    0.618866] cgu_msc1 can not set to 24000000, will change!!!
+[    0.624852] jzmmc_v1.2 jzmmc_v1.2.1: vmmc regulator missing
+[    0.630874] jzmmc_v1.2 jzmmc_v1.2.1: register success!
+[    0.636512] TCP: cubic registered
+[    0.639951] NET: Registered protocol family 17
+[    0.644628] lib80211: common routines for IEEE802.11 drivers
+[    0.650501] dwc2 dwc2: ID PIN CHANGED!
+[    0.654902] soc_vpu probe success,version:1.0.0-03203fd46d
+[    0.660820] input: gpio-keys as /devices/platform/gpio-keys/input/input0
+[    0.668379] drivers/rtc/hctosys.c: unable to open rtc device (rtc0)
+[    0.678796] VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+[    0.686536] Freeing unused kernel memory: 212K (8054b000 - 80580000)
+mdev is ok......
+net.core.wmem_max = 26214400
+net.core.wmem_default = 26214400
+[    3.169287] name : i2c0 nr : 0
+
+Ingenic-uc1_1 login: [    3.253492] i2c i2c-0: i2c_jz_irq 441, I2C transfer error, ABORT interrupt
+[    3.260619] i2c i2c-0: --I2C txabrt:
+[    3.264394] i2c i2c-0: --I2C TXABRT[0]=I2C_TXABRT_ABRT_7B_ADDR_NOACK
+[    3.270987] error: sensor_read,114 ret = -5
+[    3.275354]  sensor_read: addr=0xf0 value = 0x0
+[    3.280043] err sensor read addr = 0xf0, value = 0x0
+[    3.373503] i2c i2c-0: i2c_jz_irq 441, I2C transfer error, ABORT interrupt
+[    3.380630] i2c i2c-0: --I2C txabrt:
+[    3.384444] i2c i2c-0: --I2C TXABRT[0]=I2C_TXABRT_ABRT_7B_ADDR_NOACK
+[    3.391057] error: sensor_read,114 ret = -5
+[    3.395472]  sensor_read: addr=0x3107 value = 0x0
+[    3.400360] err sensor read addr = 0x3107, value = 0x0
+[    3.493483] i2c i2c-0: i2c_jz_irq 441, I2C transfer error, ABORT interrupt
+[    3.500611] i2c i2c-0: --I2C txabrt:
+[    3.504391] i2c i2c-0: --I2C TXABRT[0]=I2C_TXABRT_ABRT_7B_ADDR_NOACK
+[    3.510985] error: sensor_read,114 ret = -5
+[    3.515364]  sensor_read: addr=0x3f0 value = 0x0
+[    3.520155] err sensor read addr = 0x3f0, value = 0x0
+[    3.613497] i2c i2c-0: i2c_jz_irq 441, I2C transfer error, ABORT interrupt
+[    3.620625] i2c i2c-0: --I2C txabrt:
+[    3.624351] i2c i2c-0: --I2C TXABRT[0]=I2C_TXABRT_ABRT_7B_ADDR_NOACK
+[    3.630942] error: sensor_read,114 ret = -5
+[    3.635292]  sensor_read: addr=0x3107 value = 0x0
+[    3.640159] err sensor read addr = 0x3107, value = 0x0
+[    3.733505] i2c i2c-0: i2c_jz_irq 441, I2C transfer error, ABORT interrupt
+[    3.740633] i2c i2c-0: --I2C txabrt:
+[    3.744426] i2c i2c-0: --I2C TXABRT[0]=I2C_TXABRT_ABRT_7B_ADDR_NOACK
+[    3.751037] error: sensor_read,114 ret = -5
+[    3.755439]  sensor_read: addr=0x3107 value = 0x0
+[    3.760326] err sensor read addr = 0x3107, value = 0x0
+[    3.765741] cgu_cim can not set to 27000000, will change!!!
+[    3.853502] i2c i2c-0: i2c_jz_irq 441, I2C transfer error, ABORT interrupt
+[    3.860629] i2c i2c-0: --I2C txabrt:
+[    3.864446] i2c i2c-0: --I2C TXABRT[0]=I2C_TXABRT_ABRT_7B_ADDR_NOACK
+[    3.871059] error: sensor_read,114 ret = -5
+[    3.875483]  sensor_read: addr=0x3107 value = 0x0
+[    3.880371] err sensor read addr = 0x3107, value = 0x0
+[    3.973495] i2c i2c-0: i2c_jz_irq 441, I2C transfer error, ABORT interrupt
+[    3.980636] i2c i2c-0: --I2C txabrt:
+[    3.984447] i2c i2c-0: --I2C TXABRT[0]=I2C_TXABRT_ABRT_7B_ADDR_NOACK
+[    3.991059] error: sensor_read,114 ret = -5
+[    3.995479]  sensor_read: addr=0x3107 value = 0x0
+[    4.000367] err sensor read addr = 0x3107, value = 0x0
+[    4.093493] i2c i2c-0: i2c_jz_irq 441, I2C transfer error, ABORT interrupt
+[    4.100634] i2c i2c-0: --I2C txabrt:
+[    4.104452] i2c i2c-0: --I2C TXABRT[0]=I2C_TXABRT_ABRT_7B_ADDR_NOACK
+[    4.111066] error: sensor_read,114 ret = -5
+[    4.115489]  sensor_read: addr=0x3107 value = 0x0
+[    4.120380] err sensor read addr = 0x3107, value = 0x0
+[    4.213480] i2c i2c-0: i2c_jz_irq 441, I2C transfer error, ABORT interrupt
+[    4.220608] i2c i2c-0: --I2C txabrt:
+[    4.224341] i2c i2c-0: --I2C TXABRT[0]=I2C_TXABRT_ABRT_7B_ADDR_NOACK
+[    4.230932] error: sensor_read,114 ret = -5
+[    4.235314]  sensor_read: addr=0x3107 value = 0x0
+[    4.240196] err sensor read addr = 0x3107, value = 0x0
+[    4.333480] i2c i2c-0: i2c_jz_irq 441, I2C transfer error, ABORT interrupt
+[    4.340608] i2c i2c-0: --I2C txabrt:
+[    4.344342] i2c i2c-0: --I2C TXABRT[0]=I2C_TXABRT_ABRT_7B_ADDR_NOACK
+[    4.350934] error: sensor_read,114 ret = -5
+[    4.355317]  sensor_read: addr=0x3107 value = 0x0
+[    4.360198] err sensor read addr = 0x3107, value = 0x0
+[    4.453558]  sensor_read: addr=0xa value = 0x8
+[    4.543554]  sensor_read: addr=0xa value = 0x8
+[    4.548386]  sensor_read: addr=0xb value = 0x44
+[    4.633578]  sensor_read: addr=0xa value = 0x8
+[    4.638442]  sensor_read: addr=0xb value = 0x44
+[    4.643155] info: success sensor find : jxf38p
+[    4.647845] name : i2c2 nr : 2
+sensor :jxf38p
+start_param
+--------------------
+isp_clk=200000000
+
+--nrvbs 2 --i2c=0x40 --fps=15
+[    5.075604] cgu_isp can not set to 153000000, will change!!!
+[    5.081505] cgu_vpu can not set to 416000000, will change!!!
+[    5.113923] @@@@ tx-isp-probe ok(version H20240204a), compiler date=Feb  4 2024 @@@@@
+[    5.179547] pipe_request_dma: paddr = 0x1b40000
+[    5.186522] dma dma0chan24: Channel 24 have been requested.(phy id 7,type 0x06 desc a1854000)
+[    5.195790] pipe_request_dma: paddr = 0x1980000
+[    5.200560] dma dma0chan25: Channel 25 have been requested.(phy id 6,type 0x06 desc a1857000)
+[    5.209929] pipe_request_dma: paddr = 0x1900000
+[    5.214846] dma dma0chan26: Channel 26 have been requested.(phy id 5,type 0x04 desc a187f000)
+[    5.243350] @@@@@ inner codec power up@@@@@@
+[    5.653363] @@@@ audio driver ok(version H20230614a) @@@@@
+[    6.244795] [atbm_log]:platform_init(252)
+[    6.249035] [atbm_log]:SVN_VER=34075,DPLL_CLOCK=24,BUILD_TIME=[===== =====]
+[    6.258381] [atbm_log]:----drvier RATEPOLCIY=OLD
+[    6.813333] cgu_msc1 can not set to 24000000, will change!!!
+[    6.873353] cgu_msc1 can not set to 24000000, will change!!!
+[    6.893334] cgu_msc1 can not set to 24000000, will change!!!
+[    6.933355] cgu_msc1 can not set to 24000000, will change!!!
+[    6.953332] cgu_msc1 can not set to 24000000, will change!!!
+[    6.993364] cgu_msc1 can not set to 24000000, will change!!!
+[    7.033387] cgu_msc1 can not set to 24000000, will change!!!
+[    7.053342] cgu_msc1 can not set to 24000000, will change!!!
+[    7.093324] cgu_msc1 can not set to 24000000, will change!!!
+[    7.122989] cgu_msc1 can not set to 24000000, will change!!!
+[    7.143434] cgu_msc1 can not set to 24000000, will change!!!
+[    7.164552] mmc1: new SDIO card at address 0001
+[    7.172251] [atbm_log]:Probe called
+[    7.178082] [atbm_log]:atbm_sdio_probe : idVendor[7a] idProduct[6011] 
+[    7.185104] [atbm_log]:atbm_sdio_probe:v12
+[    7.189382] [atbm_log]:ble_spin_lock init 
+[    7.193776] [atbm_log]:Allocated hw_priv @ 820a6f40
+[    7.199225] [atbm_log]:[BH] register.
+[    7.203234] [atbm_log]: wait_event_interruptible from  send_prbresp_wq
+[    7.210244] [atbm_log]:atbmwifi INIT_WORK enable
+[    7.215305] [atbm_log]:atbmwifi INIT_WORK enable
+[    7.220300] [atbm_log]:atbm_sdio_rx_thread
+[    7.224815] [atbm_log]:AsmLite probe!
+[    7.228784] [atbm_log]:Get 6031-X UID Success!!support BLE
+[    7.234612] [atbm_log]:atbm_get_chiptype, chipver=0x4a, g_wifi_chip_type[12]
+[    7.241932] [atbm_log]:atbm_before_load_firmware++
+[    7.247116] [atbm_log]:atbm_before_load_firmware:0xab0016c = [34800000]
+[    7.254180] [atbm_log]:atbm_before_load_firmware:0xab0016c = [34800000]
+[    7.261326] [atbm_log]:reset val(2)
+[    7.264980] [atbm_log]:rx timeout
+[    7.268707] [atbm_log]:after reset(0)
+[    7.272562] [atbm_log]:atbm_before_load_firmware:do not set config to smu
+[    7.380888] [atbm_log]:atbm_before_load_firmware:read [0x16100074]=[0],ret(0)
+[    7.388511] [atbm_log]:atbm_before_load_firmware:write [0x16100074]=[1],ret(0)
+[    7.497127] [atbm_log]:atbm_before_load_firmware:write [0x16100074]=[1],ret(0)
+[    7.605753] [atbm_log]:atbm_start_load_firmware++
+[    7.610627] [atbm_log]:
+[    7.610627] ======>>> load WIFI BLE COMB firmware <<<======
+[    7.610627] 
+[    7.620558] fwhdr->flags 34353678 sram_addr 9009000
+[    7.625777] [atbm_log]:START DOWNLOAD ICCM=========
+[    7.630854] [atbm_log]:atbm_load_firmware_generic: addr 10000: len 15000
+[    7.676870] [atbm_log]:START DOWNLOAD DCCM=========
+[    7.681929] [atbm_log]:atbm_load_firmware_generic: addr 800000: len a000
+[    7.708203] [atbm_log]:START DOWNLOAD SRAM=========
+[    7.713443] [atbm_log]:atbm_load_firmware_generic: addr 9009000: len d000
+[    7.744669] [atbm_log]:atbm_after_load_firmware++
+[    7.763262] [atbm_log]:firmwareCap f189
+[    7.767277] [atbm_log]:firmwareCap2 5104
+[    7.771335] [atbm_log]:wsm_caps.firmwareCap 5104f189 4
+[    7.776502] [atbm_log]:apollo wifi WSM init done.
+[    7.776502]    Input buffers: 4 x 1648 bytes
+[    7.776502]    Hardware: 7.0
+[    7.776502]    WSM firmware [=MODEM=RF=Ares_AX  2GHZ Jul 19 2023 10:46:45NOTXConfrim ap sleep], ver: 17780, build: 4018, api: 1060, cap: 0x5104F189 Config[8030408]  expection 9002fdc, ep0 cmd addr 0 NumOfStations[8] NumOfInterfaces[3]
+[    7.810459] [atbm_log]:EFUSE(8)				[0]
+[    7.814353] [atbm_log]:EFUSE(I)					[1]
+[    7.818322] [atbm_log]:EFUSE(B)			[0]
+[    7.822109] [atbm_log]:CAPABILITIES_ATBM_PRIVATE_IE  [0]
+[    7.827621] [atbm_log]:CAPABILITIES_NVR_IPC  [0]
+[    7.832399] [atbm_log]:CAPABILITIES_NO_CONFIRM  [1]
+[    7.837459] [atbm_log]:CAPABILITIES_SDIO_PATCH  [0]
+[    7.842507] [atbm_log]:CAPABILITIES_NO_BACKOFF  [0]
+[    7.847567] [atbm_log]:CAPABILITIES_CFO  [0]
+[    7.851983] [atbm_log]:CAPABILITIES_AGC  [1]
+[    7.856413] [atbm_log]:CAPABILITIES_TXCAL  [1]
+[    7.861011] [atbm_log]:CAPABILITIES_MONITOR  [0]
+[    7.865801] [atbm_log]:CAPABILITIES_CUSTOM  [0]
+[    7.870489] [atbm_log]:CAPABILITIES_SMARTCONFIG  [0]
+[    7.875639] [atbm_log]:CAPABILITIES_ETF  [1]
+[    7.880058] [atbm_log]:CAPABILITIES_LMAC_RATECTL  [1]
+[    7.885299] [atbm_log]:CAPABILITIES_LMAC_TPC  [1]
+[    7.890166] [atbm_log]:CAPABILITIES_LMAC_TEMPC  [1]
+[    7.895225] [atbm_log]:CAPABILITIES_CTS_BUG  [0]
+[    7.900002] [atbm_log]:CAPABILITIES_USE_IPC  [0]
+[    7.904793] [atbm_log]:CAPABILITIES_OUTER_PA  [0]
+[    7.909659] [atbm_log]:CAPABILITIES_POWER_CONSUMPTION  [0]
+[    7.915349] [atbm_log]:CAPABILITIES_RSSI_DECIDE_TXPOWER  [0]
+[    7.921205] [atbm_log]:CAPABILITIES_RTS_LONG_DURATION  [0]
+[    7.926895] [atbm_log]:CAPABILITIES_TX_CFO_PPM_CORRECTION  [1]
+[    7.932931] [atbm_log]:CAPABILITIES_NOISE_SET_DCXO  [0]
+[    7.938350] [atbm_log]:CAPABILITIES_CFO_DCXO_CORRECTION  [1]
+[    7.944221] [atbm_log]:CAPABILITIES_HW_CHECKSUM  [0]
+[    7.949360] [atbm_log]:CAPABILITIES_SINGLE_CHANNEL_MULTI_RX  [0]
+[    7.955591] [atbm_log]:EX_CAPABILITIES_TWO_CHIP_ONE_SOC  [0]
+[    7.961449] [atbm_log]:EX_CAPABILITIES_MANUAL_SET_AC  [0]
+[    7.967049] [atbm_log]:EX_CAPABILITIES_LMAC_BW_CONTROL  [1]
+[    7.972816] [atbm_log]:EX_CAPABILITIES_SUPPORT_TWO_ANTENNA  [0]
+[    7.978957] [atbm_log]:EX_CAPABILITIES_ENABLE_STA_REMAIN_ON_CHANNEL  [1]
+[    7.985907] [atbm_log]:EX_CAPABILITIES_ENABLE_PS  [1]
+[    7.991133] [atbm_log]:EX_CAPABILITIES_TX_REQUEST_FIFO_LINK  [0]
+[    7.997363] [atbm_log]:EX_CAPABILITIES_DRIVER_PHY_REG_INIT  [0]
+[    8.003510] [atbm_log]:EX_CAPABILITIES_DRIVER_PROCESS_BA  [1]
+[    8.009457] [atbm_log]:EX_CAPABILITIES_DRIVER_PHY_REG_INIT  [0]
+[    8.015599] [atbm_log]:EX_CAPABILITIES_DRIVER_PROCESS_BA[1]
+[    8.021367] [atbm_log]:CONFIG_PRODUCT_TEST_USE_FEATURE_ID [1]
+[    8.027328] [atbm_log]:CONFIG_PRODUCT_TEST_USE_GOLDEN_LED [1]
+[    8.040982] [atbm_log]:set_block_size=256
+[    8.045186] [atbm_log]:mdelay wait wsm_startup_done  !!
+[    8.050595] [atbm_log]:not need phy init in driver
+[    8.055711] [atbm_log]:atbm_sdio_tx_thread
+[    8.060520] [atbm_log]:wsm_generic_confirm:status(2)
+[    8.065877] [atbm_log]:<WARNING> wsm_write_mib fail !!! mibId=4132
+[    8.072685] [atbm_log]:efuse data is [0x1,0x44,0x1e,0x1f,0x1e,0xf,0x0,0x0,0x98:0xa8:0x29:0x52:0xa2:0x4d]
+[    8.083042] [atbm_log]:apollo wifi : can't open /data/.mac.info
+[    8.089807] [atbm_log]:enable sg
+[    8.093198] [atbm_log]:[wlan0] has been disabled
+[    8.110517] [atbm_log]:enable sg
+[    8.116111] [atbm_log]:[p2p0] has been disabled
+[    8.133828] [atbm_log]:ble start
+[    8.139521] [atbm_log]:[phy0-ble_recv] start
+[    8.144243] [atbm_log]:ble subscribe
+[    8.148223] [atbm_log]:[phy0-ble_xmit] start
+[    8.152945] [atbm_log]:ble_platform_probe(8277b480)
+[    8.160421] [atbm_log]:is registered as 'phy0'
+[    8.165287] [atbm_log]:apollo wifi : can't open /tmp/atbm_txpwer_dcxo_cfg.txt
+[    8.172717] [atbm_log]:apollo wifi : can't open /tmp/set_rate_power.txt
+[    8.180223] [atbm_log]:open_auto_cfo:ppm_buf:cfo 1 0 , buf_len:8 
+[    8.187025] [atbm_log]:get chip id [834][10][0] 
+[    8.191826] [atbm_log]:current chiptype 6031-X 
+[    8.196650] [atbm_log]:[atbm_wtd]:set wtd_probe = 1
+[    8.993546] [atbm_log]:atbm_setup_mac:addr(98a82952a24d)
+[    8.999468] [atbm_log]:3 !!! atbm_vif_setup_params: enabling priv
+[    9.033339] [atbm_log]:[STA] Interface ID:0 of type:2 added
+[    9.039451] [atbm_log]:atbm_set_uapsd_param:uapsdFlags(0)
+[    9.046099] [atbm_log]:br0_netdev_open()-1201: dev_get_by_name(br0)
+[    9.053245] [atbm_log]:atbm_set_uapsd_param:uapsdFlags(0)
+[    9.059949] [atbm_log]:atbm_set_uapsd_param:uapsdFlags(0)
+[    9.066617] [atbm_log]:atbm_set_uapsd_param:uapsdFlags(0)
+[    9.073390] [atbm_log]:atbm_set_uapsd_param:uapsdFlags(0)
+killall: wpa_supplicant: no process killed
+killall: udhcpc: no process killed
+Successfully initialized wpa_supplicant
+rfkill: Cannot open RFKILL control device
+nl80211: Could not re-add multicast membership for vendor events: -2 (No such file or directory)
+udhcpc (v1.22.1) started
+[   11.483217] [atbm_log]:ieee80211_check_country_limit_scan_2_4G_chan : scan_n_channals = 14 ++++++++ 
+[   11.501302] [atbm_log]:ieee80211_check_country_limit_scan_2_4G_chan : scan_n_channals = 13 --------- 
+[   11.510998] [atbm_log]:__ieee80211_start_scan:channels[13]
+[   11.543328] [atbm_log]:ieee80211_prep_hw_scan:n_chans(13),space(13),index(13),scaned(13)
+[   11.551725] [atbm_log]:atbm_hw_scan:if_id(0)
+[   11.556470] [atbm_log]:atbm_hw_scan:scan, delay suspend
+[   11.561908] [atbm_log]:scan start band(0),(13)
+Sending discover...
+[   12.720416] [atbm_log]:hw_priv->scan.status 0
+[   12.725057] [atbm_log]:atbm_scan_work:end(0)
+[   12.803309] [atbm_log]:ieee80211_prep_hw_scan:n_chans(13),space(13),index(13),scaned(13)
+[   12.811703] [atbm_log]:atbm_hw_scan:if_id(0)
+[   12.816522] [atbm_log]:atbm_hw_scan:scan, delay suspend
+[   12.821962] [atbm_log]:scan start band(0),(13)
+[   12.826608] [atbm_log]:__ieee80211_scan_completed:1631
+[   13.993194] [atbm_log]:hw_priv->scan.status 0
+[   13.997833] [atbm_log]:atbm_scan_work:end(0)
+[   14.033321] [atbm_log]:stop scan:policy empty 
+[   14.041240] [atbm_log]:wlan0:free authen bss ++
+[   14.073311] [atbm_log]:authen:(10:82:3d:0c:e9:ea),ssid(gznscy)
+[   14.079378] [atbm_log]:work suspend
+[   14.083450] [atbm_log]:authenticate[10:82:3d:0c:e9:ea]:[0][1]
+[   14.089408] [atbm_log]:wlan0: authenticate with 10:82:3d:0c:e9:ea (try 1) (1)(0)
+[   14.099338] [atbm_log]:[STA] Join DTIM: 1, interval: 100
+[   14.104892] [atbm_log]:atbm_set_pm:if_id(0) is not assco
+[   14.123666] [atbm_log]:cancle_work_done:[10:82:3d:0c:e9:ea][15][11]
+[   14.130643] [atbm_log]:wlan0: authenticated
+[   14.135516] [atbm_log]:wlan0:free authen bss ++
+[   14.163320] [atbm_log]:wlan0:free authen bss --
+[   14.168034] [atbm_log]:sta has been insert(0)
+[   14.172841] [atbm_log]:work:flush sta[10:82:3d:0c:e9:ea]
+[   14.178520] [atbm_log]:cancle_work_done:[10:82:3d:0c:e9:ea][15][11]
+[   14.185158] [atbm_log]:work:flush sta[10:82:3d:0c:e9:ea]
+[   14.190796] [atbm_log]:flush sta(0):
+[   14.194788] [atbm_log]:wlan0: associated
+[   14.198853] [atbm_log]:wlan0:free authen bss ++
+[   14.204410] [atbm_log]:atbm_set_uapsd_param:uapsdFlags(0)
+[   14.211118] [atbm_log]:atbm_set_uapsd_param:uapsdFlags(0)
+[   14.217712] [atbm_log]:atbm_set_uapsd_param:uapsdFlags(0)
+[   14.224364] [atbm_log]:atbm_set_uapsd_param:uapsdFlags(0)
+[   14.230293] [atbm_log]:[10:82:3d:0c:e9:ea]:20M channel
+[   14.235661] [atbm_log]:atbm_bss_info_changed:chatype(1),channelNumber(6)
+[   14.283410] [atbm_log]:[10:82:3d:0c:e9:ea]:assc sucess band[0]
+[   14.289489] [atbm_log]:[wlan0]:[8e88] deliver slow
+[   14.297012] [atbm_log]:[wlan0]:dtim changed [0]->[1]
+[   14.306004] [atbm_log]:[wlan0]:down_eap_rate
+[   14.310431] [atbm_log]:wlan0:2/4 Pairwise
+[   14.347781] [atbm_log]:[wlan0]:[8e88] deliver slow
+[   14.353708] [atbm_log]:[wlan0]:down_eap_rate
+[   14.358136] [atbm_log]:wlan0:4/4 Pairwise
+[   14.365096] [atbm_log]:3SET_KEY:idx(0),if_id(0)
+[   14.372689] [atbm_log]:3SET_KEY:idx(1),if_id(0)
+[   14.378412] [atbm_log]:ieee80211_recalc_ps:work busy
+[   14.383794] [atbm_log]:KEK[39][224][118][46]
+[   14.388219] [atbm_log]:KCK[21][189][26][121]
+Sending discover...
+[   14.723528] [atbm_log]:dhcp work(1)
+[   14.752672] [atbm_log]:[wlan0]:[8] deliver slow
+[   14.757691] [atbm_log]:dhcp done
+[   14.760870] [atbm_log]:ieee80211_process_addba_request:mac[10:82:3d:0c:e9:ea],tid[0]
+Sending select for 192.168.8.117...[   14.769485] [atbm_log]:AMPDU[wlan0]:action[0],tid[0],ssn[0],buff_size[0],token[0],ta[10:82:3d:0c:e9:ea]
+
+[   14.803505] [atbm_log]:dhcp work(1)
+[   14.812993] [atbm_log]:[wlan0]:[8] deliver slow
+[   14.817739] [atbm_log]:dhcp done[   14.820923] NOHZ: local_softirq_pending 08
+Lease of 192.168.8.117 obtained, lease time 1800
+[   14.849315] [atbm_log]:connecting done
+deleting routers
+adding dns 192.168.8.1
+
+[   19.878726] [atbm_log]:ieee80211_process_addba_request:mac[10:82:3d:0c:e9:ea],tid[7]
+[   19.886979] [atbm_log]:AMPDU[wlan0]:action[0],tid[7],ssn[10],buff_size[0],token[1],ta[10:82:3d:0c:e9:ea]
+
+Ingenic-uc1_1 login: 
+Ingenic-uc1_1 login: 
+Ingenic-uc1_1 login: root
+Jan  1 00:01:03 login[59]: root login on 'console'
+[root@Ingenic-uc1_1:~]# ls
+bin      etc      linuxrc  mnt      proc     run      sys      tmp      var
+dev      lib      media    opt      root     sbin     system   usr
+[root@Ingenic-uc1_1:~]# ifconfig
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:6 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:402 (402.0 B)  TX bytes:402 (402.0 B)
+
+wlan0     Link encap:Ethernet  HWaddr 98:A8:29:52:A2:4D  
+          inet addr:192.168.8.117  Bcast:192.168.8.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:69 errors:0 dropped:24 overruns:0 frame:0
+          TX packets:5 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:13220 (12.9 KiB)  TX bytes:1070 (1.0 KiB)
+
+[root@Ingenic-uc1_1:~]# ifconfig -a
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:6 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:402 (402.0 B)  TX bytes:402 (402.0 B)
+
+p2p0      Link encap:Ethernet  HWaddr 9A:A8:29:52:A2:4D  
+          BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+wlan0     Link encap:Ethernet  HWaddr 98:A8:29:52:A2:4D  
+          inet addr:192.168.8.117  Bcast:192.168.8.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:69 errors:0 dropped:24 overruns:0 frame:0
+          TX packets:5 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:13220 (12.9 KiB)  TX bytes:1070 (1.0 KiB)
+
+[root@Ingenic-uc1_1:~]# ping www.baidu.com -c 4
+[  116.903373] [atbm_log]:AMPDU[wlan0]:action[2],tid[0],ssn[4],buff_size[0],token[0],ta[10:82:3d:0c:e9:ea]
+[  116.922328] [atbm_log]:AMPDU[wlan0]:action[4],tid[0],ssn[0],buff_size[64],token[0],ta[10:82:3d:0c:e9:ea]
+[  116.938121] <WIFI> rx ampdu ++ 
+PING www.baidu.com (183.240.99.58): 56 data bytes
+64 bytes from 183.240.99.58: seq=0 ttl=53 time=12.752 ms
+64 bytes from 183.240.99.58: seq=1 ttl=53 time=15.658 ms
+64 bytes from 183.240.99.58: seq=2 ttl=53 time=21.853 ms
+64 bytes from 183.240.99.58: seq=3 ttl=53 time=15.038 ms
+
+--- www.baidu.com ping statistics ---
+4 packets transmitted, 4 packets received, 0% packet loss
+round-trip min/avg/max = 12.752/16.325/21.853 ms
+[root@Ingenic-uc1_1:~]# 

@@ -1,0 +1,16 @@
+{
+  "attachmentFolderPath": "媒体库/图片库",
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "showLineNumber": false,
+  "newLinkFormat": "absolute",
+  "useMarkdownLinks": false,
+  "smartIndentList": false
+}

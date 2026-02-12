@@ -1,0 +1,79 @@
+{
+  "statusBarOrder": [],
+  "ribbonBarOrder": [],
+  "fileExplorerOrder": {
+    "日记": [
+      "日记/备忘录笔记.md",
+      "日记/待办.md"
+    ],
+    "": [
+      "回收站",
+      "媒体库",
+      "模板",
+      "未来规划（实习、英语）",
+      "君正T23N芯片开发",
+      "君正T23-ZN芯片开发",
+      "全志V3s芯片开发",
+      "IMX6ULL芯片开发(NXP)",
+      "日记",
+      "未整理(其他)",
+      "Excalidraw",
+      "Clippings",
+      "RV1106（桌面机器人Echo）",
+      "linux内核开发",
+      "RK3568（linux学习）"
+    ],
+    "T23_PIKE开发板": [
+      "君正T23N芯片开发/【君正T32N-PIKE开发板】",
+      "君正T23N芯片开发/sdk_资料库",
+      "君正T23N芯片开发/君正T23N文件系统框架",
+      "君正T23N芯片开发/【君正T23N_IPC】"
+    ],
+    "君正T23N芯片开发": [
+      "君正T23N芯片开发/【君正T23N_IPC】/wifi开发记录/开发记录模板.md",
+      "君正T23N芯片开发/【君正T23N_IPC】/wifi开发记录/1.wifi环镜配置.md",
+      "回收站/wifi驱动移植适配.md",
+      "回收站/2.wifi驱动移植适配.md",
+      "君正T23N芯片开发/【君正T23N_IPC】/wifi开发记录/成功加载的wifi驱动的打印信息.md",
+      "君正T23N芯片开发/【君正T23N_IPC】/wifi开发记录/报错与解决.md",
+      "君正T23N芯片开发/【君正T23N_IPC】/wifi开发记录/wifi引脚接口(原理图分析).md",
+      "君正T23N芯片开发/【君正T23N_IPC】/wifi开发记录/wifi驱动调试记录-高拓讯达.md"
+    ],
+    "RK3568（linux学习）": [
+      "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/报错与解决.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第二期 字符设备基础.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第三期 并发与竞争.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第四期 高级字符设备进阶.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第五期_中断.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第六期 平台总线.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第九期 设备模型.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/第十期 热插拔.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/第十一期_pinctrl子系统.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/第十三期 输入子系统.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/第十四期 单总线.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/第十五期 12C.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/第十六期_SPI.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/第十七期_串口.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/第十八期_PWM.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/第十九期 RTC.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/第二十期_看门狗.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/第二十一期_CAN.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/第二十二期 网络设备.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/第二十三期 ADC.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/第二十四期 IIO.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/第二十五期_USB.md",
+      "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/第二十六期_LCD屏幕（未）.md",
+      "RK3568（linux学习）/rk3568芯片开发/系统编译与烧写.md",
+      "RK3568（linux学习）/rk3568芯片开发/Linux系统开发（未）/文件系统构建（未）"
+    ],
+    "RV1106（桌面机器人Echo）": [
+      "RV1106（桌面机器人Echo）/资料汇总（桌面机器人）.md"
+    ]
+  },
+  "actionBarOrder": {},
+  "autoHide": false,
+  "autoHideDelay": 2000,
+  "dragDelay": 200,
+  "sortOrder": "custom",
+  "useCollapse": true
+}

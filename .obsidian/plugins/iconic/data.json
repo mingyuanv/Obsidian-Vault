@@ -1,0 +1,118 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": false,
+  "showAllFolderIcons": false,
+  "minimalFolderIcons": true,
+  "showMarkdownTabIcons": true,
+  "showMenuActions": true,
+  "showQuickSwitcherIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": false,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": true,
+    "rulePage": "file"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "嵌入式知识学习（通用扩展）/linux基础知识/嵌入式C语言.md": {
+      "color": "gray"
+    },
+    "嵌入式知识学习（通用扩展）/linux基础知识/常用函数和宏积累.md": {
+      "color": "cyan"
+    },
+    "嵌入式知识学习（通用扩展）/linux基础知识/开发经验记录.md": {
+      "color": "red"
+    },
+    "嵌入式知识学习（通用扩展）/linux基础知识/开发记录文件（待处理）.md": {
+      "color": "gray"
+    },
+    "嵌入式知识学习（通用扩展）/linux基础知识/🔨linux常用命令记录.md": {
+      "color": "yellow"
+    },
+    "嵌入式知识学习（通用扩展）/linux基础知识/🔨shell语言学习.md": {
+      "color": "pink"
+    },
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）": {
+      "color": "red",
+      "unsynced": [
+        "5d7f91498f621a3d",
+        "9ec213042bbf5c89",
+        "9c82f1c43c2927a6",
+        "2b40e114bfa42bd0",
+        "468d9d15c8d5b739",
+        "d8355acf6c23850d"
+      ]
+    },
+    "扩展学习/未来规划（实习、英语）": {
+      "color": "red",
+      "unsynced": [
+        "5d7f91498f621a3d",
+        "9ec213042bbf5c89",
+        "9c82f1c43c2927a6",
+        "2b40e114bfa42bd0",
+        "468d9d15c8d5b739",
+        "d8355acf6c23850d"
+      ]
+    },
+    "扩展学习/未来规划（实习、英语）/未来规划（技术）.md": {
+      "color": "pink"
+    },
+    "扩展学习/未来规划（实习、英语）/英语规划（出国）/英语学习资料.md": {
+      "color": "pink"
+    },
+    "扩展学习/电脑软件学习/linux开发工具软件.md": {
+      "color": "pink"
+    },
+    "扩展学习/资源收集/📒好知识库：博主.md": {
+      "color": "pink"
+    },
+    "芯片开发学习/RK3568（linux学习）/rk3568芯片开发/Linux系统开发（未）/开发板使用实时系统.md": {
+      "color": "gray"
+    },
+    "芯片开发学习/RV1106（桌面机器人Echo）/Echo-AI桌面机器人开发.md": {
+      "color": "pink"
+    },
+    "芯片开发学习/RV1106（桌面机器人Echo）/资料库/硬件原理图": {
+      "color": "blue",
+      "unsynced": [
+        "5d7f91498f621a3d",
+        "9ec213042bbf5c89",
+        "9c82f1c43c2927a6",
+        "2b40e114bfa42bd0",
+        "468d9d15c8d5b739",
+        "d8355acf6c23850d"
+      ]
+    },
+    "通用文件夹/Excalidraw/待办便签.excalidraw.md": {
+      "color": "purple"
+    }
+  },
+  "bookmarkIcons": {
+    "1752247987127": {
+      "color": "pink"
+    },
+    "1755844083827": {
+      "color": "purple",
+      "icon": "lucide-database-zap"
+    },
+    "1755844213623": {
+      "color": "purple"
+    }
+  },
+  "tagIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {},
+  "fileRules": [],
+  "folderRules": []
+}

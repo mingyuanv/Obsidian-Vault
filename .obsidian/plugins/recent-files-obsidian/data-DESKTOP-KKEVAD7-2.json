@@ -1,0 +1,154 @@
+{
+  "recentFiles": [
+    {
+      "basename": "电路引脚命名解析",
+      "path": "RK3568（linux学习）/rk3568芯片开发/开发板硬件开发/电路引脚命名解析.md"
+    },
+    {
+      "basename": "电路原理图符号解析",
+      "path": "RK3568（linux学习）/rk3568芯片开发/开发板硬件开发/电路原理图符号解析.md"
+    },
+    {
+      "basename": "1.开发环境准备",
+      "path": "君正T23-ZN芯片开发/君正T23-ZN/1.开发环境准备.md"
+    },
+    {
+      "basename": "报错与解决",
+      "path": "RK3568（linux学习）/rk3568芯片开发/Android系统开发（未）/报错与解决.md"
+    },
+    {
+      "basename": "Android底层开发入门篇①",
+      "path": "RK3568（linux学习）/rk3568芯片开发/Android系统开发（未）/Android底层开发入门篇①.md"
+    },
+    {
+      "basename": "底板外设适配篇②",
+      "path": "RK3568（linux学习）/rk3568芯片开发/Android系统开发（未）/底板外设适配篇②.md"
+    },
+    {
+      "basename": "Rockchip Android 11.0 SDK开发（未）",
+      "path": "RK3568（linux学习）/rk3568芯片开发/Android系统开发（未）/Rockchip Android 11.0 SDK开发（未）.md"
+    },
+    {
+      "basename": "【北京迅为】itop-rk3568开发板官方android11移植教程",
+      "path": "RK3568（linux学习）/linux开发资料库/rk3568迅为开发pdf/6.Android系统开发/【北京迅为】itop-rk3568开发板官方android11移植教程.pdf"
+    },
+    {
+      "basename": "android系统和应用开发（未）",
+      "path": "RK3568（linux学习）/rk3568芯片开发/Android系统开发（未）/android系统和应用开发（未）.md"
+    },
+    {
+      "basename": "底板硬件引脚原理图_rk3568_v1_7",
+      "path": "RK3568（linux学习）/linux开发资料库/rk3568迅为开发pdf/00看视频教程用到的开发手册/底板硬件引脚原理图_rk3568_v1_7.pdf"
+    },
+    {
+      "basename": "核心版硬件引脚原理图_rk3568_v1_1",
+      "path": "RK3568（linux学习）/linux开发资料库/rk3568迅为开发pdf/00看视频教程用到的开发手册/核心版硬件引脚原理图_rk3568_v1_1.pdf"
+    },
+    {
+      "basename": "硬件分析手册（常用）",
+      "path": "RK3568（linux学习）/rk3568芯片开发/开发板硬件开发/硬件分析手册（常用）.md"
+    },
+    {
+      "basename": "Rockchip RK3568 TRM Part1 V1.1-20210301-核心板技术参考手册(中文)",
+      "path": "RK3568（linux学习）/linux开发资料库/rk3568迅为开发pdf/00看视频教程用到的开发手册/Rockchip RK3568 TRM Part1 V1.1-20210301-核心板技术参考手册(中文).pdf"
+    },
+    {
+      "basename": "数据手册_rk3568_V1.0-20201210",
+      "path": "RK3568（linux学习）/linux开发资料库/rk3568迅为开发pdf/00看视频教程用到的开发手册/数据手册_rk3568_V1.0-20201210.pdf"
+    },
+    {
+      "basename": "数据手册(中文)_rk3568_V1.0-20201210",
+      "path": "RK3568（linux学习）/linux开发资料库/rk3568迅为开发pdf/00看视频教程用到的开发手册/数据手册(中文)_rk3568_V1.0-20201210.pdf"
+    },
+    {
+      "basename": "芯片手册分析",
+      "path": "RK3568（linux学习）/rk3568芯片开发/芯片手册分析.md"
+    },
+    {
+      "basename": "设备树实例分析总结",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/设备树/设备树实例分析总结.md"
+    },
+    {
+      "basename": "第二期 字符设备基础",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第二期 字符设备基础.md"
+    },
+    {
+      "basename": "第十四期 单总线",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/第十四期 单总线.md"
+    },
+    {
+      "basename": "驱动框架总结",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/驱动框架总结.md"
+    },
+    {
+      "basename": "报错与解决",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/报错与解决.md"
+    },
+    {
+      "basename": "第五期_中断",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux驱动入门/第五期_中断.md"
+    },
+    {
+      "basename": "开发板启动和系统测试",
+      "path": "RK3568（linux学习）/rk3568芯片开发/开发板启动和系统测试.md"
+    },
+    {
+      "basename": "开发板模块实验（有详细操作步骤）",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/开发板模块实验（有详细操作步骤）.md"
+    },
+    {
+      "basename": "开发板外设接口使用教程",
+      "path": "RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/开发板外设接口使用教程.md"
+    },
+    {
+      "basename": "君正T23芯片上的资源",
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/BSP驱动开发/君正T23芯片上的资源.md"
+    },
+    {
+      "basename": "T23_IPC学习(AI分析)",
+      "path": "君正T23N芯片开发/【君正T23N_IPC】/BSP驱动开发/T23_IPC学习(AI分析).md"
+    },
+    {
+      "basename": "硬件引脚解析",
+      "path": "君正T23-ZN芯片开发/君正T23-ZN/硬件引脚解析.md"
+    },
+    {
+      "basename": "报错与解决",
+      "path": "君正T23-ZN芯片开发/君正T23-ZN/报错与解决.md"
+    },
+    {
+      "basename": "4.wifi驱动移植-泰芯(TX-M901-UP)",
+      "path": "君正T23-ZN芯片开发/君正T23-ZN/4.wifi驱动移植-泰芯(TX-M901-UP).md"
+    },
+    {
+      "basename": "5.搭建系统环境",
+      "path": "君正T23-ZN芯片开发/君正T23-ZN/5.搭建系统环境.md"
+    },
+    {
+      "basename": "6.性能优化",
+      "path": "君正T23-ZN芯片开发/君正T23-ZN/6.性能优化.md"
+    },
+    {
+      "basename": "debug调试工具",
+      "path": "君正T23-ZN芯片开发/君正T23-ZN/debug调试工具.md"
+    },
+    {
+      "basename": "BSP--系统移植后功能测试",
+      "path": "君正T23-ZN芯片开发/君正T23-ZN/BSP--系统移植后功能测试.md"
+    },
+    {
+      "basename": "开发记录(引脚)模板",
+      "path": "模板/开发记录(引脚)模板.md"
+    },
+    {
+      "basename": "笔记整理模板(大版)",
+      "path": "模板/笔记整理模板(大版).md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false,
+  "maxLength": null,
+  "openType": "tab"
+}

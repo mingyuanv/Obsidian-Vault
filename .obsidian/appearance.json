@@ -1,0 +1,16 @@
+{
+  "theme": "moonstone",
+  "cssTheme": "Border",
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "段落首行缩进",
+    "color-Heading",
+    "extended-colorschemes",
+    "chatgpt",
+    "代码块显示行号"
+  ],
+  "interfaceFontFamily": "Inter",
+  "textFontFamily": "Inter",
+  "baseFontSize": 17,
+  "baseFontSizeAction": true
+}

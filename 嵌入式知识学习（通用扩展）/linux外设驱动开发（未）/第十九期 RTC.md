@@ -1,0 +1,122 @@
+---
+title: 
+aliases: 
+tags: 
+description:
+---
+
+
+# 备注(声明)：
+
+![RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/assets/第十九期 RTC/file-20250810171744321.png](assets/第十九期%20RTC/file-20250810171744321.png)
+
+![RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/assets/第十九期 RTC/file-20250810171744591.png](assets/第十九期%20RTC/file-20250810171744591.png)
+
+# 一、RTC基础知识
+
+## 什么是RTC？ - 实时时钟
+### 1 、实时时钟
+[“1.什么是RTC？”页上的图片](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#1.什么是RTC？&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={7E4BABB7-326B-4B12-9A0E-9D05CC7892AB}&object-id={CE34C28C-470F-0282-0827-529618222B3C}&3B)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F1.%E4%BB%80%E4%B9%88%E6%98%AFRTC%EF%BC%9F%7C7E4BABB7-326B-4B12-9A0E-9D05CC7892AB%2F%29&wdpartid=%7bAF702A8C-55F9-4857-887E-7659DE38774E%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+### 2 、内部RTC和外部RTC的优缺点区分
+[“1.什么是RTC？”页上的图片](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#1.什么是RTC？&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={7E4BABB7-326B-4B12-9A0E-9D05CC7892AB}&object-id={CE34C28C-470F-0282-0827-529618222B3C}&4B)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F1.%E4%BB%80%E4%B9%88%E6%98%AFRTC%EF%BC%9F%7C7E4BABB7-326B-4B12-9A0E-9D05CC7892AB%2F%29&wdpartid=%7bAF702A8C-55F9-4857-887E-7659DE38774E%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+### 3 、
+
+
+
+
+## iTOP-RK3568开发板RTC外设介绍
+### 1 、RX8010SJ简介
+[“2.iTOP-RK3568开发板RTC外设介绍”页上的图片](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#2.iTOP-RK3568开发板RTC外设介绍&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={B0FF920F-D389-414F-B79C-E7DFFB9BDBAE}&object-id={46CF29C5-427F-0530-35F8-34BF5207A9BA}&14)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F2.iTOP-RK3568%E5%BC%80%E5%8F%91%E6%9D%BFRTC%E5%A4%96%E8%AE%BE%E4%BB%8B%E7%BB%8D%7CB0FF920F-D389-414F-B79C-E7DFFB9BDBAE%2F%29&wdpartid=%7b30353B25-712E-4552-8109-484330886678%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+### 2 、RX8010电路原理图分析 - 外部RTC方案
+[“2.iTOP-RK3568开发板RTC外设介绍”页上的图片](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#2.iTOP-RK3568开发板RTC外设介绍&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={B0FF920F-D389-414F-B79C-E7DFFB9BDBAE}&object-id={46CF29C5-427F-0530-35F8-34BF5207A9BA}&26)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F2.iTOP-RK3568%E5%BC%80%E5%8F%91%E6%9D%BFRTC%E5%A4%96%E8%AE%BE%E4%BB%8B%E7%BB%8D%7CB0FF920F-D389-414F-B79C-E7DFFB9BDBAE%2F%29&wdpartid=%7b30353B25-712E-4552-8109-484330886678%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+### 3 、供电电路分析
+[“2.iTOP-RK3568开发板RTC外设介绍”页上的图片](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#2.iTOP-RK3568开发板RTC外设介绍&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={B0FF920F-D389-414F-B79C-E7DFFB9BDBAE}&object-id={46CF29C5-427F-0530-35F8-34BF5207A9BA}&60)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F2.iTOP-RK3568%E5%BC%80%E5%8F%91%E6%9D%BFRTC%E5%A4%96%E8%AE%BE%E4%BB%8B%E7%BB%8D%7CB0FF920F-D389-414F-B79C-E7DFFB9BDBAE%2F%29&wdpartid=%7b30353B25-712E-4552-8109-484330886678%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+### 4 、
+
+
+# 二、RTC子系统框架
+
+## RTC子系统框架图
+![RK3568（linux学习）/rk3568芯片开发/linux外设驱动开发（未）/assets/第十九期 RTC/file-20250810171744691.png](assets/第十九期%20RTC/file-20250810171744691.png)
+
+
+
+# 三、驱动和应用讲解
+
+## 实验外设-RX8010驱动分析
+### 1 、设备树节点分析
+[&i2c5 {](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#4.实验外设-RX8010驱动分析&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={67B1567B-404B-41FC-B533-EAEF840E4B9F}&object-id={A9A68BCD-C641-065D-2216-6ABE262F3825}&10)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F4.%E5%AE%9E%E9%AA%8C%E5%A4%96%E8%AE%BE-RX8010%E9%A9%B1%E5%8A%A8%E5%88%86%E6%9E%90%7C67B1567B-404B-41FC-B533-EAEF840E4B9F%2F%29&wdpartid=%7b5D687567-8D1E-4257-8CBE-351302E2924D%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+### 2 、核心层源码位置
+[核心层的代码](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#4.实验外设-RX8010驱动分析&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={67B1567B-404B-41FC-B533-EAEF840E4B9F}&object-id={A9A68BCD-C641-065D-2216-6ABE262F3825}&9A)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F4.%E5%AE%9E%E9%AA%8C%E5%A4%96%E8%AE%BE-RX8010%E9%A9%B1%E5%8A%A8%E5%88%86%E6%9E%90%7C67B1567B-404B-41FC-B533-EAEF840E4B9F%2F%29&wdpartid=%7b5D687567-8D1E-4257-8CBE-351302E2924D%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+### 3 、设备驱动层源码位置
+[设备驱动层](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#4.实验外设-RX8010驱动分析&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={67B1567B-404B-41FC-B533-EAEF840E4B9F}&object-id={A9A68BCD-C641-065D-2216-6ABE262F3825}&AE)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F4.%E5%AE%9E%E9%AA%8C%E5%A4%96%E8%AE%BE-RX8010%E9%A9%B1%E5%8A%A8%E5%88%86%E6%9E%90%7C67B1567B-404B-41FC-B533-EAEF840E4B9F%2F%29&wdpartid=%7b5D687567-8D1E-4257-8CBE-351302E2924D%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+### 4 、
+
+
+
+## 移植RX8010驱动
+### 1 、配置设备树
+[“5.移植RX8010驱动”页上的图片](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#5.移植RX8010驱动&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={C6854F7C-1A27-4C6D-8477-F365FAE7E2D9}&object-id={C8F9EE7C-7DFD-0081-22BD-7161C83270FB}&14)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F5.%E7%A7%BB%E6%A4%8DRX8010%E9%A9%B1%E5%8A%A8%7CC6854F7C-1A27-4C6D-8477-F365FAE7E2D9%2F%29&wdpartid=%7b07EED308-246B-4E1B-8077-0444DABC8D9D%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+### 2 、通过RX8010 用户手册得知地址
+[大家看这个表格](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#5.移植RX8010驱动&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={C6854F7C-1A27-4C6D-8477-F365FAE7E2D9}&object-id={C8F9EE7C-7DFD-0081-22BD-7161C83270FB}&53)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F5.%E7%A7%BB%E6%A4%8DRX8010%E9%A9%B1%E5%8A%A8%7CC6854F7C-1A27-4C6D-8477-F365FAE7E2D9%2F%29&wdpartid=%7b07EED308-246B-4E1B-8077-0444DABC8D9D%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+
+- 1 把0X64右移移位才是RX8010的地址
+
+### 3 、使能 RTC 驱动- menuconfig
+[“5.移植RX8010驱动”页上的图片](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#5.移植RX8010驱动&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={C6854F7C-1A27-4C6D-8477-F365FAE7E2D9}&object-id={F17559CD-FD92-06B5-2512-69E069D5BE05}&11)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F5.%E7%A7%BB%E6%A4%8DRX8010%E9%A9%B1%E5%8A%A8%7CC6854F7C-1A27-4C6D-8477-F365FAE7E2D9%2F%29&wdpartid=%7b07EED308-246B-4E1B-8077-0444DABC8D9D%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+- 1 内核里面有它的驱动程序，直接make menu configure
+
+### 4 、
+
+## 时间相关命令
+### 1 、date 命令 - 系统时间
+[“6.时间相关命令（一）”页上的图片](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#6.时间相关命令（一）&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={232E4A47-B645-4EC6-8342-172FEDAF7A0F}&object-id={91E4E589-7249-06C5-23D0-908D3DF3020D}&35)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F6.%E6%97%B6%E9%97%B4%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4%EF%BC%88%E4%B8%80%EF%BC%89%7C232E4A47-B645-4EC6-8342-172FEDAF7A0F%2F%29&wdpartid=%7bB01A9C6E-0F77-4010-9BAB-98F5404A9CCD%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+### 2 、hwclock 命令-  RTC时间（硬件时间）
+[“6.时间相关命令（一）”页上的图片](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#6.时间相关命令（一）&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={232E4A47-B645-4EC6-8342-172FEDAF7A0F}&object-id={91E4E589-7249-06C5-23D0-908D3DF3020D}&5C)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F6.%E6%97%B6%E9%97%B4%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4%EF%BC%88%E4%B8%80%EF%BC%89%7C232E4A47-B645-4EC6-8342-172FEDAF7A0F%2F%29&wdpartid=%7bB01A9C6E-0F77-4010-9BAB-98F5404A9CCD%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+### 3 、上电时间设置顺序
+[“6.时间相关命令（一）”页上的图片](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#6.时间相关命令（一）&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={232E4A47-B645-4EC6-8342-172FEDAF7A0F}&object-id={91E4E589-7249-06C5-23D0-908D3DF3020D}&7D)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F6.%E6%97%B6%E9%97%B4%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4%EF%BC%88%E4%B8%80%EF%BC%89%7C232E4A47-B645-4EC6-8342-172FEDAF7A0F%2F%29&wdpartid=%7bB01A9C6E-0F77-4010-9BAB-98F5404A9CCD%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+- 1 系统在每次启动的时候，去读取RTC的时间
+
+### 4 、三种时间制
+[“7.时间相关命令（二）”页上的图片](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#7.时间相关命令（二）&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={2FDF7B27-C3DC-4FC1-914D-CCF83A968897}&object-id={587586CC-F3E3-030A-178E-931204B78E20}&14)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F7.%E6%97%B6%E9%97%B4%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4%EF%BC%88%E4%BA%8C%EF%BC%89%7C2FDF7B27-C3DC-4FC1-914D-CCF83A968897%2F%29&wdpartid=%7b8CE26F47-0508-4E66-851B-C5FF8FC33BCC%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+- 1 date 命令显示的是CST 时间，加-u参数显示 utc 时间
+
+### 5、
+
+## 在应用程序中操作RTC
+### 1 、RTC操作函数集
+[“8.如何在应用程序中操作RTC”页上的图片](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#8.如何在应用程序中操作RTC&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={DE46173A-04B4-4A6F-AFE5-0C482FC15D0D}&object-id={581A72D5-6DDE-0C15-084A-292804DDCEEA}&14)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F8.%E5%A6%82%E4%BD%95%E5%9C%A8%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E4%B8%AD%E6%93%8D%E4%BD%9CRTC%7CDE46173A-04B4-4A6F-AFE5-0C482FC15D0D%2F%29&wdpartid=%7b34D221E2-5E3C-474D-93D4-1F64B06372C0%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+### 2 、用ioctl系统调用读取RTC当前的时间到tm结构体中
+[// 使用ioctl系统调用读取RTC当前的时间到tm结构体中](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#8.如何在应用程序中操作RTC&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={DE46173A-04B4-4A6F-AFE5-0C482FC15D0D}&object-id={F4486A92-DD58-0B34-0238-57D96FE184C5}&49)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F8.%E5%A6%82%E4%BD%95%E5%9C%A8%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E4%B8%AD%E6%93%8D%E4%BD%9CRTC%7CDE46173A-04B4-4A6F-AFE5-0C482FC15D0D%2F%29&wdpartid=%7b34D221E2-5E3C-474D-93D4-1F64B06372C0%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+### 3 、打印读取到的RTC时间
+[// 打印读取到的RTC时间，注意年份需要加上1900，月份需要加1](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#8.如何在应用程序中操作RTC&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={DE46173A-04B4-4A6F-AFE5-0C482FC15D0D}&object-id={F4486A92-DD58-0B34-0238-57D96FE184C5}&55)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F8.%E5%A6%82%E4%BD%95%E5%9C%A8%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E4%B8%AD%E6%93%8D%E4%BD%9CRTC%7CDE46173A-04B4-4A6F-AFE5-0C482FC15D0D%2F%29&wdpartid=%7b34D221E2-5E3C-474D-93D4-1F64B06372C0%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+### 4 、尝试设置RTC的时间为修改后的tm结构体中的时间
+[// 尝试设置RTC的时间为修改后的tm结构体中的时间](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#8.如何在应用程序中操作RTC&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={DE46173A-04B4-4A6F-AFE5-0C482FC15D0D}&object-id={F4486A92-DD58-0B34-0238-57D96FE184C5}&61)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F8.%E5%A6%82%E4%BD%95%E5%9C%A8%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E4%B8%AD%E6%93%8D%E4%BD%9CRTC%7CDE46173A-04B4-4A6F-AFE5-0C482FC15D0D%2F%29&wdpartid=%7b34D221E2-5E3C-474D-93D4-1F64B06372C0%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+### 5、再次读取RTC时间到tm结构体中，以验证是否设置成功
+[// 再次读取RTC时间到tm结构体中，以验证是否设置成功](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#8.如何在应用程序中操作RTC&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={DE46173A-04B4-4A6F-AFE5-0C482FC15D0D}&object-id={F4486A92-DD58-0B34-0238-57D96FE184C5}&6D)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F8.%E5%A6%82%E4%BD%95%E5%9C%A8%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E4%B8%AD%E6%93%8D%E4%BD%9CRTC%7CDE46173A-04B4-4A6F-AFE5-0C482FC15D0D%2F%29&wdpartid=%7b34D221E2-5E3C-474D-93D4-1F64B06372C0%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+### 6、打印新的RTC时间
+[// 打印新的RTC时间，注意年份需要加上1900，月份需要加1](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#8.如何在应用程序中操作RTC&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={DE46173A-04B4-4A6F-AFE5-0C482FC15D0D}&object-id={F4486A92-DD58-0B34-0238-57D96FE184C5}&79)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F8.%E5%A6%82%E4%BD%95%E5%9C%A8%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E4%B8%AD%E6%93%8D%E4%BD%9CRTC%7CDE46173A-04B4-4A6F-AFE5-0C482FC15D0D%2F%29&wdpartid=%7b34D221E2-5E3C-474D-93D4-1F64B06372C0%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+
+### 7、实验现象
+[“8.如何在应用程序中操作RTC”页上的图片](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\(RK3568\)Linux驱动开发/第十九期_RTC.one#8.如何在应用程序中操作RTC&section-id={DD860315-84C8-44F7-AD7E-6DA067DA8349}&page-id={DE46173A-04B4-4A6F-AFE5-0C482FC15D0D}&object-id={7FF62952-E501-0ABE-1D6C-B3F7BA305968}&1B)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9C%9F_RTC.one%7CDD860315-84C8-44F7-AD7E-6DA067DA8349%2F8.%E5%A6%82%E4%BD%95%E5%9C%A8%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E4%B8%AD%E6%93%8D%E4%BD%9CRTC%7CDE46173A-04B4-4A6F-AFE5-0C482FC15D0D%2F%29&wdpartid=%7b34D221E2-5E3C-474D-93D4-1F64B06372C0%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s393fa7b359104a4983fb37e47fdff89f))
+

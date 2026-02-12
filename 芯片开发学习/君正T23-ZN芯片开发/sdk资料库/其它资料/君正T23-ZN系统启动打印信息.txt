@@ -1,0 +1,205 @@
+[root@Zeratul:modules]# 
+Ver:240723-T23ZN-SINGLE-74e2b27-MP[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 3.10.14-Archon (ming@ming) (gcc version 5.4.0 (Ingenic Ingenic r3.3.0-gcc540 Smaller Size 2023.05-22) ) #21 PREEMPT Mon May 12 16:47:17 CST 2025
+[    0.000000] bootconsole [early0] enabled
+[    0.000000] CPU0 RESET ERROR PC:9D844687
+[    0.000000] CPU0 revision is: 00d00100 (Ingenic Xburst)
+[    0.000000] FPU revision is: 00b70000
+[    0.000000] cgu_macphy clk should be opened!
+[    0.000000] CCLK:900MHz L2CLK:450Mhz H0CLK:200MHz H2CLK:200Mhz PCLK:100Mhz
+[    0.000000] Determined physical RAM map:
+[    0.000000]  memory: 004d2000 @ 00010000 (usable)
+[    0.000000]  memory: 0002e000 @ 004e2000 (usable after init)
+[    0.000000] User-defined physical RAM map:
+[    0.000000]  memory: 02400000 @ 00000000 (usable)
+[    0.000000] Initial ramdisk at: 0x80600000 (4297728 bytes)
+[    0.000000] Zone ranges:
+[    0.000000]   Normal   [mem 0x00000000-0x023fffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x00000000-0x023fffff]
+[    0.000000] Primary instruction cache 16kB, 8-way, VIPT, linesize 32 bytes.
+[    0.000000] Primary data cache 16kB, 8-way, VIPT, no aliases, linesize 32 bytes
+[    0.000000] pls check processor_id[0x00d00100],sc_jz not support!
+[    0.000000] MIPS secondary cache 64kB, 8-way, linesize 32 bytes.
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping off.  Total pages: 9144
+[    0.000000] Kernel command line: console=ttyS1,115200n8 mem=36M@0x0 rmem=28M@0x2400000 root=/dev/ram0 rw rdinit=/linuxrc mtdparts=jz_sfc:256K(boot),352K(tag),5M(kernel),3M(rootfs),2560K(recovery),4512K(system),512k(config),16M@0(all) lpj=4493312  senv;[HW];init_vw=1920;init_vh=1080;nrvbs=2;mode=0;debug=0;eenv; lzo_size=0 rd_start=0x80600000 rd_size=0x419400  sensor_i2c_error=0
+[    0.000000] Kernel dump tag info:ir_switch_parse mode: 2 threshold min:0 max:0
+[    0.000000] Single camera: ir_switch_parse fs0(1920x1080x2),fs1(0x0x0),fs2(0x0x0)
+[    0.000000] ir_switch_parse dayEv:0 nightEv:0 coeff:0 wbr:0 wbb:0
+[    0.000000] Sensor Calibration Mode:0
+[    0.000000] PID hash table entries: 256 (order: -2, 1024 bytes)
+[    0.000000] Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+[    0.000000] Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.000000] Memory: 25912k/36864k available (3589k kernel code, 10952k reserved, 1342k data, 184k init, 0k highmem)
+[    0.000000] SLUB: HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] Preemptible hierarchical RCU implementation.
+[    0.000000] NR_IRQS:347
+[    0.000000] clockevents_config_and_register success.
+[    0.000028] Calibrating delay loop (skipped) preset value.. 898.66 BogoMIPS (lpj=4493312)
+[    0.008293] pid_max: default: 32768 minimum: 301
+[    0.013256] Mount-cache hash table entries: 512
+[    0.018451] Initializing cgroup subsys debug
+[    0.022717] Initializing cgroup subsys freezer
+[    0.030314] regulator-dummy: no parameters
+[    0.034610] NET: Registered protocol family 16
+[    0.039708] register process exit failed.
+[    0.057855] bio: create slab <bio-0> at 0
+[    0.064534] jz-dma jz-dma: JZ SoC DMA initialized
+[    0.069764] jz TCU driver register completed
+[    0.074292] usbcore: registered new interface driver usbfs
+[    0.079921] usbcore: registered new interface driver hub
+[    0.085415] usbcore: registered new device driver usb
+[    0.090762] i2c i2c-0: i2c0 skip clk init.
+[    0.094896]  (null): set:249  hold:250 dev=100000000 h=500 l=500
+[    0.101104] i2c i2c-1: i2c1 register ok.
+[    0.105090] media: Linux media interface: v0.10
+[    0.109654] Linux video capture interface: v2.00
+[    0.114449] TTFF T23 ISP CLK: 150000000
+[    0.118326] TTFF tx_isp_riscv_hf_prepare:564 tx_isp_stop_riscv start:504
+[    0.125078] AE Para ADDR = a3f10000 HEAD:0 SENSOR:0
+[    0.130010] Current sensor again:0 isp gain:0 inttime:0 luma:0 ev:214
+[    0.136550] Riscv frame count:0
+[    0.139716] Tuning mode is:0
+[    0.142976] cgu_isp can not set to 153000000, will change!!!
+[    0.148741] cgu_vpu can not set to 416000000, will change!!!
+[    0.155654] @@@@ tx-isp-probe ok(version H20240221a - Z20240319r1), compiler date=Apr  8 2024 14:36:47@@@@@
+[    0.165657] cgu_vpu can not set to 416000000, will change!!!
+[    0.171980] gc2053 chip found @ 0x37 (i2c0) version H20230921a
+[    0.195618] Calibration ADDR = a382a000 Data = 54455353 
+[    0.208020] Sensor0 Calibration len = 176288
+[    0.212350] Sensor0 Calibration len = 176288
+[    0.216672] Load Sensor Setting DATE:calibration mode 0 MD5:calibration crc 3539991517
+[    0.224639] Sensor0 Calibration len = 176288
+[    0.232475] NCU: size = 3114816  paddr = 0x2400000
+[    0.237403] Loop Count:31 Discard Frame:fffffffe
+[    0.242018] [CHN0]TTFF frame_channel0_fast_start 437 W:1920 H:1080 N:2
+[    0.248714] [frame_channel0_fast_start 523][CHN0] buf_id = 0 buf_ptr = 026f9000 buf_len = 3133440
+[    0.257687] [frame_channel0_fast_start 523][CHN0] buf_id = 1 buf_ptr = 029f6000 buf_len = 3133440
+[    0.266703] isp fast start
+[    0.269400] TTFF isp_vic_interrupt_service_routine:907 Chn:0  Frame  Start:655
+[    0.277961] cfg80211: Calling CRDA to update world regulatory domain
+[    0.285554] Switching to clocksource jz_clocksource
+[    0.291236] NET: Registered protocol family 2
+[    0.296372] TCP established hash table entries: 512 (order: 0, 4096 bytes)
+[    0.303343] TTFF isp_vic_interrupt_service_routine:907 Chn:0  Frame  Start:689
+[    0.312856] TCP bind hash table entries: 512 (order: -1, 2048 bytes)
+[    0.319246] TCP: Hash tables configured (established 512 bind 512)
+[    0.325634] TCP: reno registered
+[    0.328840] UDP hash table entries: 256 (order: 0, 4096 bytes)
+[    0.334798] TTFF isp_vic_interrupt_service_routine:907 Chn:0  Frame  Start:720
+[    0.342146] TTFF frame_channel_buffer_done:293 Chn:0 Buf:0 Write Done:728
+[    0.352318] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[    0.358942] NET: Registered protocol family 1
+[    0.363860] Trying to unpack rootfs image as initramfs...
+[    0.369284] TTFF isp_vic_interrupt_service_routine:907 Chn:0  Frame  Start:755
+[    0.376684] TTFF frame_channel_buffer_done:293 Chn:0 Buf:1 Write Done:762
+[    0.400446] TTFF isp_vic_interrupt_service_routine:907 Chn:0  Frame  Start:786
+[    0.433756] TTFF isp_vic_interrupt_service_routine:907 Chn:0  Frame  Start:819
+[    0.467068] TTFF isp_vic_interrupt_service_routine:907 Chn:0  Frame  Start:853
+[    0.476484] Freeing initrd memory: 4196K (80600000 - 80a19000)
+[    0.483197] freq_udelay_jiffys[0].max_num = 10
+[    0.487627] cpufreq 	udelay 	loops_per_jiffy	
+[    0.492174] 12000	 59910	 59910	
+[    0.495366] 24000	 119821	 119821	
+[    0.500378] TTFF isp_vic_interrupt_service_routine:907 Chn:0  Frame  Start:886
+[    0.508877] 60000	 299554	 299554	
+[    0.512290] 120000	 599108	 599108	
+[    0.515780] 200000	 998513	 998513	
+[    0.519311] 300000	 1497770	 1497770	
+[    0.524118] 600000	 2995541	 2995541	
+[    0.527757] 792000	 3954114	 3954114	
+[    0.533687] TTFF isp_vic_interrupt_service_routine:907 Chn:0  Frame  Start:919
+[    0.542192] 1008000	 5032509	 5032509	
+[    0.545918] 1200000	 5991082	 5991082	
+[    0.556266] msgmni has been set to 58
+[    0.562608] io scheduler noop registered
+[    0.566996] TTFF isp_vic_interrupt_service_routine:907 Chn:0  Frame  Start:953
+[    0.577770] io scheduler cfq registered (default)
+[    0.582856] cgu_vpu can not set to 450000000, will change!!!
+[    0.589060] jz-uart.1: ttyS1 at MMIO 0x10031000 (irq = 58) is a uart1
+[    0.597385] console [ttyS1] enabled, bootconsole disabled
+[    0.597385] console [ttyS1] enabled, bootconsole disabled
+[    0.608428] TTFF isp_vic_interrupt_service_routine:907 Chn:0  Frame  Start:994
+[    0.608428] TTFF isp_vic_interrupt_service_routine:907 Chn:0  Frame  Start:994
+[    0.627622] brd: module loaded
+[    0.635478] loop: module loaded
+[    0.639520] zram: Created 2 device(s) ...
+[    0.643907] logger: created 256K log 'log_main'
+[    0.649218] tun: Universal TUN/TAP device driver, 1.6
+[    0.654565] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+[    0.661169] usbcore: registered new interface driver asix
+[    0.670694] usbcore: registered new interface driver ax88179_178a
+[    0.677072] usbcore: registered new interface driver cdc_ether
+[    0.683241] usbcore: registered new interface driver net1080
+[    0.689163] usbcore: registered new interface driver cdc_subset
+[    0.695425] usbcore: registered new interface driver zaurus
+[    0.703763] usbcore: registered new interface driver cdc_ncm
+[    0.709785] DWC IN OTG MODE
+[    0.713450] dwc2 dwc2: Keep PHY ON
+[    0.716989] dwc2 dwc2: Using Buffer DMA mode
+[    0.721471] dwc2 dwc2: Core Release: 3.00a
+[    0.725763] dwc2 dwc2: DesignWare USB2.0 High-Speed Host Controller
+[    0.735887] dwc2 dwc2: new USB bus registered, assigned bus number 1
+[    0.743577] hub 1-0:1.0: USB hub found
+[    0.747518] hub 1-0:1.0: 1 port detected
+[    0.751871] dwc2 dwc2: DWC2 Host Initialized
+[    0.757633] pipe_request_dma: paddr = 0x1f00000
+[    0.762491] dma dma0chan24: Channel 24 have been requested.(phy id 7,type 0x06 desc a1ef8000)
+[    0.774441] pipe_request_dma: paddr = 0x1f40000
+[    0.779210] dma dma0chan25: Channel 25 have been requested.(phy id 6,type 0x06 desc a1ef9000)
+[    0.788586] pipe_request_dma: paddr = 0x1f80000
+[    0.793435] dma dma0chan26: Channel 26 have been requested.(phy id 5,type 0x04 desc a1efc000)
+[    0.820501] @@@@@ inner codec power up@@@@@@
+[    0.825011] @@@@ audio driver ok(version H20230614a) @@@@@
+[    0.830759] dwc2 dwc2: ID PIN CHANGED!
+[    0.837481] TCP: cubic registered
+[    0.842357] NET: Registered protocol family 17
+[    0.847553] soc_vpu probe success,version:1.0.0-03203fd46d
+[    0.853731] input: gpio-keys as /devices/platform/gpio-keys/input/input0
+[    0.863637] Freeing unused kernel memory: 184K (804e2000 - 80510000)
+[    0.960549] codec_fast_start is finish
+[    1.049093] jz_sfc Build : May 12 2025 15:22:59
+[    1.057829] the id code = 5e4018, the flash name is ZB25VQ128
+[    1.070391] jz-sfc jz-sfc: sfc use DMA mode
+[    1.075339] jz-sfc jz-sfc: nor flash quad mode is set, cmd = 6b,now use quad mode!
+[    1.083310] JZ SFC Controller for SFC channel 0 driver register
+[    1.089487] 8 cmdlinepart partitions found on MTD device jz_sfc
+[    1.095677] Creating 8 MTD partitions on "jz_sfc":
+[    1.103077] 0x000000000000-0x000000040000 : "boot"
+[    1.119297] 0x000000040000-0x000000098000 : "tag"
+[    1.142193] 0x000000098000-0x000000598000 : "kernel"
+[    1.161062] 0x000000598000-0x000000898000 : "rootfs"
+[    1.184493] 0x000000898000-0x000000b18000 : "recovery"
+[    1.207830] 0x000000b18000-0x000000f80000 : "system"
+[    1.227312] 0x000000f80000-0x000001000000 : "config"
+[    1.250579] 0x000000000000-0x000001000000 : "all"
+[    1.271055] SPI NOR MTD LOAD OK
+[    1.290683] jffs2: version 2.2. (NAND) (SUMMARY)  © 2001-2006 Red Hat, Inc.
+[    1.301721] usb 1-1: new high-speed USB device number 2 using dwc2
+[    1.326634] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    1.352776] zram0: detected capacity change from 0 to 16777216
+[    1.368821] Adding 16380k swap on /dev/zram0.  Priority:-1 extents:1 across:16380k SS
+
+Zeratul login: [    1.500550] usb 1-1: device descriptor read/64, error -88
+[    1.801405] usb 1-1: device descriptor read/64, error -88
+[    2.100529] usb 1-1: new high-speed USB device number 3 using dwc2
+[    2.290540] usb 1-1: device descriptor read/64, error -88
+[    2.590529] usb 1-1: device descriptor read/64, error -88
+[    2.890536] usb 1-1: new high-speed USB device number 4 using dwc2
+[    3.310509] usb 1-1: device not accepting address 4, error -88
+[    3.500529] usb 1-1: new high-speed USB device number 5 using dwc2
+[    3.920509] usb 1-1: device not accepting address 5, error -88
+[    3.926641] hub 1-0:1.0: unable to enumerate USB device on port 1
+
+Zeratul login: 
+Zeratul login: 
+Zeratul login: root
+Jan  1 08:00:36 login[105]: root login on 'console'
+Hello Zeratul!
+[root@Zeratul:~]# ls
+bin         dev         linuxrc     root        sys         usr
+config      etc         mnt         run         system      var
+config_bak  lib         proc        sbin        tmp
+
