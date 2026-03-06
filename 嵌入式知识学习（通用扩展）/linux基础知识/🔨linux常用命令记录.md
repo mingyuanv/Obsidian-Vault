@@ -1250,4 +1250,8 @@ tail -f -n 50 /var/log/chrony/chrony.log
 
 ```c
 ssh-keygen -f "/home/ming/.ssh/known_hosts" -R "192.168.55.1"
+
+
+ssh-keygen -f "/root/.ssh/known_hosts" -R "192.168.55.1"
+
 ```

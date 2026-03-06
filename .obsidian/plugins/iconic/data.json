@@ -25,23 +25,49 @@
   "appIcons": {},
   "tabIcons": {},
   "fileIcons": {
-    "嵌入式知识学习（通用扩展）/linux基础知识/嵌入式C语言.md": {
-      "color": "gray"
+    "Extended-Learn/未来规划（实习、英语）": {
+      "color": "red",
+      "unsynced": [
+        "5d7f91498f621a3d",
+        "9ec213042bbf5c89",
+        "9c82f1c43c2927a6",
+        "2b40e114bfa42bd0",
+        "468d9d15c8d5b739",
+        "d8355acf6c23850d"
+      ]
     },
-    "嵌入式知识学习（通用扩展）/linux基础知识/常用函数和宏积累.md": {
-      "color": "cyan"
+    "Extended-Learn/未来规划（实习、英语）/未来规划（技术）.md": {
+      "color": "pink"
     },
-    "嵌入式知识学习（通用扩展）/linux基础知识/开发经验记录.md": {
+    "Extended-Learn/未来规划（实习、英语）/英语规划（出国）/英语学习资料.md": {
+      "color": "pink"
+    },
+    "Extended-Learn/电脑软件学习/linux开发工具软件.md": {
+      "color": "pink"
+    },
+    "Extended-Learn/资源收集/📒好知识库：博主.md": {
+      "color": "pink"
+    },
+    "XGRIDS/rk3588开发/💻SDK编译/1-1、RK3588 SDK编译（灵光K1）.md": {
+      "color": "pink"
+    },
+    "主页.md": {
+      "color": "purple"
+    },
+    "嵌入式知识学习（通用扩展）/linux基础知识/3-2、开发经验记录.md": {
       "color": "red"
     },
-    "嵌入式知识学习（通用扩展）/linux基础知识/开发记录文件（待处理）.md": {
+    "嵌入式知识学习（通用扩展）/linux基础知识/📒常用代码语言与工具学习/1-1、嵌入式C语言.md": {
       "color": "gray"
+    },
+    "嵌入式知识学习（通用扩展）/linux基础知识/📒常用代码语言与工具学习/1-3、常用函数和宏积累.md": {
+      "color": "cyan"
+    },
+    "嵌入式知识学习（通用扩展）/linux基础知识/📒常用代码语言与工具学习/7-1、shell语言学习.md": {
+      "color": "pink"
     },
     "嵌入式知识学习（通用扩展）/linux基础知识/🔨linux常用命令记录.md": {
       "color": "yellow"
-    },
-    "嵌入式知识学习（通用扩展）/linux基础知识/🔨shell语言学习.md": {
-      "color": "pink"
     },
     "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）": {
       "color": "red",
@@ -53,29 +79,6 @@
         "468d9d15c8d5b739",
         "d8355acf6c23850d"
       ]
-    },
-    "扩展学习/未来规划（实习、英语）": {
-      "color": "red",
-      "unsynced": [
-        "5d7f91498f621a3d",
-        "9ec213042bbf5c89",
-        "9c82f1c43c2927a6",
-        "2b40e114bfa42bd0",
-        "468d9d15c8d5b739",
-        "d8355acf6c23850d"
-      ]
-    },
-    "扩展学习/未来规划（实习、英语）/未来规划（技术）.md": {
-      "color": "pink"
-    },
-    "扩展学习/未来规划（实习、英语）/英语规划（出国）/英语学习资料.md": {
-      "color": "pink"
-    },
-    "扩展学习/电脑软件学习/linux开发工具软件.md": {
-      "color": "pink"
-    },
-    "扩展学习/资源收集/📒好知识库：博主.md": {
-      "color": "pink"
     },
     "芯片开发学习/RK3568（linux学习）/rk3568芯片开发/Linux系统开发（未）/开发板使用实时系统.md": {
       "color": "gray"
@@ -100,7 +103,7 @@
   },
   "bookmarkIcons": {
     "1752247987127": {
-      "color": "pink"
+      "color": "purple"
     },
     "1755844083827": {
       "color": "purple",

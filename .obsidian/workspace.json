@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "aa14d55afb696044",
+        "id": "0724de9f489bb2e7",
         "type": "tabs",
         "children": [
           {
-            "id": "8d7bb146b5c454c0",
+            "id": "eab2a12adb072b42",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "扩展学习/电脑软件学习/linux开发工具软件.md",
+                "file": "主页.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "linux开发工具软件"
+              "title": "主页"
+            }
+          },
+          {
+            "id": "98cef3f4556c2228",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第76~81章 编写设备树插件驱动.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "第76~81章 编写设备树插件驱动"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,6 +87,16 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "书签"
+            }
+          },
+          {
+            "id": "ab62106bae52d645",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -156,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "扩展学习/电脑软件学习/linux开发工具软件.md",
+                "file": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第76~81章 编写设备树插件驱动.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "linux开发工具软件 的大纲"
+              "title": "第76~81章 编写设备树插件驱动 的大纲"
             }
           },
           {
@@ -171,8 +196,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -181,8 +206,8 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "todo"
+              "icon": "checkmark",
+              "title": "Todo List"
             }
           },
           {
@@ -228,53 +253,54 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "8d7bb146b5c454c0",
+  "active": "98cef3f4556c2228",
   "lastOpenFiles": [
-    "功能子仓库/large-files/注意.md",
-    "扩展学习/电脑软件学习/linux开发工具软件.md",
-    "功能子仓库/large-files/RK3588-TRM-PDF/Rockchip RK3588 TRM V1.5-Part2 20251204_其域创新.pdf",
-    "功能子仓库/large-files/RK3588-TRM-PDF/Rockchip RK3588 TRM V1.0-Part2 20220309.pdf",
-    "功能子仓库/large-files/RK3588-TRM-PDF/Rockchip RK3588 TRM V1.0-Part1-20220309.pdf",
-    "功能子仓库/large-files/RK3588-TRM-PDF",
-    "功能子仓库/large-files/871403.zip",
-    "功能子仓库/large-files/Rockchip RK3588 TRM V1.5-Part2 20251204_其域创新.pdf",
-    "功能子仓库/large-files/Rockchip RK3588 TRM V1.0-Part2 20220309.pdf",
-    "功能子仓库/large-files/Rockchip RK3588 TRM V1.0-Part1-20220309.pdf",
-    "扩展学习/obsidian学习/Obsidian MarkDown 图片名称路径规范化.md",
-    "扩展学习/obsidian学习/assets/Obsidian MarkDown 图片名称路径规范化",
-    "XGRIDS/rk3588开发/TOF-深度相机/官方文档/assets/README_zh_CN",
-    "芯片开发学习/君正T23N芯片开发/【君正T32N-PIKE开发板】/2.uboot配置及交叉编译.md",
-    "嵌入式知识学习（通用扩展）/linux基础知识/嵌入式数据结构.md",
-    "扩展学习/电脑软件学习/常见电脑问题与解决.md",
-    "扩展学习/资源收集/📒好知识库：博主.md",
-    "扩展学习/报错与解决.md",
-    "通用文件夹/未整理(其他)/屏幕移植.md",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第二十六期_LCD屏幕（未）.md",
-    "通用文件夹/未整理(其他)/经验总结.md",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/屏幕硬件引脚原理图.md",
-    "扩展学习/AI学习/在通义，怎么创建自己的智能体.md",
-    "通用文件夹/未整理(其他)/未命名.md",
-    "扩展学习/AI学习/CursorAI编程.md",
-    "扩展学习/电脑软件学习/sunshine+moonlight最强串流.md",
-    "通用文件夹/未整理(其他)/linux内核目录解析.md",
-    "通用文件夹/未整理(其他)/linux源码目录解析.md",
-    "通用文件夹/未整理(其他)/Rockchip RK3568 TRM Part2 V1.1-20210301-核心板技术参考手册.md",
-    "扩展学习/电脑软件学习/ubuntu中文输入.md",
-    "通用文件夹/未整理(其他)/ylgjlxfcjldsfjld.md",
-    "嵌入式知识学习（通用扩展）/思维导图/linux开发/嵌入式AI工程师.jpg",
-    "嵌入式知识学习（通用扩展）/linux内核开发/Linux内核编程：入门指南.md",
-    "通用文件夹/媒体库/图片库/Pasted image 20250308223925.png",
-    "通用文件夹/媒体库/图片库/Pasted image 20250318231718.png",
-    "通用文件夹/媒体库/图片库/Pasted image 20250408162728.png",
-    "通用文件夹/媒体库/图片库/Pasted image 20250408214013.png",
-    "通用文件夹/媒体库/图片库/Pasted image 20250409155533.png",
-    "通用文件夹/媒体库/图片库/Pasted image 20250409231656.png",
-    "通用文件夹/媒体库/图片库/Pasted image 20250409231818.png",
-    "通用文件夹/媒体库/图片库/Pasted image 20250409232603.png",
-    "通用文件夹/媒体库/图片库/Pasted image 20250411164352.png",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十二期_GPIO子系统.md",
-    "芯片开发学习/RK3568（linux学习）/linux开发资料库/rk3568迅为开发pdf/新手入门导航/开发文档整理归纳.md",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/驱动视频教程配套手册笔记指导.md",
+    "功能子仓库/未命名.base",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第76~81章 编写设备树插件驱动.md",
+    "功能子仓库/Drawing 2026-03-06 18.24.11.excalidraw.md",
+    "编写设备树插件驱动.canvas",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第75章 ConfigFS的核心数据结构 - 设备树插件.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第74章 虚拟文件系统ConfigFS介绍.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第74章 虚拟文件系统ConfigFS介绍/file-20260306180004920.png",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第73章 设备树插件使用实验.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第73章 设备树插件使用实验/file-20260306174851818.png",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第73章 设备树插件使用实验/file-20260306174811787.png",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第73章 设备树插件使用实验/file-20260306174759299.png",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第73章 设备树插件使用实验/file-20260306174746175.png",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第73章 设备树插件使用实验/file-20260306174736775.png",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第73章 设备树插件使用实验/file-20260306174650271.png",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第73章 设备树插件使用实验/file-20260306174613803.png",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第73章 设备树插件使用实验/file-20260306174540775.png",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第73章 设备树插件使用实验/file-20260306174510289.png",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第72章 设备树插件语法和编译实验.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第71章 设备树插件介绍.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第70章 参考文档：设备树bindings.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第69章 of操作函数实验：获取中断资源.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第68章 ranges属性实验.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第67章 of操作函数实验：获取属性.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第66章of操作函数实验：获取设备树节点_通过路径查找设备树.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第65章 设备树下platform_device和platform_driver匹配实验.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第64章 device_node转换成platform_device实验.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第59章 实例分析：CPU.md",
+    "主页.md",
+    "XGRIDS/高通平台开发/💻图像处理应用开发/1-2、高通平台了解与开发框架搭建.md",
+    "XGRIDS/高通平台开发/💻图像处理应用开发/1-3、图像处理程序的进一步适配.md",
+    "Extended-Learn/AI学习/1-1、skills收集与使用.md",
+    "XGRIDS/rk3588开发/TOF-深度相机/2-1、tof相机数据获取与解析.md",
+    "Extended-Learn/AI学习/📖67 个必学的 AI 编程知识.md",
+    "功能子仓库/develop-skills/高通8550/qcom-sm8550-app-cpp-builder/SKILL.md",
+    "功能子仓库/develop-skills/高通8550/qcom-sm8550-app-cpp-builder",
+    "功能子仓库/develop-skills/高通8550/qcom-sm8550-bsp-co-pilot/SKILL.md",
+    "功能子仓库/develop-skills/高通8550/qcom-sm8550-bsp-co-pilot",
+    "功能子仓库/develop-skills/高通8550",
+    "功能子仓库/develop-skills/RK3588/qcom-sm8550-bsp-co-pilot/SKILL.md",
+    "功能子仓库/develop-skills/RK3588/qcom-sm8550-bsp-co-pilot",
+    "功能子仓库/develop-skills/RK3588/rk3588-app-cpp-builder/SKILL.md",
+    "功能子仓库/develop-skills/RK3588/rk3588-app-cpp-builder",
+    "功能子仓库/develop-skills/RK3588/rk3588-bsp-co-pilot",
+    "功能子仓库/develop-skills/通用skills/xlsx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
+    "功能子仓库/develop-skills/通用skills/xlsx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
+    "功能子仓库/develop-skills/通用skills/xlsx/scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
     "XGRIDS/rk3588开发/💻camera驱动开发/📒设备树各级配置文件讲解.canvas",
     "XGRIDS/rk3588开发/💻camera驱动开发/🔨媒体拓扑结构打印/4路mipi Camera连接情况（灵关K1）.canvas"
   ]

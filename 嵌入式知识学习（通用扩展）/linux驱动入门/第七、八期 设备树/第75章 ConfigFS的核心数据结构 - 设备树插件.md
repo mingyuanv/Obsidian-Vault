@@ -9,6 +9,17 @@ source:
 # 备注(声明)：
 
 
+# 参考文章：
+
+```cardlink
+url: https://blog.csdn.net/BeiJingXunWei/article/details/134950907?spm=1001.2101.3001.10796
+title: "RK3568驱动指南｜第八篇 设备树插件-第75章ConfigFS的核心数据结构_rk内核驱动目录结构-CSDN博客"
+description: "文章浏览阅读497次。在上面几个小节中，对ConfigFS的核心数据结构做出了详细的解释，本小节我们来总结一下。这些核心数据结构相互关联，通过在ConfigFS层级结构进行组织和管理，使得设备的配置和管理更加灵活和可定制。如下图（图 75-6）所示：图 75-6理解ConfigFS的核心数据结构对于深入使用和定制ConfigFS非常重要，可以帮助开发者更好地进行设备的配置和管理，提高系统的灵活性和可扩展性。如果大家还有不理解的地方，建议反复观看视频学习。_rk内核驱动目录结构"
+host: blog.csdn.net
+```
+
+
+
 
 
 # 一、ConfigFS的核心数据结构
@@ -20,7 +31,7 @@ source:
 > `config_item`：这是ConfigFS中最基本的数据结构，用于表示一个**配置项**。每个配置项都是一个<span style="background:#d3f8b6">内核对象，可以是设备、驱动程序、子系统等</span>。<span style="background:#d3f8b6">结构包含了配置项的类型、名称、属性、状态等信息</span>，以及指向父配置项和子配置项的指针。
 
 
-### 2 、树形结构关系
+### 2 、树形结构关系(❤️)
 > 这些数据结构之间的关系可以形成一个树形结构，其中configfs_subsystem是根节点，config_group表示配置项组，config_item表示单个配置项。**子配置项通过链表连接在一起，形成父子关系**。如下表（图 75-1）所示：
 
 [[嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第75章 ConfigFS的核心数据结构 - 设备树插件/a8b7b8a7b67e5fab28065774bbd834f9_MD5.jpeg|Open: file-20250903124559608.png]]
@@ -94,7 +105,7 @@ struct config_item {
 
 
 
-### 5、分析注册配置项组的部分
+### 5、分析注册配置项组的部分(❤️)
 
 ```c
 //初始化和注册ConfigFS子系统和配置项组
@@ -161,7 +172,7 @@ struct config_item {
 };
 ```
 
-#### config_item_type结构体（目录下属性文件和属性操作）
+#### config_item_type结构体（目录下属性文件和属性操作）(❤️)
 ```c
 struct config_item_type {
 	struct module *ct_owner;
@@ -219,10 +230,10 @@ struct config_group *(*make_group)(struct config_group *group, const char *name)
 ### 1 、核心数据结构相互关联
 
 
-### 2 、通过在ConfigFS层级结构进行组织和管理，使得设备的配置和管理更加灵活和可定制
+### 2 、通过在ConfigFS层级结构进行组织和管理，使得设备的配置和管理更加灵活和可定制(❤️)
 
 
-### 3 、图解
+### 3 、图解(❤️)
 [[嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第75章 ConfigFS的核心数据结构 - 设备树插件/3e242a0d1e6e45db8bf8d2afdfa705f5_MD5.jpeg|Open: file-20250906215745527.png]]
 ![嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第75章 ConfigFS的核心数据结构 - 设备树插件/3e242a0d1e6e45db8bf8d2afdfa705f5\_MD5.jpeg](assets/第75章%20ConfigFS的核心数据结构%20-%20设备树插件/3e242a0d1e6e45db8bf8d2afdfa705f5_MD5.jpeg)
 

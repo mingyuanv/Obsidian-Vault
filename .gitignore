@@ -1,0 +1,61 @@
+# 1. 忽略所有文件（但不包括目录
+*.*
+
+# 2. 允许所有目录被遍历
+!*/
+
+# 3. 放行你需要的文件类型（注意：必须是文件，不是目录）
+!*.md
+!*.canvas
+!*.excalidraw
+!*.base
+
+!*.png
+!*.jpg
+!*.gif
+!*.jpeg
+
+!*.pdf
+!*.docx
+!*.doc
+!*.pptx
+!*.ppt
+
+!*.txt
+
+!*.json
+!*.css
+!*.js
+!*.sample
+!*.gif
+!*.zip
+!*.xlsx
+!*.log
+!*.canvas
+
+!*.DSN
+!Makefile
+!.gitignore
+
+
+
+
+
+
+# 4. 特别放行 .obsidian 目录及其所有内容
+!.obsidian/
+!.obsidian/**
+
+
+RK3568（linux学习）/linux开发资料库/rk3568迅为开发pdf/15.开发板原厂文档/rk3568_android/RKDocs/android/
+RK3568（linux学习）/linux开发资料库/rk3568迅为开发pdf/15.开发板原厂文档/rk3568_android/RKDocs/common/
+RK3568（linux学习）/linux开发资料库/rk3568迅为开发pdf/15.开发板原厂文档/rk3568_linux/docs/
+RK3568（linux学习）/linux开发资料库/数据结构/Day6【认准一手V：it1646,其他均为转卖盗版】/Day6/liner_rd/
+
+linux内核开发/资料库/内核书籍/Linux内核设计与实现_第三版_中文版.pdf
+linux内核开发/资料库/Linux内核全套课堂笔记/4-深入理解LINUX网络技术内幕.pdf
+linux内核开发/资料库/内核书籍/深入Linux内核架构(中文版).pdf
+RK3568（linux学习）/linux开发资料库/rk3568迅为开发pdf/00看视频教程用到的开发手册/Rockchip RK3568 TRM Part2 V1.1-20210301-核心板技术参考手册.pdf
+RK3568（linux学习）/linux开发资料库/rk3568迅为开发pdf/01_iTOP-RK3568硬件资料/01_核心板资料/07_RK3568技术参考手册/Rockchip RK3568 TRM Part2 V1.1-20210301-核心板技术参考手册.pdf
+嵌入式知识学习（通用扩展）/linux内核笔记/Linux内核全套课堂笔记/4-深入理解LINUX网络技术内幕.pdf
+RK3568（linux学习）/linux开发资料库/rk3568迅为开发pdf/01_iTOP-RK3568硬件资料/01_核心板资料/04_核心板板载芯片资料/02_RK3568/Rockchip RK3568 TRM Part2 V1.1-20210301.pdf

@@ -9,7 +9,12 @@ source:
 # 备注(声明)：
 
 
-
+```cardlink
+url: https://blog.csdn.net/BeiJingXunWei/article/details/134603483?spm=1001.2101.3001.10796
+title: "RK3568驱动指南｜第七篇-设备树-第68章 ranges属性实验_设备树中 range-CSDN博客"
+description: "文章浏览阅读587次。of_translate_one函数返回1之后，上一级的_of_translate_address的返回值就为OF BAD ADDR，再上一级的of_translate_address返回值也是OF BAD _ADDR，继续向上查找_of_address_to_resource函数会返回EINVAL，of address_ to resource 返回EINVAL，所以num_reg 为0;在给定的设备树片段中，ethernet@0的reg属性为<0 0 0x1000>。_设备树中 range"
+host: blog.csdn.net
+```
 
 # 一、platform_get_resource 获取设备树资源
 
@@ -106,28 +111,18 @@ MODULE_AUTHOR("topeet");
 
 
 
-### 2 、关键代码
+### 2 、关键代码(❤️)
 ```c
 struct resource *myresources;
 
 // 平台设备的初始化函数
 static int my_platform_probe(struct platform_device *pdev)
 {
-    printk(KERN_INFO "my_platform_probe: Probing platform device\n");
-
     // 获取平台设备的资源
     myresources=platform_get_resource(pdev,IORESOURCE_MEM,0);
-    if(myresources == NULL){
-
-            printk("platform_get_resource get resource error\n");
-
-    }
-
     printk("reg start is %llx",myresources->start);
 
-
-    return 0;
-
+ 
 }
 ```
 
@@ -403,7 +398,7 @@ static int of_translate_one(struct device_node *parent, struct of_bus *bus,
 ### 4 、总结 - platform_get_resource函数获取资源失败的原因
 > 到这里关于为什么platform_get_resource函数获取资源失败的问题就找到了，只是**因为在设备树中并没有这个名为ranges这个属性**，所以只需要对设备树进行ranges属性的添加即可，要修改的设备树为arch/arm64/boot/dts/rockchip/rk3568-evb1-ddr4-v10-linux.dts，
 
-#### 对设备树进行ranges属性的添加即可
+#### 对设备树进行ranges属性的添加即可(❤️)
 ```d
 /{
 	topeet {
@@ -424,7 +419,7 @@ static int of_translate_one(struct device_node *parent, struct of_bus *bus,
 };
 ```
 
-#### 为什么 `ranges` 应该写在 `"simple-bus"` 这一总线节点上？
+#### 为什么 `ranges` 应该写在 `"simple-bus"` 这一总线节点上？(❤️)
 > `ranges` 是用于定义“**总线层级之间”的地址映射**，因此它必须放在描述总线结构的节点上，而不是放在某个具体的设备节点（如 `myled`）上。
 
 > 这里 `topeet` 节点就是一个简单总线（**simple-bus**），它作为 `myled` 的父节点。在 `topeet` 节点中添加 `ranges;`，就**意味着 `myled` 的 `reg` 所指定的地址（例如 `0xFDD60000`）将直接映射到父总线（SoC 总线）中，即内核或平台可以通过该地址访问这个设备**。
@@ -454,6 +449,9 @@ static int of_translate_one(struct device_node *parent, struct of_bus *bus,
 ### 1 、ranges属性作用
 > anges 属性是一种用于描述设备之间地址映射关系的属性。它在设备树（Device Tree）中使用，用于**描述子设备地址空间如何映射到父设备地址空间**。设备树是一种硬件描述语言，用于描述嵌入式系统中的硬件组件和它们之间的连接关系。
 
+#### 描述子设备地址空间如何映射到父设备地址空间(❤️)
+
+
 
 ### 2 、常见的格式
 - 1 设备树中的每个设备节点都可以具有 ranges 属性，其中包含了地址映射的信息。
@@ -466,8 +464,8 @@ ranges;
 ```
 
 
-#### 参数解述
-> hild-bus-address：**子设备地址空间的起始地址**。它指定了子设备在父设备地址空间中的位置。具体的字长由 ranges 所在节点的 #address-cells 属性决定。
+#### 参数解述(❤️)
+> child-bus-address：**子设备地址空间的起始地址**。它指定了子设备在父设备地址空间中的位置。具体的字长由 ranges 所在节点的 #address-cells 属性决定。
 > 
 > parent-bus-address：**父设备地址空间的起始地址**。它指定了父设备中用于映射子设备的地址范围。具体的字长由 ranges 的父节点的 #address-cells 属性决定。
 > 
@@ -577,6 +575,10 @@ ranges =<2 0 0x30000000 0x1000000>;
 - 1 第5行的ranges属性表示该设备树中会进行1：1的地址范围映射。
 
 
+#### 地址直接映射。(❤️)
+
+
+
 ### 2 、非内存映射型设备：
 > 非内存映射型设备是指**不能通过内存地址直接访问的设备**。这类设备可能采用其他方式与CPU进行通信，例如<span style="background:#d3f8b6">可通过I/O端口、专用总线或特定的通信协议</span>。
 
@@ -628,45 +630,49 @@ ranges =<2 0 0x30000000 0x1000000>;
 ```
 
 
+#### 地址计算过程总结：(❤️)
+```c
+1.由父节点得：
+ranges = <0 0 0x10100000 0x10000   // 映射项 1: Chipselect 0
+          1 0 0x10160000 0x10000   // 映射项 2: Chipselect 1
+          2 0 0x30000000 0x30000000>; // 映射项 3: Chipselect 2
+
+第1项：子地址 <0, 0> (CS0, 偏移0) -> 父物理地址 0x10100000, 大小 0x10000。
+第2项：子地址 <1, 0> (CS1, 偏移0) -> 父物理地址 0x10160000, 大小 0x10000。
+第3项：子地址 <2, 0> (CS2, 偏移0) -> 父物理地址 0x30000000, 大小 0x30000000。
+
+子节点的 reg 格式为 <chipselect offset size>
+
+2.由子节点得：
+
+ethernet@0,0
+	节点定义：reg = <0 0 0x1000>;
+	Chipselect (CS): 0
+	Offset: 0
+	Size: 0x1000
+最终物理地址：0x10100000 + 0 =  0x10100000
+地址范围：0x10100000 ~ 0x10100FFF   （1000-1 = FFF）
+
+
+rtc@58 (位于 i2c@1,0 内部)
+	特殊性：这是一个 I2C 设备。
+	它的父节点 i2c@1,0 设置了 #address-cells = <1> 和 #size-cells = <0>。
+	在 I2C 总线中，reg 属性表示的是 I2C 从机地址 (Slave Address)，而不是内存映射的物理地址。
+	reg = <0x58> 表示 I2C 地址为 0x58。
+	该设备没有独立的内存映射物理地址。
+	它通过父节点 i2c@1,0 的控制器（物理地址 0x10160000）进行访问。
+	CPU 访问该 RTC 时，实际上是访问 0x10160000 处的 I2C 控制器寄存器，由控制器发起 I2C 协议去寻址 0x58。
+
+
+```
 
 
 
-### 3 、
 
 
+### 3 、最终的物理地址需要映射为虚拟地址才能使用。(❤️)
 
 
-
-
-
-## 映射地址计算
-### 1 、以上面列举的非内存映射型设备的设备树中的ethernet@0节点为例，计算该网卡设备的映射地址。
-
-
-### 2 、计算ethernet@0节点的物理起始地址和结束地址
-> 首先，找到ethernet@0所在的节点，并查看其reg属性。在给定的设备树片段中，ethernet@0的reg属性为<0 0 0x1000>。在根节点中，#address-cells的值为1，表示地址由一个单元格组成。
-
-
-> 接下来，根据ranges属性进行地址映射计算。在external-bus节点的ranges属性中，有三个映射条目：
-> 第一个映射条目为“`0 0 0x10100000 0x10000`”，表示外部总线的地址范围为0x10100000到0x1010FFFF。**该映射条目的第一个值为0，表示与external-bus节点的第一个子节点**（ethernet@0,0）相关联。
-> 
-> 第二个映射条目：“1 0 0x10160000 0x10000”，表示外部总线的地址范围为0x10160000到0x1016FFFF。该映射条目的第一个值为1，表示与external-bus节点的第二个子节点（i2c@1,0）相关联。
-> 
-> 第三个映射条目：“2 0 0x30000000 0x30000000”，表示外部总线的地址范围为0x30000000到0x5FFFFFFF。该映射条目的第一个值为2，表示与external-bus节点的第三个子节点相关联。
-
-> 由于ethernet@0与external-bus的第一个子节点相关联，并且它的reg属性为<0 0 0x1000>，我们可以进行以下计算：
-
-
-> ethernet@0的**物理起始地址 = 外部总线地址起始值 + ethernet@0的reg属性的第二个值**
-> = 0x10100000 + 0x1000
-> = 0x10101000
-> 因此，ethernet@0的物理起始地址为0x10101000，又**根据0x1000(reg属性的第二个值)的地址范围可以确定ethernet@0的结束地址为0x10101FFF**，至此，关于映射地址的计算就讲解完成了，大家可以根据同样的方法计算i2c@1的物理地址。
-
-### 3 、
-
-
-
-### 4 、
 
 
 
@@ -693,6 +699,14 @@ ranges =<2 0 0x30000000 0x1000000>;
 > - **物理地址是 CPU 或内存控制器看到的地址；**
 > - **总线地址／映射地址则是设备（如 PCIe 设备）通过总线访问时所看到的地址。**
 
+#### 物理地址是 CPU 或内存控制器看到的地址
+
+
+
+#### 总线地址／映射地址则是设备（如 PCIe 设备）通过总线访问时所看到的地址。
+
+
+
 
 
 ### 3 、虚拟地址 / 内存地址（Virtual / Logical Address）
@@ -709,7 +723,7 @@ ranges =<2 0 0x30000000 0x1000000>;
 >     - 支持虚拟内存超出物理内存上限。[](https://medium.com/%40karthix25/understanding-memory-management-from-physical-addressing-to-virtual-addressing-65c8ff3ac96b?utm_source=chatgpt.com)
 
 
-### 4 、区别总结对比表
+### 4 、区别总结对比表(❤️)
 
 | 类型       | 所在位置 / 使用主体     | 作用与意义                          |
 | -------- | --------------- | ------------------------------ |
@@ -718,7 +732,7 @@ ranges =<2 0 0x30000000 0x1000000>;
 | **映射地址** | 设备 / 总线 / IOMMU | 用于**设备访问的地址空间**，可能需要映射或翻译      |
 
 
-### 5、举例说明
+### 5、举例说明(❤️)
 
 > 假设有一个网络设备 `ethernet@0`：
 > 
@@ -734,6 +748,8 @@ ranges =<2 0 0x30000000 0x1000000>;
 > 内存映射型设备（Memory-Mapped I/O，简称 MMIO）才会有“内存地址”这一概念。**这种设备的寄存器或控制区域被映射到系统的虚拟内存空间中，操作系统和驱动程序可以通过指针直接访问这些地址，就像访问普通内存一样**。
 
 ### 7、
+
+
 
 
 

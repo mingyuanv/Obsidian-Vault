@@ -1,204 +1,200 @@
 {
   "recentFiles": [
     {
-      "basename": "linux开发工具软件",
-      "path": "扩展学习/电脑软件学习/linux开发工具软件.md"
+      "basename": "第76~81章 编写设备树插件驱动",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第76~81章 编写设备树插件驱动.md"
     },
     {
-      "basename": "Obsidian MarkDown 图片名称路径规范化",
-      "path": "扩展学习/obsidian学习/Obsidian MarkDown 图片名称路径规范化.md"
+      "basename": "第75章 ConfigFS的核心数据结构 - 设备树插件",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第75章 ConfigFS的核心数据结构 - 设备树插件.md"
     },
     {
-      "basename": "2.uboot配置及交叉编译",
-      "path": "芯片开发学习/君正T23N芯片开发/【君正T32N-PIKE开发板】/2.uboot配置及交叉编译.md"
+      "basename": "第74章 虚拟文件系统ConfigFS介绍",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第74章 虚拟文件系统ConfigFS介绍.md"
     },
     {
-      "basename": "嵌入式数据结构",
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/嵌入式数据结构.md"
+      "basename": "第73章 设备树插件使用实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第73章 设备树插件使用实验.md"
     },
     {
-      "basename": "常见电脑问题与解决",
-      "path": "扩展学习/电脑软件学习/常见电脑问题与解决.md"
+      "basename": "第72章 设备树插件语法和编译实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第72章 设备树插件语法和编译实验.md"
     },
     {
-      "basename": "📒好知识库：博主",
-      "path": "扩展学习/资源收集/📒好知识库：博主.md"
+      "basename": "第71章 设备树插件介绍",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第71章 设备树插件介绍.md"
     },
     {
-      "basename": "第二十六期_LCD屏幕（未）",
-      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第二十六期_LCD屏幕（未）.md"
+      "basename": "第70章 参考文档：设备树bindings",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第70章 参考文档：设备树bindings.md"
     },
     {
-      "basename": "屏幕硬件引脚原理图",
-      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/屏幕硬件引脚原理图.md"
+      "basename": "第69章 of操作函数实验：获取中断资源",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第69章 of操作函数实验：获取中断资源.md"
     },
     {
-      "basename": "在通义，怎么创建自己的智能体",
-      "path": "扩展学习/AI学习/在通义，怎么创建自己的智能体.md"
+      "basename": "第68章 ranges属性实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第68章 ranges属性实验.md"
     },
     {
-      "basename": "CursorAI编程",
-      "path": "扩展学习/AI学习/CursorAI编程.md"
+      "basename": "第67章 of操作函数实验：获取属性",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第67章 of操作函数实验：获取属性.md"
     },
     {
-      "basename": "sunshine+moonlight最强串流",
-      "path": "扩展学习/电脑软件学习/sunshine+moonlight最强串流.md"
+      "basename": "第66章of操作函数实验：获取设备树节点_通过路径查找设备树",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第66章of操作函数实验：获取设备树节点_通过路径查找设备树.md"
     },
     {
-      "basename": "ubuntu中文输入",
-      "path": "扩展学习/电脑软件学习/ubuntu中文输入.md"
+      "basename": "第65章 设备树下platform_device和platform_driver匹配实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第65章 设备树下platform_device和platform_driver匹配实验.md"
     },
     {
-      "basename": "嵌入式AI工程师",
-      "path": "嵌入式知识学习（通用扩展）/思维导图/linux开发/嵌入式AI工程师.jpg"
+      "basename": "第64章 device_node转换成platform_device实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第64章 device_node转换成platform_device实验.md"
     },
     {
-      "basename": "Linux内核编程：入门指南",
-      "path": "嵌入式知识学习（通用扩展）/linux内核开发/Linux内核编程：入门指南.md"
+      "basename": "第59章 实例分析：CPU",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第59章 实例分析：CPU.md"
     },
     {
-      "basename": "Pasted image 20250308223925",
-      "path": "通用文件夹/媒体库/图片库/Pasted image 20250308223925.png"
-    },
-    {
-      "basename": "Pasted image 20250318231718",
-      "path": "通用文件夹/媒体库/图片库/Pasted image 20250318231718.png"
-    },
-    {
-      "basename": "Pasted image 20250408162728",
-      "path": "通用文件夹/媒体库/图片库/Pasted image 20250408162728.png"
-    },
-    {
-      "basename": "Pasted image 20250408214013",
-      "path": "通用文件夹/媒体库/图片库/Pasted image 20250408214013.png"
-    },
-    {
-      "basename": "Pasted image 20250409155533",
-      "path": "通用文件夹/媒体库/图片库/Pasted image 20250409155533.png"
-    },
-    {
-      "basename": "Pasted image 20250409231656",
-      "path": "通用文件夹/媒体库/图片库/Pasted image 20250409231656.png"
-    },
-    {
-      "basename": "Pasted image 20250409231818",
-      "path": "通用文件夹/媒体库/图片库/Pasted image 20250409231818.png"
-    },
-    {
-      "basename": "Pasted image 20250409232603",
-      "path": "通用文件夹/媒体库/图片库/Pasted image 20250409232603.png"
-    },
-    {
-      "basename": "Pasted image 20250411164352",
-      "path": "通用文件夹/媒体库/图片库/Pasted image 20250411164352.png"
-    },
-    {
-      "basename": "Pasted image 20250412204125",
-      "path": "通用文件夹/媒体库/图片库/Pasted image 20250412204125.png"
-    },
-    {
-      "basename": "Pasted image 20250418102242",
-      "path": "通用文件夹/媒体库/图片库/Pasted image 20250418102242.png"
-    },
-    {
-      "basename": "Pasted image 20250420212721",
-      "path": "通用文件夹/媒体库/图片库/Pasted image 20250420212721.png"
-    },
-    {
-      "basename": "Pasted image 20250419105505",
-      "path": "通用文件夹/媒体库/图片库/Pasted image 20250419105505.png"
-    },
-    {
-      "basename": "Pasted image 20250418113936",
-      "path": "通用文件夹/媒体库/图片库/Pasted image 20250418113936.png"
-    },
-    {
-      "basename": "Pasted image 20250413211158",
-      "path": "通用文件夹/媒体库/图片库/Pasted image 20250413211158.png"
-    },
-    {
-      "basename": "第十二期_GPIO子系统",
-      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十二期_GPIO子系统.md"
-    },
-    {
-      "basename": "开发文档整理归纳",
-      "path": "芯片开发学习/RK3568（linux学习）/linux开发资料库/rk3568迅为开发pdf/新手入门导航/开发文档整理归纳.md"
-    },
-    {
-      "basename": "驱动视频教程配套手册笔记指导",
-      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/驱动视频教程配套手册笔记指导.md"
-    },
-    {
-      "basename": "学习obsidian",
-      "path": "扩展学习/obsidian学习/学习obsidian.md"
-    },
-    {
-      "basename": "🔨ADB 命令速查表",
-      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/🔨ADB 命令速查表.md"
-    },
-    {
-      "basename": "Gstreamer调试环境塔建（❌）",
-      "path": "XGRIDS/高通平台开发/📒Gstreamer学习/Gstreamer调试环境塔建（❌）.md"
-    },
-    {
-      "basename": "📒图像处理知识扩展-Gstreamer",
-      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/📒图像处理知识扩展-Gstreamer.md"
-    },
-    {
-      "basename": "Obsidian知识管理体系搭建实战指南",
-      "path": "扩展学习/obsidian学习/Obsidian知识管理体系搭建实战指南.md"
-    },
-    {
-      "basename": "备忘录笔记",
-      "path": "通用文件夹/日记/备忘录笔记.md"
-    },
-    {
-      "basename": "1-3、图像处理程序的进一步适配",
-      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/1-3、图像处理程序的进一步适配.md"
+      "basename": "主页",
+      "path": "主页.md"
     },
     {
       "basename": "1-2、高通平台了解与开发框架搭建",
       "path": "XGRIDS/高通平台开发/💻图像处理应用开发/1-2、高通平台了解与开发框架搭建.md"
     },
     {
+      "basename": "1-3、图像处理程序的进一步适配",
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/1-3、图像处理程序的进一步适配.md"
+    },
+    {
+      "basename": "1-1、skills收集与使用",
+      "path": "Extended-Learn/AI学习/1-1、skills收集与使用.md"
+    },
+    {
+      "basename": "2-1、tof相机数据获取与解析",
+      "path": "XGRIDS/rk3588开发/TOF-深度相机/2-1、tof相机数据获取与解析.md"
+    },
+    {
+      "basename": "📖67 个必学的 AI 编程知识",
+      "path": "Extended-Learn/AI学习/📖67 个必学的 AI 编程知识.md"
+    },
+    {
+      "basename": "2-1、MCP 收集与使用",
+      "path": "Extended-Learn/AI学习/2-1、MCP 收集与使用.md"
+    },
+    {
+      "basename": "3-1、AI 全流程闭环开发",
+      "path": "Extended-Learn/AI学习/3-1、AI 全流程闭环开发.md"
+    },
+    {
+      "basename": "1-1、camera加tof相机出流失败问题",
+      "path": "XGRIDS/rk3588开发/TOF-深度相机/1-1、camera加tof相机出流失败问题.md"
+    },
+    {
+      "basename": "🔨tar命令表",
+      "path": "XGRIDS/rk3588开发/💻SDK编译/🔨tar命令表.md"
+    },
+    {
+      "basename": "📒📄🔨 ❤️🔍📌📖❌✅🐞 🛠️📦",
+      "path": "通用文件夹/模板/📒📄🔨 ❤️🔍📌📖❌✅🐞 🛠️📦.md"
+    },
+    {
+      "basename": "Recent Files追踪最近打开过的文件",
+      "path": "Extended-Learn/obsidian学习/Recent Files追踪最近打开过的文件.md"
+    },
+    {
+      "basename": "1-1、RK3588 SDK编译（灵光K1）",
+      "path": "XGRIDS/rk3588开发/💻SDK编译/1-1、RK3588 SDK编译（灵光K1）.md"
+    },
+    {
+      "basename": "开发任务记录",
+      "path": "通用文件夹/模板/项目开发/开发任务记录.md"
+    },
+    {
+      "basename": "开发记录：命令、知识点、工具",
+      "path": "通用文件夹/模板/项目开发/开发记录：命令、知识点、工具.md"
+    },
+    {
+      "basename": "1、设计要求",
+      "path": "通用文件夹/模板/项目开发/1、设计要求.md"
+    },
+    {
+      "basename": "项目快速上手提示词",
+      "path": "通用文件夹/模板/项目开发/项目快速上手提示词.md"
+    },
+    {
+      "basename": "任务",
+      "path": "功能子仓库/code-notes/任务.md"
+    },
+    {
+      "basename": "2、项目需求",
+      "path": "通用文件夹/模板/项目开发/2、项目需求.md"
+    },
+    {
+      "basename": "开发报错记录",
+      "path": "通用文件夹/模板/项目开发/开发报错记录.md"
+    },
+    {
+      "basename": "Claude Code安装及使用教程",
+      "path": "Extended-Learn/电脑软件学习/Claude Code安装及使用教程.md"
+    },
+    {
+      "basename": "📒AI任务提示词模板",
+      "path": "XGRIDS/rk3588开发/TOF-深度相机/📒AI任务提示词模板.md"
+    },
+    {
+      "basename": "📒tof相关知识了解：",
+      "path": "XGRIDS/rk3588开发/TOF-深度相机/📒tof相关知识了解：.md"
+    },
+    {
+      "basename": "linux开发工具软件",
+      "path": "Extended-Learn/电脑软件学习/linux开发工具软件.md"
+    },
+    {
+      "basename": "pdf英文剧本转md文件：",
+      "path": "Extended-Learn/未来规划（实习、英语）/pdf英文剧本转md文件：.md"
+    },
+    {
+      "basename": "AWS AI 技术交流",
+      "path": "Extended-Learn/AI学习/AWS AI 技术交流.md"
+    },
+    {
+      "basename": "CloudCompare  安装",
+      "path": "Extended-Learn/电脑软件学习/CloudCompare  安装.md"
+    },
+    {
+      "basename": "🔨 解密img文件和SCP传输",
+      "path": "XGRIDS/rk3588开发/💻SDK编译/🔨 解密img文件和SCP传输.md"
+    },
+    {
+      "basename": "🔨gdb工具",
+      "path": "XGRIDS/rk3588开发/TOF-深度相机/🔨gdb工具.md"
+    },
+    {
+      "basename": "3-1、8Kcamera驱动和图像获取（L2pro）",
+      "path": "XGRIDS/rk3588开发/💻camera驱动开发/3-1、8Kcamera驱动和图像获取（L2pro）.md"
+    },
+    {
+      "basename": "🔨linux常用命令记录",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/🔨linux常用命令记录.md"
+    },
+    {
+      "basename": "3-2、开发经验记录",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/3-2、开发经验记录.md"
+    },
+    {
       "basename": "🔨dpkg命令表",
       "path": "XGRIDS/rk3588开发/💻SDK编译/🔨dpkg命令表.md"
     },
     {
-      "basename": "1-2、练习：Gstreamer图像编解码",
-      "path": "XGRIDS/高通平台开发/📒Gstreamer学习/1-2、练习：Gstreamer图像编解码.md"
+      "basename": "1-1、Linux时间同步改善了解",
+      "path": "XGRIDS/rk3588开发/PPS时间同步/1-1、Linux时间同步改善了解.md"
     },
     {
-      "basename": "yuyv2grey_processor移植说明",
-      "path": "功能子仓库/code-notes/高通平台开发/💻图像处理应用开发/1@开发框架搭建与图像处理程序适配/dolphin/doc/yuyv2grey_processor移植说明.md"
-    },
-    {
-      "basename": "2-2、解决IMX586同步问题（K2）",
-      "path": "XGRIDS/rk3588开发/💻camera驱动开发/2-2、解决IMX586同步问题（K2）.md"
-    },
-    {
-      "basename": "1-1、模拟：图像处理程序移植-适配底层接口",
-      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/1-1、模拟：图像处理程序移植-适配底层接口.md"
-    },
-    {
-      "basename": "video_stream综合移植说明",
-      "path": "功能子仓库/code-notes/高通平台开发/💻图像处理应用开发/1@开发框架搭建与图像处理程序适配/dolphin/doc/video_stream综合移植说明.md"
-    },
-    {
-      "basename": "rgb_processor移植说明",
-      "path": "功能子仓库/code-notes/高通平台开发/💻图像处理应用开发/1@开发框架搭建与图像处理程序适配/dolphin/doc/rgb_processor移植说明.md"
-    },
-    {
-      "basename": "jpeg_processor移植说明",
-      "path": "功能子仓库/code-notes/高通平台开发/💻图像处理应用开发/1@开发框架搭建与图像处理程序适配/dolphin/doc/jpeg_processor移植说明.md"
-    },
-    {
-      "basename": "📒CMake构建知识点补充：",
-      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/📒CMake构建知识点补充：.md"
-    },
-    {
-      "basename": "Docker开发环境搭建与命令",
-      "path": "芯片开发学习/RK3568（linux学习）/rk3568芯片开发/Docker开发环境搭建与命令.md"
+      "basename": "3-2、图像处理程序适配8K",
+      "path": "XGRIDS/rk3588开发/💻camera驱动开发/3-2、图像处理程序适配8K.md"
     }
   ],
   "omittedPaths": [],

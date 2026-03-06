@@ -227,7 +227,7 @@
       "color": "7m7PAR96YDqaIv0VW7GRe"
     },
     {
-      "path": "扩展学习/obsidian学习/学习obsidian.md",
+      "path": "Extended-Learn/obsidian学习/学习obsidian.md",
       "color": "7m7PAR96YDqaIv0VW7GRe"
     },
     {
@@ -271,7 +271,7 @@
       "color": "Pxai0sapjHG9gNWY6C0yb"
     },
     {
-      "path": "扩展学习/未来规划（实习、英语）",
+      "path": "Extended-Learn/未来规划（实习、英语）",
       "color": "LCuuCKlvMz3l5vD9YHJq7"
     },
     {
@@ -295,23 +295,23 @@
       "color": "y8kLuoSO7woG_3RGRS3ke"
     },
     {
-      "path": "扩展学习/未来规划（实习、英语）/英语规划（出国）/英语未来规划.excalidraw.md",
+      "path": "Extended-Learn/未来规划（实习、英语）/英语规划（出国）/英语未来规划.excalidraw.md",
       "color": "Pxai0sapjHG9gNWY6C0yb"
     },
     {
-      "path": "扩展学习/未来规划（实习、英语）/英语规划（出国）",
+      "path": "Extended-Learn/未来规划（实习、英语）/英语规划（出国）",
       "color": "k5vLia7IdJpJXTCxk4EVH"
     },
     {
-      "path": "扩展学习/未来规划（实习、英语）/英语规划（出国）/资料库",
+      "path": "Extended-Learn/未来规划（实习、英语）/英语规划（出国）/资料库",
       "color": "LCuuCKlvMz3l5vD9YHJq7"
     },
     {
-      "path": "扩展学习/未来规划（实习、英语）/英语规划（出国）/资料收集.md",
+      "path": "Extended-Learn/未来规划（实习、英语）/英语规划（出国）/资料收集.md",
       "color": "7m7PAR96YDqaIv0VW7GRe"
     },
     {
-      "path": "扩展学习/未来规划（实习、英语）/英语规划（出国）/英语学习规划.md",
+      "path": "Extended-Learn/未来规划（实习、英语）/英语规划（出国）/英语学习规划.md",
       "color": "Pxai0sapjHG9gNWY6C0yb"
     },
     {
@@ -355,7 +355,7 @@
       "color": "7m7PAR96YDqaIv0VW7GRe"
     },
     {
-      "path": "扩展学习/未来规划（实习、英语）/英语规划（出国）/英语学习资料.md",
+      "path": "Extended-Learn/未来规划（实习、英语）/英语规划（出国）/英语学习资料.md",
       "color": "Pxai0sapjHG9gNWY6C0yb"
     },
     {
@@ -411,7 +411,7 @@
       "color": "Pxai0sapjHG9gNWY6C0yb"
     },
     {
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/常用函数和宏积累.md",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒常用代码语言与工具学习/1-3、常用函数和宏积累.md",
       "color": "Pxai0sapjHG9gNWY6C0yb"
     },
     {
@@ -431,7 +431,7 @@
       "color": "b8-4xZC6542C1dOnEOIm6"
     },
     {
-      "path": "扩展学习/未来规划（实习、英语）/备战：linux驱动、BSP面试",
+      "path": "Extended-Learn/未来规划（实习、英语）/备战：linux驱动、BSP面试",
       "color": "k5vLia7IdJpJXTCxk4EVH"
     },
     {
@@ -475,23 +475,19 @@
       "color": "LCuuCKlvMz3l5vD9YHJq7"
     },
     {
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/Linux入门篇（ubuntu基础知识）.md",
-      "color": "aeu4BbSMriFS6qQjCAfxX"
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒Linux入门篇（ubuntu基础知识）.md",
+      "color": "b8-4xZC6542C1dOnEOIm6"
     },
     {
       "path": "嵌入式知识学习（通用扩展）/linux基础知识/🔨linux常用命令记录.md",
-      "color": "aeu4BbSMriFS6qQjCAfxX"
+      "color": "GE4xIegOUw0MrterMOOyV"
     },
     {
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/开发记录.md",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/3-1、开发记录-RK3568.md",
       "color": "Pxai0sapjHG9gNWY6C0yb"
     },
     {
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/开发记录文件（待处理）.md",
-      "color": "aeu4BbSMriFS6qQjCAfxX"
-    },
-    {
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/开发经验记录.md",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/3-2、开发经验记录.md",
       "color": "Pxai0sapjHG9gNWY6C0yb"
     },
     {
@@ -499,56 +495,56 @@
       "color": "b8-4xZC6542C1dOnEOIm6"
     },
     {
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/面向对象编程（OOP）：从概念到实践.md",
-      "color": "aeu4BbSMriFS6qQjCAfxX"
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒常用代码语言与工具学习/📒面向对象编程（OOP）：从概念到实践.md",
+      "color": "b8-4xZC6542C1dOnEOIm6"
     },
     {
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/嵌入式数据结构.md",
-      "color": "aeu4BbSMriFS6qQjCAfxX"
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒常用代码语言与工具学习/3-1、嵌入式数据结构.md",
+      "color": "yXI91WVtIATZFYzY9SFMK"
     },
     {
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/嵌入式知识扩展学习.md",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒嵌入式知识扩展学习.md",
+      "color": "b8-4xZC6542C1dOnEOIm6"
+    },
+    {
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒常用代码语言与工具学习/1-1、嵌入式C语言.md",
+      "color": "yXI91WVtIATZFYzY9SFMK"
+    },
+    {
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒常用代码语言与工具学习/1-2、C语言扩展积累学习.md",
       "color": "Pxai0sapjHG9gNWY6C0yb"
     },
     {
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/嵌入式C语言.md",
-      "color": "aeu4BbSMriFS6qQjCAfxX"
-    },
-    {
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/C语言扩展积累学习.md",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒常用代码语言与工具学习/4-1、CMake工具学习.md",
       "color": "Pxai0sapjHG9gNWY6C0yb"
     },
     {
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/CMake工具学习.md",
-      "color": "aeu4BbSMriFS6qQjCAfxX"
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒常用代码语言与工具学习/5-1、gcc扩展语法学习.md",
+      "color": "yXI91WVtIATZFYzY9SFMK"
     },
     {
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/gcc扩展语法学习.md",
-      "color": "aeu4BbSMriFS6qQjCAfxX"
-    },
-    {
-      "path": "扩展学习/电脑软件学习/linux开发工具软件.md",
+      "path": "Extended-Learn/电脑软件学习/linux开发工具软件.md",
       "color": "Pxai0sapjHG9gNWY6C0yb"
     },
     {
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/Linux驱动调试方法.md",
-      "color": "aeu4BbSMriFS6qQjCAfxX"
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/1-1、Linux驱动调试方法.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
     },
     {
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/linux下python编写编译脚本.md",
-      "color": "aeu4BbSMriFS6qQjCAfxX"
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒常用代码语言与工具学习/2-2、linux下python编写编译脚本.md",
+      "color": "yXI91WVtIATZFYzY9SFMK"
     },
     {
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/Makefile语法学习.md",
-      "color": "aeu4BbSMriFS6qQjCAfxX"
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒常用代码语言与工具学习/6-1、Makefile语法学习.md",
+      "color": "yXI91WVtIATZFYzY9SFMK"
     },
     {
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/python入门.md",
-      "color": "aeu4BbSMriFS6qQjCAfxX"
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒常用代码语言与工具学习/2-1、python入门.md",
+      "color": "yXI91WVtIATZFYzY9SFMK"
     },
     {
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/🔨shell语言学习.md",
-      "color": "aeu4BbSMriFS6qQjCAfxX"
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒常用代码语言与工具学习/7-1、shell语言学习.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
     },
     {
       "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第四期 高级字符设备进阶",
@@ -1015,19 +1011,19 @@
       "color": "b8-4xZC6542C1dOnEOIm6"
     },
     {
-      "path": "XGRIDS/高通平台开发/📒C++编程入门",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒C++编程入门",
       "color": "hESTjwiT5RIN2PsrN3DJY"
     },
     {
-      "path": "XGRIDS/高通平台开发/📒C++编程入门/📒C++基础基础知识补充.md",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒C++编程入门/📒C++实例解析知识补充.md",
       "color": "b8-4xZC6542C1dOnEOIm6"
     },
     {
-      "path": "XGRIDS/高通平台开发/📒C++编程入门/1-2、C++进阶.md",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒C++编程入门/1-2、C++进阶.md",
       "color": "Pxai0sapjHG9gNWY6C0yb"
     },
     {
-      "path": "XGRIDS/高通平台开发/📒C++编程入门/1-1、C++基础入门（超详细）.md",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒C++编程入门/1-1、C++基础入门（超详细）.md",
       "color": "Pxai0sapjHG9gNWY6C0yb"
     },
     {
@@ -1295,7 +1291,7 @@
       "color": "Pxai0sapjHG9gNWY6C0yb"
     },
     {
-      "path": "扩展学习",
+      "path": "Extended-Learn",
       "color": "k5vLia7IdJpJXTCxk4EVH"
     },
     {
@@ -1303,24 +1299,100 @@
       "color": "k5vLia7IdJpJXTCxk4EVH"
     },
     {
-      "path": "扩展学习/AI学习",
+      "path": "Extended-Learn/AI学习",
       "color": "LCuuCKlvMz3l5vD9YHJq7"
     },
     {
-      "path": "扩展学习/电脑软件学习/常见电脑问题与解决.md",
+      "path": "Extended-Learn/电脑软件学习/常见电脑问题与解决.md",
       "color": "Pxai0sapjHG9gNWY6C0yb"
     },
     {
-      "path": "扩展学习/电脑软件学习",
+      "path": "Extended-Learn/电脑软件学习",
       "color": "LCuuCKlvMz3l5vD9YHJq7"
     },
     {
-      "path": "扩展学习/资源收集",
+      "path": "Extended-Learn/资源收集",
       "color": "LCuuCKlvMz3l5vD9YHJq7"
     },
     {
-      "path": "扩展学习/obsidian学习",
+      "path": "Extended-Learn/obsidian学习",
       "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "主页.md",
+      "color": "k5vLia7IdJpJXTCxk4EVH"
+    },
+    {
+      "path": "Extended-Learn/电脑软件学习/vscode配置与插件：.md",
+      "color": "yXI91WVtIATZFYzY9SFMK"
+    },
+    {
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒常用代码语言与工具学习",
+      "color": "hESTjwiT5RIN2PsrN3DJY"
+    },
+    {
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒常用代码语言与工具学习/📒代码语法问题积累.md",
+      "color": "b8-4xZC6542C1dOnEOIm6"
+    },
+    {
+      "path": "XGRIDS/rk3588开发/TOF-深度相机/2-1、tof相机数据获取与解析.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "XGRIDS/rk3588开发/TOF-深度相机/官方文档/SpadisQT应用",
+      "color": "hESTjwiT5RIN2PsrN3DJY"
+    },
+    {
+      "path": "XGRIDS/rk3588开发/TOF-深度相机/📒AI任务提示词模板.md",
+      "color": "b8-4xZC6542C1dOnEOIm6"
+    },
+    {
+      "path": "通用文件夹/模板/项目开发/开发记录：命令、知识点、工具.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "通用文件夹/模板/项目开发/开发报错记录.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "通用文件夹/模板/项目开发/开发任务记录.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "通用文件夹/模板/项目开发/1、设计要求.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "通用文件夹/模板/项目开发/2、项目需求.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "通用文件夹/模板/项目开发/项目快速上手提示词.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "通用文件夹/模板/项目开发",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "Extended-Learn/AI学习/ai-guide",
+      "color": "hESTjwiT5RIN2PsrN3DJY"
+    },
+    {
+      "path": "Extended-Learn/AI学习/📖67 个必学的 AI 编程知识.md",
+      "color": "b8-4xZC6542C1dOnEOIm6"
+    },
+    {
+      "path": "Extended-Learn/AI学习/1-1、skills收集与使用.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "Extended-Learn/AI学习/2-1、MCP 收集与使用.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "Extended-Learn/AI学习/3-1、AI 全流程闭环开发.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
     }
   ]
 }
