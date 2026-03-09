@@ -1,0 +1,240 @@
+{
+	"edges": [
+		{
+			"fromNode": "d3fcddcf96cf526c",
+			"fromSide": "left",
+			"id": "ec787c093c47caf9",
+			"styleAttributes": {},
+			"toNode": "bade1d8a48867c5d",
+			"toSide": "right"
+		},
+		{
+			"color": "1",
+			"fromNode": "bccb1226cf6800a6",
+			"fromSide": "bottom",
+			"id": "6dd45d0eed92da92",
+			"styleAttributes": {},
+			"toNode": "b5d559a7cc3819e1",
+			"toSide": "top"
+		},
+		{
+			"color": "1",
+			"fromNode": "26043994d2928635",
+			"fromSide": "bottom",
+			"id": "23514331850e4550",
+			"styleAttributes": {},
+			"toNode": "bccb1226cf6800a6",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "26043994d2928635",
+			"fromSide": "bottom",
+			"id": "af0714f48685b7d9",
+			"styleAttributes": {},
+			"toNode": "6f6b0003b387b2d0",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "cffa3dbd4df589cc",
+			"fromSide": "bottom",
+			"id": "c8d1c2512ccb1be9",
+			"styleAttributes": {},
+			"toNode": "26043994d2928635",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "11fd8602eb5869d6",
+			"fromSide": "top",
+			"id": "47deae4e88ca15bd",
+			"styleAttributes": {},
+			"toNode": "f7b8966e4eab3e1c",
+			"toSide": "bottom"
+		},
+		{
+			"fromNode": "f7b8966e4eab3e1c",
+			"fromSide": "right",
+			"id": "1fa86add5b9ea88a",
+			"styleAttributes": {},
+			"toNode": "bf784b02c093a201",
+			"toSide": "bottom"
+		},
+		{
+			"fromNode": "b5d559a7cc3819e1",
+			"fromSide": "bottom",
+			"id": "95aa5f2f200b4832",
+			"label": "提交中断下文",
+			"styleAttributes": {},
+			"toNode": "1b5dd89e9b7dad7d",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "1b5dd89e9b7dad7d",
+			"fromSide": "right",
+			"id": "2bc6d86283f730e1",
+			"styleAttributes": {},
+			"toNode": "bf784b02c093a201",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "5bf9fe6521075870",
+			"fromSide": "left",
+			"id": "2a9b7bee9b25fdfc",
+			"styleAttributes": {},
+			"toNode": "bf13279b0991bd48",
+			"toSide": "right"
+		},
+		{
+			"fromNode": "5bf9fe6521075870",
+			"fromSide": "left",
+			"id": "c46f5b3109693ceb",
+			"styleAttributes": {},
+			"toNode": "c44a27670daf344e",
+			"toSide": "right"
+		}
+	],
+	"nodes": [
+		{
+			"height": 610,
+			"id": "d3fcddcf96cf526c",
+			"label": "申请一个gpio中断",
+			"styleAttributes": {},
+			"type": "group",
+			"width": 1140,
+			"x": -660,
+			"y": -340
+		},
+		{
+			"height": 450,
+			"id": "5bf9fe6521075870",
+			"label": "共享工作队列",
+			"styleAttributes": {},
+			"type": "group",
+			"width": 925,
+			"x": -720,
+			"y": 420
+		},
+		{
+			"height": 100,
+			"id": "26043994d2928635",
+			"styleAttributes": {},
+			"text": "    // <span style=\"background:#d3f8b6\">将GPIO引脚映射到中断号</span>\n\n    irq_num = <span style=\"background:#affad1\">gpio_to_irq</span>(GPIO_PIN);",
+			"type": "text",
+			"width": 360,
+			"x": -460,
+			"y": -200
+		},
+		{
+			"height": 100,
+			"id": "6f6b0003b387b2d0",
+			"styleAttributes": {},
+			"text": "    // 释放中断\n\n    free_irq(irq_num, NULL);",
+			"type": "text",
+			"width": 300,
+			"x": 150,
+			"y": -30
+		},
+		{
+			"height": 60,
+			"id": "bccb1226cf6800a6",
+			"styleAttributes": {},
+			"text": "// <span style=\"background:#d3f8b6\">请求中断</span>\n<span style=\"background:#fdbfff\">request_irq</span>(irq_num, gpio_irq_handler, IRQF_TRIGGER_RISING, \"irq_test\", NULL)",
+			"type": "text",
+			"width": 740,
+			"x": -650,
+			"y": 10
+		},
+		{
+			"height": 110,
+			"id": "b5d559a7cc3819e1",
+			"styleAttributes": {},
+			"text": "// <span style=\"background:#d3f8b6\">中断处理函数</span>\n\nstatic irqreturn_t <span style=\"background:#affad1\">gpio_irq_handler</span>(int irq, void *dev_id)",
+			"type": "text",
+			"width": 500,
+			"x": -530,
+			"y": 140
+		},
+		{
+			"height": 60,
+			"id": "cffa3dbd4df589cc",
+			"styleAttributes": {},
+			"text": "#define GPIO_PIN 101",
+			"type": "text",
+			"width": 260,
+			"x": -410,
+			"y": -320
+		},
+		{
+			"color": "6",
+			"file": "RK3568（linux学习）/linux开发资料库/代码库/04_Linux驱动程序/30_interrupt申请一个gpio中断/interrupt.c",
+			"height": 85,
+			"id": "bade1d8a48867c5d",
+			"styleAttributes": {},
+			"type": "file",
+			"width": 120,
+			"x": -880,
+			"y": -75
+		},
+		{
+			"height": 110,
+			"id": "bf784b02c093a201",
+			"styleAttributes": {},
+			"text": "// <span style=\"background:#d3f8b6\">工作项处理函数</span>\n\nvoid <span style=\"background:#affad1\">test_work</span>(struct work_struct *work)",
+			"type": "text",
+			"width": 400,
+			"x": -210,
+			"y": 430
+		},
+		{
+			"height": 100,
+			"id": "1b5dd89e9b7dad7d",
+			"styleAttributes": {},
+			"text": "  // <span style=\"background:#d3f8b6\">提交工作项到工作队列</span>\n\n  <span style=\"background:#fdbfff\">schedule_work</span>(&test_workqueue);",
+			"type": "text",
+			"width": 360,
+			"x": -690,
+			"y": 435
+		},
+		{
+			"height": 80,
+			"id": "f7b8966e4eab3e1c",
+			"styleAttributes": {},
+			"text": "  // <span style=\"background:#d3f8b6\">初始化工作项</span>\n\n <span style=\"background:#fdbfff\"> INIT_WORK</span>(&test_workqueue, test_work);",
+			"type": "text",
+			"width": 410,
+			"x": -695,
+			"y": 620
+		},
+		{
+			"height": 80,
+			"id": "11fd8602eb5869d6",
+			"styleAttributes": {},
+			"text": "//<span style=\"background:#d3f8b6\">工作队列结构体</span>\nstruct <span style=\"background:#affad1\">work_struct </span>test_workqueue;",
+			"type": "text",
+			"width": 360,
+			"x": -670,
+			"y": 760
+		},
+		{
+			"color": "6",
+			"file": "RK3568（linux学习）/linux开发资料库/代码库/04_Linux驱动程序/34_workqueue共享工作队列/module/interrupt.c",
+			"height": 80,
+			"id": "bf13279b0991bd48",
+			"styleAttributes": {},
+			"type": "file",
+			"width": 120,
+			"x": -920,
+			"y": 495
+		},
+		{
+			"color": "6",
+			"file": "canvas/驱动子系统思维导图/申请一个gpio中断.canvas",
+			"height": 100,
+			"id": "c44a27670daf344e",
+			"styleAttributes": {},
+			"type": "file",
+			"width": 200,
+			"x": -1020,
+			"y": 650
+		}
+	]
+}

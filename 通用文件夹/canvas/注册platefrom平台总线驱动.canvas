@@ -1,0 +1,135 @@
+{
+	"edges": [
+		{
+			"fromNode": "711381a8f7849da2",
+			"fromSide": "left",
+			"id": "59826cb0d6d2f6b7",
+			"styleAttributes": {},
+			"toNode": "950e429cc5dac772",
+			"toSide": "right"
+		},
+		{
+			"fromNode": "71eb8d6af52c7cbd",
+			"fromSide": "bottom",
+			"id": "5d8c856cd521366f",
+			"styleAttributes": {},
+			"toNode": "950e429cc5dac772",
+			"toSide": "top"
+		},
+		{
+			"color": "1",
+			"fromNode": "5965d667b516d85b",
+			"fromSide": "bottom",
+			"id": "80221e6205aa24b5",
+			"styleAttributes": {},
+			"toNode": "950e429cc5dac772",
+			"toSide": "top"
+		},
+		{
+			"color": "1",
+			"fromNode": "950e429cc5dac772",
+			"fromSide": "bottom",
+			"id": "cd0ea0550de5baab",
+			"styleAttributes": {},
+			"toNode": "5876b8360ba1c484",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "950e429cc5dac772",
+			"fromSide": "bottom",
+			"id": "ad431bfe68a864d3",
+			"styleAttributes": {},
+			"toNode": "1e289e5e2efb22e9",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "40403bec7990d6de",
+			"fromSide": "left",
+			"id": "165ee1ddddbb5a3a",
+			"styleAttributes": {},
+			"toNode": "7e61f22bdd7382be",
+			"toSide": "right"
+		}
+	],
+	"nodes": [
+		{
+			"height": 914,
+			"id": "40403bec7990d6de",
+			"label": "注册platefrom平台总线驱动",
+			"type": "group",
+			"width": 1322,
+			"x": -1600,
+			"y": -280
+		},
+		{
+			"height": 100,
+			"id": "1e289e5e2efb22e9",
+			"styleAttributes": {},
+			"text": "    // 注销平台驱动\n\n    platform_driver_unregister(&my_platform_driver);",
+			"type": "text",
+			"width": 480,
+			"x": -785,
+			"y": 510
+		},
+		{
+			"height": 100,
+			"id": "5965d667b516d85b",
+			"styleAttributes": {},
+			"text": "// <span style=\"background:#d3f8b6\">平台设备的初始化函数</span>\n\nstatic int <span style=\"background:#affad1\">my_platform_probe</span>(struct platform_device *pdev)",
+			"type": "text",
+			"width": 555,
+			"x": -1587,
+			"y": -259
+		},
+		{
+			"height": 105,
+			"id": "71eb8d6af52c7cbd",
+			"styleAttributes": {},
+			"text": "// 平台设备的移除函数\n\nstatic int <span style=\"background:#affad1\">my_platform_remove</span>(struct platform_device *pdev)",
+			"type": "text",
+			"width": 570,
+			"x": -875,
+			"y": -264
+		},
+		{
+			"height": 460,
+			"id": "950e429cc5dac772",
+			"styleAttributes": {},
+			"text": "// <span style=\"background:#d3f8b6\">定义平台驱动结构体</span>\n\nstatic struct <span style=\"background:#b1ffff\">platform_driver</span> my_platform_driver = {\n\n    .probe = my_platform_probe,\n\n    .remove = my_platform_remove,\n\n    .driver = {\n\n        .name = \"my_platform_device\",\n\n        .owner = THIS_MODULE,\n\n        .of_match_table =  of_match_table_id,\n\n    },\n\n};",
+			"type": "text",
+			"width": 520,
+			"x": -1569,
+			"y": -65
+		},
+		{
+			"height": 100,
+			"id": "5876b8360ba1c484",
+			"styleAttributes": {},
+			"text": "    // <span style=\"background:#d3f8b6\">注册平台驱动</span>\n\n    ret = <span style=\"background:#fdbfff\">platform_driver_register</span>(&my_platform_driver);",
+			"type": "text",
+			"width": 500,
+			"x": -1559,
+			"y": 510
+		},
+		{
+			"height": 170,
+			"id": "711381a8f7849da2",
+			"styleAttributes": {},
+			"text": "用于在<span style=\"background:#d3f8b6\">设备树（Device Tree）中匹配兼容的设备。</span>\nconst struct <span style=\"background:#affad1\">of_device_id of_match_table_id[] </span> = {\n\n    {.compatible=\"my devicetree\"},\n\n};",
+			"type": "text",
+			"width": 470,
+			"x": -825,
+			"y": 80
+		},
+		{
+			"color": "6",
+			"file": "RK3568（linux学习）/linux开发资料库/代码库/04_Linux驱动程序/41_platform_driver注册platform驱动/platform_driver.c",
+			"height": 97,
+			"id": "7e61f22bdd7382be",
+			"type": "file",
+			"width": 160,
+			"x": -1960,
+			"y": 80
+		}
+	]
+}

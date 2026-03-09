@@ -1,0 +1,187 @@
+{
+  "edges": [
+    {
+      "fromNode": "db1648a1f4a49569",
+      "fromSide": "right",
+      "id": "00d4af4c85b1dd0b",
+      "label": "重点代码",
+      "styleAttributes": {},
+      "toNode": "bb89a3b3dab1d315",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "db1648a1f4a49569",
+      "fromSide": "right",
+      "id": "97cec27ea6f1316a",
+      "label": "重点代码",
+      "styleAttributes": {},
+      "toNode": "a325a915698a3ba2",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "3036cce210178044",
+      "fromSide": "bottom",
+      "id": "6906068bf6b17a91",
+      "label": "调用",
+      "styleAttributes": {},
+      "toNode": "ebedee7c2ca5b706",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "ebedee7c2ca5b706",
+      "fromSide": "bottom",
+      "id": "02e0a893ca01f441",
+      "label": "调用",
+      "styleAttributes": {},
+      "toNode": "c7eb7359deb944c3",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c7eb7359deb944c3",
+      "fromSide": "bottom",
+      "id": "dac8edc17b42e032",
+      "label": "调用",
+      "styleAttributes": {},
+      "toNode": "db26a032a5b77c9f",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "db26a032a5b77c9f",
+      "fromSide": "bottom",
+      "id": "095af44e31a17443",
+      "label": "调用",
+      "styleAttributes": {},
+      "toNode": "be0935c663948335",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "be0935c663948335",
+      "fromSide": "bottom",
+      "id": "072a473eb174e9a2",
+      "label": "调用",
+      "styleAttributes": {},
+      "toNode": "db1648a1f4a49569",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "3036cce210178044",
+      "fromSide": "bottom",
+      "id": "2e59281cbd184c4f",
+      "label": "调用",
+      "styleAttributes": {},
+      "toNode": "33f076370ff655b4",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "33f076370ff655b4",
+      "fromSide": "bottom",
+      "id": "20970eaf61c05dc4",
+      "label": "重点代码",
+      "styleAttributes": {},
+      "toNode": "a3ef2efe9a5f0808",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 100,
+      "id": "db1648a1f4a49569",
+      "styleAttributes": {},
+      "text": "    //<span style=\"background:#d3f8b6\">创建一个sysfs目录，并与给定的kobject关联</span>\n\n    error = <span style=\"background:#affad1\">sysfs_create_dir_ns</span>(kobj, kobject_namespace(kobj));",
+      "type": "text",
+      "width": 610,
+      "x": -580,
+      "y": 710
+    },
+    {
+      "height": 120,
+      "id": "be0935c663948335",
+      "styleAttributes": {},
+      "text": "    //尝试为给定的kobject创建对应的sysfs目录\n\n    error = <span style=\"background:#b1ffff\">create_dir</span>(kobj);",
+      "type": "text",
+      "width": 460,
+      "x": -490,
+      "y": 490
+    },
+    {
+      "height": 100,
+      "id": "ebedee7c2ca5b706",
+      "styleAttributes": {},
+      "text": "    //将一个名为name的<span style=\"background:#d3f8b6\">kobject对象添加到sysfs文件系统中，并将其与指定的父kobject对象parent关联起来</span>。\n\n    retval = <span style=\"background:#b1ffff\">kobject_add</span>(kobj, parent, \"%s\", name);",
+      "type": "text",
+      "width": 900,
+      "x": -410,
+      "y": -180
+    },
+    {
+      "height": 100,
+      "id": "c7eb7359deb944c3",
+      "styleAttributes": {},
+      "text": "    //用于添加kobject到sysfs文件系统层次结构的关键步骤\n\n    retval = <span style=\"background:#b1ffff\">kobject_add_varg</span>(kobj, parent, fmt, args);",
+      "type": "text",
+      "width": 520,
+      "x": -180,
+      "y": 40
+    },
+    {
+      "height": 100,
+      "id": "db26a032a5b77c9f",
+      "styleAttributes": {},
+      "text": "    //Linux内核中用于将kobject添加到sysfs文件系统中\n\n    return <span style=\"background:#b1ffff\">kobject_add_internal</span>(kobj);",
+      "type": "text",
+      "width": 540,
+      "x": -420,
+      "y": 280
+    },
+    {
+      "height": 80,
+      "id": "3036cce210178044",
+      "styleAttributes": {},
+      "text": "//kobject_创建_和_动态<span style=\"background:#d3f8b6\">创建一个struct kobject并注册到sysfs</span>\nstruct kobject **<span style=\"background:#fdbfff\">kobject_create_and_add</span>(const char *name, struct kobject *parent)",
+      "type": "text",
+      "width": 760,
+      "x": -940,
+      "y": -400
+    },
+    {
+      "height": 110,
+      "id": "33f076370ff655b4",
+      "styleAttributes": {},
+      "text": "    //<span style=\"background:#d3f8b6\">创建并初始化一个kobject对象</span>\n\n    kobj = <span style=\"background:#b1ffff\">kobject_create</span>();",
+      "type": "text",
+      "width": 420,
+      "x": -980,
+      "y": -240
+    },
+    {
+      "height": 220,
+      "id": "a325a915698a3ba2",
+      "styleAttributes": {},
+      "text": "    //在文件系统中创建一个目录。其主要功能是通过kernfs文件系统接口<span style=\"background:#d3f8b6\">在指定的父目录(parent)下创建一个新目录，</span>\n\n    kn =<span style=\"background:#affad1\"> kernfs_create_dir_ns</span>(parent, kobject_name(kobj),\n\n                  S_IRWXU | S_IRUGO | S_IXUGO, uid, gid,\n\n                  kobj, ns);",
+      "type": "text",
+      "width": 520,
+      "x": 180,
+      "y": 860
+    },
+    {
+      "height": 300,
+      "id": "bb89a3b3dab1d315",
+      "styleAttributes": {},
+      "text": "    //如果<span style=\"background:#d3f8b6\">kobj有父对象，那么parent就设置为kobj的父对象的sd；否则，parent就设置为sysfs_root_kn</span>,即/sys目录根目录的节点.\n\n    if (kobj->parent)\n\n        parent = kobj->parent->sd;\n\n    else\n\n        parent = sysfs_root_kn;",
+      "type": "text",
+      "width": 520,
+      "x": 180,
+      "y": 490
+    },
+    {
+      "height": 280,
+      "id": "a3ef2efe9a5f0808",
+      "styleAttributes": {},
+      "text": "    //分配内核数据结构的内存，并确保数据结构在初始化时所有成员都被清零\n\n    kobj = kzalloc(sizeof(*kobj), GFP_KERNEL);\n\n    if (!kobj)\n\n        return NULL;\n\n    //<span style=\"background:#d3f8b6\">初始化一个 kobject 结构体。自动帮我们实现好ktype成员</span>。\n\n    <span style=\"background:#affad1\">kobject_init</span>(kobj, &dynamic_kobj_ktype);",
+      "type": "text",
+      "width": 680,
+      "x": -1110,
+      "y": -20
+    }
+  ]
+}

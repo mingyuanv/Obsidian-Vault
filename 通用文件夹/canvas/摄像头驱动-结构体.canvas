@@ -1,0 +1,258 @@
+{
+  "edges": [
+    {
+      "fromNode": "705aeb693d0cd624",
+      "fromSide": "bottom",
+      "id": "8681842e49767767",
+      "styleAttributes": {},
+      "toNode": "945f7f7565e9c289",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "945f7f7565e9c289",
+      "fromSide": "left",
+      "id": "464c98fd0dcdbe44",
+      "styleAttributes": {},
+      "toNode": "5ad7e2641af5a8f4",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "5ad7e2641af5a8f4",
+      "fromSide": "bottom",
+      "id": "f5cf1db392135321",
+      "styleAttributes": {},
+      "toNode": "cf95bf81be8ede11",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "705aeb693d0cd624",
+      "fromSide": "left",
+      "id": "a4ef674af453f1d5",
+      "styleAttributes": {},
+      "toNode": "cf95bf81be8ede11",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "3a8637de278dd067",
+      "fromSide": "top",
+      "id": "94e8c44ccb0f9e7a",
+      "styleAttributes": {},
+      "toNode": "cf95bf81be8ede11",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "225f4c720f685455",
+      "fromSide": "bottom",
+      "id": "b7fa8a4bdc93a49e",
+      "styleAttributes": {},
+      "toNode": "dcdd742f39f08818",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "ac6772bb93aed092",
+      "fromSide": "bottom",
+      "id": "3d6fb4442ce99385",
+      "styleAttributes": {},
+      "toNode": "225f4c720f685455",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "225f4c720f685455",
+      "fromSide": "bottom",
+      "id": "aa4ec509b215ee24",
+      "styleAttributes": {},
+      "toNode": "59cf1b20924d5459",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "cc6bb8e1b8b9c48e",
+      "fromSide": "bottom",
+      "id": "9285ad251edd27b0",
+      "styleAttributes": {},
+      "toNode": "225f4c720f685455",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "7b2da77f4e567de0",
+      "fromSide": "bottom",
+      "id": "fbf93272faa1966a",
+      "styleAttributes": {},
+      "toNode": "225f4c720f685455",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "cf95bf81be8ede11",
+      "fromSide": "bottom",
+      "id": "2be9e3119bb70c4f",
+      "styleAttributes": {},
+      "toNode": "cc6bb8e1b8b9c48e",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 380,
+      "id": "d0367ebede42919a",
+      "label": "I2c总线架构",
+      "styleAttributes": {},
+      "type": "group",
+      "width": 770,
+      "x": -1000,
+      "y": 420
+    },
+    {
+      "color": "1",
+      "height": 200,
+      "id": "5ad7e2641af5a8f4",
+      "styleAttributes": {},
+      "text": "**==struct v4l2_subdev_video_ops==**\n对子设备操作的接口，现在这个结构体里面都是以函数指针的方式去进行封装的",
+      "type": "text",
+      "width": 320,
+      "x": -440,
+      "y": -240
+    },
+    {
+      "color": "4",
+      "height": 140,
+      "id": "3a8637de278dd067",
+      "styleAttributes": {},
+      "text": "void ==v4l2_subdev_init==(struct v4l2_subdev *sd, const struct v4l2_subdev_ops *ops);\n\n路经：drivers/media/v412-core/v412-subdev.c",
+      "type": "text",
+      "width": 500,
+      "x": -470,
+      "y": 130
+    },
+    {
+      "color": "1",
+      "height": 165,
+      "id": "cf95bf81be8ede11",
+      "styleAttributes": {},
+      "text": "void ==v4l2_i2c_subdev_init==(struct v4l2_subdev *sd, struct i2c client *client,const struct v4l2_subdev_ops *ops);\n\n路经：drivers/media/v412-common.c",
+      "type": "text",
+      "width": 420,
+      "x": -980,
+      "y": -40
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "cc6bb8e1b8b9c48e",
+      "styleAttributes": {},
+      "text": "probe()",
+      "type": "text",
+      "width": 140,
+      "x": -1000,
+      "y": 430
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "7b2da77f4e567de0",
+      "styleAttributes": {},
+      "text": "remove()",
+      "type": "text",
+      "width": 140,
+      "x": -740,
+      "y": 430
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "ac6772bb93aed092",
+      "styleAttributes": {},
+      "text": "struct of_device_id",
+      "type": "text",
+      "width": 260,
+      "x": -520,
+      "y": 460
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "225f4c720f685455",
+      "styleAttributes": {},
+      "text": "struct i2c_driver",
+      "type": "text",
+      "width": 260,
+      "x": -730,
+      "y": 600
+    },
+    {
+      "color": "1",
+      "height": 60,
+      "id": "dcdd742f39f08818",
+      "styleAttributes": {},
+      "text": "==i2c_add_driver==(&ft5x06_driver)",
+      "type": "text",
+      "width": 340,
+      "x": -980,
+      "y": 720
+    },
+    {
+      "color": "1",
+      "height": 60,
+      "id": "59cf1b20924d5459",
+      "styleAttributes": {},
+      "text": "==i2c_del_driver==(&ft5x06_driver);",
+      "type": "text",
+      "width": 320,
+      "x": -550,
+      "y": 720
+    },
+    {
+      "color": "5",
+      "height": 140,
+      "id": "8db51c036c9a24d2",
+      "styleAttributes": {},
+      "text": "==struct v412_device==\n关联起这个V412的这个驱动框架\n那你必须要用这个结构体",
+      "type": "text",
+      "width": 320,
+      "x": 110,
+      "y": 340
+    },
+    {
+      "color": "4",
+      "height": 270,
+      "id": "705aeb693d0cd624",
+      "styleAttributes": {},
+      "text": "==struct v4l2_subdev==\n描述一个V4L2子设备的结构体。\n摄像头的一个里面的\n一个只控制模块\n上层用这个命令要去操作参数用到\n\n路经：include/media/v412-subdev.c",
+      "type": "text",
+      "width": 450,
+      "x": -35,
+      "y": -450
+    },
+    {
+      "color": "5",
+      "height": 120,
+      "id": "945f7f7565e9c289",
+      "styleAttributes": {},
+      "text": "==struct v4l2_subdev_ops==\n通过这个结构体，我们可以操作不同类型的设备,比如音频/视频设备",
+      "type": "text",
+      "width": 260,
+      "x": 60,
+      "y": -75
+    },
+    {
+      "color": "5",
+      "height": 140,
+      "id": "9c9fb10c0e750618",
+      "styleAttributes": {},
+      "text": "==struct device==\nLINUX内核里面\n它表示所有的一个设备的一个模型",
+      "type": "text",
+      "width": 320,
+      "x": 30,
+      "y": 540
+    },
+    {
+      "color": "5",
+      "height": 120,
+      "id": "aa21438d9f6b2acc",
+      "styleAttributes": {},
+      "text": "==struct video_device==\n视频设备这个结构体",
+      "type": "text",
+      "width": 260,
+      "x": 140,
+      "y": 140
+    }
+  ]
+}

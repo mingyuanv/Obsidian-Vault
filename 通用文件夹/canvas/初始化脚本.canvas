@@ -1,0 +1,74 @@
+{
+  "edges": [
+    {
+      "fromNode": "b0aa71905afd2cbf",
+      "fromSide": "bottom",
+      "id": "749dca774ac8c819",
+      "styleAttributes": {},
+      "toNode": "576a638b3fad543b",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "576a638b3fad543b",
+      "fromSide": "bottom",
+      "id": "e5d2f904470e7c8e",
+      "styleAttributes": {},
+      "toNode": "e13bb307057b6fca",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "e13bb307057b6fca",
+      "fromSide": "bottom",
+      "id": "3dac5845c527434b",
+      "styleAttributes": {},
+      "toNode": "972e068163877b9d",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "4",
+      "height": 60,
+      "id": "e13bb307057b6fca",
+      "styleAttributes": {},
+      "text": "start.sh\n加载驱动",
+      "type": "text",
+      "width": 260,
+      "x": -480,
+      "y": -220
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "972e068163877b9d",
+      "styleAttributes": {},
+      "text": "connect_ap.sh\n配置wifi",
+      "type": "text",
+      "width": 260,
+      "x": -480,
+      "y": -120
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "576a638b3fad543b",
+      "styleAttributes": {},
+      "text": "app_init.sh",
+      "type": "text",
+      "width": 260,
+      "x": -480,
+      "y": -340
+    },
+    {
+      "color": "1",
+      "height": 60,
+      "id": "b0aa71905afd2cbf",
+      "styleAttributes": {},
+      "text": "rcS",
+      "type": "text",
+      "width": 260,
+      "x": -480,
+      "y": -480
+    }
+  ]
+}

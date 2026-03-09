@@ -1,0 +1,504 @@
+{
+	"edges": [
+		{
+			"fromNode": "a394bedea6167e08",
+			"fromSide": "left",
+			"id": "df7a4a8d023b9e6e",
+			"styleAttributes": {},
+			"toNode": "bcef62417e29a690",
+			"toSide": "right"
+		},
+		{
+			"color": "1",
+			"fromNode": "cd75eebd010c1ae4",
+			"fromSide": "bottom",
+			"id": "22bac5d73efafc88",
+			"styleAttributes": {},
+			"toNode": "7e27cb7affb62beb",
+			"toSide": "top"
+		},
+		{
+			"color": "1",
+			"fromNode": "314f4d77c5a8f161",
+			"fromSide": "left",
+			"id": "6e972a898abfe7e4",
+			"styleAttributes": {},
+			"toNode": "7e27cb7affb62beb",
+			"toSide": "right"
+		},
+		{
+			"fromNode": "cd75eebd010c1ae4",
+			"fromSide": "bottom",
+			"id": "d014316fce49214c",
+			"styleAttributes": {},
+			"toNode": "b3dfc68d4fea75e8",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "42afd1c0263e90c1",
+			"fromSide": "bottom",
+			"id": "7c65fd60f61fbc31",
+			"styleAttributes": {},
+			"toNode": "cd75eebd010c1ae4",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "09176c6e96a0bdf0",
+			"fromSide": "bottom",
+			"id": "38545f9db3038a08",
+			"styleAttributes": {},
+			"toNode": "42afd1c0263e90c1",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "8d1915b997600309",
+			"fromSide": "right",
+			"id": "a57bb7734c4d9f78",
+			"styleAttributes": {},
+			"toNode": "314f4d77c5a8f161",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "d125c62e3014c712",
+			"fromSide": "bottom",
+			"id": "942d3201ce548098",
+			"styleAttributes": {},
+			"toNode": "8d1915b997600309",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "9e7980a4b445abf9",
+			"fromSide": "bottom",
+			"id": "1efc7b0ffd703aa9",
+			"styleAttributes": {},
+			"toNode": "314f4d77c5a8f161",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "e5cb2862f64497db",
+			"fromSide": "bottom",
+			"id": "ec6062ebef4e316a",
+			"styleAttributes": {},
+			"toNode": "d125c62e3014c712",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "4d0947a6a6d2eb3f",
+			"fromSide": "top",
+			"id": "0d6979230b6795a6",
+			"label": "调用",
+			"styleAttributes": {},
+			"toNode": "e5cb2862f64497db",
+			"toSide": "right"
+		},
+		{
+			"fromNode": "2996e27fc940ad09",
+			"fromSide": "bottom",
+			"id": "5d3ca5f14b9c7511",
+			"styleAttributes": {},
+			"toNode": "7715922a1ce18d25",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "2996e27fc940ad09",
+			"fromSide": "top",
+			"id": "bbafdbbaf097fb35",
+			"label": "调用",
+			"styleAttributes": {},
+			"toNode": "82181eb896a8b6e9",
+			"toSide": "right"
+		},
+		{
+			"fromNode": "4d0947a6a6d2eb3f",
+			"fromSide": "left",
+			"id": "83bd8af17ad8b014",
+			"styleAttributes": {},
+			"toNode": "7715922a1ce18d25",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "82181eb896a8b6e9",
+			"fromSide": "bottom",
+			"id": "f3f8134cbd863398",
+			"styleAttributes": {},
+			"toNode": "d125c62e3014c712",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "7715922a1ce18d25",
+			"fromSide": "left",
+			"id": "9fa7263e8b59fb93",
+			"styleAttributes": {},
+			"toNode": "314f4d77c5a8f161",
+			"toSide": "right"
+		},
+		{
+			"color": "5",
+			"fromNode": "cd75eebd010c1ae4",
+			"fromSide": "left",
+			"id": "5df8a3ca9b10b557",
+			"styleAttributes": {},
+			"toNode": "60247ffddc75ab90",
+			"toSide": "top"
+		},
+		{
+			"color": "5",
+			"fromNode": "60247ffddc75ab90",
+			"fromSide": "right",
+			"id": "5cf19b796c3e4713",
+			"styleAttributes": {},
+			"toNode": "7e27cb7affb62beb",
+			"toSide": "bottom"
+		},
+		{
+			"fromNode": "0bff89a0a48368b2",
+			"fromSide": "right",
+			"id": "056057dcc16def4e",
+			"styleAttributes": {},
+			"toNode": "8fada5f74a6ec93a",
+			"toSide": "left"
+		},
+		{
+			"color": "5",
+			"fromNode": "8fada5f74a6ec93a",
+			"fromSide": "top",
+			"id": "cea5ab5e932ec16f",
+			"label": "下一步",
+			"styleAttributes": {},
+			"toNode": "60247ffddc75ab90",
+			"toSide": "bottom"
+		},
+		{
+			"color": "1",
+			"fromNode": "8fada5f74a6ec93a",
+			"fromSide": "right",
+			"id": "a7202df9ac20fa3e",
+			"styleAttributes": {},
+			"toNode": "9d936382662dc1f3",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "265f66c1574360f2",
+			"fromSide": "right",
+			"id": "d2fb9c7a3182ae86",
+			"styleAttributes": {},
+			"toNode": "f8f0ea689f51b5f9",
+			"toSide": "bottom"
+		},
+		{
+			"fromNode": "c5b68c34dcecb4e1",
+			"fromSide": "top",
+			"id": "8be74e150fa386ad",
+			"styleAttributes": {},
+			"toNode": "f8f0ea689f51b5f9",
+			"toSide": "bottom"
+		},
+		{
+			"fromNode": "8fb9fee95e8d7e00",
+			"fromSide": "left",
+			"id": "b0d2cceeb55d71d4",
+			"styleAttributes": {},
+			"toNode": "f8f0ea689f51b5f9",
+			"toSide": "bottom"
+		},
+		{
+			"color": "1",
+			"fromNode": "f8f0ea689f51b5f9",
+			"fromSide": "top",
+			"id": "806347b8a30b8ced",
+			"styleAttributes": {},
+			"toNode": "8fada5f74a6ec93a",
+			"toSide": "bottom"
+		},
+		{
+			"fromNode": "f8f0ea689f51b5f9",
+			"fromSide": "right",
+			"id": "285d538e91f4f6fe",
+			"styleAttributes": {},
+			"toNode": "3cf48c5975a811f2",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "990efac9278c3db9",
+			"fromSide": "left",
+			"id": "4bb4cf8707d99020",
+			"styleAttributes": {},
+			"toNode": "3e0f235c42b2e611",
+			"toSide": "right"
+		}
+	],
+	"nodes": [
+		{
+			"height": 1410,
+			"id": "a394bedea6167e08",
+			"label": "内核没有自动完善kobj_type结构体时，创建属件文件。",
+			"styleAttributes": {},
+			"type": "group",
+			"width": 3770,
+			"x": -1693,
+			"y": -760
+		},
+		{
+			"height": 1100,
+			"id": "990efac9278c3db9",
+			"label": "通过kset发送事件到用户空间",
+			"styleAttributes": {},
+			"type": "group",
+			"width": 2117,
+			"x": -2760,
+			"y": 780
+		},
+		{
+			"height": 110,
+			"id": "8fada5f74a6ec93a",
+			"styleAttributes": {},
+			"text": "    // <span style=\"background:#d3f8b6\">创建一个新的kset</span>，并将其添加到系统中。\n\n    mykset = <span style=\"background:#fdbfff\">kset_create_and_add</span>(\"mykset\", &my_uevent_ops, NULL);",
+			"type": "text",
+			"width": 620,
+			"x": -2110,
+			"y": 1005
+		},
+		{
+			"height": 280,
+			"id": "f8f0ea689f51b5f9",
+			"styleAttributes": {},
+			"text": "// 初始化一个包含上述三个回调函数的kset_uevent_ops结构体。\n\nstruct <span style=\"background:#b1ffff\">kset_uevent_ops</span> my_uevent_ops = {\n\n    .filter = myfilter,\n\n    .uevent = myevent,\n\n    .name = myname,\n\n};",
+			"type": "text",
+			"width": 560,
+			"x": -2080,
+			"y": 1230
+		},
+		{
+			"height": 60,
+			"id": "0bff89a0a48368b2",
+			"styleAttributes": {},
+			"text": "struct<span style=\"background:#affad1\"> kset </span>*mykset;",
+			"type": "text",
+			"width": 260,
+			"x": -2440,
+			"y": 1030
+		},
+		{
+			"height": 150,
+			"id": "c5b68c34dcecb4e1",
+			"styleAttributes": {},
+			"text": " * @brief 定义一个回调函数，<span style=\"background:#d3f8b6\">处理kset的uevent事件。</span>\n\n * 当触发与该kset相关的uevent时，此函数会被调用，并<span style=\"background:#d3f8b6\">允许我们向uevent中添加自定义环境变量。</span>\n\nint <span style=\"background:#affad1\">myevent</span>(struct kset *kset, struct kobject *kobj, struct kobj_uevent_env *env)",
+			"type": "text",
+			"width": 837,
+			"x": -2091,
+			"y": 1700
+		},
+		{
+			"color": "6",
+			"file": "RK3568（linux学习）/linux开发资料库/代码库/04_Linux驱动程序/79_uevent_ops_完善kset_uevent_ops结构体/module/uevent_ops.c",
+			"height": 100,
+			"id": "3e0f235c42b2e611",
+			"styleAttributes": {},
+			"type": "file",
+			"width": 180,
+			"x": -3020,
+			"y": 1180
+		},
+		{
+			"height": 100,
+			"id": "3cf48c5975a811f2",
+			"styleAttributes": {},
+			"text": "    // 注销kset。\n\n    kset_unregister(mykset);",
+			"type": "text",
+			"width": 303,
+			"x": -1288,
+			"y": 1180
+		},
+		{
+			"height": 160,
+			"id": "265f66c1574360f2",
+			"styleAttributes": {},
+			"text": " * @brief 定义一个回调函数，用于过滤kset中的kobject。\n\n * 这个函数<span style=\"background:#d3f8b6\">决定是否应该对特定的kobject生成uevent</span>。如果函数返回0，则表示禁止生成uevent；如果返回非零值，则允许生成uevent。\n\nint <span style=\"background:#affad1\">myfilter</span>(struct kset *kset, struct kobject *kobj)",
+			"type": "text",
+			"width": 620,
+			"x": -2750,
+			"y": 1570
+		},
+		{
+			"height": 140,
+			"id": "8fb9fee95e8d7e00",
+			"styleAttributes": {},
+			"text": " * @brief 定义一个回调函数，<span style=\"background:#d3f8b6\">返回kset的名称</span>。\n\n * 此函数会在创建uevent时被调用，用来设置SUBSYSTEM环境变量的值。\n\nconst char<span style=\"background:#affad1\"> *myname</span>(struct kset *kset, struct kobject *kobj)",
+			"type": "text",
+			"width": 640,
+			"x": -1361,
+			"y": 1560
+		},
+		{
+			"color": "6",
+			"file": "RK3568（linux学习）/linux开发资料库/代码库/04_Linux驱动程序/71_attr02优化sys目录下属性文件的读写函数/module/attr.c",
+			"height": 105,
+			"id": "bcef62417e29a690",
+			"styleAttributes": {},
+			"type": "file",
+			"width": 180,
+			"x": -2073,
+			"y": -160
+		},
+		{
+			"height": 100,
+			"id": "60247ffddc75ab90",
+			"styleAttributes": {},
+			"text": "    //<span style=\"background:#d3f8b6\">将 mykobject01 和 mykset 关联起来</span>。\n\n    <span style=\"background:#b1ffff\">mykobject01->kset = mykset;</span>",
+			"type": "text",
+			"width": 440,
+			"x": -2020,
+			"y": 790
+		},
+		{
+			"height": 100,
+			"id": "b3dfc68d4fea75e8",
+			"styleAttributes": {},
+			"text": "    //<span style=\"background:#d3f8b6\"> 释放mykobject01</span>\n\n    <span style=\"background:#fdbfff\">kobject_put</span>(&mykobject01->kobj);",
+			"type": "text",
+			"width": 360,
+			"x": -1673,
+			"y": 430
+		},
+		{
+			"height": 100,
+			"id": "7e27cb7affb62beb",
+			"styleAttributes": {},
+			"text": "    // <span style=\"background:#d3f8b6\">初始化并添加mykobject01到内核中</span>，名为\"mykobject01\"\n\n    ret = <span style=\"background:#fdbfff\">kobject_init_and_add</span>(&mykobject01->kobj, &mytype, NULL, \"%s\", \"mykobject01\");",
+			"type": "text",
+			"width": 780,
+			"x": -1288,
+			"y": 430
+		},
+		{
+			"height": 100,
+			"id": "cd75eebd010c1ae4",
+			"styleAttributes": {},
+			"text": "    // <span style=\"background:#d3f8b6\">分配并初始化mykobject01</span>\n\n    mykobject01 = <span style=\"background:#b1ffff\">kzalloc</span>(sizeof(struct mykobj), GFP_KERNEL);",
+			"type": "text",
+			"width": 580,
+			"x": -1633,
+			"y": 90
+		},
+		{
+			"height": 100,
+			"id": "9e7980a4b445abf9",
+			"styleAttributes": {},
+			"text": "// <span style=\"background:#d3f8b6\">自定义的kobject释放函数</span>\n\nstatic void <span style=\"background:#affad1\">dynamic_kobj_release</span>(struct kobject *kobj)",
+			"type": "text",
+			"width": 520,
+			"x": -213,
+			"y": -260
+		},
+		{
+			"height": 100,
+			"id": "82181eb896a8b6e9",
+			"styleAttributes": {},
+			"text": "// 自定义的show函数，用于<span style=\"background:#d3f8b6\">读取属性值</span>\n\nssize_t <span style=\"background:#affad1\">show_myvalue1</span>(struct kobject *kobj, struct kobj_attribute *attr, char *buf)",
+			"type": "text",
+			"width": 720,
+			"x": -973,
+			"y": -750
+		},
+		{
+			"height": 100,
+			"id": "42afd1c0263e90c1",
+			"styleAttributes": {},
+			"text": "// 定义了mykobj结构体指针变量mykobject01\n\nstruct <span style=\"background:#b1ffff\">mykobj </span>*mykobject01;",
+			"type": "text",
+			"width": 480,
+			"x": -1633,
+			"y": -330
+		},
+		{
+			"height": 340,
+			"id": "09176c6e96a0bdf0",
+			"styleAttributes": {},
+			"text": "// <span style=\"background:#d3f8b6\">自定义的kobject结构体，包含一个kobject对象和两个整型值(属性的值)</span>\n\nstruct <span style=\"background:#affad1\">mykobj</span>\n\n{\n\n    struct kobject kobj;\n\n    int value1;\n\n    int value2;\n\n};",
+			"type": "text",
+			"width": 410,
+			"x": -1598,
+			"y": -740
+		},
+		{
+			"height": 280,
+			"id": "314f4d77c5a8f161",
+			"styleAttributes": {},
+			"text": "// 自定义的kobj_type结构体，<span style=\"background:#d3f8b6\">包含释放函数、默认属性和sysfs_ops</span>\n\nstatic struct<span style=\"background:#fdbfff\"> kobj_type</span> mytype = {\n\n    .release = dynamic_kobj_release,\n\n    .default_attrs = myattr,\n\n    .sysfs_ops = &myops,\n\n};",
+			"type": "text",
+			"width": 580,
+			"x": -368,
+			"y": 180
+		},
+		{
+			"height": 300,
+			"id": "8d1915b997600309",
+			"styleAttributes": {},
+			"text": "// <span style=\"background:#d3f8b6\">将attribute对象放入数组中</span>\n\nstruct <span style=\"background:#b1ffff\">attribute *myattr[] </span>= {\n\n    &value1.attr,\n\n    &value2.attr,\n\n    NULL,\n\n};",
+			"type": "text",
+			"width": 340,
+			"x": -783,
+			"y": -260
+		},
+		{
+			"height": 240,
+			"id": "7715922a1ce18d25",
+			"styleAttributes": {},
+			"text": "// <span style=\"background:#d3f8b6\">自定义的sysfs_ops结构体</span>，包含show和store函数指针\n\nstruct <span style=\"background:#affad1\">sysfs_ops</span> myops = {\n\n    .show = myshow,\n\n    .store = mystore,\n\n};",
+			"type": "text",
+			"width": 500,
+			"x": 477,
+			"y": 140
+		},
+		{
+			"height": 120,
+			"id": "2996e27fc940ad09",
+			"styleAttributes": {},
+			"text": "// 自定义的show函数，用于<span style=\"background:#d3f8b6\">读取属性值</span>\n\nssize_t <span style=\"background:#affad1\">myshow</span>(struct kobject *kobj, struct attribute *attr, char *buf)",
+			"type": "text",
+			"width": 620,
+			"x": 567,
+			"y": -340
+		},
+		{
+			"height": 120,
+			"id": "d125c62e3014c712",
+			"styleAttributes": {},
+			"text": "/<span style=\"background:#d3f8b6\">/ 定义一个名为 value1 的 kobj_attribute 结构体</span>，权限为 0664，读函数为 show_myvalue1，写函数为 store_myvalue1\n\nstruct kobj_attribute value1 =<span style=\"background:#b1ffff\"> __ATTR</span>(value1, 0664, show_myvalue1, store_myvalue1);",
+			"type": "text",
+			"width": 1060,
+			"x": -848,
+			"y": -460
+		},
+		{
+			"height": 90,
+			"id": "e5cb2862f64497db",
+			"styleAttributes": {},
+			"text": "// 自定义的store函数，用于<span style=\"background:#d3f8b6\">写入属性值</span>\n\nssize_t <span style=\"background:#affad1\">store_myvalue1</span>(struct kobject *kobj, struct kobj_attribute *attr, const char *buf, size_t count)",
+			"type": "text",
+			"width": 860,
+			"x": 47,
+			"y": -740
+		},
+		{
+			"height": 120,
+			"id": "4d0947a6a6d2eb3f",
+			"styleAttributes": {},
+			"text": "// 自定义的store函数，用于<span style=\"background:#d3f8b6\">写入属性值</span>\n\nssize_t <span style=\"background:#affad1\">mystore</span>(struct kobject *kobj, struct attribute *attr, const char *buf, size_t size)",
+			"type": "text",
+			"width": 760,
+			"x": 977,
+			"y": -80
+		},
+		{
+			"height": 100,
+			"id": "9d936382662dc1f3",
+			"styleAttributes": {},
+			"text": "    // <span style=\"background:#d3f8b6\">触发一个uevent事件，表示mykobject01的属性发生了变化。</span>\n\n    ret = <span style=\"background:#affad1\">kobject_uevent</span>(mykobject01, KOBJ_CHANGE);",
+			"type": "text",
+			"width": 592,
+			"x": -1313,
+			"y": 1010
+		}
+	]
+}

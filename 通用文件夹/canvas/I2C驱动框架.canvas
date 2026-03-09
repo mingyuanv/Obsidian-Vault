@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "fromNode": "91e2c9333a95560b",
+      "fromSide": "bottom",
+      "id": "ef1ef962d71e87be",
+      "styleAttributes": {},
+      "toNode": "df03431eea70a30e",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "cf2d50f970bbd2e7",
+      "fromSide": "bottom",
+      "id": "6355781cd2923293",
+      "styleAttributes": {},
+      "toNode": "df03431eea70a30e",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d56d2ef8db92aa2c",
+      "fromSide": "bottom",
+      "id": "4e6fab852143da9f",
+      "styleAttributes": {},
+      "toNode": "df03431eea70a30e",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "df03431eea70a30e",
+      "fromSide": "bottom",
+      "id": "485a76d03a465758",
+      "styleAttributes": {},
+      "toNode": "828b343778e94204",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "df03431eea70a30e",
+      "fromSide": "bottom",
+      "id": "382f8cc005dfcb39",
+      "styleAttributes": {},
+      "toNode": "c9f84d4410495418",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 380,
+      "id": "0d6a2feba24625b1",
+      "label": "I2c总线架构",
+      "styleAttributes": {},
+      "type": "group",
+      "width": 770,
+      "x": -460,
+      "y": -440
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "91e2c9333a95560b",
+      "styleAttributes": {},
+      "text": "probe()",
+      "type": "text",
+      "width": 140,
+      "x": -460,
+      "y": -430
+    },
+    {
+      "color": "1",
+      "height": 60,
+      "id": "828b343778e94204",
+      "styleAttributes": {},
+      "text": "==i2c_add_driver==(&ft5x06_driver)",
+      "type": "text",
+      "width": 340,
+      "x": -440,
+      "y": -140
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "d56d2ef8db92aa2c",
+      "styleAttributes": {},
+      "text": "struct of_device_id",
+      "type": "text",
+      "width": 260,
+      "x": 20,
+      "y": -400
+    },
+    {
+      "color": "1",
+      "height": 60,
+      "id": "c9f84d4410495418",
+      "styleAttributes": {},
+      "text": "==i2c_del_driver==(&ft5x06_driver);",
+      "type": "text",
+      "width": 320,
+      "x": -10,
+      "y": -140
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "df03431eea70a30e",
+      "styleAttributes": {},
+      "text": "struct i2c_driver",
+      "type": "text",
+      "width": 260,
+      "x": -190,
+      "y": -260
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "cf2d50f970bbd2e7",
+      "styleAttributes": {},
+      "text": "remove()",
+      "type": "text",
+      "width": 140,
+      "x": -200,
+      "y": -430
+    }
+  ]
+}

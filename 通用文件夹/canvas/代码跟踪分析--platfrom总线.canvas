@@ -1,0 +1,45 @@
+{
+  "edges": [],
+  "nodes": [
+    {
+      "height": 60,
+      "id": "2e9a0ffea9150879",
+      "styleAttributes": {},
+      "text": "",
+      "type": "text",
+      "width": 260,
+      "x": -340,
+      "y": -100
+    },
+    {
+      "height": 60,
+      "id": "6186f8ed1ef1484f",
+      "styleAttributes": {},
+      "text": "",
+      "type": "text",
+      "width": 260,
+      "x": -40,
+      "y": 240
+    },
+    {
+      "height": 60,
+      "id": "fe68efa09e79a342",
+      "styleAttributes": {},
+      "text": "",
+      "type": "text",
+      "width": 260,
+      "x": 90,
+      "y": -40
+    },
+    {
+      "height": 60,
+      "id": "4ca9cd858c5bc736",
+      "styleAttributes": {},
+      "text": "",
+      "type": "text",
+      "width": 260,
+      "x": -340,
+      "y": 80
+    }
+  ]
+}

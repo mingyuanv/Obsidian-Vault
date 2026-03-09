@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "fromNode": "61fda3bfa6022b0a",
+      "fromSide": "bottom",
+      "id": "2bce010a78a37e63",
+      "styleAttributes": {},
+      "toNode": "f7fef6999c020ae6",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "61fda3bfa6022b0a",
+      "fromSide": "bottom",
+      "id": "cc7f0511b56353e0",
+      "styleAttributes": {},
+      "toNode": "64e64489c8b63289",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 540,
+      "id": "61fda3bfa6022b0a",
+      "styleAttributes": {},
+      "text": "struct <span style=\"background:#fdbfff\">platform_device</span> {\n\n```\nconst char *name; /* 设备名称 */ \nint id; /* 设备ID, 如果id自动分配，则此值可以为-1 */ \nbool id_auto; /* 标识符，指示是否应自动分配设备ID */ \nstruct device dev; /* 父类device结构体，包含通用的设备信息 */ \nu32 num_resources; /* 资源数量，如I/O端口、中断等 */ \nstruct resource *resource; /* 指向资源数组的指针，描述硬件资源 */ \nconst struct platform_device_id *id_entry; /* 用于匹配的设备ID表项 */ \nchar *driver_override; /* 强制驱动匹配的名字，可选 */ /* MFD子设备指针，MFD (Multi-Function Device) 多功能设备 */ \nstruct mfd_cell *mfd_cell; /* 架构特定的附加数据 */ \nstruct pdev_archdata archdata; \n};\n```\nLinux 内核中用于<span style=\"background:#affad1\">描述平台设备的数据结构</span>。当一个新的硬件平台需要支持某种特定的硬件设备时，可以通过定义一个 `struct platform_device` 来<span style=\"background:#affad1\">描述该设备</span>，并将其注册到系统中。随后，编写相应的平台驱动程序来实现对该设备的具体操作。",
+      "type": "text",
+      "width": 780,
+      "x": -580,
+      "y": -200
+    },
+    {
+      "height": 740,
+      "id": "5fc2fe4f9bfa5c74",
+      "styleAttributes": {},
+      "text": "struct <span style=\"background:#fdbfff\">platform_driver</span> {\n```\n    // 当系统找到匹配的platform device时调用此函数来初始化该设备\n    int (*probe)(struct platform_device *);\n    // 当设备从系统中移除时调用此函数进行清理工作\n    int (*remove)(struct platform_device *);\n    // 当系统关闭时调用此函数来关闭设备\n    void (*shutdown)(struct platform_device *);\n    // 当系统进入挂起状态时调用此函数来暂停设备的操作\n    int (*suspend)(struct platform_device *, pm_message_t state);\n    // 当系统从挂起状态恢复时调用此函数来恢复设备的操作\n    int (*resume)(struct platform_device *);\n    \n    // 设备驱动的核心部分，包含驱动名称、所有者、总线类型等信息\n    struct device_driver driver;\n    \n    // 设备ID表，定义了驱动可以支持的设备列表\n    const struct platform_device_id *id_table;\n    // 防止延迟探测的标志，若设置为true，则即使某些条件未满足也会尝试探测\n    bool prevent_deferred_probe;\n};\n```\n用于表示<span style=\"background:#d3f8b6\">平台设备驱动程序的基本结构</span>。它<span style=\"background:#affad1\">包含了几个函数指针，这些指针指向驱动程序实现的主要回调函数</span>，如探测（probe）、移除（remove）等操作。",
+      "type": "text",
+      "width": 660,
+      "x": 260,
+      "y": -380
+    },
+    {
+      "height": 760,
+      "id": "f7fef6999c020ae6",
+      "styleAttributes": {},
+      "text": "struct <span style=\"background:#b1ffff\">device</span> {\n```\n    struct device *parent; // 指向父设备的指针\n    struct device_private *p; // 私有数据，通常包含内部使用的链表节点等\n    \n    struct kobject kobj; // 内嵌的kobject，用于sysfs表示\n    const char *init_name; // 设备的初始化名称\n    \n    struct device_type *type; // 设备类型\n    struct mutex mutex; // 保护该结构体的互斥锁\n    \n    struct bus_type *bus; // 设备所属的总线类型（如：USB, PCI）\n    \n    struct driver_private *driver; // 驱动相关的私有数据\n    void *platform_data; // 平台特定的数据\n    void *driver_data; // 驱动程序使用的私有数据\n    struct dev_pm_info power; // 电源管理相关信息\n    struct dev_links links; // 管理与其他设备之间的链接关系\n    \n    struct attribute_group **groups; // 默认属性组\n    \n    void (*release)(struct device *dev); // 当设备即将被释放时调用的回调函数\n    // 其他成员...\n};\n```\n<span style=\"background:#affad1\">表示硬件设备的一个核心结构体。它包含了关于设备的广泛信息</span>，比如设备的名称、父设备、驱动程序、总线类型、电源状态等",
+      "type": "text",
+      "width": 720,
+      "x": -980,
+      "y": 420
+    },
+    {
+      "height": 400,
+      "id": "64e64489c8b63289",
+      "styleAttributes": {},
+      "text": "struct <span style=\"background:#b1ffff\">resource</span> {\n```\n    resource_size_t start; // 资源范围的起始地址\n    resource_size_t end;   // 资源范围的结束地址\n    const char *name;      // 资源的名字\n    unsigned long flags;   // 标志位，表明资源类型（如IORESOURCE_MEM, IORESOURCE_IO等）\n    struct resource *parent, *sibling, *child; // 用于构建资源树的指针\n\n};\n```\nLinux 内核中用于<span style=\"background:#affad1\">描述系统资源的一个结构体，主要用于表示I/O端口、内存区域和其他类型的资源。</span>\n",
+      "type": "text",
+      "width": 820,
+      "x": -120,
+      "y": 420
+    }
+  ]
+}

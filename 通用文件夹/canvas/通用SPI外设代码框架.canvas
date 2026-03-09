@@ -1,0 +1,137 @@
+{
+  "edges": [
+    {
+      "color": "1",
+      "fromNode": "971f4076296b9e95",
+      "fromSide": "bottom",
+      "id": "4cdd445a854ae312",
+      "styleAttributes": {},
+      "toNode": "b7aea180c447418f",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "971f4076296b9e95",
+      "fromSide": "bottom",
+      "id": "7f8b42998e764d8e",
+      "styleAttributes": {},
+      "toNode": "142469802ddd1a91",
+      "toSide": "top"
+    },
+    {
+      "color": "1",
+      "fromNode": "549bd631aad55c7c",
+      "fromSide": "left",
+      "id": "44b33c476e3b39f7",
+      "styleAttributes": {},
+      "toNode": "971f4076296b9e95",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "ae5e8b17c06e5bfd",
+      "fromSide": "left",
+      "id": "5fb956759f8418fa",
+      "styleAttributes": {},
+      "toNode": "971f4076296b9e95",
+      "toSide": "right"
+    },
+    {
+      "color": "1",
+      "fromNode": "0631cbcdeb098a59",
+      "fromSide": "bottom",
+      "id": "8c8f99d6b9b1f19e",
+      "styleAttributes": {},
+      "toNode": "971f4076296b9e95",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "8d0e9df23df1ba34",
+      "fromSide": "bottom",
+      "id": "120a178be86dc611",
+      "styleAttributes": {},
+      "toNode": "971f4076296b9e95",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 940,
+      "id": "dd866a1c70016df9",
+      "label": "通用SPI外设代码框架",
+      "styleAttributes": {},
+      "type": "group",
+      "width": 1570,
+      "x": -660,
+      "y": -200
+    },
+    {
+      "height": 240,
+      "id": "549bd631aad55c7c",
+      "styleAttributes": {},
+      "text": "// MCP2515<span style=\"background:#d3f8b6\">设备匹配表,用于设备树匹配</span>\n\nstatic const struct <span style=\"background:#affad1\">of_device_id</span> mcp2515_of_match_table[] = {\n\n    { .compatible = \"my-mcp2515\" },\n\n    {   }\n\n};",
+      "type": "text",
+      "width": 580,
+      "x": 300,
+      "y": 0
+    },
+    {
+      "height": 240,
+      "id": "ae5e8b17c06e5bfd",
+      "styleAttributes": {},
+      "text": "// MCP2515<span style=\"background:#d3f8b6\">设备ID匹配表,用于总线匹配</span>\n\nstatic const struct <span style=\"background:#affad1\">spi_device_id </span>mcp2515_id_table[] = {\n\n    { \"mcp2515\", 0 },\n\n    {   }\n\n};",
+      "type": "text",
+      "width": 520,
+      "x": 300,
+      "y": 270
+    },
+    {
+      "height": 500,
+      "id": "971f4076296b9e95",
+      "styleAttributes": {},
+      "text": "// MCP2515 <span style=\"background:#d3f8b6\">SPI驱动结构体</span>\n\nstatic struct <span style=\"background:#b1ffff\">spi_driver</span> spi_mcp2515 = {\n\n    .probe = mcp2515_probe, // 探测函数\n\n    .remove = mcp2515_remove, // 移除函数\n\n    .driver = {\n\n        .name = \"mcp2515\", // 驱动名称\n\n        .owner = THIS_MODULE, // 所属模块\n\n        .of_match_table = mcp2515_of_match_table, // 设备树匹配表\n\n    },\n\n    .id_table = mcp2515_id_table, // 设备ID匹配表\n\n};",
+      "type": "text",
+      "width": 600,
+      "x": -420,
+      "y": 20
+    },
+    {
+      "height": 100,
+      "id": "0631cbcdeb098a59",
+      "styleAttributes": {},
+      "text": "// MCP2515<span style=\"background:#d3f8b6\">设备初始化函数</span>\n\nstatic int <span style=\"background:#affad1\">mcp2515_probe</span>(struct spi_device *spi)",
+      "type": "text",
+      "width": 460,
+      "x": -650,
+      "y": -180
+    },
+    {
+      "height": 100,
+      "id": "8d0e9df23df1ba34",
+      "styleAttributes": {},
+      "text": "// MCP2515<span style=\"background:#d3f8b6\">设备移除函数</span>\n\nstatic int <span style=\"background:#affad1\">mcp2515_remove</span>(struct spi_device *spi)",
+      "type": "text",
+      "width": 480,
+      "x": -60,
+      "y": -180
+    },
+    {
+      "height": 100,
+      "id": "b7aea180c447418f",
+      "styleAttributes": {},
+      "text": "    // <span style=\"background:#d3f8b6\">注册SPI驱动</span>\n\n    ret = <span style=\"background:#fdbfff\">spi_register_driver</span>(&spi_mcp2515);",
+      "type": "text",
+      "width": 420,
+      "x": -610,
+      "y": 620
+    },
+    {
+      "height": 100,
+      "id": "142469802ddd1a91",
+      "styleAttributes": {},
+      "text": "    // 注销SPI驱动\n\n    spi_unregister_driver(&spi_mcp2515);",
+      "type": "text",
+      "width": 400,
+      "x": -20,
+      "y": 620
+    }
+  ]
+}

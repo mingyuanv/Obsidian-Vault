@@ -1,0 +1,260 @@
+{
+	"edges": [
+		{
+			"fromNode": "42b4285af18c618b",
+			"fromSide": "left",
+			"id": "ce19ccccb72d5e54",
+			"styleAttributes": {},
+			"toNode": "509da66f792bae4a",
+			"toSide": "right"
+		},
+		{
+			"fromNode": "2f3e7ed24789670a",
+			"fromSide": "bottom",
+			"id": "546376f5f4c60dff",
+			"styleAttributes": {},
+			"toNode": "18d0d3dd6df4ced7",
+			"toSide": "top"
+		},
+		{
+			"color": "1",
+			"fromNode": "65a4236eb984963f",
+			"fromSide": "bottom",
+			"id": "c331de730899ba5a",
+			"styleAttributes": {},
+			"toNode": "2f3e7ed24789670a",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "df47fa674e2ff08f",
+			"fromSide": "bottom",
+			"id": "a21b0660e3af6747",
+			"styleAttributes": {},
+			"toNode": "2f3e7ed24789670a",
+			"toSide": "top"
+		},
+		{
+			"color": "1",
+			"fromNode": "2f3e7ed24789670a",
+			"fromSide": "bottom",
+			"id": "bfea0c2e6dad827b",
+			"styleAttributes": {},
+			"toNode": "c87af6a492c0eb38",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "c53f8787d10f6554",
+			"fromSide": "left",
+			"id": "9a97a255a334f6ef",
+			"styleAttributes": {},
+			"toNode": "2f3e7ed24789670a",
+			"toSide": "right"
+		},
+		{
+			"color": "1",
+			"fromNode": "beb87444a23f695c",
+			"fromSide": "bottom",
+			"id": "914508de01ef4efe",
+			"styleAttributes": {},
+			"toNode": "366b0e341060a7cb",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "beb87444a23f695c",
+			"fromSide": "bottom",
+			"id": "129e591581e60111",
+			"styleAttributes": {},
+			"toNode": "64032c6ab52e3c7c",
+			"toSide": "top"
+		},
+		{
+			"color": "1",
+			"fromNode": "be9ac0fdb2f2782a",
+			"fromSide": "left",
+			"id": "8286de405f3f064c",
+			"styleAttributes": {},
+			"toNode": "beb87444a23f695c",
+			"toSide": "right"
+		},
+		{
+			"color": "1",
+			"fromNode": "366b0e341060a7cb",
+			"fromSide": "bottom",
+			"id": "9959abb946d31cde",
+			"styleAttributes": {},
+			"toNode": "65a4236eb984963f",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "e2770168966725c7",
+			"fromSide": "left",
+			"id": "bd5b89f70bcd4c70",
+			"styleAttributes": {},
+			"toNode": "739b6d4f22f2b051",
+			"toSide": "right"
+		},
+		{
+			"fromNode": "e2770168966725c7",
+			"fromSide": "left",
+			"id": "7f8c28ab584ca9bd",
+			"styleAttributes": {},
+			"toNode": "ed5a870770b9fc3e",
+			"toSide": "right"
+		}
+	],
+	"nodes": [
+		{
+			"height": 1000,
+			"id": "42b4285af18c618b",
+			"label": "注册platefrom平台总线驱动",
+			"styleAttributes": {},
+			"type": "group",
+			"width": 1322,
+			"x": -640,
+			"y": 720
+		},
+		{
+			"height": 500,
+			"id": "e2770168966725c7",
+			"label": "注册杂项设备驱动",
+			"styleAttributes": {},
+			"type": "group",
+			"width": 1342,
+			"x": -640,
+			"y": 60
+		},
+		{
+			"height": 460,
+			"id": "2f3e7ed24789670a",
+			"styleAttributes": {},
+			"text": "// <span style=\"background:#d3f8b6\">定义平台驱动结构体</span>\n\nstatic struct <span style=\"background:#b1ffff\">platform_driver</span> my_platform_driver = {\n\n    .probe = my_platform_probe,\n\n    .remove = my_platform_remove,\n\n    .driver = {\n\n        .name = \"my_platform_device\",\n\n        .owner = THIS_MODULE,\n\n        .of_match_table =  of_match_table_id,\n\n    },\n\n};",
+			"type": "text",
+			"width": 520,
+			"x": -609,
+			"y": 935
+		},
+		{
+			"height": 170,
+			"id": "c53f8787d10f6554",
+			"styleAttributes": {},
+			"text": "用于在<span style=\"background:#d3f8b6\">设备树（Device Tree）中匹配兼容的设备。</span>\nconst struct <span style=\"background:#affad1\">of_device_id of_match_table_id[] </span> = {\n\n    {.compatible=\"my devicetree\"},\n\n};",
+			"type": "text",
+			"width": 470,
+			"x": 135,
+			"y": 1080
+		},
+		{
+			"height": 124,
+			"id": "c87af6a492c0eb38",
+			"styleAttributes": {},
+			"text": "    // <span style=\"background:#d3f8b6\">注册平台驱动</span>\n\n    ret = <span style=\"background:#fdbfff\">platform_driver_register</span>(&my_platform_driver);",
+			"type": "text",
+			"width": 500,
+			"x": -599,
+			"y": 1510
+		},
+		{
+			"height": 170,
+			"id": "18d0d3dd6df4ced7",
+			"styleAttributes": {},
+			"text": "    // 注销平台驱动\n\n    platform_driver_unregister(&my_platform_driver);",
+			"type": "text",
+			"width": 480,
+			"x": 175,
+			"y": 1510
+		},
+		{
+			"color": "6",
+			"file": "RK3568（linux学习）/linux开发资料库/代码库/04_Linux驱动程序/41_platform_driver注册platform驱动/platform_driver.c",
+			"height": 97,
+			"id": "509da66f792bae4a",
+			"styleAttributes": {},
+			"type": "file",
+			"width": 160,
+			"x": -880,
+			"y": 1117
+		},
+		{
+			"height": 240,
+			"id": "beb87444a23f695c",
+			"styleAttributes": {},
+			"text": "struct <span style=\"background:#b1ffff\">miscdevice </span>misc_dev = {       /<span style=\"background:#d3f8b6\">/杂项设备结构体</span>\n\n    .minor = MISC_DYNAMIC_MINOR,     //动态申请的次设备号\n\n    .name = \"test\",                  //杂项设备名字是hello_misc\n\n    .fops = &misc_fops,              //文件操作集\n\n  \n\n};",
+			"type": "text",
+			"width": 570,
+			"x": -622,
+			"y": 70
+		},
+		{
+			"height": 180,
+			"id": "be9ac0fdb2f2782a",
+			"styleAttributes": {},
+			"text": "struct<span style=\"background:#affad1\"> file_operations </span>misc_fops = { //<span style=\"background:#d3f8b6\">文件操作集</span>\n\n    .owner = THIS_MODULE ////将owner字段指向本模块，可以避免在模块的操作正在被使用时卸载该模\n\n};",
+			"type": "text",
+			"width": 592,
+			"x": 25,
+			"y": 100
+		},
+		{
+			"color": "6",
+			"file": "RK3568（linux学习）/linux开发资料库/代码库/04_Linux驱动程序/08_miscdevice_杂项设备驱动/miscdevice.c",
+			"height": 80,
+			"id": "739b6d4f22f2b051",
+			"styleAttributes": {},
+			"type": "file",
+			"width": 120,
+			"x": -910,
+			"y": 230
+		},
+		{
+			"color": "6",
+			"file": "canvas/驱动子系统思维导图/注册platefrom平台总线驱动.canvas",
+			"height": 139,
+			"id": "ed5a870770b9fc3e",
+			"styleAttributes": {},
+			"type": "file",
+			"width": 180,
+			"x": -940,
+			"y": 371
+		},
+		{
+			"height": 60,
+			"id": "366b0e341060a7cb",
+			"styleAttributes": {},
+			"text": "ret = <span style=\"background:#fdbfff\">misc_register</span>(&misc_dev); //在初始化函数中<span style=\"background:#d3f8b6\">注册杂项设备</span>",
+			"type": "text",
+			"width": 568,
+			"x": -621,
+			"y": 410
+		},
+		{
+			"height": 60,
+			"id": "64032c6ab52e3c7c",
+			"styleAttributes": {},
+			"text": "misc_deregister(&misc_dev);     //在卸载函数中注销杂项设备",
+			"type": "text",
+			"width": 570,
+			"x": 25,
+			"y": 410
+		},
+		{
+			"height": 105,
+			"id": "df47fa674e2ff08f",
+			"styleAttributes": {},
+			"text": "// 平台设备的移除函数\n\nstatic int <span style=\"background:#affad1\">my_platform_remove</span>(struct platform_device *pdev)",
+			"type": "text",
+			"width": 570,
+			"x": 85,
+			"y": 736
+		},
+		{
+			"height": 100,
+			"id": "65a4236eb984963f",
+			"styleAttributes": {},
+			"text": "// <span style=\"background:#d3f8b6\">平台设备的初始化函数</span>\n\nstatic int <span style=\"background:#affad1\">my_platform_probe</span>(struct platform_device *pdev)",
+			"type": "text",
+			"width": 555,
+			"x": -627,
+			"y": 741
+		}
+	]
+}

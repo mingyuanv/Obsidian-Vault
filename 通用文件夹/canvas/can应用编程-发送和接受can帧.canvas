@@ -1,0 +1,188 @@
+{
+  "edges": [
+    {
+      "fromNode": "5cfb4269247f6de4",
+      "fromSide": "bottom",
+      "id": "45319035e52faedd",
+      "styleAttributes": {},
+      "toNode": "c5572aa0d10b0b0d",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c5572aa0d10b0b0d",
+      "fromSide": "bottom",
+      "id": "75af3642b61073bb",
+      "styleAttributes": {},
+      "toNode": "26b4b023d8d64897",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "26b4b023d8d64897",
+      "fromSide": "bottom",
+      "id": "9c6975d6e2fe01ed",
+      "styleAttributes": {},
+      "toNode": "3f7346aa9f1ce39f",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "3f7346aa9f1ce39f",
+      "fromSide": "bottom",
+      "id": "e39469cb11017cfc",
+      "styleAttributes": {},
+      "toNode": "39a2f6ecd91cea35",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "5c65780a918e2a0d",
+      "fromSide": "bottom",
+      "id": "e2f0c9b38c26299b",
+      "styleAttributes": {},
+      "toNode": "707f7b08312a1546",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "707f7b08312a1546",
+      "fromSide": "bottom",
+      "id": "7fa2a57d58b2366d",
+      "styleAttributes": {},
+      "toNode": "f18d505e9c9ee2eb",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "d6256b6254f7df3a",
+      "fromSide": "bottom",
+      "id": "79e3d1ce299d119b",
+      "styleAttributes": {},
+      "toNode": "002d06aa34880b2a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "39a2f6ecd91cea35",
+      "fromSide": "bottom",
+      "id": "03b74644114ea5d9",
+      "styleAttributes": {},
+      "toNode": "002d06aa34880b2a",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "39a2f6ecd91cea35",
+      "fromSide": "bottom",
+      "id": "519c139fdfd086fe",
+      "styleAttributes": {},
+      "toNode": "f18d505e9c9ee2eb",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 1440,
+      "id": "b2c90b575005ba87",
+      "label": "can应用编程-发送和接受can帧",
+      "styleAttributes": {},
+      "type": "group",
+      "width": 2660,
+      "x": -1200,
+      "y": -180
+    },
+    {
+      "height": 160,
+      "id": "3f7346aa9f1ce39f",
+      "styleAttributes": {},
+      "text": "    // 调用bind<span style=\"background:#d3f8b6\">将套接字绑定到指定的CAN接口上</span>，通过传递addr结构体来指定要绑定的接口\n\n    // bind函数会将套接字与特定的本地地址关联起来，在这里就是CAN接口\n\n    <span style=\"background:#fdbfff\">bind</span>(s, (struct sockaddr *)&addr, sizeof(addr));",
+      "type": "text",
+      "width": 780,
+      "x": -500,
+      "y": 500
+    },
+    {
+      "height": 60,
+      "id": "5c65780a918e2a0d",
+      "styleAttributes": {},
+      "text": " // <span style=\"background:#d3f8b6\">定义一个包含三个can_frame结构体的数组</span>，用于<span style=\"background:#d3f8b6\">存放要发送的数据帧</span>\n<span style=\"background:#affad1\">struct can_frame frame[3]; </span>",
+      "type": "text",
+      "width": 610,
+      "x": 650,
+      "y": 660
+    },
+    {
+      "height": 200,
+      "id": "c5572aa0d10b0b0d",
+      "styleAttributes": {},
+      "text": "    <span style=\"background:#b1ffff\">完善ifr结构体</span>\n    // 将网络接口名称\"can0\"复制到ifr结构体的ifr_name成员中\n\n    strcpy(ifr.ifr_name, \"can0\");\n\n  \n\n    // 使用ioctl调用SIOCGIFINDEX命令获取指定网络接口的索引，并将其存入ifr结构体\n\n    ioctl(s, SIOCGIFINDEX, &ifr);",
+      "type": "text",
+      "width": 720,
+      "x": -470,
+      "y": 0
+    },
+    {
+      "height": 200,
+      "id": "26b4b023d8d64897",
+      "styleAttributes": {},
+      "text": "    <span style=\"background:#b1ffff\">完善addr结构体</span>\n    // 设置addr结构体的can_family成员为AF_CAN，表明这是一个CAN地址族\n\n    addr.can_family = AF_CAN;\n\n  \n\n    // 将获取到的网络接口索引赋值给addr结构体的can_ifindex成员\n\n    addr.can_ifindex = ifr.ifr_ifindex;",
+      "type": "text",
+      "width": 660,
+      "x": -440,
+      "y": 240
+    },
+    {
+      "height": 110,
+      "id": "5cfb4269247f6de4",
+      "styleAttributes": {},
+      "text": "    struct<span style=\"background:#affad1\"> sockaddr_can</span> addr;   // 创建一个sockaddr_can结构体实例，用于<span style=\"background:#d3f8b6\">存储CAN地址信息</span>\n\n    <span style=\"background:#affad1\">struct ifreq ifr;</span>           // 创建一个ifreq结构体实例，<span style=\"background:#d3f8b6\">用于网络接口请求</span>",
+      "type": "text",
+      "width": 800,
+      "x": -510,
+      "y": -160
+    },
+    {
+      "height": 160,
+      "id": "39a2f6ecd91cea35",
+      "styleAttributes": {},
+      "text": "    // <span style=\"background:#d3f8b6\">创建一个PF_CAN（CAN协议族）的原始套接字</span>，类型为SOCK_RAW，协议为CAN_RAW\n\n    // PF_CAN表示使用的是CAN总线协议家族，SOCK_RAW指明这是一个原始套接字，CAN_RAW表示使用CAN的原始模式\n\n    s = <span style=\"background:#fdbfff\">socket</span>(PF_CAN, SOCK_RAW, CAN_RAW);",
+      "type": "text",
+      "width": 1000,
+      "x": -610,
+      "y": 720
+    },
+    {
+      "height": 120,
+      "id": "002d06aa34880b2a",
+      "styleAttributes": {},
+      "text": "        // <span style=\"background:#d3f8b6\">接收CAN帧</span>，读取的数据量由ret保存\n\n        ret = <span style=\"background:#affad1\">read</span>(s, &frame, sizeof(frame));",
+      "type": "text",
+      "width": 420,
+      "x": -610,
+      "y": 1120
+    },
+    {
+      "height": 200,
+      "id": "707f7b08312a1546",
+      "styleAttributes": {},
+      "text": "    // <span style=\"background:#b1ffff\">初始化第一个CAN帧</span>：设置CAN标识符(can_id)为0x11，数据长度码(can_dlc)为2，并复制数据到frame[0].data\n\n    frame[0].can_id = 0x11;\n\n    frame[0].can_dlc = 2;\n\n    memcpy(frame[0].data, data, sizeof(data));",
+      "type": "text",
+      "width": 950,
+      "x": 480,
+      "y": 880
+    },
+    {
+      "height": 60,
+      "id": "d6256b6254f7df3a",
+      "styleAttributes": {},
+      "text": " // 定义一个can_frame结构体实例frame，用于<span style=\"background:#d3f8b6\">存放要发送的数据帧</span>\nstruct <span style=\"background:#affad1\">can_frame</span> frame; ",
+      "type": "text",
+      "width": 580,
+      "x": -1180,
+      "y": 900
+    },
+    {
+      "height": 100,
+      "id": "f18d505e9c9ee2eb",
+      "styleAttributes": {},
+      "text": "        // <span style=\"background:#d3f8b6\">发送第一个CAN帧</span>，并检查写入的字节数是否等于预期大小\n\n        ret =<span style=\"background:#affad1\"> write(</span>s, &frame[0], sizeof(frame[0]));",
+      "type": "text",
+      "width": 580,
+      "x": -100,
+      "y": 1140
+    }
+  ]
+}

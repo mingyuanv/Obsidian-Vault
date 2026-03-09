@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "fromNode": "84d9dd2625a49697",
+      "fromSide": "bottom",
+      "id": "97feec694f91ad7c",
+      "label": "包含",
+      "styleAttributes": {},
+      "toNode": "bdf7272cde8d4bd9",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "bdf7272cde8d4bd9",
+      "fromSide": "right",
+      "id": "a3f80fb9c1a56d82",
+      "label": "链接",
+      "styleAttributes": {},
+      "toNode": "5e88e88a4cd8d657",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f27962b57984eb06",
+      "fromSide": "bottom",
+      "id": "35de36294880f272",
+      "label": "包含",
+      "styleAttributes": {},
+      "toNode": "431e1abb470b54db",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "84d9dd2625a49697",
+      "fromSide": "bottom",
+      "id": "a090a86cf31e91e1",
+      "label": "包含",
+      "styleAttributes": {},
+      "toNode": "26ba397308e1e0a3",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "26ba397308e1e0a3",
+      "fromSide": "bottom",
+      "id": "a1f961ccb9f92c90",
+      "label": "相互链接",
+      "styleAttributes": {},
+      "toNode": "431e1abb470b54db",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "431e1abb470b54db",
+      "fromSide": "top",
+      "id": "39be1d7554d0a951",
+      "styleAttributes": {},
+      "toNode": "26ba397308e1e0a3",
+      "toSide": "bottom"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 80,
+      "id": "431e1abb470b54db",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "管理<span style=\"background:#d3f8b6\">接收RGB信号的面板</span>\n<span style=\"background:#affad1\">panel_in_rgb</span>节点",
+      "type": "text",
+      "width": 260,
+      "x": -710,
+      "y": 300
+    },
+    {
+      "height": 60,
+      "id": "bdf7272cde8d4bd9",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "描述如何配置和操作连接到VP2上的<span style=\"background:#d3f8b6\">RGB输入</span>\n<span style=\"background:#b1ffff\">rgb_in_vp2</span>节点",
+      "type": "text",
+      "width": 430,
+      "x": -170,
+      "y": -40
+    },
+    {
+      "height": 100,
+      "id": "26ba397308e1e0a3",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "<span style=\"background:#d3f8b6\">处理和驱动</span>RGB接口的<span style=\"background:#d3f8b6\">显示屏面板</span>\n<span style=\"background:#b1ffff\">rgb_out_pane</span>l节点",
+      "type": "text",
+      "width": 330,
+      "x": -580,
+      "y": -40
+    },
+    {
+      "height": 100,
+      "id": "84d9dd2625a49697",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "<span style=\"background:#d3f8b6\">配置和控制连接到系统的RGB接口显示器</span>\n<span style=\"background:#fdbfff\">rgb节点</span>",
+      "type": "text",
+      "width": 420,
+      "x": -460,
+      "y": -300
+    },
+    {
+      "height": 100,
+      "id": "5e88e88a4cd8d657",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "将经过VP2处理后的视频数据以<span style=\"background:#d3f8b6\">RGB格式输出</span>到显示设备\n<span style=\"background:#b1ffff\">vp2_out_rgb</span>节点",
+      "type": "text",
+      "width": 470,
+      "x": 480,
+      "y": -60
+    },
+    {
+      "height": 100,
+      "id": "f27962b57984eb06",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "定义和配置通过RGB接口<span style=\"background:#d3f8b6\">连接到系统的显示器面板</span>\n<span style=\"background:#b1ffff\">rgb_panel</span>节点",
+      "type": "text",
+      "width": 460,
+      "x": -1340,
+      "y": -40
+    }
+  ]
+}

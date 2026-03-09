@@ -1,0 +1,119 @@
+{
+	"edges": [
+		{
+			"color": "1",
+			"fromNode": "012ad6ee473de148",
+			"fromSide": "bottom",
+			"id": "14563f170f58102f",
+			"styleAttributes": {},
+			"toNode": "82ce0f1a7949d05d",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "012ad6ee473de148",
+			"fromSide": "bottom",
+			"id": "57ded0d251d7e70c",
+			"styleAttributes": {},
+			"toNode": "b6865e7087e53d26",
+			"toSide": "top"
+		},
+		{
+			"color": "1",
+			"fromNode": "82ce0f1a7949d05d",
+			"fromSide": "bottom",
+			"id": "165e0083cfae2d99",
+			"styleAttributes": {},
+			"toNode": "99e62ade06a4f968",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "95c6afc8a9efb07f",
+			"fromSide": "bottom",
+			"id": "caaa1f63518a6035",
+			"styleAttributes": {},
+			"toNode": "012ad6ee473de148",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "3ab53333eb2a68f0",
+			"fromSide": "left",
+			"id": "e76fc4abd4e78659",
+			"styleAttributes": {},
+			"toNode": "bedb0d7ca4a094f9",
+			"toSide": "right"
+		}
+	],
+	"nodes": [
+		{
+			"height": 610,
+			"id": "3ab53333eb2a68f0",
+			"label": "申请一个gpio中断",
+			"styleAttributes": {},
+			"type": "group",
+			"width": 1140,
+			"x": -920,
+			"y": 0
+		},
+		{
+			"height": 60,
+			"id": "82ce0f1a7949d05d",
+			"styleAttributes": {},
+			"text": "// <span style=\"background:#d3f8b6\">请求中断</span>\n<span style=\"background:#fdbfff\">request_irq</span>(irq_num, gpio_irq_handler, IRQF_TRIGGER_RISING, \"irq_test\", NULL)",
+			"type": "text",
+			"width": 740,
+			"x": -910,
+			"y": 350
+		},
+		{
+			"height": 110,
+			"id": "99e62ade06a4f968",
+			"styleAttributes": {},
+			"text": "// <span style=\"background:#d3f8b6\">中断处理函数</span>\n\nstatic irqreturn_t <span style=\"background:#affad1\">gpio_irq_handler</span>(int irq, void *dev_id)",
+			"type": "text",
+			"width": 500,
+			"x": -790,
+			"y": 480
+		},
+		{
+			"height": 100,
+			"id": "b6865e7087e53d26",
+			"styleAttributes": {},
+			"text": "    // 释放中断\n\n    free_irq(irq_num, NULL);",
+			"type": "text",
+			"width": 300,
+			"x": -110,
+			"y": 310
+		},
+		{
+			"height": 100,
+			"id": "012ad6ee473de148",
+			"styleAttributes": {},
+			"text": "    // <span style=\"background:#d3f8b6\">将GPIO引脚映射到中断号</span>\n\n    irq_num = <span style=\"background:#affad1\">gpio_to_irq</span>(GPIO_PIN);",
+			"type": "text",
+			"width": 360,
+			"x": -720,
+			"y": 140
+		},
+		{
+			"height": 60,
+			"id": "95c6afc8a9efb07f",
+			"styleAttributes": {},
+			"text": "#define GPIO_PIN 101",
+			"type": "text",
+			"width": 260,
+			"x": -670,
+			"y": 20
+		},
+		{
+			"color": "6",
+			"file": "RK3568（linux学习）/linux开发资料库/代码库/04_Linux驱动程序/30_interrupt申请一个gpio中断/interrupt.c",
+			"height": 85,
+			"id": "bedb0d7ca4a094f9",
+			"styleAttributes": {},
+			"type": "file",
+			"width": 120,
+			"x": -1140,
+			"y": 265
+		}
+	]
+}

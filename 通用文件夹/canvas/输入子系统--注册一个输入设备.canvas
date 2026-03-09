@@ -1,0 +1,155 @@
+{
+	"edges": [
+		{
+			"color": "1",
+			"fromNode": "78226da3976957a0",
+			"fromSide": "bottom",
+			"id": "32165b82d73618d6",
+			"styleAttributes": {},
+			"toNode": "efa76894daa28baf",
+			"toSide": "top"
+		},
+		{
+			"color": "1",
+			"fromNode": "efa76894daa28baf",
+			"fromSide": "bottom",
+			"id": "8093f2f8b31ab0ee",
+			"styleAttributes": {},
+			"toNode": "a65a40d2e8def73a",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "efa76894daa28baf",
+			"fromSide": "bottom",
+			"id": "6c4e13c6b13369ed",
+			"styleAttributes": {},
+			"toNode": "386fe4b81e120d6b",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "db3a3b75e7a5d690",
+			"fromSide": "right",
+			"id": "f14f9e5a3f40918c",
+			"styleAttributes": {},
+			"toNode": "efa76894daa28baf",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "873c1a37576c51fb",
+			"fromSide": "left",
+			"id": "ef01b0cfe55406d2",
+			"styleAttributes": {},
+			"toNode": "efa76894daa28baf",
+			"toSide": "right"
+		},
+		{
+			"fromNode": "144e76cfcb9a9c9d",
+			"fromSide": "left",
+			"id": "883bf3bf40d0b7ea",
+			"styleAttributes": {},
+			"toNode": "d296722351092049",
+			"toSide": "right"
+		},
+		{
+			"fromNode": "e4c8ae8904353d4a",
+			"fromSide": "bottom",
+			"id": "36d1ce4c7d44f2d5",
+			"styleAttributes": {},
+			"toNode": "efa76894daa28baf",
+			"toSide": "right"
+		}
+	],
+	"nodes": [
+		{
+			"height": 618,
+			"id": "144e76cfcb9a9c9d",
+			"label": "输入子系统--注册一个输入设备",
+			"styleAttributes": {},
+			"type": "group",
+			"width": 1600,
+			"x": -1000,
+			"y": -120
+		},
+		{
+			"height": 80,
+			"id": "efa76894daa28baf",
+			"styleAttributes": {},
+			"text": "    // <span style=\"background:#d3f8b6\">分配输入设备结构体</span>\n\n    myinput_dev = <span style=\"background:#b1ffff\">input_allocate_device();</span>",
+			"type": "text",
+			"width": 400,
+			"x": -485,
+			"y": 175
+		},
+		{
+			"height": 85,
+			"id": "db3a3b75e7a5d690",
+			"styleAttributes": {},
+			"text": "    // <span style=\"background:#d3f8b6\">设置输入设备的名称</span>\n\n    <span style=\"background:#affad1\">myinput_dev->name</span> = \"myinput_dev\";",
+			"type": "text",
+			"width": 400,
+			"x": -980,
+			"y": 170
+		},
+		{
+			"height": 95,
+			"id": "386fe4b81e120d6b",
+			"styleAttributes": {},
+			"text": "    // 注销输入设备\n\n    input_unregister_device(myinput_dev);",
+			"type": "text",
+			"width": 400,
+			"x": 60,
+			"y": 383
+		},
+		{
+			"height": 90,
+			"id": "a65a40d2e8def73a",
+			"styleAttributes": {},
+			"text": "    // <span style=\"background:#d3f8b6\">注册输入设备</span>\n\n    ret = <span style=\"background:#fdbfff\">input_register_device</span>(myinput_dev);",
+			"type": "text",
+			"width": 420,
+			"x": -495,
+			"y": 383
+		},
+		{
+			"height": 140,
+			"id": "78226da3976957a0",
+			"styleAttributes": {},
+			"text": "//input_dev结构体在Linux内核中代表<span style=\"background:#d3f8b6\">一个输入设备，</span>\n\n//用于处理各种输入事件，如键盘按键、鼠标移动、触摸屏操作等。\n\nstruct<span style=\"background:#affad1\"> input_dev </span>*myinput_dev;",
+			"type": "text",
+			"width": 590,
+			"x": -580,
+			"y": -100
+		},
+		{
+			"height": 150,
+			"id": "873c1a37576c51fb",
+			"styleAttributes": {},
+			"text": "    // <span style=\"background:#d3f8b6\">设置输入设备支持的事件类型</span>\n\n    <span style=\"background:#affad1\">__set_bit</span>(EV_KEY, myinput_dev->evbit);    // 设置支持按键事件\n\n    __set_bit(KEY_1, myinput_dev->keybit);    // 设置支持按键1",
+			"type": "text",
+			"width": 570,
+			"x": 60,
+			"y": 140
+		},
+		{
+			"height": 160,
+			"id": "e4c8ae8904353d4a",
+			"styleAttributes": {},
+			"text": "    // <span style=\"background:#d3f8b6\">设置输入设备的绝对坐标范围</span>，这里假设屏幕分辨率为800x1280\n\n    <span style=\"background:#affad1\">input_set_abs_params</span>(ft5x06_input_dev, ABS_X, 0, 800, 0, 0);\n\n    input_set_abs_params(ft5x06_input_dev, ABS_Y, 0, 1280, 0, 0);",
+			"type": "text",
+			"width": 660,
+			"x": -30,
+			"y": -300
+		},
+		{
+			"color": "6",
+			"file": "RK3568（linux学习）/linux开发资料库/代码库/04_Linux驱动程序/91_myinput_dev-编写一个最简单的设备驱动层代码/myinput_dev.c",
+			"height": 75,
+			"id": "d296722351092049",
+			"styleAttributes": {},
+			"type": "file",
+			"width": 140,
+			"x": -1220,
+			"y": 170
+		}
+	]
+}

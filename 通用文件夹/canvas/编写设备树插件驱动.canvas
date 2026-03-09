@@ -1,0 +1,402 @@
+{
+  "edges": [
+    {
+      "fromNode": "b300bab7fe4a0404",
+      "fromSide": "bottom",
+      "id": "410e0772eea82b69",
+      "styleAttributes": {},
+      "toNode": "7aa94a34d8198419",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "7aa94a34d8198419",
+      "fromSide": "bottom",
+      "id": "ccea157571d5f4b3",
+      "styleAttributes": {},
+      "toNode": "a337939fc850c221",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "aacd9edb32f18512",
+      "fromSide": "bottom",
+      "id": "56b6d3b029b8466b",
+      "styleAttributes": {},
+      "toNode": "b2ea4bbb9182de99",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b2ea4bbb9182de99",
+      "fromSide": "bottom",
+      "id": "6b5e325eb1683b25",
+      "styleAttributes": {},
+      "toNode": "9fdc5aa027dc48c2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b31d414fa58db18a",
+      "fromSide": "bottom",
+      "id": "e8ce57bad1ddf96f",
+      "styleAttributes": {},
+      "toNode": "aacd9edb32f18512",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "18a2ac9b9388310d",
+      "fromSide": "bottom",
+      "id": "d7bf0910bbd87e52",
+      "styleAttributes": {},
+      "toNode": "b31d414fa58db18a",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "e1c180e5ce764c28",
+      "fromSide": "left",
+      "id": "2f46c906f2e8e075",
+      "styleAttributes": {},
+      "toNode": "aacd9edb32f18512",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "df433a25f0899f52",
+      "fromSide": "left",
+      "id": "b20c8d8d182ee051",
+      "styleAttributes": {},
+      "toNode": "aacd9edb32f18512",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "cd609d46f60dcb1b",
+      "fromSide": "left",
+      "id": "34a5cda8f298a7cc",
+      "styleAttributes": {},
+      "toNode": "df433a25f0899f52",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "0344d49aa7fd1560",
+      "fromSide": "bottom",
+      "id": "81a2f5f3c6ad8b18",
+      "styleAttributes": {},
+      "toNode": "cd609d46f60dcb1b",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "ecb68bf2676a9b6e",
+      "fromSide": "bottom",
+      "id": "9d20b2cd1a4e957a",
+      "styleAttributes": {},
+      "toNode": "0344d49aa7fd1560",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "213c3eccc4baffef",
+      "fromSide": "left",
+      "id": "571781f728d61b76",
+      "styleAttributes": {},
+      "toNode": "cd609d46f60dcb1b",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "696ae2eac2d8cb47",
+      "fromSide": "bottom",
+      "id": "8bdc85c2ed1f462f",
+      "styleAttributes": {},
+      "toNode": "213c3eccc4baffef",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "20eb10ce98fc0237",
+      "fromSide": "left",
+      "id": "4b89b9b0bb0b1ae0",
+      "styleAttributes": {},
+      "toNode": "696ae2eac2d8cb47",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "10cfad932b13f5cb",
+      "fromSide": "left",
+      "id": "5db538bcba6be7bd",
+      "styleAttributes": {},
+      "toNode": "696ae2eac2d8cb47",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "110eaa807703357a",
+      "fromSide": "bottom",
+      "id": "4064dcce37ddd28f",
+      "label": "在该函数里定义配置组结构体",
+      "styleAttributes": {},
+      "toNode": "b31d414fa58db18a",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d6c9b666472a1d42",
+      "fromSide": "left",
+      "id": "0688bf1193b34941",
+      "styleAttributes": {},
+      "toNode": "9fdc5aa027dc48c2",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "9cf10bdeb68a12c9",
+      "fromSide": "top",
+      "id": "e388ef366949c9f0",
+      "label": "在该函数里定义配置项结构体\n",
+      "styleAttributes": {},
+      "toNode": "df433a25f0899f52",
+      "toSide": "bottom"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 2060,
+      "id": "8c3dcb681ae16f82",
+      "label": "group_item",
+      "styleAttributes": {},
+      "type": "group",
+      "width": 4800,
+      "x": -560,
+      "y": -480
+    },
+    {
+      "height": 1380,
+      "id": "a9c3fb8a9ad8c3eb",
+      "label": "configfs_subsystem",
+      "styleAttributes": {},
+      "type": "group",
+      "width": 765,
+      "x": -1520,
+      "y": -320
+    },
+    {
+      "height": 550,
+      "id": "a723e0535622d076",
+      "label": "在group下创建group",
+      "styleAttributes": {},
+      "type": "group",
+      "width": 1297,
+      "x": -380,
+      "y": -320
+    },
+    {
+      "height": 980,
+      "id": "b4b98b7de317cf36",
+      "label": "配置项属性和方法",
+      "styleAttributes": {},
+      "type": "group",
+      "width": 2360,
+      "x": 1780,
+      "y": 200
+    },
+    {
+      "height": 190,
+      "id": "110eaa807703357a",
+      "styleAttributes": {},
+      "text": "<span style=\"background:#d3f8b6\">定义配置组结构体</span>\n```\nstruct mygroup {\n    struct config_group group;\n};\n```",
+      "type": "text",
+      "width": 390,
+      "x": -320,
+      "y": -310
+    },
+    {
+      "height": 530,
+      "id": "7aa94a34d8198419",
+      "styleAttributes": {},
+      "text": "//定义一个<span style=\"background:#b1ffff\">configfs_subsystem结构体实例</span>\"myconfigfs_subsystem\"\n```\nstatic struct configfs_subsystem myconfigfs_subsystem = {\n\n    .su_group = {\n        .cg_item = {\n            .ci_namebuf = \"myconfigfs\",\n            .ci_type = &myconfig_item_type,\n\n        },\n\n    },\n\n};\n```",
+      "type": "text",
+      "width": 725,
+      "x": -1505,
+      "y": 110
+    },
+    {
+      "height": 320,
+      "id": "b300bab7fe4a0404",
+      "styleAttributes": {},
+      "text": "//描述<span style=\"background:#affad1\">configfs配置项类型</span>。\n```\nstatic const struct config_item_type myconfig_item_type  = {\n    .ct_owner = THIS_MODULE,\n    .ct_item_ops = NULL,\n    .ct_group_ops = NULL,\n    .ct_attrs = NULL,\n};\n```",
+      "type": "text",
+      "width": 620,
+      "x": -1457,
+      "y": -280
+    },
+    {
+      "height": 260,
+      "id": "a337939fc850c221",
+      "styleAttributes": {},
+      "text": "\n//<span style=\"background:#fdbfff\">初始化配置组</span>\n```\nconfig_group_init(&myconfigfs_subsystem.su_group);\n```\n//<span style=\"background:#fdbfff\">注册子系统</span>\n```\nconfigfs_register_subsystem(&myconfigfs_subsystem);\n```",
+      "type": "text",
+      "width": 630,
+      "x": -1457,
+      "y": 780
+    },
+    {
+      "height": 290,
+      "id": "9fdc5aa027dc48c2",
+      "styleAttributes": {},
+      "text": "//<span style=\"background:#fdbfff\"> 初始化配置组\"mygroup\"</span>\n```\n    config_group_init_type_name(&mygroup,\"mygroup\",&mygroup_config_item_type);\n```\n// <span style=\"background:#fdbfff\">在子系统中注册配置组\"mygroup</span>\n```\n    configfs_register_group(&myconfigfs_subsystem.su_group,&mygroup);\n```",
+      "type": "text",
+      "width": 980,
+      "x": -359,
+      "y": 1190
+    },
+    {
+      "height": 160,
+      "id": "b31d414fa58db18a",
+      "styleAttributes": {},
+      "text": "//<span style=\"background:#affad1\"> 创建配置组函数</span>\n```\nstruct config_group *mygroup_make_group(struct config_group *group, const char *name)\n\n```",
+      "type": "text",
+      "width": 980,
+      "x": -359,
+      "y": 40
+    },
+    {
+      "height": 260,
+      "id": "b2ea4bbb9182de99",
+      "styleAttributes": {},
+      "text": "//描述<span style=\"background:#b1ffff\">group配置项类型。</span>\n```\nstatic const struct config_item_type mygroup_config_item_type  = {\n    .ct_owner = THIS_MODULE,\n    .ct_group_ops = &mygroup_ops,\n};\n```\n",
+      "type": "text",
+      "width": 640,
+      "x": -190,
+      "y": 780
+    },
+    {
+      "height": 260,
+      "id": "aacd9edb32f18512",
+      "styleAttributes": {},
+      "text": "// <span style=\"background:#b1ffff\">配置组操作结构体</span>\n```\nstruct configfs_group_operations mygroup_ops = {\n    .make_item = mygroup_make_item,\n    .drop_item = mygroup_delete_item,\n    .make_group = mygroup_make_group,\n};\n```",
+      "type": "text",
+      "width": 580,
+      "x": -160,
+      "y": 340
+    },
+    {
+      "file": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第76~81章 编写设备树插件驱动.md",
+      "height": 400,
+      "id": "cfbe726e77646ca9",
+      "styleAttributes": {},
+      "type": "file",
+      "width": 400,
+      "x": -1342,
+      "y": 1190
+    },
+    {
+      "height": 230,
+      "id": "18a2ac9b9388310d",
+      "styleAttributes": {},
+      "text": "//<span style=\"background:#d3f8b6\">描述name-group配置项类型。</span>\n```\nstatic struct config_item_type mygroup_type  = {\n    .ct_owner = THIS_MODULE,\n};\n```",
+      "type": "text",
+      "width": 555,
+      "x": 343,
+      "y": -310
+    },
+    {
+      "height": 120,
+      "id": "ecb68bf2676a9b6e",
+      "styleAttributes": {},
+      "text": "// <span style=\"background:#affad1\">配置项释放函数</span>:当一个配置项被删除时调用此函数。\n```\nvoid myitem_release(struct config_item *item)\n```",
+      "type": "text",
+      "width": 600,
+      "x": 1840,
+      "y": 220
+    },
+    {
+      "height": 140,
+      "id": "20eb10ce98fc0237",
+      "styleAttributes": {},
+      "text": "// <span style=\"background:#d3f8b6\">写入配置项内容的回调函数</span>\n```\nssize_t mywrite_store(struct config_item *item, const char *page, size_t size)\n```",
+      "type": "text",
+      "width": 880,
+      "x": 3240,
+      "y": 390
+    },
+    {
+      "height": 100,
+      "id": "d6c9b666472a1d42",
+      "styleAttributes": {},
+      "text": "//定义一个名为\"mygroup\"的<span style=\"background:#affad1\">config_group结构体</span>\nstatic struct config_group mygroup ;",
+      "type": "text",
+      "width": 600,
+      "x": 740,
+      "y": 1285
+    },
+    {
+      "height": 260,
+      "id": "213c3eccc4baffef",
+      "styleAttributes": {},
+      "text": "// <span style=\"background:#b1ffff\">配置项属性数组</span>\n```\nstruct configfs_attribute *my_attrs[] = {\n    &myattr_read,\n    &myattr_write,\n    NULL,\n};\n```",
+      "type": "text",
+      "width": 520,
+      "x": 2700,
+      "y": 900
+    },
+    {
+      "height": 160,
+      "id": "696ae2eac2d8cb47",
+      "styleAttributes": {},
+      "text": "//<span style=\"background:#affad1\"> 创建只读配置项</span>\nCONFIGFS_ATTR_RO(my,read);\n// <span style=\"background:#affad1\">创建只写配置项</span>\nCONFIGFS_ATTR_WO(my,write);",
+      "type": "text",
+      "width": 500,
+      "x": 2720,
+      "y": 570
+    },
+    {
+      "height": 140,
+      "id": "10cfad932b13f5cb",
+      "styleAttributes": {},
+      "text": "// <span style=\"background:#d3f8b6\">读取配置项内容的回调函数</span>\n```\nssize_t myread_show(struct config_item *item, char *page)\n```",
+      "type": "text",
+      "width": 800,
+      "x": 3280,
+      "y": 730
+    },
+    {
+      "height": 130,
+      "id": "e1c180e5ce764c28",
+      "styleAttributes": {},
+      "text": "//<span style=\"background:#affad1\">从配置组中删除一个配置项</span>\n```\nstatic void mygroup_delete_item(struct config_group *group, struct config_item *item)\n```",
+      "type": "text",
+      "width": 980,
+      "x": 660,
+      "y": 280
+    },
+    {
+      "height": 160,
+      "id": "df433a25f0899f52",
+      "styleAttributes": {},
+      "text": "// <span style=\"background:#affad1\">创建配置项函数</span>：当一个新的配置项需要创建时调用此函数。\n```\nstruct config_item *mygroup_make_item(struct config_group *group, const char *name)\n```",
+      "type": "text",
+      "width": 920,
+      "x": 660,
+      "y": 460
+    },
+    {
+      "height": 280,
+      "id": "cd609d46f60dcb1b",
+      "styleAttributes": {},
+      "text": "//<span style=\"background:#b1ffff\">描述item配置项类型。</span>\n```\nstatic struct config_item_type mygroup_item_type = {\n    .ct_owner = THIS_MODULE,\n    .ct_item_ops = &myitem_ops,\n    .ct_attrs = my_attrs,\n\n};\n```",
+      "type": "text",
+      "width": 680,
+      "x": 1800,
+      "y": 880
+    },
+    {
+      "height": 310,
+      "id": "9cf10bdeb68a12c9",
+      "styleAttributes": {},
+      "text": "// <span style=\"background:#d3f8b6\">自定义的配置项结构体</span>\n```\nstruct myitem{\n    struct config_item item;\n    int size;\n    void *addr;\n\n};\n```",
+      "type": "text",
+      "width": 400,
+      "x": 920,
+      "y": 730
+    },
+    {
+      "height": 220,
+      "id": "0344d49aa7fd1560",
+      "styleAttributes": {},
+      "text": "// <span style=\"background:#b1ffff\">配置项操作结构体</span>\n```\nstruct configfs_item_operations\tmyitem_ops = {\n    .release = myitem_release,\n\n};\n```",
+      "type": "text",
+      "width": 550,
+      "x": 1865,
+      "y": 470
+    }
+  ]
+}

@@ -1,0 +1,724 @@
+{
+	"edges": [
+		{
+			"fromNode": "13a5a9b76352b113",
+			"fromSide": "right",
+			"id": "d4a49d847dc1c747",
+			"styleAttributes": {},
+			"toNode": "1e6bc154da7b8557",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "1e6bc154da7b8557",
+			"fromSide": "right",
+			"id": "872fdc145f8013c6",
+			"styleAttributes": {},
+			"toNode": "d585902fca9ccf64",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "399c6a04cb96ca30",
+			"fromSide": "bottom",
+			"id": "1858e3aa465523ed",
+			"styleAttributes": {},
+			"toNode": "8a1a8003ebe5d8f3",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "8a1a8003ebe5d8f3",
+			"fromSide": "top",
+			"id": "f58ecfd6cf7a0fa2",
+			"styleAttributes": {},
+			"toNode": "13a5a9b76352b113",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "8a1a8003ebe5d8f3",
+			"fromSide": "bottom",
+			"id": "97087d7facb38bdf",
+			"styleAttributes": {},
+			"toNode": "2c8d96b3a61c78cb",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "8a1a8003ebe5d8f3",
+			"fromSide": "bottom",
+			"id": "0ea79b487e2b1e0c",
+			"styleAttributes": {},
+			"toNode": "093614c85b08c4ec",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "2c8d96b3a61c78cb",
+			"fromSide": "right",
+			"id": "b0df532ebede4ceb",
+			"styleAttributes": {},
+			"toNode": "1841c355276051fb",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "d585902fca9ccf64",
+			"fromSide": "bottom",
+			"id": "9a250dea0029d1e4",
+			"label": "__ATTR(函数)",
+			"styleAttributes": {},
+			"toNode": "41f7d1ee23c99718",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "1841c355276051fb",
+			"fromSide": "right",
+			"id": "7aa7bbeadba5c95e",
+			"styleAttributes": {},
+			"toNode": "41f7d1ee23c99718",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "c8fd1abb123c1b24",
+			"fromSide": "bottom",
+			"id": "d1866d3953216430",
+			"styleAttributes": {},
+			"toNode": "9c38b2d393262b3b",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "9c38b2d393262b3b",
+			"fromSide": "bottom",
+			"id": "968ebcbbe2608567",
+			"styleAttributes": {},
+			"toNode": "b06789772d2be38d",
+			"toSide": "top"
+		},
+		{
+			"color": "1",
+			"fromNode": "b06789772d2be38d",
+			"fromSide": "bottom",
+			"id": "15a75abfe9572b4e",
+			"styleAttributes": {},
+			"toNode": "08c554cc492e7920",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "25f473aa3d1d480b",
+			"fromSide": "left",
+			"id": "46e9d7ed45c091b2",
+			"styleAttributes": {},
+			"toNode": "a7dd37aefb4a70a4",
+			"toSide": "right"
+		},
+		{
+			"fromNode": "03daaaed597c150f",
+			"fromSide": "bottom",
+			"id": "3f0de8153600992c",
+			"styleAttributes": {},
+			"toNode": "25f473aa3d1d480b",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "89803c95f932e5c9",
+			"fromSide": "left",
+			"id": "00e4575d11d02142",
+			"styleAttributes": {},
+			"toNode": "25f473aa3d1d480b",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "9e05a2c646897a92",
+			"fromSide": "bottom",
+			"id": "bf79447ffe0e7b1d",
+			"styleAttributes": {},
+			"toNode": "a7dd37aefb4a70a4",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "055b5050b46ff98d",
+			"fromSide": "right",
+			"id": "04461e5734118cd3",
+			"styleAttributes": {},
+			"toNode": "a7dd37aefb4a70a4",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "d87e71d78b5597b0",
+			"fromSide": "bottom",
+			"id": "31e49ec0b3024b9b",
+			"styleAttributes": {},
+			"toNode": "055b5050b46ff98d",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "498677d589f0a4a8",
+			"fromSide": "bottom",
+			"id": "8d0c40e3f1de9a10",
+			"styleAttributes": {},
+			"toNode": "d87e71d78b5597b0",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "da026cbf63098a3c",
+			"fromSide": "bottom",
+			"id": "100a39880fe0307e",
+			"styleAttributes": {},
+			"toNode": "d87e71d78b5597b0",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "89803c95f932e5c9",
+			"fromSide": "top",
+			"id": "d4ce47124e1ce304",
+			"label": "调用",
+			"styleAttributes": {},
+			"toNode": "da026cbf63098a3c",
+			"toSide": "right"
+		},
+		{
+			"color": "1",
+			"fromNode": "a7dd37aefb4a70a4",
+			"fromSide": "left",
+			"id": "a6f4d506de65acec",
+			"styleAttributes": {},
+			"toNode": "08c554cc492e7920",
+			"toSide": "right"
+		},
+		{
+			"fromNode": "03daaaed597c150f",
+			"fromSide": "top",
+			"id": "aea9f00676d695dd",
+			"label": "调用",
+			"styleAttributes": {},
+			"toNode": "498677d589f0a4a8",
+			"toSide": "right"
+		},
+		{
+			"fromNode": "b06789772d2be38d",
+			"fromSide": "bottom",
+			"id": "ce20b689a0f81833",
+			"styleAttributes": {},
+			"toNode": "500c1f33503e43fc",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "2acaa427c199a086",
+			"fromSide": "left",
+			"id": "897037e04875e6bc",
+			"styleAttributes": {},
+			"toNode": "ae10a596c0e12e80",
+			"toSide": "right"
+		},
+		{
+			"fromNode": "707a00b90a8ac711",
+			"fromSide": "bottom",
+			"id": "75a769a3054ea161",
+			"styleAttributes": {},
+			"toNode": "4b99288a2f55bba3",
+			"toSide": "top"
+		},
+		{
+			"color": "1",
+			"fromNode": "4b99288a2f55bba3",
+			"fromSide": "bottom",
+			"id": "d942bfec5f3e0132",
+			"styleAttributes": {},
+			"toNode": "bd745495af0de620",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "4b99288a2f55bba3",
+			"fromSide": "bottom",
+			"id": "e8d861407a5f908e",
+			"styleAttributes": {},
+			"toNode": "188e6e4eb1df97bb",
+			"toSide": "top"
+		},
+		{
+			"color": "1",
+			"fromNode": "a2ec80438abd96a7",
+			"fromSide": "bottom",
+			"id": "cca2b1dc0625e66f",
+			"styleAttributes": {},
+			"toNode": "bd745495af0de620",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "ca684157563e0873",
+			"fromSide": "left",
+			"id": "14cbb36568e78834",
+			"styleAttributes": {},
+			"toNode": "a2ec80438abd96a7",
+			"toSide": "right"
+		},
+		{
+			"fromNode": "2f52a805617f4f8f",
+			"fromSide": "left",
+			"id": "0ef7375342915d13",
+			"styleAttributes": {},
+			"toNode": "a2ec80438abd96a7",
+			"toSide": "right"
+		},
+		{
+			"color": "5",
+			"fromNode": "a2ec80438abd96a7",
+			"fromSide": "bottom",
+			"id": "891355781b8b5999",
+			"styleAttributes": {},
+			"toNode": "dca4e137d4d9573d",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "dca4e137d4d9573d",
+			"fromSide": "right",
+			"id": "a052c497be83fb56",
+			"styleAttributes": {},
+			"toNode": "9987453382a844bb",
+			"toSide": "left"
+		},
+		{
+			"fromNode": "9987453382a844bb",
+			"fromSide": "bottom",
+			"id": "95ce353992d03df1",
+			"styleAttributes": {},
+			"toNode": "48f8fb1a9c9b3cbd",
+			"toSide": "top"
+		},
+		{
+			"color": "5",
+			"fromNode": "4b99288a2f55bba3",
+			"fromSide": "bottom",
+			"id": "da9f09e80adcfec6",
+			"styleAttributes": {},
+			"toNode": "48f8fb1a9c9b3cbd",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "136e1cb562584a0c",
+			"fromSide": "bottom",
+			"id": "5e97ca0cd4a69010",
+			"styleAttributes": {},
+			"toNode": "9f8e40fb8b3b1630",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "f91b0d3ba9185cd3",
+			"fromSide": "left",
+			"id": "1e4cf922aac44d6d",
+			"styleAttributes": {},
+			"toNode": "9716281338733164",
+			"toSide": "right"
+		}
+	],
+	"nodes": [
+		{
+			"height": 1880,
+			"id": "53bd8eec0781a1a7",
+			"label": "内核自动完善kobj_type结构体时，创建属件文件。",
+			"styleAttributes": {},
+			"type": "group",
+			"width": 2960,
+			"x": -2760,
+			"y": 1240
+		},
+		{
+			"height": 842,
+			"id": "136e1cb562584a0c",
+			"label": "在sys目录下创建属性文件并实现读写功能",
+			"styleAttributes": {},
+			"type": "group",
+			"width": 2640,
+			"x": -2620,
+			"y": 1400
+		},
+		{
+			"height": 420,
+			"id": "b67bd1b88ca900fa",
+			"label": "内核没有自动完善kobj_type结构体时，创建属件文件的流程图。",
+			"styleAttributes": {},
+			"type": "group",
+			"width": 1765,
+			"x": -2200,
+			"y": -1080
+		},
+		{
+			"height": 1410,
+			"id": "2acaa427c199a086",
+			"label": "内核没有自动完善kobj_type结构体时，创建属件文件。",
+			"styleAttributes": {},
+			"type": "group",
+			"width": 3770,
+			"x": -2460,
+			"y": -400
+		},
+		{
+			"height": 540,
+			"id": "f91b0d3ba9185cd3",
+			"label": "在sys目录下创建属性文件组",
+			"styleAttributes": {},
+			"type": "group",
+			"width": 1180,
+			"x": -1160,
+			"y": 2400
+		},
+		{
+			"height": 100,
+			"id": "9c38b2d393262b3b",
+			"styleAttributes": {},
+			"text": "// 定义了mykobj结构体指针变量mykobject01\n\nstruct <span style=\"background:#b1ffff\">mykobj </span>*mykobject01;",
+			"type": "text",
+			"width": 480,
+			"x": -2400,
+			"y": 30
+		},
+		{
+			"height": 100,
+			"id": "b06789772d2be38d",
+			"styleAttributes": {},
+			"text": "    // <span style=\"background:#d3f8b6\">分配并初始化mykobject01</span>\n\n    mykobject01 = <span style=\"background:#b1ffff\">kzalloc</span>(sizeof(struct mykobj), GFP_KERNEL);",
+			"type": "text",
+			"width": 580,
+			"x": -2400,
+			"y": 450
+		},
+		{
+			"height": 340,
+			"id": "c8fd1abb123c1b24",
+			"styleAttributes": {},
+			"text": "// <span style=\"background:#d3f8b6\">自定义的kobject结构体，包含一个kobject对象和两个整型值(属性的值)</span>\n\nstruct <span style=\"background:#affad1\">mykobj</span>\n\n{\n\n    struct kobject kobj;\n\n    int value1;\n\n    int value2;\n\n};",
+			"type": "text",
+			"width": 410,
+			"x": -2365,
+			"y": -380
+		},
+		{
+			"height": 100,
+			"id": "498677d589f0a4a8",
+			"styleAttributes": {},
+			"text": "// 自定义的show函数，用于<span style=\"background:#d3f8b6\">读取属性值</span>\n\nssize_t <span style=\"background:#affad1\">show_myvalue1</span>(struct kobject *kobj, struct kobj_attribute *attr, char *buf)",
+			"type": "text",
+			"width": 720,
+			"x": -1740,
+			"y": -390
+		},
+		{
+			"height": 120,
+			"id": "03daaaed597c150f",
+			"styleAttributes": {},
+			"text": "// 自定义的show函数，用于<span style=\"background:#d3f8b6\">读取属性值</span>\n\nssize_t <span style=\"background:#affad1\">myshow</span>(struct kobject *kobj, struct attribute *attr, char *buf)",
+			"type": "text",
+			"width": 620,
+			"x": -200,
+			"y": 20
+		},
+		{
+			"height": 120,
+			"id": "89803c95f932e5c9",
+			"styleAttributes": {},
+			"text": "// 自定义的store函数，用于<span style=\"background:#d3f8b6\">写入属性值</span>\n\nssize_t <span style=\"background:#affad1\">mystore</span>(struct kobject *kobj, struct attribute *attr, const char *buf, size_t size)",
+			"type": "text",
+			"width": 760,
+			"x": 210,
+			"y": 280
+		},
+		{
+			"height": 240,
+			"id": "25f473aa3d1d480b",
+			"styleAttributes": {},
+			"text": "// <span style=\"background:#d3f8b6\">自定义的sysfs_ops结构体</span>，包含show和store函数指针\n\nstruct <span style=\"background:#affad1\">sysfs_ops</span> myops = {\n\n    .show = myshow,\n\n    .store = mystore,\n\n};",
+			"type": "text",
+			"width": 500,
+			"x": -290,
+			"y": 500
+		},
+		{
+			"height": 280,
+			"id": "a7dd37aefb4a70a4",
+			"styleAttributes": {},
+			"text": "// 自定义的kobj_type结构体，<span style=\"background:#d3f8b6\">包含释放函数、默认属性和sysfs_ops</span>\n\nstatic struct<span style=\"background:#fdbfff\"> kobj_type</span> mytype = {\n\n    .release = dynamic_kobj_release,\n\n    .default_attrs = myattr,\n\n    .sysfs_ops = &myops,\n\n};",
+			"type": "text",
+			"width": 580,
+			"x": -1135,
+			"y": 540
+		},
+		{
+			"height": 60,
+			"id": "1e6bc154da7b8557",
+			"styleAttributes": {},
+			"text": "属性文件-attribute",
+			"type": "text",
+			"width": 260,
+			"x": -1210,
+			"y": -1060
+		},
+		{
+			"height": 60,
+			"id": "1841c355276051fb",
+			"styleAttributes": {},
+			"text": "读写函数-show/store",
+			"type": "text",
+			"width": 260,
+			"x": -1160,
+			"y": -860
+		},
+		{
+			"height": 60,
+			"id": "d585902fca9ccf64",
+			"styleAttributes": {},
+			"text": "属性文件-value",
+			"type": "text",
+			"width": 260,
+			"x": -900,
+			"y": -1060
+		},
+		{
+			"height": 60,
+			"id": "41f7d1ee23c99718",
+			"styleAttributes": {},
+			"text": "属性文件读写函数-show/store",
+			"type": "text",
+			"width": 380,
+			"x": -830,
+			"y": -860
+		},
+		{
+			"height": 220,
+			"id": "dca4e137d4d9573d",
+			"styleAttributes": {},
+			"text": "struct <span style=\"background:#b1ffff\">attribute *attr[]</span> = {\n\n    &value1.attr,\n\n    &value2.attr,\n\n    NULL,\n\n};",
+			"type": "text",
+			"width": 300,
+			"x": -960,
+			"y": 2420
+		},
+		{
+			"height": 180,
+			"id": "9987453382a844bb",
+			"styleAttributes": {},
+			"text": "const struct<span style=\"background:#b1ffff\"> attribute_group </span>my_attr_group = {\n\n    .name = \"myattr\",\n\n    .attrs = attr,\n\n};",
+			"type": "text",
+			"width": 440,
+			"x": -520,
+			"y": 2440
+		},
+		{
+			"color": "6",
+			"file": "RK3568（linux学习）/linux开发资料库/代码库/04_Linux驱动程序/73_attr04_在sys目录下创建多个属性文件的简便方法/module/attr.c",
+			"height": 110,
+			"id": "9716281338733164",
+			"styleAttributes": {},
+			"type": "file",
+			"width": 160,
+			"x": -1560,
+			"y": 2640
+		},
+		{
+			"height": 100,
+			"id": "48f8fb1a9c9b3cbd",
+			"styleAttributes": {},
+			"text": "    //<span style=\"background:#d3f8b6\"> 在kobject \"mykobject01\" 中创建属性组</span>\n\n    ret = <span style=\"background:#fdbfff\">sysfs_create_group</span>(mykobject01, &my_attr_group);",
+			"type": "text",
+			"width": 550,
+			"x": -1132,
+			"y": 2820
+		},
+		{
+			"height": 110,
+			"id": "2f52a805617f4f8f",
+			"styleAttributes": {},
+			"text": "// 自定义的store函数，用于<span style=\"background:#d3f8b6\">写入属性值</span>\n\nssize_t <span style=\"background:#affad1\">store_myvalue1</span>(struct kobject *kobj, struct kobj_attribute *attr, const char *buf, size_t count)",
+			"type": "text",
+			"width": 860,
+			"x": -860,
+			"y": 1800
+		},
+		{
+			"height": 90,
+			"id": "ca684157563e0873",
+			"styleAttributes": {},
+			"text": "// 自定义的show函数，用于<span style=\"background:#d3f8b6\">读取属性值</span>\n\nssize_t <span style=\"background:#affad1\">show_myvalue1</span>(struct kobject *kobj, struct kobj_attribute *attr, char *buf)",
+			"type": "text",
+			"width": 700,
+			"x": -780,
+			"y": 1620
+		},
+		{
+			"color": "6",
+			"file": "RK3568（linux学习）/linux开发资料库/代码库/04_Linux驱动程序/72_attr03_在sys目录下创建属性文件并实现读写功能（二）/module/attr.c",
+			"height": 110,
+			"id": "9f8e40fb8b3b1630",
+			"styleAttributes": {},
+			"type": "file",
+			"width": 200,
+			"x": -2225,
+			"y": 2565
+		},
+		{
+			"height": 100,
+			"id": "500c1f33503e43fc",
+			"styleAttributes": {},
+			"text": "    //<span style=\"background:#d3f8b6\"> 释放mykobject01</span>\n\n    <span style=\"background:#fdbfff\">kobject_put</span>(&mykobject01->kobj);",
+			"type": "text",
+			"width": 360,
+			"x": -2440,
+			"y": 790
+		},
+		{
+			"height": 100,
+			"id": "08c554cc492e7920",
+			"styleAttributes": {},
+			"text": "    // <span style=\"background:#d3f8b6\">初始化并添加mykobject01到内核中</span>，名为\"mykobject01\"\n\n    ret = <span style=\"background:#fdbfff\">kobject_init_and_add</span>(&mykobject01->kobj, &mytype, NULL, \"%s\", \"mykobject01\");",
+			"type": "text",
+			"width": 780,
+			"x": -2055,
+			"y": 790
+		},
+		{
+			"height": 60,
+			"id": "399c6a04cb96ca30",
+			"styleAttributes": {},
+			"text": "目录-kobject",
+			"type": "text",
+			"width": 260,
+			"x": -2175,
+			"y": -1030
+		},
+		{
+			"height": 60,
+			"id": "8a1a8003ebe5d8f3",
+			"styleAttributes": {},
+			"text": "目录信息管理-kobj_type",
+			"type": "text",
+			"width": 260,
+			"x": -1800,
+			"y": -970
+		},
+		{
+			"height": 60,
+			"id": "13a5a9b76352b113",
+			"styleAttributes": {},
+			"text": "属性组-attribute_group",
+			"type": "text",
+			"width": 260,
+			"x": -1525,
+			"y": -1060
+		},
+		{
+			"height": 60,
+			"id": "2c8d96b3a61c78cb",
+			"styleAttributes": {},
+			"text": "操作函数表-sysfs_ops",
+			"type": "text",
+			"width": 260,
+			"x": -1500,
+			"y": -860
+		},
+		{
+			"height": 60,
+			"id": "093614c85b08c4ec",
+			"styleAttributes": {},
+			"text": "释放函数-release",
+			"type": "text",
+			"width": 260,
+			"x": -1500,
+			"y": -740
+		},
+		{
+			"height": 300,
+			"id": "055b5050b46ff98d",
+			"styleAttributes": {},
+			"text": "// <span style=\"background:#d3f8b6\">将attribute对象放入数组中</span>\n\nstruct <span style=\"background:#b1ffff\">attribute *myattr[] </span>= {\n\n    &value1.attr,\n\n    &value2.attr,\n\n    NULL,\n\n};",
+			"type": "text",
+			"width": 340,
+			"x": -1550,
+			"y": 100
+		},
+		{
+			"height": 90,
+			"id": "da026cbf63098a3c",
+			"styleAttributes": {},
+			"text": "// 自定义的store函数，用于<span style=\"background:#d3f8b6\">写入属性值</span>\n\nssize_t <span style=\"background:#affad1\">store_myvalue1</span>(struct kobject *kobj, struct kobj_attribute *attr, const char *buf, size_t count)",
+			"type": "text",
+			"width": 860,
+			"x": -720,
+			"y": -380
+		},
+		{
+			"height": 120,
+			"id": "d87e71d78b5597b0",
+			"styleAttributes": {},
+			"text": "/<span style=\"background:#d3f8b6\">/ 定义一个名为 value1 的 kobj_attribute 结构体</span>，权限为 0664，读函数为 show_myvalue1，写函数为 store_myvalue1\n\nstruct kobj_attribute value1 =<span style=\"background:#b1ffff\"> __ATTR</span>(value1, 0664, show_myvalue1, store_myvalue1);",
+			"type": "text",
+			"width": 1060,
+			"x": -1615,
+			"y": -100
+		},
+		{
+			"height": 100,
+			"id": "9e05a2c646897a92",
+			"styleAttributes": {},
+			"text": "// <span style=\"background:#d3f8b6\">自定义的kobject释放函数</span>\n\nstatic void <span style=\"background:#affad1\">dynamic_kobj_release</span>(struct kobject *kobj)",
+			"type": "text",
+			"width": 520,
+			"x": -980,
+			"y": 100
+		},
+		{
+			"color": "6",
+			"file": "RK3568（linux学习）/linux开发资料库/代码库/04_Linux驱动程序/71_attr02优化sys目录下属性文件的读写函数/module/attr.c",
+			"height": 105,
+			"id": "ae10a596c0e12e80",
+			"styleAttributes": {},
+			"type": "file",
+			"width": 180,
+			"x": -2840,
+			"y": 200
+		},
+		{
+			"height": 120,
+			"id": "a2ec80438abd96a7",
+			"styleAttributes": {},
+			"text": "// <span style=\"background:#d3f8b6\">定义attribute对象value1</span>\n\nstruct kobj_attribute value1 =<span style=\"background:#b1ffff\"> __ATTR</span>(value1, 0664, show_myvalue1, store_myvalue1);",
+			"type": "text",
+			"width": 755,
+			"x": -1695,
+			"y": 1460
+		},
+		{
+			"height": 100,
+			"id": "707a00b90a8ac711",
+			"styleAttributes": {},
+			"text": "//<span style=\"background:#d3f8b6\"> 定义了mykobj结构体</span>指针变量mykobject01\n\nstruct <span style=\"background:#affad1\">kobject</span> *mykobject01;",
+			"type": "text",
+			"width": 420,
+			"x": -2235,
+			"y": 1410
+		},
+		{
+			"height": 100,
+			"id": "4b99288a2f55bba3",
+			"styleAttributes": {},
+			"text": "    //<span style=\"background:#d3f8b6\"> 创建一个名为 \"mykobject01\" 的 kobject</span>，并将其添加到系统中\n\n    mykobject01 = <span style=\"background:#b1ffff\">kobject_create_and_add</span>(\"mykobject01\", NULL);",
+			"type": "text",
+			"width": 660,
+			"x": -2355,
+			"y": 1620
+		},
+		{
+			"height": 80,
+			"id": "188e6e4eb1df97bb",
+			"styleAttributes": {},
+			"text": "    // <span style=\"background:#d3f8b6\">释放mykobject01</span>\n\n    <span style=\"background:#fdbfff\">kobject_put</span>(mykobject01);",
+			"type": "text",
+			"width": 300,
+			"x": -2600,
+			"y": 1952
+		},
+		{
+			"height": 83,
+			"id": "bd745495af0de620",
+			"styleAttributes": {},
+			"text": "    // <span style=\"background:#d3f8b6\">在 mykobject01 下创建一个 sysfs 文件</span>，文件名为 \"value1\"，属性为 value1\n\n    ret = <span style=\"background:#fdbfff\">sysfs_create_file</span>(mykobject01, &value1.attr);",
+			"type": "text",
+			"width": 730,
+			"x": -2450,
+			"y": 2120
+		}
+	]
+}

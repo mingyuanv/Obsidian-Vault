@@ -1,0 +1,178 @@
+{
+  "edges": [
+    {
+      "fromNode": "60ec6d30e4fac3cd",
+      "fromSide": "right",
+      "id": "77243e42e88f7078",
+      "styleAttributes": {},
+      "toNode": "a8cac1477598f76c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "60ec6d30e4fac3cd",
+      "fromSide": "bottom",
+      "id": "068b1da27a01438b",
+      "styleAttributes": {},
+      "toNode": "7f8a109bb7dc7d6b",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "7f8a109bb7dc7d6b",
+      "fromSide": "right",
+      "id": "ee5958f79634ff12",
+      "styleAttributes": {},
+      "toNode": "e8aa9ccff9dec8ea",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "839ac3bcc9322b8d",
+      "fromSide": "left",
+      "id": "5d9172deae9b802b",
+      "styleAttributes": {},
+      "toNode": "e8aa9ccff9dec8ea",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "60ec6d30e4fac3cd",
+      "fromSide": "bottom",
+      "id": "941e20d90cd95089",
+      "styleAttributes": {},
+      "toNode": "fae292bb07e8d89e",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "895bd926fb26b3bd",
+      "fromSide": "right",
+      "id": "484e8ca73fe20f44",
+      "styleAttributes": {},
+      "toNode": "60ec6d30e4fac3cd",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "56af3635c25a5c30",
+      "fromSide": "right",
+      "id": "277f40366a301639",
+      "styleAttributes": {},
+      "toNode": "60ec6d30e4fac3cd",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "bda366961c0cf2fe",
+      "fromSide": "right",
+      "id": "17914e712c60de50",
+      "styleAttributes": {},
+      "toNode": "56af3635c25a5c30",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e8aa9ccff9dec8ea",
+      "fromSide": "bottom",
+      "id": "1d589f9716713201",
+      "styleAttributes": {},
+      "toNode": "24e570b11ccef7ba",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 1320,
+      "id": "60ec6d30e4fac3cd",
+      "styleAttributes": {},
+      "text": "struct <span style=\"background:#b1ffff\">kobject</span> {\n```\n\n    // 用于链表操作的头节点，使得kobject可以被加入到双向链表中\n    struct list_head entry;\n    // 指向一个字符串，代表此kobject的名字\n    const char *name;\n    \n    // 指向父级kobject，用于构建层次结构\n    struct kobject *parent;\n    \n    // 关联的kset（kobject集合），如果有的话\n    struct kset *kset;\n    \n    // kobject类型，包含处理kobject的方法集\n    struct kobj_type *ktype;\n    \n    // 指向sysfs文件系统中的目录项，用于在sysfs中展示该kobject\n    struct kernfs_node *sd; /* sysfs directory entry */\n    \n    // 内部引用计数，用于管理kobject的生命期\n    struct kref kref;\n    \n#ifdef CONFIG_DEBUG_KOBJECT_RELEASE\n    // 延迟工作队列结构，用于调试目的，在kobject释放时使用\n    struct delayed_work release;\n#endif\n    // 初始化状态标志位：1位宽度，表示是否已初始化\n    unsigned int state_initialized:1;\n    // 已添加到sysfs状态标志位：1位宽度，表示该kobject是否已在sysfs中注册\n    unsigned int state_in_sysfs:1;\n    // 添加uevent事件已发送标志位：1位宽度，表示是否已经发送了添加事件\n    unsigned int state_add_uevent_sent:1;\n    // 移除uevent事件已发送标志位：1位宽度，表示是否已经发送了移除事件\n    unsigned int state_remove_uevent_sent:1;\n    // 抑制uevent标志位：1位宽度，表示是否抑制发送uevent\n    unsigned int uevent_suppress:1;\n    \n    // Android KABI保留字段，用于保持二进制兼容性\n    ANDROID_KABI_RESERVE(1);\n    ANDROID_KABI_RESERVE(2);\n    ANDROID_KABI_RESERVE(3);\n    ANDROID_KABI_RESERVE(4);\n};\n```\nLinux内核中用于表示子系统、设备和驱动程序等核心对象的基础数据结构。\n<span style=\"background:#affad1\">每一个对应sys目录下的一个目录</span>",
+      "type": "text",
+      "width": 670,
+      "x": -660,
+      "y": -360
+    },
+    {
+      "height": 620,
+      "id": "bda366961c0cf2fe",
+      "styleAttributes": {},
+      "text": "struct <span style=\"background:#b1ffff\">sysfs_ops</span> {\n```\n    // 定义如何从kobject的属性中读取数据。\n    // 参数：\n    // - kobj：指向执行该操作的kobject的指针。\n    // - attr：指向要被读取的属性的指针。\n    // - buffer：用于存储读取的数据的缓冲区。\n    // 返回值：成功时返回读取的字节数；错误时返回负的错误码。\n    ssize_t (*show)(struct kobject *kobj, struct attribute *attr, char *buffer);\n    // 定义如何向kobject的属性写入数据。\n    // 参数：\n    // - kobj：指向执行该操作的kobject的指针。\n    // - attr：指向要被写入的属性的指针。\n    // - buffer：包含要写入的数据的缓冲区。\n    // - len：要写入的数据长度。\n    // 返回值：成功时返回写的字节数；错误时返回负的错误码。\n    ssize_t (*store)(struct kobject *kobj, struct attribute *attr, const char *buffer, size_t len);\n\n};\n```\n==它定义了对sysfs文件系统中属性进行读写操作的函数==\n",
+      "type": "text",
+      "width": 820,
+      "x": -2400,
+      "y": -400
+    },
+    {
+      "height": 560,
+      "id": "56af3635c25a5c30",
+      "styleAttributes": {},
+      "text": "struct <span style=\"background:#b1ffff\">kobj_type</span> {\n```\n    // 当kobject的引用计数降为0时调用的函数，负责释放与之关联的所有资源。\n    void (*release)(struct kobject *kobj);\n    \n    // 指向sysfs操作函数表的指针，定义了如何读写kobject的属性。\n    const struct sysfs_ops *sysfs_ops;\n    // 指向一个属性数组的指针，列出了这个kobject类型的默认属性。\n    // 这些属性会自动出现在sysfs文件系统中对应的目录下。\n    struct attribute **default_attrs;\n    \n    // （在较新的内核版本中）指向kobject的默认属性组列表的指针，\n    // 用来支持分组显示属性的功能。\n    const struct attribute_group **default_groups;\n};\n```\n\nLinux内核中用于<span style=\"background:#d3f8b6\">定义kobject类型信息的结构体</span>。它包含了关于如何<span style=\"background:#affad1\">管理特定类型kobject的信息，如其属性、显示这些属性的方法以及当引用计数降至0时应如何释放该对象</span>等。",
+      "type": "text",
+      "width": 650,
+      "x": -1495,
+      "y": -340
+    },
+    {
+      "height": 640,
+      "id": "895bd926fb26b3bd",
+      "styleAttributes": {},
+      "text": "// <span style=\"background:#affad1\">定义一个简单的引用计数结构体，用于管理对象的生命周期</span>。\nstruct<span style=\"background:#b1ffff\"> kref</span> {\n```\n    // refcount_t类型的成员变量，用来记录该对象的引用计数。\n    // 当引用计数降到0时，通常意味着该对象可以被安全地释放或销毁。\n    refcount_t refcount;\n\n};\n\n```\n// 定义refcount_t类型，本质上是一个<span style=\"background:#d3f8b6\">封装了原子整数操作的结构体</span>，\n// <span style=\"background:#d3f8b6\">用于提供线程安全的引用计数功能</span>。\ntypedef struct refcount_struct {\n\t\t  atomic_t refs; // 嵌入了一个atomic_t类型的成员变量，用于实现原子操作的引用计数值。\n}<span style=\"background:#b1ffff\"> refcount_t</span>;\n\n\n//<span style=\"background:#d3f8b6\"> 定义atomic_t类型，它包装了一个整型值</span>，提供了对这个值进行<span style=\"background:#d3f8b6\">原子操作</span>的能力。\n// 这对于避免竞争条件（race condition）非常重要，尤其是在多线程或多处理器环境下。\ntypedef struct {\n\t\t    int counter; // 整型成员变量，代表实际的计数值。\n} <span style=\"background:#b1ffff\">atomic_t</span>;\n\n",
+      "type": "text",
+      "width": 760,
+      "x": -1550,
+      "y": 240
+    },
+    {
+      "height": 680,
+      "id": "a8cac1477598f76c",
+      "styleAttributes": {},
+      "text": "struct <span style=\"background:#b1ffff\">kset</span> {\n```\n    // 用于维护kobject链表的头节点\n    struct list_head list;\n    \n    // 保护list的自旋锁，保证在多处理器系统上的并发访问安全\n    spinlock_t list_lock;\n    \n    // 嵌入的kobject，使得kset本身也可以像kobject一样被管理和使用\n    struct kobject kobj;\n    \n    // 指向与uevent操作相关的函数集合，这些函数用于处理用户空间的通知\n    const struct kset_uevent_ops *uevent_ops;\n    \n    // Android KABI保留字段，确保二进制兼容性，避免因未来扩展导致的问题\n    ANDROID_KABI_RESERVE(1);\n    ANDROID_KABI_RESERVE(2);\n    ANDROID_KABI_RESERVE(3);\n    ANDROID_KABI_RESERVE(4);\n    \n    // 随机化布局，可能是一个编译器指令或宏，旨在提高安全性（如防止缓冲区溢出攻击）\n    randomize_layout;\n};\n```\nLinux内核中用于<span style=\"background:#affad1\">表示一组相关`kobject`的对象集合</span>。\n<span style=\"background:#affad1\">ket 也可以看作是一个目录</span>",
+      "type": "text",
+      "width": 700,
+      "x": 360,
+      "y": -220
+    },
+    {
+      "height": 2280,
+      "id": "e8aa9ccff9dec8ea",
+      "styleAttributes": {},
+      "text": "通常用于<span style=\"background:#affad1\">Linux内核中表示一个总线类型</span>。这个结构体<span style=\"background:#d3f8b6\">包含了各种函数指针和属性，用于设备驱动模型中的匹配、事件通知、电源管理等功能</span>\n\nstruct <span style=\"background:#fdbfff\">bus_type</span> {\n\n    // 总线的名字。当总线上设备没有命名的时候使用这个名字作为设备的名字。\n\n    const char *name;\n\n  \n\n    // 指向设备名字的指针，可能用于动态分配或获取设备名。注意：这个字段在标准Linux内核中并不存在于`bus_type`结构体中，可能是自定义扩展。\n\n    const char *dev_name;\n\n  \n\n    // <span style=\"background:#d3f8b6\">根设备，代表此总线上的所有设备</span>。它充当总线层次结构中的顶级设备。\n\n    struct <span style=\"background:#affad1\">device</span> *dev_root;\n\n  \n\n    // 总线级别的属性组，可以用来定义该总线特有的属性文件。这些属性文件通常位于/sys/bus/<bus_name>/目录下。\n\n    const struct attribute_group **bus_groups;\n\n  \n\n    // 设备级别的属性组，定义了设备上可能存在的属性文件。这些属性文件通常位于/sys/devices/下的对应设备目录中。\n\n    const struct attribute_group **dev_groups;\n\n  \n\n    // 驱动程序级别的属性组，定义了驱动程序上可能存在的属性文件。这些属性文件通常位于/sys/bus/<bus_name>/drivers/<driver_name>/目录下。\n\n    const struct attribute_group **drv_groups;\n\n  \n\n    // 当尝试匹配一个设备与驱动时调用的函数。如果匹配成功，则返回0；否则返回负数错误码。\n\n    int (*match)(struct device *dev, struct device_driver *drv);\n\n  \n\n    // 发生uevent时调用的函数，用于发送事件到用户空间。通过修改环境变量列表(env)来提供额外的信息给用户空间的应用程序。\n\n    int (*uevent)(struct device *dev, struct kobj_uevent_env *env);\n\n  \n\n    // 如果总线需要探测设备，则执行这个函数。这允许总线特定的探测逻辑。\n\n    int (*probe)(struct device *dev);\n\n  \n\n    // 同步状态的回调函数，用于处理特定于总线的状态同步需求。例如，在系统启动期间或者热插拔事件后。\n\n    void (*sync_state)(struct device *dev);\n\n  \n\n    // 当设备从总线上移除时调用的函数。这个函数应该清理设备相关的资源。\n\n    int (*remove)(struct device *dev);\n\n  \n\n    // 电源相关的接口，关闭设备时调用。这个函数负责确保设备安全地进入低功耗状态或完全断电。\n\n    void (*shutdown)(struct device *dev);\n\n  \n\n    // 将设备设置为在线状态时调用的函数。这允许设备恢复正常操作。\n\n    int (*online)(struct device *dev);\n\n  \n\n    // 将设备设置为离线状态时调用的函数。这允许设备进入一种降低功能但仍保持供电的状态。\n\n    int (*offline)(struct device *dev);\n\n  \n\n    // 设备挂起操作时调用的函数。用于实现设备的电源管理功能，如进入待机模式。\n\n    int (*suspend)(struct device *dev, pm_message_t state);\n\n  \n\n    // 设备恢复操作时调用的函数。用于从挂起状态恢复设备至正常工作状态。\n\n    int (*resume)(struct device *dev);\n\n  \n\n    // 获取虚拟功能的数量。仅适用于支持SR-IOV（Single Root I/O Virtualization）的设备。\n\n    int (*num_vf)(struct device *dev);\n\n  \n\n    // DMA配置相关函数。用于设置设备的DMA参数。\n\n    int (*dma_configure)(struct device *dev);\n\n  \n\n    // 电源管理操作集合。包含了各种电源管理相关的回调函数，如suspend、resume等。\n\n    const struct dev_pm_ops *pm;\n\n  \n\n    // IOMMU操作集合。包含了IOMMU相关的配置和管理函数。\n\n    const struct iommu_ops *iommu_ops;\n\n  \n\n    // 总线的私有数据。指向包含内部使用的数据结构，如kset和其他管理信息。\n\n    struct subsys_private *p;\n\n  \n\n    // 总线的锁键，用于锁定机制。支持更细粒度的锁定分析和调试信息收集。\n\n    struct lock_class_key lock_key;\n\n  \n\n    // 是否需要父级锁的标志位。表明在访问某些资源时是否需要同时持有父级设备的锁。\n\n    bool need_parent_lock;\n\n};\n\n\n\n",
+      "type": "text",
+      "width": 820,
+      "x": -110,
+      "y": 1640
+    },
+    {
+      "height": 820,
+      "id": "839ac3bcc9322b8d",
+      "styleAttributes": {},
+      "text": "// 定义一个设备驱动的结构体,用于<span style=\"background:#affad1\">Linux内核中的设备驱动模型</span>。\nstruct <span style=\"background:#fdbfff\">device_driver</span> {\n\n    // 驱动名，用于匹配设备。每个驱动都需要有一个独一无二的名字来标识自己。\n    const char *name;\n    \n    // <span style=\"background:#d3f8b6\">设备所属总线类型</span>。指明了这个驱动是运行在哪一种类型的总线上（如：PCI、USB等）。\n    struct <span style=\"background:#affad1\">bus_type</span> *bus;\n    \n    // 匹配到设备时执行的函数。当系统发现一个与驱动匹配的设备时会调用此函数进行初始化。\n    int (*probe)(struct device *dev);\n    \n    // 移除设备时执行的函数。当设备从系统中移除时，该函数会被调用来清理资源。\n    int (*remove)(struct device *dev);\n    // 关闭设备时执行的函数。当系统关机或重启时，可能会调用此函数来关闭设备。\n    void (*shutdown)(struct device *dev);\n    // 挂起设备时执行的函数。用于电源管理，在设备挂起时被调用。\n    int (*suspend)(struct device *dev, pm_message_t state);\n    // 恢复设备时执行的函数。用于电源管理，在设备恢复时被调用。\n    int (*resume)(struct device *dev);\n    // 驱动的属性组，在sysfs文件系统下显示。允许驱动暴露一些可调整的参数给用户空间。\n    const struct attribute_group **groups;\n    // 私有数据指针，用于存储驱动内部的数据，对用户不可见。\n    struct driver_private *p;\n};\n\n",
+      "type": "text",
+      "width": 740,
+      "x": 1010,
+      "y": 1680
+    },
+    {
+      "height": 800,
+      "id": "7f8a109bb7dc7d6b",
+      "styleAttributes": {},
+      "text": "<span style=\"background:#affad1\">表示硬件设备的一个核心结构体。它包含了关于设备的广泛信息</span>，比如设备的名称、父设备、驱动程序、总线类型、电源状态等\nstruct <span style=\"background:#fdbfff\">device</span> {\n\n    struct device *parent; // 指向父设备的指针\n    struct device_private *p; // 私有数据，通常包含内部使用的链表节点等\n    \n    struct <span style=\"background:#affad1\">kobject</span> kobj; // <span style=\"background:#d3f8b6\">内嵌的kobject，用于sysfs表示</span>\n    const char *init_name; // 设备的初始化名称\n    \n    struct <span style=\"background:#affad1\">device_type</span> *type; // 设备类型\n    struct mutex mutex; // 保护该结构体的互斥锁\n    \n    struct <span style=\"background:#affad1\">bus_type</span> *bus; // 设备所属的总线类型（如：USB, PCI）\n    \n    struct driver_private *driver; // 驱动相关的私有数据\n    void *platform_data; // 平台特定的数据\n    void *driver_data; // 驱动程序使用的私有数据\n    struct dev_pm_info power; // 电源管理相关信息\n    struct dev_links links; // 管理与其他设备之间的链接关系\n    \n    struct attribute_group **groups; // 默认属性组\n    \n    void (*release)(struct device *dev); // 当设备即将被释放时调用的回调函数\n    // 其他成员...\n};\n\n",
+      "type": "text",
+      "width": 805,
+      "x": -1360,
+      "y": 1640
+    },
+    {
+      "height": 550,
+      "id": "fae292bb07e8d89e",
+      "styleAttributes": {},
+      "text": "struct <span style=\"background:#fdbfff\">class</span> {\n```\n    // 类的名称，显示在/sys/class/目录下。每个类都需要有一个独一无二的名字来标识自己。\n    const char *name;\n    // 指向模块的指针，表明哪个模块拥有这个类。通常设置为THIS_MODULE宏。\n    struct module *owner;\n    // 类默认的属性组。在类注册到内核时，会自动在/sys/class/[类名]下创建对应的属性文件。\n    // 这允许用户空间程序读取或设置与该类相关的属性。\n    const struct attribute_group **class_groups;\n    // 该类下每个设备的默认属性组。当设备被加入到这个类时，会在/sys/class/[类名]/[设备名]下创建对应的属性文件。\n    const struct attribute_group **dev_groups;\n    \n    // 该类下的设备在/sys/devices/下的目录。这是一个kobject对象，用于sysfs文件系统中的组织和表示。\n    struct kobject *dev_kobj;\n};\n```\n// 定义一个类（class）的结构体，在Linux内核中用于设备分类管理，<span style=\"background:#affad1\">用于设备类的创建和管理</span>。",
+      "type": "text",
+      "width": 920,
+      "x": -110,
+      "y": 1040
+    },
+    {
+      "height": 1300,
+      "id": "24e570b11ccef7ba",
+      "styleAttributes": {},
+      "text": "表示<span style=\"background:#ff4d4f\">当前注册的总线所示的子系统的私有数据</span>\nstruct <span style=\"background:#fdbfff\">subsys_private</span> {\n\n    // 子系统的kset，用于表示该子系统在sysfs中的存在形式。\n\n    struct kset subsys;\n\n  \n\n    // 指向一个包含所有设备的kset的指针，这些设备属于当前子系统。\n\n    struct kset *devices_kset;\n\n  \n\n    // 一个双向链表头，链接了与该子系统相关的接口列表。\n\n    struct list_head interfaces;\n\n  \n\n    // 互斥锁，保护对subsys_private结构体的数据访问，确保多线程环境下的数据一致性。\n\n    struct mutex mutex;\n\n  \n\n    // 指向一个包含所有驱动程序的kset的指针，这些驱动程序属于当前子系统。\n\n    struct kset *drivers_kset;\n\n  \n\n    // 包含子系统内所有设备的klist，用于管理这些设备。\n\n    struct klist klist_devices;\n\n  \n\n    // 包含子系统内所有驱动程序的klist，用于管理这些驱动程序。\n\n    struct klist klist_drivers;\n\n  \n\n    // 阻塞通知链头部，允许其他部分的内核注册回调函数以接收有关总线状态变化的通知。\n\n    struct blocking_notifier_head bus_notifier;\n\n  \n\n    // 标记位，指示是否自动探测驱动程序。值为1时，表示启用自动探测。\n\n    unsigned int drivers_autoprobe:1;\n\n  \n\n    // <span style=\"background:#d3f8b6\">指向该子系统关联的总线类型的常量指针。</span>\n\n    const struct <span style=\"background:#affad1\">bus_type</span> *bus;\n\n  \n\n    // 指向子系统根设备的指针，作为整个子系统的父级设备。\n\n    struct device *dev_root;\n\n  \n\n    // 用于存储“胶水”目录的kset，这些目录可能用于组织sysfs中的特殊文件或目录。\n\n    struct kset glue_dirs;\n\n  \n\n    // 指向该子系统关联的类类型的常量指针，如果适用的话。\n\n    const struct class *class;\n\n  \n\n    // 锁类别键，用于动态创建锁类别，有助于调试和追踪锁的行为。\n\n    struct lock_class_key lock_key;\n\n};",
+      "type": "text",
+      "width": 840,
+      "x": 1000,
+      "y": 2880
+    }
+  ]
+}

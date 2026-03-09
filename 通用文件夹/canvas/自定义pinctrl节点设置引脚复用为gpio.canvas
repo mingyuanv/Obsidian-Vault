@@ -1,0 +1,136 @@
+{
+	"edges": [
+		{
+			"fromNode": "5976dadcbc193146",
+			"fromSide": "bottom",
+			"id": "64fdfc29a6a6ea36",
+			"styleAttributes": {},
+			"toNode": "f9ef4b7b3c502eeb",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "cfb3804e05ae6227",
+			"fromSide": "bottom",
+			"id": "a610bc8687b2291f",
+			"styleAttributes": {},
+			"toNode": "15e9ae99877131ce",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "f9ef4b7b3c502eeb",
+			"fromSide": "bottom",
+			"id": "dd109eda4b8e9bbd",
+			"styleAttributes": {},
+			"toNode": "6384d9a98cac8f51",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "15e9ae99877131ce",
+			"fromSide": "bottom",
+			"id": "3ea58dfb1c90a20c",
+			"styleAttributes": {},
+			"toNode": "6384d9a98cac8f51",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "8ee9b037be8470cb",
+			"fromSide": "left",
+			"id": "adacb29b6a8f7a7a",
+			"styleAttributes": {},
+			"toNode": "e0e5b26e072539ca",
+			"toSide": "right"
+		},
+		{
+			"fromNode": "8ee9b037be8470cb",
+			"fromSide": "left",
+			"id": "a90e986ba5e465ed",
+			"styleAttributes": {},
+			"toNode": "08f715cdcdf17cfc",
+			"toSide": "right"
+		}
+	],
+	"nodes": [
+		{
+			"height": 500,
+			"id": "8ee9b037be8470cb",
+			"label": "自定义pinctrl节点设置引脚复用为gpio",
+			"styleAttributes": {},
+			"type": "group",
+			"width": 1260,
+			"x": -740,
+			"y": -140
+		},
+		{
+			"height": 60,
+			"id": "5976dadcbc193146",
+			"styleAttributes": {},
+			"text": "struct<span style=\"background:#affad1\"> pinctrl *led_pinctrl</span>; // <span style=\"background:#d3f8b6\">pinctrl 实例指针</span>",
+			"type": "text",
+			"width": 420,
+			"x": -660,
+			"y": -120
+		},
+		{
+			"height": 60,
+			"id": "f9ef4b7b3c502eeb",
+			"styleAttributes": {},
+			"text": "    led_pinctrl = <span style=\"background:#b1ffff\">pinctrl_get</span>(&dev->dev);// <span style=\"background:#d3f8b6\">获取 pinctrl 实例</span>",
+			"type": "text",
+			"width": 540,
+			"x": -720,
+			"y": 60
+		},
+		{
+			"height": 60,
+			"id": "15e9ae99877131ce",
+			"styleAttributes": {},
+			"text": "    led_state = <span style=\"background:#b1ffff\">pinctrl_lookup_state</span>(led_pinctrl, \"myled1\");// <span style=\"background:#d3f8b6\">查找状态</span>",
+			"type": "text",
+			"width": 620,
+			"x": -120,
+			"y": 60
+		},
+		{
+			"height": 60,
+			"id": "cfb3804e05ae6227",
+			"styleAttributes": {},
+			"text": "struct <span style=\"background:#affad1\">pinctrl_state *led_state;</span>//<span style=\"background:#d3f8b6\"> pinctrl 状态指针</span>",
+			"type": "text",
+			"width": 460,
+			"x": -40,
+			"y": -120
+		},
+		{
+			"height": 60,
+			"id": "6384d9a98cac8f51",
+			"styleAttributes": {},
+			"text": "    ret = <span style=\"background:#fdbfff\">pinctrl_select_state</span>(led_pinctrl, led_state);// <span style=\"background:#d3f8b6\">设置状态到硬件</span>",
+			"type": "text",
+			"width": 620,
+			"x": -450,
+			"y": 280
+		},
+		{
+			"color": "6",
+			"file": "RK3568（linux学习）/linux开发资料库/代码库/04_Linux驱动程序/89_gpioctrl08_GPIO子系统与pinctrl子系统相结合/02_module/gpio_api.c",
+			"height": 80,
+			"id": "e0e5b26e072539ca",
+			"styleAttributes": {},
+			"type": "file",
+			"width": 120,
+			"x": -1020,
+			"y": 10
+		},
+		{
+			"color": "6",
+			"height": 140,
+			"id": "08f715cdcdf17cfc",
+			"styleAttributes": {},
+			"text": "设备树\n[“14-GPIO子系统与pinctrl子系统相结合”页上的图片](onenote:https://d.docs.live.net/52d4b76bb0ffcf51/Documents/\\(RK3568\\)Linux驱动开发/第十二期_GPIO子系统.one#14-GPIO子系统与pinctrl子系统相结合&section-id={70166D78-0FC7-4512-B1CF-4A4481F8C206}&page-id={6746E8A8-E236-4BAE-9700-FA6C61290625}&object-id={C5E314F6-59BD-4A98-9F2F-F15BCFAA978E}&4D)  ([Web 视图](https://onedrive.live.com/view.aspx?resid=52D4B76BB0FFCF51%21se8c325913f784bf694d429e5ee2ab2be&id=documents&wd=target%28%E7%AC%AC%E5%8D%81%E4%BA%8C%E6%9C%9F_GPIO%E5%AD%90%E7%B3%BB%E7%BB%9F.one%7C70166D78-0FC7-4512-B1CF-4A4481F8C206%2F14-GPIO%E5%AD%90%E7%B3%BB%E7%BB%9F%E4%B8%8Epinctrl%E5%AD%90%E7%B3%BB%E7%BB%9F%E7%9B%B8%E7%BB%93%E5%90%88%7C6746E8A8-E236-4BAE-9700-FA6C61290625%2F%29&wdpartid=%7b048D1610-AB00-49D1-9F59-5381DCBDA042%7d%7b1%7d&wdsectionfileid=52D4B76BB0FFCF51!s379e81f769634ad2a8a457194a5b5af6))",
+			"type": "text",
+			"width": 220,
+			"x": -1070,
+			"y": 140
+		}
+	]
+}

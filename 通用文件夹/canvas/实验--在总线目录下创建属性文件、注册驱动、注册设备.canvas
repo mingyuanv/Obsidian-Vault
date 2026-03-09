@@ -1,0 +1,424 @@
+{
+	"edges": [
+		{
+			"color": "1",
+			"fromNode": "f1565157c357bfb5",
+			"fromSide": "top",
+			"id": "badf19c5bc75aa4f",
+			"styleAttributes": {},
+			"toNode": "0989a79bc0674e3f",
+			"toSide": "bottom"
+		},
+		{
+			"fromNode": "f1565157c357bfb5",
+			"fromSide": "top",
+			"id": "4ee1098ed5a08918",
+			"styleAttributes": {},
+			"toNode": "3b51d4a578760065",
+			"toSide": "bottom"
+		},
+		{
+			"color": "1",
+			"fromNode": "026abf58c3c661c3",
+			"fromSide": "bottom",
+			"id": "cc3d771ba1fe7d54",
+			"styleAttributes": {},
+			"toNode": "551d256e7954ee4f",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "026abf58c3c661c3",
+			"fromSide": "bottom",
+			"id": "1522306daf27728c",
+			"styleAttributes": {},
+			"toNode": "c5118ccdec73ec6f",
+			"toSide": "top"
+		},
+		{
+			"color": "1",
+			"fromNode": "551d256e7954ee4f",
+			"fromSide": "bottom",
+			"id": "b438bdc135dd75ae",
+			"styleAttributes": {},
+			"toNode": "ef6decaf8b732102",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "3f00f1e0c34ea624",
+			"fromSide": "left",
+			"id": "64495b83cf5b4dff",
+			"styleAttributes": {},
+			"toNode": "026abf58c3c661c3",
+			"toSide": "right"
+		},
+		{
+			"fromNode": "14b9b11c98522d44",
+			"fromSide": "left",
+			"id": "0333a791f04b2ea3",
+			"styleAttributes": {},
+			"toNode": "026abf58c3c661c3",
+			"toSide": "right"
+		},
+		{
+			"color": "1",
+			"fromNode": "1e1dd587875f81f6",
+			"fromSide": "bottom",
+			"id": "cc28fed7f3f1a26a",
+			"styleAttributes": {},
+			"toNode": "ef6decaf8b732102",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "b284e7a3da926bd6",
+			"fromSide": "bottom",
+			"id": "c686feb244cc8d36",
+			"styleAttributes": {},
+			"toNode": "1e1dd587875f81f6",
+			"toSide": "top"
+		},
+		{
+			"fromNode": "d4c743b7fdcd7f64",
+			"fromSide": "top",
+			"id": "47f3fa51f899231b",
+			"styleAttributes": {},
+			"toNode": "c5118ccdec73ec6f",
+			"toSide": "bottom"
+		},
+		{
+			"fromNode": "ef6decaf8b732102",
+			"fromSide": "right",
+			"id": "6142d6691727932c",
+			"styleAttributes": {},
+			"toNode": "d4c743b7fdcd7f64",
+			"toSide": "left"
+		},
+		{
+			"color": "1",
+			"fromNode": "026abf58c3c661c3",
+			"fromSide": "top",
+			"id": "0dd850fee62a855a",
+			"styleAttributes": {},
+			"toNode": "f1565157c357bfb5",
+			"toSide": "bottom"
+		},
+		{
+			"fromNode": "e10533c753a18688",
+			"fromSide": "left",
+			"id": "786ddfc700864fdd",
+			"styleAttributes": {},
+			"toNode": "d208b2add1d8fed9",
+			"toSide": "right"
+		},
+		{
+			"fromNode": "4c7cb725e6c7c48f",
+			"fromSide": "left",
+			"id": "16bf6fcde975251a",
+			"styleAttributes": {},
+			"toNode": "d208b2add1d8fed9",
+			"toSide": "right"
+		},
+		{
+			"color": "1",
+			"fromNode": "d208b2add1d8fed9",
+			"fromSide": "top",
+			"id": "d11573a56703e211",
+			"styleAttributes": {},
+			"toNode": "59ebe1c0a911b968",
+			"toSide": "bottom"
+		},
+		{
+			"fromNode": "d208b2add1d8fed9",
+			"fromSide": "top",
+			"id": "aceb1bd355331d7e",
+			"styleAttributes": {},
+			"toNode": "af4fefc183d5cb1a",
+			"toSide": "bottom"
+		},
+		{
+			"color": "1",
+			"fromNode": "026abf58c3c661c3",
+			"fromSide": "top",
+			"id": "16cd52222517dee7",
+			"styleAttributes": {},
+			"toNode": "d208b2add1d8fed9",
+			"toSide": "bottom"
+		},
+		{
+			"fromNode": "24120f4e771b7f36",
+			"fromSide": "left",
+			"id": "bd32cbbf92668387",
+			"styleAttributes": {},
+			"toNode": "f1565157c357bfb5",
+			"toSide": "right"
+		},
+		{
+			"fromNode": "10057edf8866adf2",
+			"fromSide": "left",
+			"id": "93b8f1beed568461",
+			"styleAttributes": {},
+			"toNode": "aa84f65f15cc5a1b",
+			"toSide": "right"
+		},
+		{
+			"fromNode": "7c6a793123cbbfbe",
+			"fromSide": "left",
+			"id": "12f12759eb46eca8",
+			"styleAttributes": {},
+			"toNode": "30e52bd7eb9f4ddb",
+			"toSide": "right"
+		},
+		{
+			"fromNode": "113d459579dd33d0",
+			"fromSide": "top",
+			"id": "823b2ec61247dff6",
+			"styleAttributes": {},
+			"toNode": "6f135dcde05b339f",
+			"toSide": "bottom"
+		}
+	],
+	"nodes": [
+		{
+			"height": 780,
+			"id": "10057edf8866adf2",
+			"label": "在总线目录下创建属性文件",
+			"styleAttributes": {},
+			"type": "group",
+			"width": 1915,
+			"x": -1060,
+			"y": -380
+		},
+		{
+			"height": 560,
+			"id": "7c6a793123cbbfbe",
+			"label": "在总线目录下注册设备",
+			"styleAttributes": {},
+			"type": "group",
+			"width": 1330,
+			"x": -1160,
+			"y": -1080
+		},
+		{
+			"height": 530,
+			"id": "113d459579dd33d0",
+			"label": "在总线目录下注册驱动",
+			"styleAttributes": {},
+			"type": "group",
+			"width": 970,
+			"x": 360,
+			"y": -1160
+		},
+		{
+			"height": 260,
+			"id": "f1565157c357bfb5",
+			"styleAttributes": {},
+			"text": "struct <span style=\"background:#b1ffff\">device</span> mydevice = {\n\n    .init_name = \"mydevice\",      // 设备的初始化名称\n\n    .bus = &mybus,                // 所属总线\n\n    .release = myrelease,         // 设备的释放回调函数\n\n    .devt = ((255 << 20 | 0)),    // 设备号\n\n};",
+			"type": "text",
+			"width": 580,
+			"x": -970,
+			"y": -900
+		},
+		{
+			"height": 60,
+			"id": "0989a79bc0674e3f",
+			"styleAttributes": {},
+			"text": "    ret = <span style=\"background:#fdbfff\">device_register</span>(&mydevice);  // <span style=\"background:#d3f8b6\">注册设备</span>",
+			"type": "text",
+			"width": 460,
+			"x": -1100,
+			"y": -1060
+		},
+		{
+			"height": 60,
+			"id": "3b51d4a578760065",
+			"styleAttributes": {},
+			"text": "<span style=\"background:#fdbfff\">device_unregister</span>(&mydevice);      // 取消注册设备",
+			"type": "text",
+			"width": 500,
+			"x": -580,
+			"y": -1060
+		},
+		{
+			"height": 80,
+			"id": "24120f4e771b7f36",
+			"styleAttributes": {},
+			"text": " // 设备的释放回调函数\nvoid <span style=\"background:#affad1\">myrelease</span>(struct device *dev)",
+			"type": "text",
+			"width": 360,
+			"x": -200,
+			"y": -810
+		},
+		{
+			"color": "6",
+			"file": "RK3568（linux学习）/linux开发资料库/代码库/04_Linux驱动程序/76_device_在自己的总线下注册设备/module/device.c",
+			"height": 90,
+			"id": "30e52bd7eb9f4ddb",
+			"styleAttributes": {},
+			"type": "file",
+			"width": 140,
+			"x": -1420,
+			"y": -860
+		},
+		{
+			"height": 120,
+			"id": "59ebe1c0a911b968",
+			"styleAttributes": {},
+			"text": "    // 尝试向系统<span style=\"background:#d3f8b6\">注册驱动程序</span>\n\n    ret = <span style=\"background:#fdbfff\">driver_register</span>(&mydriver);",
+			"type": "text",
+			"width": 340,
+			"x": 370,
+			"y": -1150
+		},
+		{
+			"height": 120,
+			"id": "af4fefc183d5cb1a",
+			"styleAttributes": {},
+			"text": "    // 注销驱动程序，释放资源\n\n    driver_unregister(&mydriver);",
+			"type": "text",
+			"width": 320,
+			"x": 890,
+			"y": -1150
+		},
+		{
+			"height": 60,
+			"id": "e10533c753a18688",
+			"styleAttributes": {},
+			"text": "int <span style=\"background:#affad1\">mydriver_probe</span>(struct device *dev){",
+			"type": "text",
+			"width": 420,
+			"x": 890,
+			"y": -870
+		},
+		{
+			"height": 60,
+			"id": "4c7cb725e6c7c48f",
+			"styleAttributes": {},
+			"text": "int <span style=\"background:#affad1\">mydriver_remove</span>(struct device *dev){",
+			"type": "text",
+			"width": 420,
+			"x": 890,
+			"y": -760
+		},
+		{
+			"height": 270,
+			"id": "d208b2add1d8fed9",
+			"styleAttributes": {},
+			"text": "struct <span style=\"background:#b1ffff\">device_driver</span> mydriver = {\n\n    .name = \"mydevice\",\n\n    .bus = &mybus,\n\n    .probe = mydriver_probe,\n\n    .remove = mydriver_remove,\n\n};",
+			"type": "text",
+			"width": 340,
+			"x": 370,
+			"y": -920
+		},
+		{
+			"color": "6",
+			"file": "RK3568（linux学习）/linux开发资料库/代码库/04_Linux驱动程序/77_driver_在自己的总线下注册驱动/module/driver.c",
+			"height": 120,
+			"id": "6f135dcde05b339f",
+			"styleAttributes": {},
+			"type": "file",
+			"width": 140,
+			"x": 750,
+			"y": -1360
+		},
+		{
+			"height": 220,
+			"id": "026abf58c3c661c3",
+			"styleAttributes": {},
+			"text": "struct<span style=\"background:#b1ffff\"> bus_type</span> mybus = {\n\n    .name = \"mybus\",                 // 总线的名称\n\n    .match = mybus_match,            // 设备和驱动程序匹配的回调函数\n\n    .probe = mybus_probe,            // 设备探测的回调函数\n\n};",
+			"type": "text",
+			"width": 600,
+			"x": -420,
+			"y": -240
+		},
+		{
+			"height": 100,
+			"id": "b284e7a3da926bd6",
+			"styleAttributes": {},
+			"text": "<span style=\"background:#d3f8b6\">属性的 show 回调函数</span>\nssize_t <span style=\"background:#affad1\">mybus_show</span>(struct bus_type *bus, char *buf)",
+			"type": "text",
+			"width": 540,
+			"x": -1035,
+			"y": -350
+		},
+		{
+			"height": 340,
+			"id": "1e1dd587875f81f6",
+			"styleAttributes": {},
+			"text": "struct <span style=\"background:#b1ffff\">bus_attribute</span> mybus_attr = {\n\n    .attr = {\n\n        .name = \"value\",             // 属性的名称\n\n        .mode = 0664,                // 属性的访问权限\n\n    },\n\n    .show = mybus_show,               // 属性的 show 回调函数\n\n};",
+			"type": "text",
+			"width": 530,
+			"x": -1030,
+			"y": -200
+		},
+		{
+			"color": "6",
+			"file": "RK3568（linux学习）/linux开发资料库/代码库/04_Linux驱动程序/75_bus02_在总线目录下创建属性文件/module/bus.c",
+			"height": 100,
+			"id": "aa84f65f15cc5a1b",
+			"styleAttributes": {},
+			"type": "file",
+			"width": 90,
+			"x": -1260,
+			"y": -70
+		},
+		{
+			"height": 60,
+			"id": "14b9b11c98522d44",
+			"styleAttributes": {},
+			"text": "// <span style=\"background:#d3f8b6\">检查设备名称和驱动程序名称是否匹配</span>\nint <span style=\"background:#affad1\">mybus_match</span>(struct device *dev, struct device_driver *drv)",
+			"type": "text",
+			"width": 560,
+			"x": 280,
+			"y": -300
+		},
+		{
+			"height": 90,
+			"id": "3f00f1e0c34ea624",
+			"styleAttributes": {},
+			"text": " // <span style=\"background:#d3f8b6\">设备探测的回调函数</span>\nint <span style=\"background:#affad1\">mybus_probe</span>(struct device *dev)",
+			"type": "text",
+			"width": 365,
+			"x": 295,
+			"y": -90
+		},
+		{
+			"height": 60,
+			"id": "551d256e7954ee4f",
+			"styleAttributes": {},
+			"text": "    ret = <span style=\"background:#fdbfff\">bus_register</span>(&mybus);       // <span style=\"background:#d3f8b6\">注册总线</span>",
+			"type": "text",
+			"width": 440,
+			"x": -480,
+			"y": 140
+		},
+		{
+			"height": 60,
+			"id": "ef6decaf8b732102",
+			"styleAttributes": {},
+			"text": "    ret = <span style=\"background:#fdbfff\">bus_create_file</span>(&mybus, &mybus_attr);  // 在 sysfs 中<span style=\"background:#d3f8b6\">创建属性文件</span>",
+			"type": "text",
+			"width": 660,
+			"x": -810,
+			"y": 320
+		},
+		{
+			"height": 60,
+			"id": "d4c743b7fdcd7f64",
+			"styleAttributes": {},
+			"text": " bus_remove_file(&mybus, &mybus_attr);  // 从 sysfs 中移除属性文件",
+			"type": "text",
+			"width": 630,
+			"x": 25,
+			"y": 320
+		},
+		{
+			"height": 60,
+			"id": "c5118ccdec73ec6f",
+			"styleAttributes": {},
+			"text": "bus_unregister(&mybus);         // 取消注册总线",
+			"type": "text",
+			"width": 440,
+			"x": 120,
+			"y": 140
+		}
+	]
+}
