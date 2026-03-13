@@ -1,0 +1,9 @@
+{
+  "id": "ctrl-d-c-block",
+  "name": "Ctrl+D C 代码块",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "按下 Ctrl+D 快捷键直接插入 C 语言代码块",
+  "author": "Your Name",
+  "isDesktopOnly": true
+}

@@ -1246,7 +1246,7 @@ tail -f -n 50 /var/log/chrony/chrony.log
 ```
 
 
-## 清除旧的 SSH 主机密钥记录
+## 清除旧的 SSH 主机密钥记录(❤️)
 
 ```c
 ssh-keygen -f "/home/ming/.ssh/known_hosts" -R "192.168.55.1"
@@ -1255,3 +1255,57 @@ ssh-keygen -f "/home/ming/.ssh/known_hosts" -R "192.168.55.1"
 ssh-keygen -f "/root/.ssh/known_hosts" -R "192.168.55.1"
 
 ```
+
+
+## mount命令查看文件系统挂载：
+![[嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第82章 移植设备树插件驱动实验/file-20260309101814099.png]]
+
+
+### 手动挂载configfs虚拟文件系统
+- 2 mount -t configfs none /sys/kernel/config
+
+
+
+
+
+
+## 
+
+
+
+## 
+
+
+
+
+## 
+
+
+
+## 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

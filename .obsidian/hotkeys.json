@@ -1,12 +1,4 @@
 {
-  "editor:insert-codeblock": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "D"
-    }
-  ],
   "editor:delete-paragraph": [],
   "editor:toggle-blockquote": [
     {
@@ -23,6 +15,23 @@
         "Mod"
       ],
       "key": "2"
+    }
+  ],
+  "ctrl-d-c-block:insert-c-codeblock": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
+    }
+  ],
+  "obsidian-excalidraw-plugin:save": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
     }
   ]
 }

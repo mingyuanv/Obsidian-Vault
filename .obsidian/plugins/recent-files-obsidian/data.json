@@ -1,64 +1,164 @@
 {
   "recentFiles": [
     {
-      "basename": "第76~81章 编写设备树插件驱动",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第76~81章 编写设备树插件驱动.md"
+      "basename": "第116章 netlink监听广播信息实验",
+      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第116章 netlink监听广播信息实验.md"
     },
     {
-      "basename": "第75章 ConfigFS的核心数据结构 - 设备树插件",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第75章 ConfigFS的核心数据结构 - 设备树插件.md"
+      "basename": "第115章 完善kset_uevent_ops结构体实验",
+      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第115章 完善kset_uevent_ops结构体实验.md"
     },
     {
-      "basename": "第74章 虚拟文件系统ConfigFS介绍",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第74章 虚拟文件系统ConfigFS介绍.md"
+      "basename": "未命名 4",
+      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/未命名 4.md"
     },
     {
-      "basename": "第73章 设备树插件使用实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第73章 设备树插件使用实验.md"
+      "basename": "未命名 3",
+      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/未命名 3.md"
     },
     {
-      "basename": "第72章 设备树插件语法和编译实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第72章 设备树插件语法和编译实验.md"
+      "basename": "未命名 2",
+      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/未命名 2.md"
     },
     {
-      "basename": "第71章 设备树插件介绍",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第71章 设备树插件介绍.md"
+      "basename": "未命名",
+      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/未命名.md"
     },
     {
-      "basename": "第70章 参考文档：设备树bindings",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第70章 参考文档：设备树bindings.md"
+      "basename": "第114章 内核发送事件到用户空间的方法",
+      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第114章 内核发送事件到用户空间的方法.md"
     },
     {
-      "basename": "第69章 of操作函数实验：获取中断资源",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第69章 of操作函数实验：获取中断资源.md"
+      "basename": "第113章 内核是如何发送事件到用户空间",
+      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第113章 内核是如何发送事件到用户空间.md"
     },
     {
-      "basename": "第68章 ranges属性实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第68章 ranges属性实验.md"
+      "basename": "第112章 热插拔简介",
+      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第112章 热插拔简介.md"
     },
     {
-      "basename": "第67章 of操作函数实验：获取属性",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第67章 of操作函数实验：获取属性.md"
+      "basename": "2-2、tof 数据处理适配",
+      "path": "XGRIDS/rk3588开发/TOF-深度相机/2-2、tof 数据处理适配.md"
     },
     {
-      "basename": "第66章of操作函数实验：获取设备树节点_通过路径查找设备树",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第66章of操作函数实验：获取设备树节点_通过路径查找设备树.md"
+      "basename": "4-1、spec-kit AI开发",
+      "path": "Extended-Learn/AI学习/4-1、spec-kit AI开发.md"
     },
     {
-      "basename": "第65章 设备树下platform_device和platform_driver匹配实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第65章 设备树下platform_device和platform_driver匹配实验.md"
+      "basename": "kiro安装与授权",
+      "path": "Extended-Learn/AI学习/kiro安装与授权.md"
     },
     {
-      "basename": "第64章 device_node转换成platform_device实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第64章 device_node转换成platform_device实验.md"
+      "basename": "📒📄🔨 ❤️🔍📌📖❌✅🐞 🛠️📦",
+      "path": "通用文件夹/模板/📒📄🔨 ❤️🔍📌📖❌✅🐞 🛠️📦.md"
     },
     {
-      "basename": "第59章 实例分析：CPU",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第59章 实例分析：CPU.md"
+      "basename": "❌废弃：第十期 热插拔",
+      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/❌废弃：第十期 热插拔.md"
+    },
+    {
+      "basename": "第46章 延迟工作实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第五期_中断/第46章 延迟工作实验.md"
+    },
+    {
+      "basename": "第111章 platform总线注册驱动流程实例分析实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第111章 platform总线注册驱动流程实例分析实验.md"
+    },
+    {
+      "basename": "❌废弃：第九期 设备模型",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/❌废弃：第九期 设备模型.md"
+    },
+    {
+      "basename": "第110章 加载驱动和加载设备先后顺序分析实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第110章 加载驱动和加载设备先后顺序分析实验.md"
+    },
+    {
+      "basename": "第109章 probe函数执行流程分析实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第109章 probe函数执行流程分析实验.md"
+    },
+    {
+      "basename": "3-2、开发经验记录",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/3-2、开发经验记录.md"
+    },
+    {
+      "basename": "第108章 驱动注册流程分析实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第108章 驱动注册流程分析实验.md"
+    },
+    {
+      "basename": "第106章 为什么注册总线之前要先注册设备 - 实例分析实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第106章 为什么注册总线之前要先注册设备 - 实例分析实验.md"
+    },
+    {
+      "basename": "第51章 注册platform设备实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第六期 平台总线/第51章 注册platform设备实验.md"
+    },
+    {
+      "basename": "第103章 在总线下注册设备实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第103章 在总线下注册设备实验.md"
+    },
+    {
+      "basename": "第102章 platform总线注册流程实例分析实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第102章 platform总线注册流程实例分析实验.md"
+    },
+    {
+      "basename": "第105章 platform总线设备注册流程实例分析实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第105章 platform总线设备注册流程实例分析实验.md"
+    },
+    {
+      "basename": "第56章 设备树基本语法",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第56章 设备树基本语法.md"
+    },
+    {
+      "basename": "2-1、tof相机数据获取与解析",
+      "path": "XGRIDS/rk3588开发/TOF-深度相机/2-1、tof相机数据获取与解析.md"
+    },
+    {
+      "basename": "1-1、camera加tof相机出流失败问题",
+      "path": "XGRIDS/rk3588开发/TOF-深度相机/1-1、camera加tof相机出流失败问题.md"
+    },
+    {
+      "basename": "第104章 设备注册流程分析实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第104章 设备注册流程分析实验.md"
+    },
+    {
+      "basename": "第101章 总线注册流程理论分析实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第101章 总线注册流程理论分析实验.md"
+    },
+    {
+      "basename": "第100章 在总线目录下创建属性文件实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第100章 在总线目录下创建属性文件实验.md"
+    },
+    {
+      "basename": "第99章 注册一个自己的总线实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第99章 注册一个自己的总线实验.md"
+    },
+    {
+      "basename": "kiro  使用",
+      "path": "Extended-Learn/AI学习/kiro  使用.md"
+    },
+    {
+      "basename": "第98章 创建多个属性文件的简便方法",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第98章 创建多个属性文件的简便方法.md"
+    },
+    {
+      "basename": "📒AI实践总结",
+      "path": "Extended-Learn/AI学习/📒AI实践总结.md"
+    },
+    {
+      "basename": "linux开发工具软件",
+      "path": "Extended-Learn/电脑软件学习/linux开发工具软件.md"
+    },
+    {
+      "basename": "🔨linux常用命令记录",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/🔨linux常用命令记录.md"
     },
     {
       "basename": "主页",
       "path": "主页.md"
+    },
+    {
+      "basename": "1-1、skills收集与使用",
+      "path": "Extended-Learn/AI学习/1-1、skills收集与使用.md"
     },
     {
       "basename": "1-2、高通平台了解与开发框架搭建",
@@ -69,132 +169,36 @@
       "path": "XGRIDS/高通平台开发/💻图像处理应用开发/1-3、图像处理程序的进一步适配.md"
     },
     {
-      "basename": "1-1、skills收集与使用",
-      "path": "Extended-Learn/AI学习/1-1、skills收集与使用.md"
+      "basename": "第96章 优化属性文件读写函数实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第96章 优化属性文件读写函数实验.md"
     },
     {
-      "basename": "2-1、tof相机数据获取与解析",
-      "path": "XGRIDS/rk3588开发/TOF-深度相机/2-1、tof相机数据获取与解析.md"
+      "basename": "第97章 创建属性文件并实现读写功能实验2",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第97章 创建属性文件并实现读写功能实验2.md"
     },
     {
-      "basename": "📖67 个必学的 AI 编程知识",
-      "path": "Extended-Learn/AI学习/📖67 个必学的 AI 编程知识.md"
+      "basename": "第95章 创建属性文件并实现读写功能实验1",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第95章 创建属性文件并实现读写功能实验1.md"
     },
     {
-      "basename": "2-1、MCP 收集与使用",
-      "path": "Extended-Learn/AI学习/2-1、MCP 收集与使用.md"
+      "basename": "第94章 引入并完善kobject_type结构体",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第94章 引入并完善kobject_type结构体.md"
     },
     {
-      "basename": "3-1、AI 全流程闭环开发",
-      "path": "Extended-Learn/AI学习/3-1、AI 全流程闭环开发.md"
+      "basename": "编写设备树插件驱动",
+      "path": "通用文件夹/canvas/编写设备树插件驱动.canvas"
     },
     {
-      "basename": "1-1、camera加tof相机出流失败问题",
-      "path": "XGRIDS/rk3588开发/TOF-深度相机/1-1、camera加tof相机出流失败问题.md"
+      "basename": "第76~81章 编写设备树插件驱动",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第76~81章 编写设备树插件驱动.md"
     },
     {
       "basename": "🔨tar命令表",
       "path": "XGRIDS/rk3588开发/💻SDK编译/🔨tar命令表.md"
     },
     {
-      "basename": "📒📄🔨 ❤️🔍📌📖❌✅🐞 🛠️📦",
-      "path": "通用文件夹/模板/📒📄🔨 ❤️🔍📌📖❌✅🐞 🛠️📦.md"
-    },
-    {
-      "basename": "Recent Files追踪最近打开过的文件",
-      "path": "Extended-Learn/obsidian学习/Recent Files追踪最近打开过的文件.md"
-    },
-    {
-      "basename": "1-1、RK3588 SDK编译（灵光K1）",
-      "path": "XGRIDS/rk3588开发/💻SDK编译/1-1、RK3588 SDK编译（灵光K1）.md"
-    },
-    {
-      "basename": "开发任务记录",
-      "path": "通用文件夹/模板/项目开发/开发任务记录.md"
-    },
-    {
-      "basename": "开发记录：命令、知识点、工具",
-      "path": "通用文件夹/模板/项目开发/开发记录：命令、知识点、工具.md"
-    },
-    {
-      "basename": "1、设计要求",
-      "path": "通用文件夹/模板/项目开发/1、设计要求.md"
-    },
-    {
-      "basename": "项目快速上手提示词",
-      "path": "通用文件夹/模板/项目开发/项目快速上手提示词.md"
-    },
-    {
-      "basename": "任务",
-      "path": "功能子仓库/code-notes/任务.md"
-    },
-    {
-      "basename": "2、项目需求",
-      "path": "通用文件夹/模板/项目开发/2、项目需求.md"
-    },
-    {
-      "basename": "开发报错记录",
-      "path": "通用文件夹/模板/项目开发/开发报错记录.md"
-    },
-    {
-      "basename": "Claude Code安装及使用教程",
-      "path": "Extended-Learn/电脑软件学习/Claude Code安装及使用教程.md"
-    },
-    {
-      "basename": "📒AI任务提示词模板",
-      "path": "XGRIDS/rk3588开发/TOF-深度相机/📒AI任务提示词模板.md"
-    },
-    {
-      "basename": "📒tof相关知识了解：",
-      "path": "XGRIDS/rk3588开发/TOF-深度相机/📒tof相关知识了解：.md"
-    },
-    {
-      "basename": "linux开发工具软件",
-      "path": "Extended-Learn/电脑软件学习/linux开发工具软件.md"
-    },
-    {
-      "basename": "pdf英文剧本转md文件：",
-      "path": "Extended-Learn/未来规划（实习、英语）/pdf英文剧本转md文件：.md"
-    },
-    {
-      "basename": "AWS AI 技术交流",
-      "path": "Extended-Learn/AI学习/AWS AI 技术交流.md"
-    },
-    {
-      "basename": "CloudCompare  安装",
-      "path": "Extended-Learn/电脑软件学习/CloudCompare  安装.md"
-    },
-    {
-      "basename": "🔨 解密img文件和SCP传输",
-      "path": "XGRIDS/rk3588开发/💻SDK编译/🔨 解密img文件和SCP传输.md"
-    },
-    {
-      "basename": "🔨gdb工具",
-      "path": "XGRIDS/rk3588开发/TOF-深度相机/🔨gdb工具.md"
-    },
-    {
-      "basename": "3-1、8Kcamera驱动和图像获取（L2pro）",
-      "path": "XGRIDS/rk3588开发/💻camera驱动开发/3-1、8Kcamera驱动和图像获取（L2pro）.md"
-    },
-    {
-      "basename": "🔨linux常用命令记录",
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/🔨linux常用命令记录.md"
-    },
-    {
-      "basename": "3-2、开发经验记录",
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/3-2、开发经验记录.md"
-    },
-    {
-      "basename": "🔨dpkg命令表",
-      "path": "XGRIDS/rk3588开发/💻SDK编译/🔨dpkg命令表.md"
-    },
-    {
-      "basename": "1-1、Linux时间同步改善了解",
-      "path": "XGRIDS/rk3588开发/PPS时间同步/1-1、Linux时间同步改善了解.md"
-    },
-    {
-      "basename": "3-2、图像处理程序适配8K",
-      "path": "XGRIDS/rk3588开发/💻camera驱动开发/3-2、图像处理程序适配8K.md"
+      "basename": "第93章 kobject释放实例分析实验",
+      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第93章 kobject释放实例分析实验.md"
     }
   ],
   "omittedPaths": [],

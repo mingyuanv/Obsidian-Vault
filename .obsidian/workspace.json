@@ -22,17 +22,59 @@
             }
           },
           {
-            "id": "98cef3f4556c2228",
+            "id": "1e94d821a99da114",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第76~81章 编写设备树插件驱动.md",
+                "file": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第116章 netlink监听广播信息实验.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第76~81章 编写设备树插件驱动"
+              "title": "第116章 netlink监听广播信息实验"
+            }
+          },
+          {
+            "id": "4fb0bb1c93b92784",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XGRIDS/rk3588开发/TOF-深度相机/2-2、tof 数据处理适配.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2-2、tof 数据处理适配"
+            }
+          },
+          {
+            "id": "e046917b028e0500",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "通用文件夹/模板/📒📄🔨 ❤️🔍📌📖❌✅🐞 🛠️📦.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "📒📄🔨 ❤️🔍📌📖❌✅🐞 🛠️📦"
+            }
+          },
+          {
+            "id": "714f30ffd731164b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Extended-Learn/AI学习/4-1、spec-kit AI开发.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4-1、spec-kit AI开发"
             }
           }
         ],
@@ -90,7 +132,7 @@
             }
           },
           {
-            "id": "ab62106bae52d645",
+            "id": "dc3a5890bc8c2175",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -181,17 +223,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第76~81章 编写设备树插件驱动.md",
+                "file": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第116章 netlink监听广播信息实验.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "第76~81章 编写设备树插件驱动 的大纲"
+              "title": "第116章 netlink监听广播信息实验 的大纲"
             }
           },
           {
-            "id": "ad0a397fb25d77c1",
+            "id": "30cd3275563bd52d",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -201,17 +243,7 @@
             }
           },
           {
-            "id": "3731671893f91657",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
-            }
-          },
-          {
-            "id": "884c7d0be68452ce",
+            "id": "deacdc28203fea97",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -230,77 +262,78 @@
   "left-ribbon": {
     "hiddenItems": {
       "bases:新建数据库": false,
-      "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "audio-recorder:开始/结束录音": false,
       "workspaces:管理工作区布局": false,
+      "switcher:打开快速切换": false,
+      "obsidian42-brat:BRAT": false,
+      "digitalgarden:Digital Garden Publication Center": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "templater-obsidian:Templater": false,
+      "iconic:打开规则书": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-memos:Thino": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-importer:Open Importer": false,
-      "iconic:打开规则书": false,
-      "digitalgarden:Digital Garden Publication Center": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-memos:Thino": false
     }
   },
-  "active": "98cef3f4556c2228",
+  "active": "1e94d821a99da114",
   "lastOpenFiles": [
-    "功能子仓库/未命名.base",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第76~81章 编写设备树插件驱动.md",
-    "功能子仓库/Drawing 2026-03-06 18.24.11.excalidraw.md",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第115章 完善kset_uevent_ops结构体实验.md",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/未命名 4.md",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/未命名 3.md",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/未命名 2.md",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第116章 netlink监听广播信息实验.md",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/未命名.md",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第115章 完善kset_uevent_ops结构体实验/file-20260313121304736.png",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第115章 完善kset_uevent_ops结构体实验/file-20260313121240072.png",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第115章 完善kset_uevent_ops结构体实验/file-20260313121229072.png",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第115章 完善kset_uevent_ops结构体实验",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第114章 内核发送事件到用户空间的方法.md",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第114章 内核发送事件到用户空间的方法/file-20260313110354062.png",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第114章 内核发送事件到用户空间的方法/file-20260313110321244.png",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第114章 内核发送事件到用户空间的方法",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第113章 内核是如何发送事件到用户空间.md",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第113章 内核是如何发送事件到用户空间/file-20260313105811952.png",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第113章 内核是如何发送事件到用户空间/file-20260313105815316.png",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第113章 内核是如何发送事件到用户空间",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第112章 热插拔简介.md",
+    "XGRIDS/rk3588开发/TOF-深度相机/2-2、tof 数据处理适配.md",
+    "Extended-Learn/AI学习/4-1、spec-kit AI开发.md",
+    "Extended-Learn/AI学习/kiro安装与授权.md",
+    "Extended-Learn/AI学习/assets/kiro安装与授权/94eb4c87af1b0070f7321a3971a3e926_MD5.jpg",
+    "Extended-Learn/AI学习/assets/kiro安装与授权/4a716231481ebf686f07850a94a6ff1b_MD5.png",
+    "Extended-Learn/AI学习/assets/kiro安装与授权/076a06c78f4fd4428dd09cd4f9d4442d_MD5.png",
+    "Extended-Learn/AI学习/assets/kiro安装与授权",
+    "通用文件夹/模板/📒📄🔨 ❤️🔍📌📖❌✅🐞 🛠️📦.md",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/❌废弃：第十期 热插拔",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/❌废弃：第十期 热插拔.md",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第十期 热插拔",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第五期_中断/第46章 延迟工作实验.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第111章 platform总线注册驱动流程实例分析实验.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/❌废弃：第九期 设备模型.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/assets/❌废弃：第九期 设备模型",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第110章 加载驱动和加载设备先后顺序分析实验.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第109章 probe函数执行流程分析实验.md",
+    "嵌入式知识学习（通用扩展）/linux基础知识/3-2、开发经验记录.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第108章 驱动注册流程分析实验.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第106章 为什么注册总线之前要先注册设备 - 实例分析实验.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第六期 平台总线/第51章 注册platform设备实验.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第六期 平台总线/第52章 注册platform驱动实验.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第103章 在总线下注册设备实验.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第102章 platform总线注册流程实例分析实验.md",
+    "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/assets/第106章 为什么注册总线之前要先注册设备 - 实例分析实验",
+    "通用文件夹/canvas/编写设备树插件驱动.canvas",
     "编写设备树插件驱动.canvas",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第75章 ConfigFS的核心数据结构 - 设备树插件.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第74章 虚拟文件系统ConfigFS介绍.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第74章 虚拟文件系统ConfigFS介绍/file-20260306180004920.png",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第73章 设备树插件使用实验.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第73章 设备树插件使用实验/file-20260306174851818.png",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第73章 设备树插件使用实验/file-20260306174811787.png",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第73章 设备树插件使用实验/file-20260306174759299.png",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第73章 设备树插件使用实验/file-20260306174746175.png",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第73章 设备树插件使用实验/file-20260306174736775.png",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第73章 设备树插件使用实验/file-20260306174650271.png",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第73章 设备树插件使用实验/file-20260306174613803.png",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第73章 设备树插件使用实验/file-20260306174540775.png",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/assets/第73章 设备树插件使用实验/file-20260306174510289.png",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第72章 设备树插件语法和编译实验.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第71章 设备树插件介绍.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第70章 参考文档：设备树bindings.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第69章 of操作函数实验：获取中断资源.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第68章 ranges属性实验.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第67章 of操作函数实验：获取属性.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第66章of操作函数实验：获取设备树节点_通过路径查找设备树.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第65章 设备树下platform_device和platform_driver匹配实验.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第64章 device_node转换成platform_device实验.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第59章 实例分析：CPU.md",
-    "主页.md",
-    "XGRIDS/高通平台开发/💻图像处理应用开发/1-2、高通平台了解与开发框架搭建.md",
-    "XGRIDS/高通平台开发/💻图像处理应用开发/1-3、图像处理程序的进一步适配.md",
-    "Extended-Learn/AI学习/1-1、skills收集与使用.md",
-    "XGRIDS/rk3588开发/TOF-深度相机/2-1、tof相机数据获取与解析.md",
-    "Extended-Learn/AI学习/📖67 个必学的 AI 编程知识.md",
-    "功能子仓库/develop-skills/高通8550/qcom-sm8550-app-cpp-builder/SKILL.md",
-    "功能子仓库/develop-skills/高通8550/qcom-sm8550-app-cpp-builder",
-    "功能子仓库/develop-skills/高通8550/qcom-sm8550-bsp-co-pilot/SKILL.md",
-    "功能子仓库/develop-skills/高通8550/qcom-sm8550-bsp-co-pilot",
-    "功能子仓库/develop-skills/高通8550",
-    "功能子仓库/develop-skills/RK3588/qcom-sm8550-bsp-co-pilot/SKILL.md",
-    "功能子仓库/develop-skills/RK3588/qcom-sm8550-bsp-co-pilot",
-    "功能子仓库/develop-skills/RK3588/rk3588-app-cpp-builder/SKILL.md",
-    "功能子仓库/develop-skills/RK3588/rk3588-app-cpp-builder",
-    "功能子仓库/develop-skills/RK3588/rk3588-bsp-co-pilot",
-    "功能子仓库/develop-skills/通用skills/xlsx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
-    "功能子仓库/develop-skills/通用skills/xlsx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
-    "功能子仓库/develop-skills/通用skills/xlsx/scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
     "XGRIDS/rk3588开发/💻camera驱动开发/📒设备树各级配置文件讲解.canvas",
     "XGRIDS/rk3588开发/💻camera驱动开发/🔨媒体拓扑结构打印/4路mipi Camera连接情况（灵关K1）.canvas"
   ]
