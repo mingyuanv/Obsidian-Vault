@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "第116章 netlink监听广播信息实验",
-      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第116章 netlink监听广播信息实验.md"
+      "basename": "1-1、TP-CST916E 驱动开发：TP2514",
+      "path": "XGRIDS/高通平台开发/💻屏幕驱动开发/1-1、TP-CST916E 驱动开发：TP2514.md"
     },
     {
-      "basename": "第115章 完善kset_uevent_ops结构体实验",
-      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第115章 完善kset_uevent_ops结构体实验.md"
+      "basename": "3-1、dtof 驱动开发",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/3-1、dtof 驱动开发.md"
     },
     {
-      "basename": "未命名 4",
-      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/未命名 4.md"
-    },
-    {
-      "basename": "未命名 3",
-      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/未命名 3.md"
-    },
-    {
-      "basename": "未命名 2",
-      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/未命名 2.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/未命名.md"
-    },
-    {
-      "basename": "第114章 内核发送事件到用户空间的方法",
-      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第114章 内核发送事件到用户空间的方法.md"
-    },
-    {
-      "basename": "第113章 内核是如何发送事件到用户空间",
-      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第113章 内核是如何发送事件到用户空间.md"
-    },
-    {
-      "basename": "第112章 热插拔简介",
-      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第112章 热插拔简介.md"
-    },
-    {
-      "basename": "2-2、tof 数据处理适配",
-      "path": "XGRIDS/rk3588开发/TOF-深度相机/2-2、tof 数据处理适配.md"
-    },
-    {
-      "basename": "4-1、spec-kit AI开发",
-      "path": "Extended-Learn/AI学习/4-1、spec-kit AI开发.md"
-    },
-    {
-      "basename": "kiro安装与授权",
-      "path": "Extended-Learn/AI学习/kiro安装与授权.md"
-    },
-    {
-      "basename": "📒📄🔨 ❤️🔍📌📖❌✅🐞 🛠️📦",
-      "path": "通用文件夹/模板/📒📄🔨 ❤️🔍📌📖❌✅🐞 🛠️📦.md"
-    },
-    {
-      "basename": "❌废弃：第十期 热插拔",
-      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/❌废弃：第十期 热插拔.md"
-    },
-    {
-      "basename": "第46章 延迟工作实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第五期_中断/第46章 延迟工作实验.md"
-    },
-    {
-      "basename": "第111章 platform总线注册驱动流程实例分析实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第111章 platform总线注册驱动流程实例分析实验.md"
-    },
-    {
-      "basename": "❌废弃：第九期 设备模型",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/❌废弃：第九期 设备模型.md"
-    },
-    {
-      "basename": "第110章 加载驱动和加载设备先后顺序分析实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第110章 加载驱动和加载设备先后顺序分析实验.md"
-    },
-    {
-      "basename": "第109章 probe函数执行流程分析实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第109章 probe函数执行流程分析实验.md"
-    },
-    {
-      "basename": "3-2、开发经验记录",
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/3-2、开发经验记录.md"
-    },
-    {
-      "basename": "第108章 驱动注册流程分析实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第108章 驱动注册流程分析实验.md"
-    },
-    {
-      "basename": "第106章 为什么注册总线之前要先注册设备 - 实例分析实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第106章 为什么注册总线之前要先注册设备 - 实例分析实验.md"
-    },
-    {
-      "basename": "第51章 注册platform设备实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第六期 平台总线/第51章 注册platform设备实验.md"
-    },
-    {
-      "basename": "第103章 在总线下注册设备实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第103章 在总线下注册设备实验.md"
-    },
-    {
-      "basename": "第102章 platform总线注册流程实例分析实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第102章 platform总线注册流程实例分析实验.md"
-    },
-    {
-      "basename": "第105章 platform总线设备注册流程实例分析实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第105章 platform总线设备注册流程实例分析实验.md"
-    },
-    {
-      "basename": "第56章 设备树基本语法",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第56章 设备树基本语法.md"
-    },
-    {
-      "basename": "2-1、tof相机数据获取与解析",
-      "path": "XGRIDS/rk3588开发/TOF-深度相机/2-1、tof相机数据获取与解析.md"
-    },
-    {
-      "basename": "1-1、camera加tof相机出流失败问题",
-      "path": "XGRIDS/rk3588开发/TOF-深度相机/1-1、camera加tof相机出流失败问题.md"
-    },
-    {
-      "basename": "第104章 设备注册流程分析实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第104章 设备注册流程分析实验.md"
-    },
-    {
-      "basename": "第101章 总线注册流程理论分析实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第101章 总线注册流程理论分析实验.md"
-    },
-    {
-      "basename": "第100章 在总线目录下创建属性文件实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第100章 在总线目录下创建属性文件实验.md"
-    },
-    {
-      "basename": "第99章 注册一个自己的总线实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第99章 注册一个自己的总线实验.md"
-    },
-    {
-      "basename": "kiro  使用",
-      "path": "Extended-Learn/AI学习/kiro  使用.md"
-    },
-    {
-      "basename": "第98章 创建多个属性文件的简便方法",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第98章 创建多个属性文件的简便方法.md"
-    },
-    {
-      "basename": "📒AI实践总结",
-      "path": "Extended-Learn/AI学习/📒AI实践总结.md"
+      "basename": "2-1、camera点亮：",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/2-1、camera点亮：.md"
     },
     {
       "basename": "linux开发工具软件",
       "path": "Extended-Learn/电脑软件学习/linux开发工具软件.md"
     },
     {
-      "basename": "🔨linux常用命令记录",
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/🔨linux常用命令记录.md"
+      "basename": "2-1、QCS8550 SDK 环镜塔建与编译(TP2511)",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/2-1、QCS8550 SDK 环镜塔建与编译(TP2511).md"
+    },
+    {
+      "basename": "第130章 GPIO的调试方法",
+      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十二期_GPIO子系统/第130章 GPIO的调试方法.md"
     },
     {
       "basename": "主页",
       "path": "主页.md"
     },
     {
-      "basename": "1-1、skills收集与使用",
-      "path": "Extended-Learn/AI学习/1-1、skills收集与使用.md"
+      "basename": "📖 Git 分支合并与冲突解决复盘",
+      "path": "Extended-Learn/电脑软件学习/📖 Git 分支合并与冲突解决复盘.md"
+    },
+    {
+      "basename": "📖 QCS8550 BSP 源码获取与编译指导手册",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/📖 QCS8550 BSP 源码获取与编译指导手册.md"
+    },
+    {
+      "basename": "🔨ADB 命令速查表",
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/🔨ADB 命令速查表.md"
+    },
+    {
+      "basename": "🔧QCS8550 外部内核模块与设备树快速编译指南",
+      "path": "XGRIDS/高通平台开发/💻屏幕驱动开发/🔧QCS8550 外部内核模块与设备树快速编译指南.md"
+    },
+    {
+      "basename": "2-1、现有问题整理(3A和编码)",
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/2-1、现有问题整理(3A和编码).md"
+    },
+    {
+      "basename": "1-7、移植media程序到modling_app",
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/1-7、移植media程序到modling_app.md"
+    },
+    {
+      "basename": "1-6、线程阻塞问题与子码流实现",
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/1-6、线程阻塞问题与子码流实现.md"
+    },
+    {
+      "basename": "1-5、4K 3camera多通道开发",
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/1-5、4K 3camera多通道开发.md"
+    },
+    {
+      "basename": "📖固件编译打包+烧写+升级说明 - Lixel RDP01平台",
+      "path": "XGRIDS/rk3588开发/💻SDK编译/📖固件编译打包+烧写+升级说明 - Lixel RDP01平台.md"
+    },
+    {
+      "basename": "🔨QCS8550 快速编译指南（绕过 bitbake）",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/🔨QCS8550 快速编译指南（绕过 bitbake）.md"
+    },
+    {
+      "basename": "🔨Kiro_SSH_Remote_authbash_指南",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/🔨Kiro_SSH_Remote_authbash_指南.md"
+    },
+    {
+      "basename": "2-2、QCS8550 SDK cicd编译流程实现",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/2-2、QCS8550 SDK cicd编译流程实现.md"
     },
     {
       "basename": "1-2、高通平台了解与开发框架搭建",
       "path": "XGRIDS/高通平台开发/💻图像处理应用开发/1-2、高通平台了解与开发框架搭建.md"
     },
     {
-      "basename": "1-3、图像处理程序的进一步适配",
-      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/1-3、图像处理程序的进一步适配.md"
+      "basename": "1-3、cicd编译流程完善",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/1-3、cicd编译流程完善.md"
     },
     {
-      "basename": "第96章 优化属性文件读写函数实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第96章 优化属性文件读写函数实验.md"
+      "basename": "📖编译服务器安装与部署(参考)",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/📖编译服务器安装与部署(参考).md"
     },
     {
-      "basename": "第97章 创建属性文件并实现读写功能实验2",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第97章 创建属性文件并实现读写功能实验2.md"
+      "basename": "📒高通平台camera驱动开发了解：",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/📒高通平台camera驱动开发了解：.md"
     },
     {
-      "basename": "第95章 创建属性文件并实现读写功能实验1",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第95章 创建属性文件并实现读写功能实验1.md"
+      "basename": "qcs8550环境搭建",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/qcs8550环境搭建.md"
     },
     {
-      "basename": "第94章 引入并完善kobject_type结构体",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第94章 引入并完善kobject_type结构体.md"
+      "basename": "1-2、在yocto项目中添加自己的应用库",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/1-2、在yocto项目中添加自己的应用库.md"
     },
     {
-      "basename": "编写设备树插件驱动",
-      "path": "通用文件夹/canvas/编写设备树插件驱动.canvas"
+      "basename": "📖Qualcomm 平台触摸屏驱动移植 笔记",
+      "path": "XGRIDS/高通平台开发/💻屏幕驱动开发/📖Qualcomm 平台触摸屏驱动移植 笔记.md"
     },
     {
-      "basename": "第76~81章 编写设备树插件驱动",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第七、八期 设备树/第76~81章 编写设备树插件驱动.md"
+      "basename": "驱动开发",
+      "path": "芯片开发学习/全志V3s芯片开发/全志V3s开发记录/驱动开发.md"
+    },
+    {
+      "basename": "📒Yocto项目知识补充",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/📒Yocto项目知识补充.md"
+    },
+    {
+      "basename": "📖QCS8550 硬件参数",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/📖QCS8550 硬件参数.md"
+    },
+    {
+      "basename": "📖SG560D的SDK 工程解析",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/📖SG560D的SDK 工程解析.md"
+    },
+    {
+      "basename": "1-1、QCM6490 SDK 环镜塔建与编译",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/1-1、QCM6490 SDK 环镜塔建与编译.md"
+    },
+    {
+      "basename": "7-1、shell语言学习",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒常用代码语言与工具学习/7-1、shell语言学习.md"
+    },
+    {
+      "basename": "1-3、配置DCG配置模式获取HDR图",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/1-3、配置DCG配置模式获取HDR图.md"
+    },
+    {
+      "basename": "🔨linux常用命令记录",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/🔨linux常用命令记录.md"
+    },
+    {
+      "basename": "Quectel_SG882G_Ubuntu_摄像头驱动_开发指导_V1.0",
+      "path": "XGRIDS/高通平台开发/📖资料库/QCS8550/Document/Software/Camera/Quectel_SG882G_Ubuntu_摄像头驱动_开发指导_V1.0.pdf"
+    },
+    {
+      "basename": "📒高通DCG模式相关知识了解：",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/📒高通DCG模式相关知识了解：.md"
+    },
+    {
+      "basename": "📖OV50H40_DCG模式配置指南",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/📖OV50H40_DCG模式配置指南.md"
+    },
+    {
+      "basename": "1-1、初入DCG配置模式（失败）",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/1-1、初入DCG配置模式（失败）.md"
+    },
+    {
+      "basename": "2-2、 Camera 4K 编码问题调试",
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/2-2、 Camera 4K 编码问题调试.md"
+    },
+    {
+      "basename": "2-3、3camera同时编码报错解决",
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/2-3、3camera同时编码报错解决.md"
+    },
+    {
+      "basename": "ov50h40_sensor.cpp",
+      "path": "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/1@配置DCG Combine 模式(ov50h40)/ov50h40_sensor.cpp.md"
+    },
+    {
+      "basename": "📒高通图像处理流程深入了解：",
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/📒高通图像处理流程深入了解：.md"
+    },
+    {
+      "basename": "Al Agent时代 你的工作方式即将改变",
+      "path": "Extended-Learn/AI学习/AI 知识库/Al Agent时代 你的工作方式即将改变.md"
     },
     {
       "basename": "🔨tar命令表",
       "path": "XGRIDS/rk3588开发/💻SDK编译/🔨tar命令表.md"
     },
     {
-      "basename": "第93章 kobject释放实例分析实验",
-      "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第93章 kobject释放实例分析实验.md"
+      "basename": "🛠️Logcat 工具：",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/🛠️Logcat 工具：.md"
+    },
+    {
+      "basename": "1-2、DCG Combine 模式过曝问题调试全过程",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/1-2、DCG Combine 模式过曝问题调试全过程.md"
+    },
+    {
+      "basename": "任务",
+      "path": "功能子仓库/code-notes/任务.md"
+    },
+    {
+      "basename": "4-1、gst-launch出来的jpg图携带3A信息",
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/4-1、gst-launch出来的jpg图携带3A信息.md"
+    },
+    {
+      "basename": "1-4、AI嵌入式开发实践 -高通平台多媒体处理库开发(图像编解码)",
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/1-4、AI嵌入式开发实践 -高通平台多媒体处理库开发(图像编解码).md"
+    },
+    {
+      "basename": "1-3、图像处理程序的进一步适配",
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/1-3、图像处理程序的进一步适配.md"
     }
   ],
   "omittedPaths": [],

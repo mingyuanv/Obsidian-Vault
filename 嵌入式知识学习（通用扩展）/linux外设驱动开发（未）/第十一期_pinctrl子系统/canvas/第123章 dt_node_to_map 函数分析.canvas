@@ -1,0 +1,228 @@
+{
+  "edges": [
+    {
+      "fromNode": "a1b2c3d4e5f6g7h1",
+      "fromSide": "bottom",
+      "id": "edge_01",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g7h2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a1b2c3d4e5f6g7h2",
+      "fromSide": "bottom",
+      "id": "edge_02",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g7h3",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a1b2c3d4e5f6g7h3",
+      "fromSide": "bottom",
+      "id": "edge_03",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g7h4",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a1b2c3d4e5f6g7h4",
+      "fromSide": "bottom",
+      "id": "edge_04",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g7h5",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a1b2c3d4e5f6g7h5",
+      "fromSide": "bottom",
+      "id": "edge_05",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g7h6",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a1b2c3d4e5f6g7h3",
+      "fromSide": "right",
+      "id": "edge_06",
+      "styleAttributes": {
+      },
+      "toNode": "b1c2d3e4f5g6h7i1",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b1c2d3e4f5g6h7i1",
+      "fromSide": "bottom",
+      "id": "edge_07",
+      "styleAttributes": {
+      },
+      "toNode": "b1c2d3e4f5g6h7i2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a1b2c3d4e5f6g7h5",
+      "fromSide": "left",
+      "id": "edge_08",
+      "styleAttributes": {
+      },
+      "toNode": "c1d2e3f4g5h6i7j1",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "c1d2e3f4g5h6i7j1",
+      "fromSide": "bottom",
+      "id": "edge_09",
+      "styleAttributes": {
+      },
+      "toNode": "c1d2e3f4g5h6i7j2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c1d2e3f4g5h6i7j2",
+      "fromSide": "bottom",
+      "id": "edge_10",
+      "styleAttributes": {
+      },
+      "toNode": "c1d2e3f4g5h6i7j3",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "2",
+      "height": 120,
+      "id": "a1b2c3d4e5f6g7h1",
+      "styleAttributes": {
+      },
+      "text": "dt_node_to_map 函数分析\n设备树节点转换为引脚映射",
+      "type": "text",
+      "width": 450,
+      "x": -225,
+      "y": -700
+    },
+    {
+      "color": "3",
+      "height": 180,
+      "id": "a1b2c3d4e5f6g7h2",
+      "styleAttributes": {
+      },
+      "text": "函数功能\n\n• 根据设备树节点信息生成引脚映射数组\n• 描述硬件功能（复用功能 + 配置信息）\n• 绑定设备树中的引脚信息\n• 实现引脚的配置和控制",
+      "type": "text",
+      "width": 450,
+      "x": -225,
+      "y": -530
+    },
+    {
+      "color": "5",
+      "height": 280,
+      "id": "a1b2c3d4e5f6g7h3",
+      "styleAttributes": {
+      },
+      "text": "struct pinctrl_map\n路径：include/linux/pinctrl/machine.h\n作用：定义引脚映射关系\n\n结构体成员:\n• dev_name - 设备名称\n• name - 映射名称\n• type - 映射类型 (enum pinctrl_map_type)\n• ctrl_dev_name - 控制设备名称\n• data - 联合体\n  - mux: 复用映射数据\n  - configs: 配置映射数据",
+      "type": "text",
+      "width": 450,
+      "x": -225,
+      "y": -300
+    },
+    {
+      "color": "3",
+      "height": 140,
+      "id": "a1b2c3d4e5f6g7h4",
+      "styleAttributes": {
+      },
+      "text": "rockchip_dt_node_to_map\n实现位置：drivers/pinctrl/pinctrl-rockchip.c\n\n函数原型:\nstatic int rockchip_dt_node_to_map(\n  struct pinctrl_dev *pctldev,\n  struct device_node *np,\n  struct pinctrl_map **map,\n  unsigned *num_maps)",
+      "type": "text",
+      "width": 450,
+      "x": -225,
+      "y": 30
+    },
+    {
+      "color": "4",
+      "height": 340,
+      "id": "a1b2c3d4e5f6g7h5",
+      "styleAttributes": {
+      },
+      "text": "函数执行流程\n\n1. 查找引脚组 (14-20 行)\n   pinctrl_name_to_group(np->name)\n   \n2. 计算映射数量 (22 行)\n   map_num = 1 + grp->npins\n   \n3. 分配内存 (24-26 行)\n   kcalloc(map_num, sizeof(*new_map))\n   \n4. 创建复用映射 (31-40 行)\n   获取父节点，设置 function 和 group\n   \n5. 创建配置映射 (42-52 行)\n   遍历引脚组，为每个引脚创建配置",
+      "type": "text",
+      "width": 450,
+      "x": -225,
+      "y": 220
+    },
+    {
+      "color": "1",
+      "height": 250,
+      "id": "a1b2c3d4e5f6g7h6",
+      "styleAttributes": {
+      },
+      "text": "关键设计要点\n\n• 复用映射：1 个 (PIN_MAP_TYPE_MUX_GROUP)\n  - function = 父节点名称\n  - group = 当前节点名称\n\n• 配置映射：grp->npins 个\n  (PIN_MAP_TYPE_CONFIGS_PIN)\n  - 每个引脚一个配置映射\n  - 包含配置信息和数量",
+      "type": "text",
+      "width": 450,
+      "x": -225,
+      "y": 590
+    },
+    {
+      "color": "6",
+      "height": 300,
+      "id": "b1c2d3e4f5g6h7i1",
+      "styleAttributes": {
+      },
+      "text": "映射类型详解\n\n1. PIN_MAP_TYPE_MUX_GROUP\n   复用映射\n   • function: 功能名称 (父节点名)\n   • group: 引脚组名称\n   \n2. PIN_MAP_TYPE_CONFIGS_PIN\n   配置映射\n   • group_or_pin: 引脚名称\n   • configs: 配置数组\n   • num_configs: 配置数量",
+      "type": "text",
+      "width": 450,
+      "x": 275,
+      "y": -300
+    },
+    {
+      "color": "4",
+      "height": 200,
+      "id": "b1c2d3e4f5g6h7i2",
+      "styleAttributes": {
+      },
+      "text": "映射数组结构\n\n[0] MUX 映射\n    function=\"can0\", group=\"can0m0_pins\"\n\n[1] CONFIG 映射\n    pin=\"gpio0-0\", configs={pull_up}\n\n[2] CONFIG 映射\n    pin=\"gpio0-1\", configs={pull_down}\n\n...\n\n[num] CONFIG 映射",
+      "type": "text",
+      "width": 450,
+      "x": 275,
+      "y": 30
+    },
+    {
+      "color": "6",
+      "height": 360,
+      "id": "c1d2e3f4g5h6i7j1",
+      "styleAttributes": {
+      },
+      "text": "关键函数调用\n\n• pinctrl_name_to_group()\n  根据节点名查找引脚组\n\n• of_get_parent()\n  获取父节点 (function 名称)\n\n• pin_get_name()\n  获取引脚名称\n\n• kcalloc()\n  分配映射数组内存",
+      "type": "text",
+      "width": 450,
+      "x": -725,
+      "y": 100
+    },
+    {
+      "color": "4",
+      "height": 230,
+      "id": "c1d2e3f4g5h6i7j2",
+      "styleAttributes": {
+      },
+      "text": "错误处理\n\n• 找不到引脚组 → -EINVAL\n• 内存分配失败 → -ENOMEM\n• 父节点不存在 → -EINVAL + kfree\n\n资源释放:\n• of_node_put(parent)\n• kfree(new_map)",
+      "type": "text",
+      "width": 450,
+      "x": -725,
+      "y": 510
+    },
+    {
+      "color": "1",
+      "height": 220,
+      "id": "c1d2e3f4g5h6i7j3",
+      "styleAttributes": {
+      },
+      "text": "函数作用总结\n\n根据设备树节点创建引脚映射:\n1 个 MUX 映射 + N 个 CONFIG 映射\n\n用于配置引脚控制器\n确保引脚正确配置和使用",
+      "type": "text",
+      "width": 450,
+      "x": -725,
+      "y": 760
+    }
+  ]
+}

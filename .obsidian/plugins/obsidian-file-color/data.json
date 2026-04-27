@@ -420,7 +420,7 @@
     },
     {
       "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十一期_pinctrl子系统",
-      "color": "LCuuCKlvMz3l5vD9YHJq7"
+      "color": "hESTjwiT5RIN2PsrN3DJY"
     },
     {
       "path": "嵌入式知识学习（通用扩展）/linux驱动入门/第一期 驱动基础",
@@ -907,7 +907,7 @@
       "color": "b8-4xZC6542C1dOnEOIm6"
     },
     {
-      "path": "XGRIDS/高通平台开发/📖Yocto项目深入了解/📒Yocto项目知识补充.md",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/📒Yocto项目知识补充.md",
       "color": "b8-4xZC6542C1dOnEOIm6"
     },
     {
@@ -931,7 +931,7 @@
       "color": "b8-4xZC6542C1dOnEOIm6"
     },
     {
-      "path": "XGRIDS/高通平台开发/💻高通SDK优化/🔨bitbake调试命令.md",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/🔨bitbake命令.md",
       "color": "GE4xIegOUw0MrterMOOyV"
     },
     {
@@ -1408,6 +1408,106 @@
     },
     {
       "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔",
+      "color": "hESTjwiT5RIN2PsrN3DJY"
+    },
+    {
+      "path": "Extended-Learn/AI学习/AI 知识库",
+      "color": "hESTjwiT5RIN2PsrN3DJY"
+    },
+    {
+      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/📖扩展学习",
+      "color": "b8-4xZC6542C1dOnEOIm6"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/1-4、AI嵌入式开发实践 -高通平台多媒体处理库开发(图像编解码).md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十二期_GPIO子系统",
+      "color": "hESTjwiT5RIN2PsrN3DJY"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/2-1、QCS8550 SDK 环镜塔建与编译(TP2511).md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/📒高通图像处理流程深入了解：.md",
+      "color": "b8-4xZC6542C1dOnEOIm6"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/2-2、 Camera 4K 编码问题调试.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/2-3、3camera同时编码报错解决.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/🔨grep ：文本搜索工具.md",
+      "color": "GE4xIegOUw0MrterMOOyV"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/📒高通DCG模式相关知识了解：.md",
+      "color": "b8-4xZC6542C1dOnEOIm6"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/1-7、移植media程序到modling_app.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/🔨QCS8550 快速编译指南（绕过 bitbake）.md",
+      "color": "GE4xIegOUw0MrterMOOyV"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/📖 QCS8550 BSP 源码获取与编译指导手册.md",
+      "color": "b8-4xZC6542C1dOnEOIm6"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/1-1、初入DCG配置模式（失败）.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/1-2、DCG Combine 模式过曝问题调试全过程.md",
+      "color": "yXI91WVtIATZFYzY9SFMK"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/1-3、配置DCG配置模式获取HDR图.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻屏幕驱动开发",
+      "color": "LCuuCKlvMz3l5vD9YHJq7"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻屏幕驱动开发/🔧QCS8550 外部内核模块与设备树快速编译指南.md",
+      "color": "GE4xIegOUw0MrterMOOyV"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻屏幕驱动开发/1-1、TP-CST916E 驱动开发：TP2514.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻屏幕驱动开发/📖Qualcomm 平台触摸屏驱动移植 笔记.md",
+      "color": "b8-4xZC6542C1dOnEOIm6"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/🔨Kiro_SSH_Remote_authbash_指南.md",
+      "color": "GE4xIegOUw0MrterMOOyV"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/2-1、camera点亮：.md",
+      "color": "Pxai0sapjHG9gNWY6C0yb"
+    },
+    {
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/🔨QCS8550_CICD_部署指南.md",
+      "color": "GE4xIegOUw0MrterMOOyV"
+    },
+    {
+      "path": "Extended-Learn/电脑软件学习/📖 Git 分支合并与冲突解决复盘.md",
       "color": "b8-4xZC6542C1dOnEOIm6"
     }
   ]

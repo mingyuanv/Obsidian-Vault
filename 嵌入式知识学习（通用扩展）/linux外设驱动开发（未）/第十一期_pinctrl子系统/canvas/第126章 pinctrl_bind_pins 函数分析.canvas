@@ -1,0 +1,151 @@
+{
+  "edges": [
+    {
+      "fromNode": "a1b2c3d4e5f6g002",
+      "fromSide": "bottom",
+      "id": "8f8a6df1412ff6b2",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g003",
+      "toSide": "top"
+    },
+    {
+      "color": "6",
+      "fromNode": "a1b2c3d4e5f6g002",
+      "fromSide": "bottom",
+      "id": "068760ab2edc5c70",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g004",
+      "toSide": "top"
+    },
+    {
+      "color": "6",
+      "fromNode": "a1b2c3d4e5f6g004",
+      "fromSide": "bottom",
+      "id": "66387a410b92dadc",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g005",
+      "toSide": "top"
+    },
+    {
+      "color": "6",
+      "fromNode": "a1b2c3d4e5f6g005",
+      "fromSide": "bottom",
+      "id": "953f7ab50d63088c",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g006",
+      "toSide": "top"
+    },
+    {
+      "color": "6",
+      "fromNode": "a1b2c3d4e5f6g005",
+      "fromSide": "bottom",
+      "id": "9eb844480acf37ca",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g007",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "6",
+      "height": 140,
+      "id": "a1b2c3d4e5f6g001",
+      "styleAttributes": {
+      },
+      "text": "<span style=\"background:#ffd700\">pinctrl_bind_pins 函数分析</span>\n为设备绑定引脚并设置 pinctrl 状态",
+      "type": "text",
+      "width": 450,
+      "x": -225,
+      "y": -1600
+    },
+    {
+      "color": "1",
+      "height": 640,
+      "id": "a1b2c3d4e5f6g002",
+      "styleAttributes": {
+      },
+      "text": "<span style=\"background:#ff4d4f\">pinctrl_bind_pins 函数</span>\n\n<span style=\"background:#affad1\">作用：为给定的设备绑定引脚，并在绑定过程中选择和设置适当的 pinctrl 状态</span>\n\n所在文件：drivers/pinctrl/core.c\n\n```c\n步骤:\n1. 检查设备是否重用了节点 (dev->of_node_reused)\n2. 为设备的引脚分配内存空间 (devm_kzalloc)\n3. ⭐ 获取设备的 pinctrl 句柄 (devm_pinctrl_get)\n4. ⭐ 查找设备的默认 pinctrl 状态 (pinctrl_lookup_state)\n5. 查找设备的初始化 pinctrl 状态 (pinctrl_lookup_state)\n6. ⭐ 选择并激活 pinctrl 状态 (pinctrl_select_state)\n   - 有 init_state 则选择 init_state\n   - 否则选择 default_state\n7. 查找睡眠和空闲状态 (CONFIG_PM)\n```",
+      "type": "text",
+      "width": 450,
+      "x": -225,
+      "y": -1410
+    },
+    {
+      "color": "6",
+      "height": 500,
+      "id": "b1c2d3e4f5g6h001",
+      "styleAttributes": {
+      },
+      "text": "<span style=\"background:#d8b4fe\">总结</span>\n\n核心流程:\n\n1. pinctrl_bind_pins 为设备绑定引脚\n2. 获取 pinctrl 句柄 (devm_pinctrl_get)\n3. 查找状态:\n   - default_state (默认状态)\n   - init_state (初始化状态)\n   - sleep_state (睡眠状态)\n   - idle_state (空闲状态)\n4. ⭐ 选择并激活状态 (pinctrl_select_state)\n5. 应用状态设置 (pinctrl_commit_state)\n6. 启用复用/应用配置",
+      "type": "text",
+      "width": 450,
+      "x": 275,
+      "y": -1410
+    },
+    {
+      "color": "5",
+      "height": 380,
+      "id": "a1b2c3d4e5f6g004",
+      "styleAttributes": {
+      },
+      "text": "<span style=\"background:#ff4d4f\">pinctrl_select_state 函数</span>\n\n<span style=\"background:#affad1\">作用：选择并切换到指定的 pinctrl_state（引脚控制状态）</span>\n\n所在文件：drivers/pinctrl/core.c\n\n```c\n步骤:\n1. 检查当前状态是否已是要选择的状态，是则直接返回 0\n2. ⭐ 调用 pinctrl_commit_state 函数应用并切换到新状态\n```",
+      "type": "text",
+      "width": 450,
+      "x": -20,
+      "y": -600
+    },
+    {
+      "color": "4",
+      "height": 440,
+      "id": "a1b2c3d4e5f6g003",
+      "styleAttributes": {
+      },
+      "text": "<span style=\"background:#ff4d4f\">pinctrl_lookup_state 函数</span>\n\n<span style=\"background:#affad1\">作用：查找设备的 pinctrl 状态</span>\n\n所在文件：drivers/pinctrl/core.c\n\n```c\n步骤:\n1. 在状态链表中查找指定名称的状态对象 (find_state)\n2. ⭐ 如果找不到且存在虚拟状态，则创建虚拟状态对象\n3. 如果找不到且不存在虚拟状态，返回错误指针 -ENODEV\n```",
+      "type": "text",
+      "width": 450,
+      "x": -780,
+      "y": -630
+    },
+    {
+      "color": "5",
+      "height": 640,
+      "id": "a1b2c3d4e5f6g005",
+      "styleAttributes": {
+      },
+      "text": "<span style=\"background:#ff4d4f\">pinctrl_commit_state 函数</span>\n\n<span style=\"background:#affad1\">作用：应用并切换到新的状态</span>\n\n所在文件：drivers/pinctrl/core.c\n\n```c\n步骤:\n1. 保存当前状态到 old_state\n2. ⭐ 如果存在旧状态，取消旧状态中每个引脚复用设置的复用所有者\n3. 将当前状态设置为 NULL\n4. ⭐ 遍历新状态的所有设置并执行相应操作:\n   - MUX_GROUP: 启用设置 (pinmux_enable_setting)\n   - CONFIGS_*: 应用设置 (pinconf_apply_setting)\n5. 将 p->state 指向新状态\n```",
+      "type": "text",
+      "width": 450,
+      "x": -20,
+      "y": -80
+    },
+    {
+      "color": "4",
+      "height": 540,
+      "id": "a1b2c3d4e5f6g006",
+      "styleAttributes": {
+      },
+      "text": "<span style=\"background:#ff4d4f\">pinmux_enable_setting 函数</span>\n\n<span style=\"background:#affad1\">作用：启用引脚复用设置</span>\n\n所在文件：drivers/pinctrl/pinmux.c\n\n```c\n步骤:\n1. 获取组中的引脚信息 (get_group_pins)\n2. ⭐ 使用 pin_request 函数申请引脚\n3. 将复用设置指针指向引脚复用信息\n4. ⭐ 调用 set_mux 函数设置引脚复用\n```",
+      "type": "text",
+      "width": 450,
+      "x": -470,
+      "y": 740
+    },
+    {
+      "color": "4",
+      "height": 520,
+      "id": "a1b2c3d4e5f6g007",
+      "styleAttributes": {
+      },
+      "text": "<span style=\"background:#ff4d4f\">pinconf_apply_setting 函数</span>\n\n<span style=\"background:#affad1\">作用：应用引脚配置设置</span>\n\n所在文件：drivers/pinctrl/pinconf.c\n\n```c\n步骤:\n1. 检查是否存在引脚配置操作函数集\n2. ⭐ 根据设置类型进行相应处理:\n   - CONFIGS_PIN: 调用 pin_config_set 设置单个引脚\n   - CONFIGS_GROUP: 调用 pin_config_group_set 设置引脚组\n```",
+      "type": "text",
+      "width": 450,
+      "x": 280,
+      "y": 740
+    }
+  ]
+}

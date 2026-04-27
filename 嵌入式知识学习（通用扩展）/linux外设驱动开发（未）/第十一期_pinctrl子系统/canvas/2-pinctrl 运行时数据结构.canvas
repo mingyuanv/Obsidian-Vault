@@ -1,0 +1,198 @@
+{
+  "edges": [
+    {
+      "fromNode": "b2c3d4e5f6g7h8i9",
+      "fromSide": "right",
+      "id": "e2b3c4d5e6f7g8h9",
+      "styleAttributes": {
+      },
+      "toNode": "c3d4e5f6g7h8i9j0",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "c3d4e5f6g7h8i9j0",
+      "fromSide": "right",
+      "id": "e3c4d5e6f7g8h9i0",
+      "styleAttributes": {
+      },
+      "toNode": "d4e5f6g7h8i9j0k1",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "d4e5f6g7h8i9j0k1",
+      "fromSide": "bottom",
+      "id": "e4d5e6f7g8h9i0j1",
+      "styleAttributes": {
+      },
+      "toNode": "e5f6g7h8i9j0k1l2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "e5f6g7h8i9j0k1l2",
+      "fromSide": "bottom",
+      "id": "e5e6f7g8h9i0j1k2",
+      "styleAttributes": {
+      },
+      "toNode": "f6g7h8i9j0k1l2m3",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f6g7h8i9j0k1l2m3",
+      "fromSide": "left",
+      "id": "e6f7g8h9i0j1k2l3",
+      "styleAttributes": {
+      },
+      "toNode": "g7h8i9j0k1l2m3n4",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "g7h8i9j0k1l2m3n4",
+      "fromSide": "bottom",
+      "id": "e7g8h9i0j1k2l3m4",
+      "styleAttributes": {
+      },
+      "toNode": "h8i9j0k1l2m3n4o5",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "g7h8i9j0k1l2m3n4",
+      "fromSide": "bottom",
+      "id": "e8h9i0j1k2l3m4n5",
+      "styleAttributes": {
+      },
+      "toNode": "i9j0k1l2m3n4o5p6",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "g7h8i9j0k1l2m3n4",
+      "fromSide": "bottom",
+      "id": "e9i0j1k2l3m4n5o6",
+      "styleAttributes": {
+      },
+      "toNode": "j0k1l2m3n4o5p6q7",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "4",
+      "height": 260,
+      "id": "e5f6g7h8i9j0k1l2",
+      "styleAttributes": {
+      },
+      "text": "struct pinctrl_state\n位置：状态定义\n作用：代表一种特定的引脚配置场景\n\n常见状态:\n• \"default\" - 默认状态\n• \"sleep\" - 休眠状态\n• \"idle\" - 空闲状态\n\n关键成员:\n• node - 连接到 pinctrl->states 链表\n• name - 状态名称 (字符串)\n• settings - 设置项链表头",
+      "type": "text",
+      "width": 450,
+      "x": 300,
+      "y": -180
+    },
+    {
+      "color": "4",
+      "height": 310,
+      "id": "f6g7h8i9j0k1l2m3",
+      "styleAttributes": {
+      },
+      "text": "struct pinctrl_settings\n位置：具体配置项\n作用：链表中的节点，定义对特定引脚/组的操作\n\n结构示意:\n• list_head node - 链表节点\n• type - 设置类型 (MUX/CONFIG)\n• data - 联合体\n  - mux: 复用功能数据\n  - config: 电气参数数据",
+      "type": "text",
+      "width": 450,
+      "x": 300,
+      "y": 130
+    },
+    {
+      "color": "5",
+      "height": 220,
+      "id": "b2c3d4e5f6g7h8i9",
+      "styleAttributes": {
+      },
+      "text": "struct device\n位置：通用设备模型\n关联：#ifdef CONFIG_PINCTRL\n\n关键成员:\n• struct dev_pin_info *pins\n  指向引脚信息结构体\n  (若开启 PINCTRL 配置)",
+      "type": "text",
+      "width": 450,
+      "x": -850,
+      "y": -550
+    },
+    {
+      "color": "5",
+      "height": 360,
+      "id": "c3d4e5f6g7h8i9j0",
+      "styleAttributes": {
+      },
+      "text": "struct dev_pin_info\n位置：设备引脚信息容器\n作用：存储设备相关的 Pinctrl 指针和状态\n\n关键成员:\n• struct pinctrl *p\n  指向主控制结构体\n• default_state - 默认状态指针\n• init_state - 初始化状态指针\n• sleep_state - 休眠状态 (CONFIG_PM)\n• idle_state - 空闲状态 (CONFIG_PM)",
+      "type": "text",
+      "width": 450,
+      "x": -250,
+      "y": -580
+    },
+    {
+      "color": "3",
+      "height": 320,
+      "id": "d4e5f6g7h8i9j0k1",
+      "styleAttributes": {
+      },
+      "text": "struct pinctrl (主结构)\n位置：Pinctrl 子系统核心\n作用：管理设备的所有引脚状态和映射\n\n关键成员:\n• node - 连接到全局链表\n• dev - 指向所属设备\n• states - 状态链表头 (存储所有可用状态)\n• state - 当前活动状态指针\n• dt_maps - 设备树映射表链表\n• users - 引用计数",
+      "type": "text",
+      "width": 450,
+      "x": 300,
+      "y": -600
+    },
+    {
+      "color": "6",
+      "height": 200,
+      "id": "g7h8i9j0k1l2m3n4",
+      "styleAttributes": {
+      },
+      "text": "链表关系示意\n结构：pinctrl_state → settings (链表头)\n\n连接:\n多个 pinctrl_settings 节点通过\nlist_head 串联，形成该状态下的\n完整配置列表。",
+      "type": "text",
+      "width": 450,
+      "x": -625,
+      "y": -150
+    },
+    {
+      "color": "1",
+      "height": 190,
+      "id": "h8i9j0k1l2m3n4o5",
+      "styleAttributes": {
+      },
+      "text": "节点 1\nstruct list_head node\n具体配置项 A\n(如：设置 GPIO0 为 UART_TX 功能)",
+      "type": "text",
+      "width": 250,
+      "x": -875,
+      "y": 130
+    },
+    {
+      "color": "1",
+      "height": 190,
+      "id": "i9j0k1l2m3n4o5p6",
+      "styleAttributes": {
+      },
+      "text": "节点 2\nstruct list_head node\n具体配置项 B\n(如：设置 GPIO1 上拉电阻)",
+      "type": "text",
+      "width": 250,
+      "x": -500,
+      "y": 130
+    },
+    {
+      "color": "1",
+      "height": 190,
+      "id": "j0k1l2m3n4o5p6q7",
+      "styleAttributes": {
+      },
+      "text": "节点 N\nstruct list_head node\n...\n(更多配置项)",
+      "type": "text",
+      "width": 250,
+      "x": -175,
+      "y": 130
+    },
+    {
+      "color": "6",
+      "height": 140,
+      "id": "a1b2c3d4e5f6g7h8",
+      "styleAttributes": {
+      },
+      "text": "Pinctrl 运行时核心数据结构\n视角：从设备 (Device) 到 状态 (State)\n作用：描述引脚配置在运行时的组织形式",
+      "type": "text",
+      "width": 500,
+      "x": -500,
+      "y": -840
+    }
+  ]
+}

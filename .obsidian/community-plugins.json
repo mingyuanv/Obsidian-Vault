@@ -3,7 +3,6 @@
   "obsidian-another-quick-switcher",
   "auto-card-link",
   "obsidian-auto-link-title",
-  "obsidian-bartender",
   "better-export-pdf",
   "obsidian-binary-file-manager-plugin",
   "obsidian42-brat",
@@ -43,5 +42,7 @@
   "obsidian-tagfolder",
   "surfing",
   "obsidian-style-settings",
-  "ctrl-d-c-block"
+  "ctrl-d-c-block",
+  "obsidian-bartender",
+  "copilot"
 ]

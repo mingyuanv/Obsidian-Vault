@@ -1,0 +1,561 @@
+{
+  "edges": [
+    {
+      "fromNode": "a1b2c3d4e5f6g7h8",
+      "fromSide": "bottom",
+      "id": "edge_01",
+      "styleAttributes": {
+      },
+      "toNode": "b2c3d4e5f6g7h8i9",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b2c3d4e5f6g7h8i9",
+      "fromSide": "bottom",
+      "id": "edge_02",
+      "styleAttributes": {
+      },
+      "toNode": "b3c4d5e6f7g8h9i0",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a1b2c3d4e5f6g7h8",
+      "fromSide": "bottom",
+      "id": "edge_03",
+      "styleAttributes": {
+      },
+      "toNode": "c3d4e5f6g7h8i9j0",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c3d4e5f6g7h8i9j0",
+      "fromSide": "bottom",
+      "id": "edge_04",
+      "styleAttributes": {
+      },
+      "toNode": "c4d5e6f7g8h9i0j1",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a1b2c3d4e5f6g7h8",
+      "fromSide": "bottom",
+      "id": "edge_05",
+      "styleAttributes": {
+      },
+      "toNode": "d4e5f6g7h8i9j0k1",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d4e5f6g7h8i9j0k1",
+      "fromSide": "bottom",
+      "id": "edge_06",
+      "styleAttributes": {
+      },
+      "toNode": "d5e6f7g8h9i0j1k2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d5e6f7g8h9i0j1k2",
+      "fromSide": "bottom",
+      "id": "edge_07",
+      "styleAttributes": {
+      },
+      "toNode": "d6e7f8g9h0i1j2k3",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d6e7f8g9h0i1j2k3",
+      "fromSide": "bottom",
+      "id": "edge_08",
+      "styleAttributes": {
+      },
+      "toNode": "d7e8f9g0h1i2j3k4",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d7e8f9g0h1i2j3k4",
+      "fromSide": "bottom",
+      "id": "edge_09",
+      "styleAttributes": {
+      },
+      "toNode": "d8e9f0g1h2i3j4k5",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d8e9f0g1h2i3j4k5",
+      "fromSide": "bottom",
+      "id": "edge_10",
+      "styleAttributes": {
+      },
+      "toNode": "d9e0f1g2h3i4j5k6",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d9e0f1g2h3i4j5k6",
+      "fromSide": "bottom",
+      "id": "edge_11",
+      "styleAttributes": {
+      },
+      "toNode": "e0f1g2h3i4j5k6l7",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "e0f1g2h3i4j5k6l7",
+      "fromSide": "bottom",
+      "id": "edge_12",
+      "styleAttributes": {
+      },
+      "toNode": "e1f2g3h4i5j6k7l8",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c4d5e6f7g8h9i0j1",
+      "fromSide": "right",
+      "id": "edge_13",
+      "styleAttributes": {
+      },
+      "toNode": "d4e5f6g7h8i9j0k1",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e0f1g2h3i4j5k6l7",
+      "fromSide": "right",
+      "id": "edge_14",
+      "styleAttributes": {
+      },
+      "toNode": "f1g2h3i4j5k6l7m8",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f1g2h3i4j5k6l7m8",
+      "fromSide": "bottom",
+      "id": "edge_15",
+      "styleAttributes": {
+      },
+      "toNode": "f2g3h4i5j6k7l8m9",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f2g3h4i5j6k7l8m9",
+      "fromSide": "bottom",
+      "id": "edge_16",
+      "styleAttributes": {
+      },
+      "toNode": "f3g4h5i6j7k8l9m0",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f3g4h5i6j7k8l9m0",
+      "fromSide": "bottom",
+      "id": "edge_17",
+      "styleAttributes": {
+      },
+      "toNode": "f4g5h6i7j8k9l0m1",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f4g5h6i7j8k9l0m1",
+      "fromSide": "bottom",
+      "id": "edge_18",
+      "styleAttributes": {
+      },
+      "toNode": "f5g6h7i8j9k0l1m2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f5g6h7i8j9k0l1m2",
+      "fromSide": "bottom",
+      "id": "edge_19",
+      "styleAttributes": {
+      },
+      "toNode": "f6g7h8i9j0k1l2m3",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f6g7h8i9j0k1l2m3",
+      "fromSide": "bottom",
+      "id": "edge_20",
+      "styleAttributes": {
+      },
+      "toNode": "g1h2i3j4k5l6m7n8",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "g1h2i3j4k5l6m7n8",
+      "fromSide": "bottom",
+      "id": "edge_21",
+      "styleAttributes": {
+      },
+      "toNode": "g2h3i4j5k6l7m8n9",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "g2h3i4j5k6l7m8n9",
+      "fromSide": "bottom",
+      "id": "edge_22",
+      "styleAttributes": {
+      },
+      "toNode": "g3h4i5j6k7l8m9n0",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "g3h4i5j6k7l8m9n0",
+      "fromSide": "bottom",
+      "id": "edge_23",
+      "styleAttributes": {
+      },
+      "toNode": "g4h5i6j7k8l9m0n1",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "g2h3i4j5k6l7m8n9",
+      "fromSide": "right",
+      "id": "edge_24",
+      "styleAttributes": {
+      },
+      "toNode": "h1i2j3k4l5m6n7o8",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "h1i2j3k4l5m6n7o8",
+      "fromSide": "bottom",
+      "id": "edge_25",
+      "styleAttributes": {
+      },
+      "toNode": "h2i3j4k5l6m7n8o9",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "h2i3j4k5l6m7n8o9",
+      "fromSide": "bottom",
+      "id": "edge_26",
+      "styleAttributes": {
+      },
+      "toNode": "h3i4j5k6l7m8n9o0",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b3c4d5e6f7g8h9i0",
+      "fromSide": "right",
+      "id": "edge_27",
+      "styleAttributes": {
+      },
+      "toNode": "d4e5f6g7h8i9j0k1",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "2",
+      "height": 100,
+      "id": "a1b2c3d4e5f6g7h8",
+      "styleAttributes": {
+      },
+      "text": "RK3568 pinctrl probe 函数分析\n驱动初始化流程",
+      "type": "text",
+      "width": 400,
+      "x": 400,
+      "y": -600
+    },
+    {
+      "color": "5",
+      "height": 120,
+      "id": "b2c3d4e5f6g7h8i9",
+      "styleAttributes": {
+      },
+      "text": "pinctrl_desc 结构体\n描述引脚控制器的属性和操作\n位置：/include/linux/pinctrl/pinctrl.h",
+      "type": "text",
+      "width": 400,
+      "x": -600,
+      "y": -400
+    },
+    {
+      "color": "6",
+      "height": 280,
+      "id": "b3c4d5e6f7g8h9i0",
+      "styleAttributes": {
+      },
+      "text": "核心字段：\n• name - 控制器名称\n• pins - 引脚描述符数组\n• npins - 引脚数量\n• pctlops - 引脚控制操作\n• pmxops - 引脚复用操作\n• confops - 引脚配置操作\n• owner - 模块所有者",
+      "type": "text",
+      "width": 400,
+      "x": -600,
+      "y": -250
+    },
+    {
+      "color": "3",
+      "height": 120,
+      "id": "d4e5f6g7h8i9j0k1",
+      "styleAttributes": {
+      },
+      "text": "rockchip_pinctrl_probe()\n驱动入口函数，初始化硬件并注册设备",
+      "type": "text",
+      "width": 400,
+      "x": 400,
+      "y": -400
+    },
+    {
+      "color": "4",
+      "height": 100,
+      "id": "d5e6f7g8h9i0j1k2",
+      "styleAttributes": {
+      },
+      "text": "步骤 1：设备树节点检查\n检查 dev->of_node 是否存在",
+      "type": "text",
+      "width": 400,
+      "x": 400,
+      "y": -250
+    },
+    {
+      "color": "4",
+      "height": 100,
+      "id": "d6e7f8g9h0i1j2k3",
+      "styleAttributes": {
+      },
+      "text": "步骤 2：分配内存\ndevm_kzalloc() 分配 rockchip_pinctrl 结构体",
+      "type": "text",
+      "width": 400,
+      "x": 400,
+      "y": -120
+    },
+    {
+      "color": "4",
+      "height": 120,
+      "id": "d7e8f9g0h1i2j3k4",
+      "styleAttributes": {
+      },
+      "text": "步骤 3：获取 SOC 数据\nrockchip_pinctrl_get_soc_data()\n获取 rockchip_pin_ctrl 结构体",
+      "type": "text",
+      "width": 400,
+      "x": 400,
+      "y": 10
+    },
+    {
+      "color": "4",
+      "height": 150,
+      "id": "d8e9f0g1h2i3j4k5",
+      "styleAttributes": {
+      },
+      "text": "步骤 4：寄存器映射\n解析设备树节点：\n• rockchip,grf → regmap_base\n• rockchip,pmu → regmap_pmu\n• 备选：IORESOURCE_MEM 映射",
+      "type": "text",
+      "width": 400,
+      "x": 400,
+      "y": 160
+    },
+    {
+      "color": "4",
+      "height": 100,
+      "id": "d9e0f1g2h3i4j5k6",
+      "styleAttributes": {
+      },
+      "text": "步骤 5：SOC 特殊处理\n若 ctrl->soc_data_init 非空则调用",
+      "type": "text",
+      "width": 400,
+      "x": 400,
+      "y": 330
+    },
+    {
+      "color": "4",
+      "height": 100,
+      "id": "e0f1g2h3i4j5k6l7",
+      "styleAttributes": {
+      },
+      "text": "步骤 6：注册 pinctrl 设备\nrockchip_pinctrl_register()",
+      "type": "text",
+      "width": 400,
+      "x": 400,
+      "y": 460
+    },
+    {
+      "color": "4",
+      "height": 100,
+      "id": "e1f2g3h4i5j6k7l8",
+      "styleAttributes": {
+      },
+      "text": "步骤 7：注册 GPIO 设备\nof_platform_populate()",
+      "type": "text",
+      "width": 400,
+      "x": 400,
+      "y": 590
+    },
+    {
+      "color": "3",
+      "height": 120,
+      "id": "f1g2h3i4j5k6l7m8",
+      "styleAttributes": {
+      },
+      "text": "rockchip_pinctrl_register()\n初始化 pinctrl_desc 并注册设备",
+      "type": "text",
+      "width": 400,
+      "x": 850,
+      "y": 160
+    },
+    {
+      "color": "4",
+      "height": 150,
+      "id": "f2g3h4i5j6k7l8m9",
+      "styleAttributes": {
+      },
+      "text": "初始化 pinctrl_desc\n• name = \"rockchip-pinctrl\"\n• pctlops = &rockchip_pctrl_ops\n• pmxops = &rockchip_pmx_ops\n• confops = &rockchip_pinconf_ops",
+      "type": "text",
+      "width": 400,
+      "x": 850,
+      "y": 310
+    },
+    {
+      "color": "4",
+      "height": 120,
+      "id": "f3g4h5i6j7k8l9m0",
+      "styleAttributes": {
+      },
+      "text": "分配引脚描述符数组\ndevm_kcalloc() 为每个引脚分配内存\n设置 pins 和 npins",
+      "type": "text",
+      "width": 400,
+      "x": 850,
+      "y": 480
+    },
+    {
+      "color": "4",
+      "height": 140,
+      "id": "f4g5h6i7j8k9l0m1",
+      "styleAttributes": {
+      },
+      "text": "设置引脚编号和名称\n遍历每个 bank 的引脚：\n• pdesc->number = 引脚编号\n• pdesc->name = \"bank-pin\"",
+      "type": "text",
+      "width": 400,
+      "x": 850,
+      "y": 630
+    },
+    {
+      "color": "4",
+      "height": 120,
+      "id": "f5g6h7i8j9k0l1m2",
+      "styleAttributes": {
+      },
+      "text": "解析设备树\nrockchip_pinctrl_parse_dt()\n设置引脚默认配置",
+      "type": "text",
+      "width": 400,
+      "x": 850,
+      "y": 800
+    },
+    {
+      "color": "4",
+      "height": 100,
+      "id": "f6g7h8i9j0k1l2m3",
+      "styleAttributes": {
+      },
+      "text": "注册 pinctrl 设备\ndevm_pinctrl_register()",
+      "type": "text",
+      "width": 400,
+      "x": 850,
+      "y": 950
+    },
+    {
+      "color": "3",
+      "height": 120,
+      "id": "g1h2i3j4k5l6m7n8",
+      "styleAttributes": {
+      },
+      "text": "devm_pinctrl_register()\n注册设备并关联资源管理\n位置：/drivers/pinctrl/core.c",
+      "type": "text",
+      "width": 400,
+      "x": 1300,
+      "y": 460
+    },
+    {
+      "color": "4",
+      "height": 120,
+      "id": "g2h3i4j5k6l7m8n9",
+      "styleAttributes": {
+      },
+      "text": "分配设备资源\ndevres_alloc() 分配 pinctrl_dev 指针内存",
+      "type": "text",
+      "width": 400,
+      "x": 1300,
+      "y": 610
+    },
+    {
+      "color": "4",
+      "height": 120,
+      "id": "g3h4i5j6k7l8m9n0",
+      "styleAttributes": {
+      },
+      "text": "调用 pinctrl_register()\n注册 pinctrl 设备",
+      "type": "text",
+      "width": 400,
+      "x": 1300,
+      "y": 760
+    },
+    {
+      "color": "4",
+      "height": 140,
+      "id": "g4h5i6j7k8l9m0n1",
+      "styleAttributes": {
+      },
+      "text": "添加设备资源\ndevres_add() 将指针加入资源列表\n设备释放时自动释放内存",
+      "type": "text",
+      "width": 400,
+      "x": 1300,
+      "y": 910
+    },
+    {
+      "color": "3",
+      "height": 120,
+      "id": "h1i2j3k4l5m6n7o8",
+      "styleAttributes": {
+      },
+      "text": "pinctrl_register()\n注册并启用 pinctrl 设备",
+      "type": "text",
+      "width": 400,
+      "x": 1750,
+      "y": 610
+    },
+    {
+      "color": "4",
+      "height": 140,
+      "id": "h2i3j4k5l6m7n8o9",
+      "styleAttributes": {
+      },
+      "text": "初始化控制器\npinctrl_init_controller()\n初始化 pinctrl_dev 结构体",
+      "type": "text",
+      "width": 400,
+      "x": 1750,
+      "y": 760
+    },
+    {
+      "color": "4",
+      "height": 120,
+      "id": "h3i4j5k6l7m8n9o0",
+      "styleAttributes": {
+      },
+      "text": "启用控制器\npinctrl_enable()\n激活 pinctrl 设备",
+      "type": "text",
+      "width": 400,
+      "x": 1750,
+      "y": 930
+    },
+    {
+      "color": "5",
+      "height": 120,
+      "id": "c3d4e5f6g7h8i9j0",
+      "styleAttributes": {
+      },
+      "text": "rockchip_pinctrl 结构体\n瑞芯微对 pinctrl_desc 的封装\n位置：/drivers/pinctrl/pinctrl-rockchip.h",
+      "type": "text",
+      "width": 400,
+      "x": -120,
+      "y": -400
+    },
+    {
+      "color": "6",
+      "height": 280,
+      "id": "c4d5e6f7g8h9i0j1",
+      "styleAttributes": {
+      },
+      "text": "核心字段：\n• regmap_base - 基本寄存器映射\n• regmap_pull - 上拉/下拉寄存器\n• regmap_pmu - 电源管理寄存器\n• dev - 设备指针\n• ctrl - 引脚控制器配置\n• pctl - pinctrl_desc 实例\n• pctl_dev - 引脚控制器设备\n• groups/functions - 引脚组/功能",
+      "type": "text",
+      "width": 400,
+      "x": -120,
+      "y": -250
+    }
+  ]
+}

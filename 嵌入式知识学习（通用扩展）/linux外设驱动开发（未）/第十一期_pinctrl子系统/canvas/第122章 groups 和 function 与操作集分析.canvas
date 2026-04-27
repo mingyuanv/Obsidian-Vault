@@ -1,0 +1,858 @@
+{
+  "edges": [
+    {
+      "fromNode": "a1b2c3d4e5f6g7h1",
+      "fromSide": "bottom",
+      "id": "edge_01",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g7h2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a1b2c3d4e5f6g7h2",
+      "fromSide": "bottom",
+      "id": "edge_02",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g7h3",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a1b2c3d4e5f6g7h2",
+      "fromSide": "bottom",
+      "id": "edge_03",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g7h4",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a1b2c3d4e5f6g7h3",
+      "fromSide": "bottom",
+      "id": "edge_04",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g7h5",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a1b2c3d4e5f6g7h3",
+      "fromSide": "bottom",
+      "id": "edge_05",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g7h6",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a1b2c3d4e5f6g7h4",
+      "fromSide": "bottom",
+      "id": "edge_06",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g7h7",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a1b2c3d4e5f6g7h4",
+      "fromSide": "bottom",
+      "id": "edge_07",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g7h8",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b1c2d3e4f5g6h7i1",
+      "fromSide": "bottom",
+      "id": "edge_10",
+      "styleAttributes": {
+      },
+      "toNode": "b1c2d3e4f5g6h7i2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b1c2d3e4f5g6h7i2",
+      "fromSide": "bottom",
+      "id": "edge_11",
+      "styleAttributes": {
+      },
+      "toNode": "b1c2d3e4f5g6h7i3",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b1c2d3e4f5g6h7i2",
+      "fromSide": "bottom",
+      "id": "edge_12",
+      "styleAttributes": {
+      },
+      "toNode": "b1c2d3e4f5g6h7i6",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b1c2d3e4f5g6h7i2",
+      "fromSide": "bottom",
+      "id": "edge_13",
+      "styleAttributes": {
+      },
+      "toNode": "b1c2d3e4f5g6h7i9",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b1c2d3e4f5g6h7i3",
+      "fromSide": "bottom",
+      "id": "edge_14",
+      "styleAttributes": {
+      },
+      "toNode": "b1c2d3e4f5g6h7i4",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b1c2d3e4f5g6h7i4",
+      "fromSide": "bottom",
+      "id": "edge_15",
+      "styleAttributes": {
+      },
+      "toNode": "b1c2d3e4f5g6h7i5",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b1c2d3e4f5g6h7i6",
+      "fromSide": "bottom",
+      "id": "edge_16",
+      "styleAttributes": {
+      },
+      "toNode": "b1c2d3e4f5g6h7i7",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b1c2d3e4f5g6h7i7",
+      "fromSide": "bottom",
+      "id": "edge_17",
+      "styleAttributes": {
+      },
+      "toNode": "b1c2d3e4f5g6h7i8",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b1c2d3e4f5g6h7i9",
+      "fromSide": "bottom",
+      "id": "edge_18",
+      "styleAttributes": {
+      },
+      "toNode": "b1c2d3e4f5g6h7j0",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b1c2d3e4f5g6h7j0",
+      "fromSide": "bottom",
+      "id": "edge_19",
+      "styleAttributes": {
+      },
+      "toNode": "b1c2d3e4f5g6h7j1",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c1d2e3f4g5h6i7j1",
+      "fromSide": "bottom",
+      "id": "edge_20",
+      "styleAttributes": {
+      },
+      "toNode": "c1d2e3f4g5h6i7j2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c1d2e3f4g5h6i7j2",
+      "fromSide": "bottom",
+      "id": "edge_21",
+      "styleAttributes": {
+      },
+      "toNode": "c1d2e3f4g5h6i7j3",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c1d2e3f4g5h6i7j3",
+      "fromSide": "bottom",
+      "id": "edge_22",
+      "styleAttributes": {
+      },
+      "toNode": "c1d2e3f4g5h6i7j4",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c1d2e3f4g5h6i7j4",
+      "fromSide": "bottom",
+      "id": "edge_23",
+      "styleAttributes": {
+      },
+      "toNode": "c1d2e3f4g5h6i7j5",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c1d2e3f4g5h6i7j2",
+      "fromSide": "bottom",
+      "id": "edge_24",
+      "styleAttributes": {
+      },
+      "toNode": "c1d2e3f4g5h6i7j8",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c1d2e3f4g5h6i7j8",
+      "fromSide": "bottom",
+      "id": "edge_25",
+      "styleAttributes": {
+      },
+      "toNode": "c1d2e3f4g5h6i7j9",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c1d2e3f4g5h6i7j9",
+      "fromSide": "bottom",
+      "id": "edge_26",
+      "styleAttributes": {
+      },
+      "toNode": "c1d2e3f4g5h6i7k0",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c1d2e3f4g5h6i7j2",
+      "fromSide": "bottom",
+      "id": "edge_27",
+      "styleAttributes": {
+      },
+      "toNode": "c1d2e3f4g5h6i7k1",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c1d2e3f4g5h6i7k1",
+      "fromSide": "bottom",
+      "id": "edge_28",
+      "styleAttributes": {
+      },
+      "toNode": "c1d2e3f4g5h6i7k2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c1d2e3f4g5h6i7k2",
+      "fromSide": "bottom",
+      "id": "edge_29",
+      "styleAttributes": {
+      },
+      "toNode": "c1d2e3f4g5h6i7k3",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d1e2f3g4h5i6j7k1",
+      "fromSide": "bottom",
+      "id": "edge_30",
+      "styleAttributes": {
+      },
+      "toNode": "d1e2f3g4h5i6j7k2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d1e2f3g4h5i6j7k2",
+      "fromSide": "bottom",
+      "id": "edge_31",
+      "styleAttributes": {
+      },
+      "toNode": "d1e2f3g4h5i6j7k3",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d1e2f3g4h5i6j7k3",
+      "fromSide": "bottom",
+      "id": "edge_32",
+      "styleAttributes": {
+      },
+      "toNode": "d1e2f3g4h5i6j7k4",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d1e2f3g4h5i6j7k4",
+      "fromSide": "bottom",
+      "id": "edge_33",
+      "styleAttributes": {
+      },
+      "toNode": "d1e2f3g4h5i6j7k5",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d1e2f3g4h5i6j7k5",
+      "fromSide": "bottom",
+      "id": "edge_34",
+      "styleAttributes": {
+      },
+      "toNode": "d1e2f3g4h5i6j7k6",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d1e2f3g4h5i6j7k6",
+      "fromSide": "bottom",
+      "id": "edge_35",
+      "styleAttributes": {
+      },
+      "toNode": "d1e2f3g4h5i6j7k7",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d1e2f3g4h5i6j7k7",
+      "fromSide": "bottom",
+      "id": "edge_36",
+      "styleAttributes": {
+      },
+      "toNode": "d1e2f3g4h5i6j7k8",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d1e2f3g4h5i6j7k3",
+      "fromSide": "right",
+      "id": "edge_37",
+      "styleAttributes": {
+      },
+      "toNode": "d1e2f3g4h5i6j7k9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "d1e2f3g4h5i6j7k9",
+      "fromSide": "bottom",
+      "id": "edge_38",
+      "styleAttributes": {
+      },
+      "toNode": "d1e2f3g4h5i6j7l0",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d1e2f3g4h5i6j7l0",
+      "fromSide": "bottom",
+      "id": "edge_39",
+      "styleAttributes": {
+      },
+      "toNode": "d1e2f3g4h5i6j7l1",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a1b2c3d4e5f6g7h8",
+      "fromSide": "right",
+      "id": "edge_40",
+      "styleAttributes": {
+      },
+      "toNode": "b1c2d3e4f5g6h7i1",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b1c2d3e4f5g6h7j1",
+      "fromSide": "right",
+      "id": "edge_41",
+      "styleAttributes": {
+      },
+      "toNode": "c1d2e3f4g5h6i7j1",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "c1d2e3f4g5h6i7k3",
+      "fromSide": "right",
+      "id": "edge_42",
+      "styleAttributes": {
+      },
+      "toNode": "d1e2f3g4h5i6j7k1",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "2",
+      "height": 100,
+      "id": "a1b2c3d4e5f6g7h1",
+      "styleAttributes": {
+      },
+      "text": "Groups 和 Function 概念\n引脚组与外设功能的关系",
+      "type": "text",
+      "width": 400,
+      "x": -1000,
+      "y": -800
+    },
+    {
+      "color": "3",
+      "height": 120,
+      "id": "a1b2c3d4e5f6g7h2",
+      "styleAttributes": {
+      },
+      "text": "核心概念\nFunction：外设功能（如 UART、SPI、I2C、CAN）\nGroups：具有相似功能的引脚集合",
+      "type": "text",
+      "width": 400,
+      "x": -1000,
+      "y": -650
+    },
+    {
+      "color": "5",
+      "height": 280,
+      "id": "a1b2c3d4e5f6g7h3",
+      "styleAttributes": {
+      },
+      "text": "引脚组（Groups）\n\n• 一组具有相似功能的引脚集合\n• 每个组与特定硬件功能或外设相关联\n• 例如：UART 引脚组、SPI 引脚组\n• 一个 Function 可包含多个 Groups（多组可选引脚）\n• 设备树中定义：can0m0_pins、can0m1_pins",
+      "type": "text",
+      "width": 400,
+      "x": -1250,
+      "y": -480
+    },
+    {
+      "color": "5",
+      "height": 280,
+      "id": "a1b2c3d4e5f6g7h4",
+      "styleAttributes": {
+      },
+      "text": "功能（Function）\n\n• 定义芯片上的外设功能\n• 可以是串口、SPI、I2C、CAN 等\n• 每个 Function 对应一个外设控制器\n• 例如：CAN0 控制器、CAN1 控制器\n• 设备树节点名：can0、can1",
+      "type": "text",
+      "width": 400,
+      "x": -750,
+      "y": -480
+    },
+    {
+      "color": "4",
+      "height": 200,
+      "id": "a1b2c3d4e5f6g7h5",
+      "styleAttributes": {
+      },
+      "text": "CAN0 控制器示例\n\nGroups:\n• can0m0_pins: RK_PB4(RX), RK_PB3(TX)\n• can0m1_pins: RK_PA2(RX), RK_PA1(TX)\n\n一个 Function(CAN0) 有两组可选引脚",
+      "type": "text",
+      "width": 400,
+      "x": -1250,
+      "y": -150
+    },
+    {
+      "color": "4",
+      "height": 200,
+      "id": "a1b2c3d4e5f6g7h6",
+      "styleAttributes": {
+      },
+      "text": "CAN1 控制器示例\n\nGroups:\n• can1m0_pins: RK_PA0(RX), RK_PA1(TX)\n• can1m1_pins: RK_PC2(RX), RK_PC3(TX)\n\n一个 Function(CAN1) 有两组可选引脚",
+      "type": "text",
+      "width": 400,
+      "x": -750,
+      "y": -150
+    },
+    {
+      "color": "6",
+      "height": 280,
+      "id": "a1b2c3d4e5f6g7h7",
+      "styleAttributes": {
+      },
+      "text": "设备树结构 (rk3568-pinctrl.dtsi)\n\ncan0 {\n  can0m0_pins: can0m0-pins { ... }\n  can0m1_pins: can0m1-pins { ... }\n};\n\ncan1 {\n  can1m0_pins: can1m0-pins { ... }\n  can1m1_pins: can1m1-pins { ... }\n};",
+      "type": "text",
+      "width": 400,
+      "x": -1250,
+      "y": 100
+    },
+    {
+      "color": "1",
+      "height": 200,
+      "id": "a1b2c3d4e5f6g7h8",
+      "styleAttributes": {
+      },
+      "text": "关键设计要点\n\n• Function = 外设控制器（如 CAN0、CAN1）\n• Groups = 该外设可用的引脚组合\n• 一个 Function 可有多个 Groups（引脚复用）\n• 设备树中：节点=Function，子节点=Groups",
+      "type": "text",
+      "width": 400,
+      "x": -750,
+      "y": 100
+    },
+    {
+      "color": "2",
+      "height": 100,
+      "id": "b1c2d3e4f5g6h7i1",
+      "styleAttributes": {
+      },
+      "text": "三个操作集结构体\npinctrl_desc 中的函数操作集",
+      "type": "text",
+      "width": 400,
+      "x": 0,
+      "y": -800
+    },
+    {
+      "color": "3",
+      "height": 120,
+      "id": "b1c2d3e4f5g6h7i2",
+      "styleAttributes": {
+      },
+      "text": "pinctrl_desc 结构体中的三个操作集\n• pctlops: 引脚控制操作\n• pmxops: 引脚复用操作\n• confops: 引脚配置操作",
+      "type": "text",
+      "width": 400,
+      "x": 0,
+      "y": -650
+    },
+    {
+      "color": "5",
+      "height": 140,
+      "id": "b1c2d3e4f5g6h7i3",
+      "styleAttributes": {
+      },
+      "text": "pinctrl_ops\n引脚控制操作集\n位置：include/linux/pinctrl/pinctrl.h",
+      "type": "text",
+      "width": 400,
+      "x": -250,
+      "y": -480
+    },
+    {
+      "color": "4",
+      "height": 280,
+      "id": "b1c2d3e4f5g6h7i4",
+      "styleAttributes": {
+      },
+      "text": "pinctrl_ops 六个函数：\n\n1. get_groups_count - 获取引脚组数量\n2. get_group_name - 获取引脚组名称\n3. get_group_pins - 获取引脚组引脚列表\n4. pin_dbg_show - 调试输出引脚信息\n5. dt_node_to_map - 设备树节点转映射\n6. dt_free_map - 释放映射资源",
+      "type": "text",
+      "width": 400,
+      "x": -250,
+      "y": -290
+    },
+    {
+      "color": "1",
+      "height": 120,
+      "id": "b1c2d3e4f5g6h7i5",
+      "styleAttributes": {
+      },
+      "text": "作用：对引脚控制器进行配置和管理\n获取引脚组和引脚信息\n创建和释放设备树相关映射",
+      "type": "text",
+      "width": 400,
+      "x": -250,
+      "y": 40
+    },
+    {
+      "color": "5",
+      "height": 140,
+      "id": "b1c2d3e4f5g6h7i6",
+      "styleAttributes": {
+      },
+      "text": "pinmux_ops\n引脚复用操作集\n位置：include/linux/pinctrl/pinctrl.h",
+      "type": "text",
+      "width": 400,
+      "x": 250,
+      "y": -480
+    },
+    {
+      "color": "4",
+      "height": 320,
+      "id": "b1c2d3e4f5g6h7i7",
+      "styleAttributes": {
+      },
+      "text": "pinmux_ops 十个函数：\n\n1. request - 请求引脚用于复用\n2. free - 释放引脚\n3. get_functions_count - 获取功能数量\n4. get_function_name - 获取功能名称\n5. get_function_groups - 获取功能对应引脚组\n6. set_mux - 启用复用功能\n7. gpio_request_enable - 请求并启用 GPIO\n8. gpio_disable_free - 释放 GPIO 复用\n9. gpio_set_direction - 设置 GPIO 方向\n10. strict - 严格检查模式",
+      "type": "text",
+      "width": 400,
+      "x": 250,
+      "y": -290
+    },
+    {
+      "color": "1",
+      "height": 140,
+      "id": "b1c2d3e4f5g6h7i8",
+      "styleAttributes": {
+      },
+      "text": "作用：描述引脚复用操作\n请求/释放引脚、设置复用功能\n操作 GPIO、严格检查模式\n允许引脚同时用于 GPIO 和其他功能",
+      "type": "text",
+      "width": 400,
+      "x": 250,
+      "y": 80
+    },
+    {
+      "color": "5",
+      "height": 140,
+      "id": "b1c2d3e4f5g6h7i9",
+      "styleAttributes": {
+      },
+      "text": "pinconf_ops\n引脚配置操作集\n位置：include/linux/pinctrl/pinconf.h",
+      "type": "text",
+      "width": 400,
+      "x": 750,
+      "y": -480
+    },
+    {
+      "color": "4",
+      "height": 320,
+      "id": "b1c2d3e4f5g6h7j0",
+      "styleAttributes": {
+      },
+      "text": "pinconf_ops 九个函数：\n\n1. is_generic - 是否通用配置\n2. pin_config_get - 获取引脚配置\n3. pin_config_set - 设置引脚配置\n4. pin_config_group_get - 获取引脚组配置\n5. pin_config_group_set - 设置引脚组配置\n6-9. 调试函数 (dbg_parse_modify, dbg_show...)\n\n配置：上下拉、驱动强度、施密特触发等",
+      "type": "text",
+      "width": 400,
+      "x": 750,
+      "y": -290
+    },
+    {
+      "color": "1",
+      "height": 140,
+      "id": "b1c2d3e4f5g6h7j1",
+      "styleAttributes": {
+      },
+      "text": "作用：定义引脚配置操作\n对硬件引脚进行配置和控制\n上下拉电阻、驱动强度、输入输出模式\n施密特触发、引脚速率等电气特性",
+      "type": "text",
+      "width": 400,
+      "x": 750,
+      "y": 80
+    },
+    {
+      "color": "2",
+      "height": 100,
+      "id": "c1d2e3f4g5h6i7j1",
+      "styleAttributes": {
+      },
+      "text": "操作集具体实现\n瑞芯微 rockchip_pinctrl 实现",
+      "type": "text",
+      "width": 400,
+      "x": 1500,
+      "y": -800
+    },
+    {
+      "color": "3",
+      "height": 120,
+      "id": "c1d2e3f4g5h6i7j2",
+      "styleAttributes": {
+      },
+      "text": "rockchip_pinctrl_register 函数填充\n位置：drivers/pinctrl/pinctrl-rockchip.c",
+      "type": "text",
+      "width": 400,
+      "x": 1500,
+      "y": -650
+    },
+    {
+      "color": "5",
+      "height": 140,
+      "id": "c1d2e3f4g5h6i7j3",
+      "styleAttributes": {
+      },
+      "text": "rockchip_pctrl_ops\npinctrl_ops 实现",
+      "type": "text",
+      "width": 400,
+      "x": 1250,
+      "y": -480
+    },
+    {
+      "color": "4",
+      "height": 280,
+      "id": "c1d2e3f4g5h6i7j4",
+      "styleAttributes": {
+      },
+      "text": "五个实现函数：\n\n1. rockchip_get_groups_count\n   返回 info->ngroups\n\n2. rockchip_get_group_name\n   返回 info->groups[selector].name\n\n3. rockchip_get_group_pins\n   返回引脚数组和数量\n\n4. rockchip_dt_node_to_map\n   创建复用映射和配置映射\n\n5. rockchip_dt_free_map\n   释放映射内存",
+      "type": "text",
+      "width": 400,
+      "x": 1250,
+      "y": -290
+    },
+    {
+      "color": "1",
+      "height": 120,
+      "id": "c1d2e3f4g5h6i7j5",
+      "styleAttributes": {
+      },
+      "text": "作用：获取引脚组信息\n设备树节点转换为引脚映射\n管理引脚组配置",
+      "type": "text",
+      "width": 400,
+      "x": 1250,
+      "y": 40
+    },
+    {
+      "color": "5",
+      "height": 140,
+      "id": "c1d2e3f4g5h6i7j8",
+      "styleAttributes": {
+      },
+      "text": "rockchip_pmx_ops\npinmux_ops 实现",
+      "type": "text",
+      "width": 400,
+      "x": 1750,
+      "y": -480
+    },
+    {
+      "color": "4",
+      "height": 280,
+      "id": "c1d2e3f4g5h6i7j9",
+      "styleAttributes": {
+      },
+      "text": "四个实现函数：\n\n1. rockchip_pmx_get_funcs_count\n   返回 info->nfunctions\n\n2. rockchip_pmx_get_func_name\n   返回 info->functions[selector].name\n\n3. rockchip_pmx_get_groups\n   返回 function 对应的 groups\n\n4. rockchip_pmx_set ⭐\n   设置引脚复用功能\n   遍历引脚组，调用 rockchip_set_mux",
+      "type": "text",
+      "width": 400,
+      "x": 1750,
+      "y": -290
+    },
+    {
+      "color": "1",
+      "height": 140,
+      "id": "c1d2e3f4g5h6i7k0",
+      "styleAttributes": {
+      },
+      "text": "作用：引脚复用功能选择\n获取 function 数量和名称\n设置特定引脚组的复用功能\n启用硬件功能（如 UART、SPI）",
+      "type": "text",
+      "width": 400,
+      "x": 1750,
+      "y": 40
+    },
+    {
+      "color": "5",
+      "height": 140,
+      "id": "c1d2e3f4g5h6i7k1",
+      "styleAttributes": {
+      },
+      "text": "rockchip_pinconf_ops\npinconf_ops 实现",
+      "type": "text",
+      "width": 400,
+      "x": 2250,
+      "y": -480
+    },
+    {
+      "color": "4",
+      "height": 320,
+      "id": "c1d2e3f4g5h6i7k2",
+      "styleAttributes": {
+      },
+      "text": "两个实现函数：\n\n1. rockchip_pinconf_get ⭐\n   获取引脚配置状态\n   支持：上下拉、输出状态、驱动强度\n   施密特触发、引脚速率\n\n2. rockchip_pinconf_set ⭐\n   设置引脚配置参数\n   支持：PIN_CONFIG_BIAS_DISABLE\n   PIN_CONFIG_OUTPUT\n   PIN_CONFIG_DRIVE_STRENGTH 等",
+      "type": "text",
+      "width": 400,
+      "x": 2250,
+      "y": -290
+    },
+    {
+      "color": "1",
+      "height": 160,
+      "id": "c1d2e3f4g5h6i7k3",
+      "styleAttributes": {
+      },
+      "text": "作用：引脚电气特性配置\n\n配置类型：\n• 上下拉电阻 (BIAS_PULL_UP/DOWN)\n• 输出模式 (OUTPUT)\n• 驱动强度 (DRIVE_STRENGTH)\n• 施密特触发 (INPUT_SCHMITT)\n• 引脚速率 (SLEW_RATE)",
+      "type": "text",
+      "width": 400,
+      "x": 2250,
+      "y": 80
+    },
+    {
+      "color": "2",
+      "height": 100,
+      "id": "d1e2f3g4h5i6j7k1",
+      "styleAttributes": {
+      },
+      "text": "rockchip_pinctrl 结构体深入分析\ngroups 和 functions 详解",
+      "type": "text",
+      "width": 400,
+      "x": 3000,
+      "y": -800
+    },
+    {
+      "color": "3",
+      "height": 280,
+      "id": "d1e2f3g4h5i6j7k2",
+      "styleAttributes": {
+      },
+      "text": "rockchip_pinctrl 结构体字段\n\n• regmap_base - 基本寄存器映射\n• regmap_pull - 拉取寄存器映射\n• regmap_pmu - PMU 寄存器映射\n• dev - 设备指针\n• ctrl - 瑞芯微引脚控制器\n• pctl - pinctrl_desc 实例\n• pctl_dev - 引脚控制器设备\n• groups - 引脚组数组 ⭐\n• ngroups - 引脚组数量 ⭐\n• functions - 功能数组 ⭐\n• nfunctions - 功能数量 ⭐",
+      "type": "text",
+      "width": 400,
+      "x": 3000,
+      "y": -650
+    },
+    {
+      "color": "5",
+      "height": 140,
+      "id": "d1e2f3g4h5i6j7k3",
+      "styleAttributes": {
+      },
+      "text": "关键参数\ngroups 和 functions\n存放设备树解析后的引脚配置信息",
+      "type": "text",
+      "width": 400,
+      "x": 3000,
+      "y": -320
+    },
+    {
+      "color": "4",
+      "height": 200,
+      "id": "d1e2f3g4h5i6j7k4",
+      "styleAttributes": {
+      },
+      "text": "pinctrl_register 函数流程\n\n1. pinctrl_init_controller()\n   初始化 pinctrl_dev 结构体\n   pctldev->driver_data = driver_data\n   \n2. pinctrl_enable()\n   启用控制器",
+      "type": "text",
+      "width": 400,
+      "x": 3000,
+      "y": -130
+    },
+    {
+      "color": "4",
+      "height": 200,
+      "id": "d1e2f3g4h5i6j7k5",
+      "styleAttributes": {
+      },
+      "text": "pinctrl_init_controller 关键行\n\npctldev->driver_data = driver_data\n\n右值：rockchip_pinctrl* 类型\n左值：pinctrl_dev 结构体\n\n建立数据结构关联！",
+      "type": "text",
+      "width": 400,
+      "x": 3000,
+      "y": 120
+    },
+    {
+      "color": "4",
+      "height": 140,
+      "id": "d1e2f3g4h5i6j7k6",
+      "styleAttributes": {
+      },
+      "text": "数据传递链\n\nrockchip_pinctrl* info\n  ↓ (作为 driver_data)\npinctrl_register()\n  ↓\npinctrl_init_controller()\n  ↓\npctldev->driver_data",
+      "type": "text",
+      "width": 400,
+      "x": 3000,
+      "y": 370
+    },
+    {
+      "color": "1",
+      "height": 120,
+      "id": "d1e2f3g4h5i6j7k7",
+      "styleAttributes": {
+      },
+      "text": "关键设计\n通过 driver_data 传递私有数据\npinctrl_dev 可访问 rockchip_pinctrl 所有数据",
+      "type": "text",
+      "width": 400,
+      "x": 3000,
+      "y": 560
+    },
+    {
+      "color": "1",
+      "height": 120,
+      "id": "d1e2f3g4h5i6j7k8",
+      "styleAttributes": {
+      },
+      "text": "访问方式\npinctrl_dev_get_drvdata(pctldev)\n获取 rockchip_pinctrl 指针",
+      "type": "text",
+      "width": 400,
+      "x": 3000,
+      "y": 730
+    },
+    {
+      "color": "5",
+      "height": 140,
+      "id": "d1e2f3g4h5i6j7k9",
+      "styleAttributes": {
+      },
+      "text": "rockchip_pinctrl_parse_dt\n解析设备树函数",
+      "type": "text",
+      "width": 400,
+      "x": 3500,
+      "y": -320
+    },
+    {
+      "color": "4",
+      "height": 280,
+      "id": "d1e2f3g4h5i6j7l0",
+      "styleAttributes": {
+      },
+      "text": "解析流程：\n\n1. rockchip_pinctrl_child_count()\n   遍历设备树子节点\n   统计 nfunctions 和 ngroups 数量\n\n2. 分配内存\n   info->functions = devm_kcalloc(...)\n   info->groups = devm_kcalloc(...)\n\n3. 遍历子节点\n   for_each_child_of_node()\n   rockchip_pinctrl_parse_functions()",
+      "type": "text",
+      "width": 400,
+      "x": 3500,
+      "y": -130
+    },
+    {
+      "color": "1",
+      "height": 160,
+      "id": "d1e2f3g4h5i6j7l1",
+      "styleAttributes": {
+      },
+      "text": "数据流向总结\n\n设备树节点\n  ↓ 解析\nrockchip_pinctrl_parse_dt()\n  ↓ 存储\ninfo->functions / info->groups\n  ↓ 传递\npctldev->driver_data",
+      "type": "text",
+      "width": 400,
+      "x": 3500,
+      "y": 200
+    }
+  ]
+}

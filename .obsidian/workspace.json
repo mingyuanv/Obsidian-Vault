@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eab2a12adb072b42",
+            "id": "f67f47ec1518862c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,63 +22,105 @@
             }
           },
           {
-            "id": "1e94d821a99da114",
+            "id": "c26aaecf6b345405",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第116章 netlink监听广播信息实验.md",
+                "file": "XGRIDS/高通平台开发/💻屏幕驱动开发/1-1、TP-CST916E 驱动开发：TP2514.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第116章 netlink监听广播信息实验"
+              "title": "1-1、TP-CST916E 驱动开发：TP2514"
             }
           },
           {
-            "id": "4fb0bb1c93b92784",
+            "id": "f6f56fb31f32dc20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XGRIDS/rk3588开发/TOF-深度相机/2-2、tof 数据处理适配.md",
+                "file": "XGRIDS/高通平台开发/💻高通SDK优化/2-2、QCS8550 SDK cicd编译流程实现.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2-2、tof 数据处理适配"
+              "title": "2-2、QCS8550 SDK cicd编译流程实现"
             }
           },
           {
-            "id": "e046917b028e0500",
+            "id": "0fb0514b9ca160af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "通用文件夹/模板/📒📄🔨 ❤️🔍📌📖❌✅🐞 🛠️📦.md",
+                "file": "XGRIDS/高通平台开发/💻camera驱动开发/3-1、dtof 驱动开发.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📒📄🔨 ❤️🔍📌📖❌✅🐞 🛠️📦"
+              "title": "3-1、dtof 驱动开发"
             }
           },
           {
-            "id": "714f30ffd731164b",
+            "id": "84d47367faf3b2c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Extended-Learn/AI学习/4-1、spec-kit AI开发.md",
+                "file": "XGRIDS/高通平台开发/💻camera驱动开发/2-1、camera点亮：.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4-1、spec-kit AI开发"
+              "title": "2-1、camera点亮："
+            }
+          },
+          {
+            "id": "d0bc4cb9dba69d57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Extended-Learn/电脑软件学习/linux开发工具软件.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "linux开发工具软件"
+            }
+          },
+          {
+            "id": "ce4ec4c7cae73427",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XGRIDS/高通平台开发/💻高通SDK优化/2-1、QCS8550 SDK 环镜塔建与编译(TP2511).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2-1、QCS8550 SDK 环镜塔建与编译(TP2511)"
+            }
+          },
+          {
+            "id": "805acd2d8cb5081f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十二期_GPIO子系统/第130章 GPIO的调试方法.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "第130章 GPIO的调试方法"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +152,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "printk",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -223,13 +265,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第116章 netlink监听广播信息实验.md",
+                "file": "XGRIDS/高通平台开发/💻高通SDK优化/2-2、QCS8550 SDK cicd编译流程实现.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "第116章 netlink监听广播信息实验 的大纲"
+              "title": "2-2、QCS8550 SDK cicd编译流程实现 的大纲"
             }
           },
           {
@@ -250,6 +292,16 @@
               "state": {},
               "icon": "checkmark",
               "title": "Todo List"
+            }
+          },
+          {
+            "id": "1d1983c3797724ee",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
             }
           }
         ],
@@ -281,60 +333,67 @@
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-memos:Thino": false
+      "obsidian-memos:Thino": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "1e94d821a99da114",
+  "active": "f6f56fb31f32dc20",
   "lastOpenFiles": [
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第115章 完善kset_uevent_ops结构体实验.md",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/未命名 4.md",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/未命名 3.md",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/未命名 2.md",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第116章 netlink监听广播信息实验.md",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/未命名.md",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第115章 完善kset_uevent_ops结构体实验/file-20260313121304736.png",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第115章 完善kset_uevent_ops结构体实验/file-20260313121240072.png",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第115章 完善kset_uevent_ops结构体实验/file-20260313121229072.png",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第115章 完善kset_uevent_ops结构体实验",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第114章 内核发送事件到用户空间的方法.md",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第114章 内核发送事件到用户空间的方法/file-20260313110354062.png",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第114章 内核发送事件到用户空间的方法/file-20260313110321244.png",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第114章 内核发送事件到用户空间的方法",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第113章 内核是如何发送事件到用户空间.md",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第113章 内核是如何发送事件到用户空间/file-20260313105811952.png",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第113章 内核是如何发送事件到用户空间/file-20260313105815316.png",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第113章 内核是如何发送事件到用户空间",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/第112章 热插拔简介.md",
-    "XGRIDS/rk3588开发/TOF-深度相机/2-2、tof 数据处理适配.md",
-    "Extended-Learn/AI学习/4-1、spec-kit AI开发.md",
-    "Extended-Learn/AI学习/kiro安装与授权.md",
-    "Extended-Learn/AI学习/assets/kiro安装与授权/94eb4c87af1b0070f7321a3971a3e926_MD5.jpg",
-    "Extended-Learn/AI学习/assets/kiro安装与授权/4a716231481ebf686f07850a94a6ff1b_MD5.png",
-    "Extended-Learn/AI学习/assets/kiro安装与授权/076a06c78f4fd4428dd09cd4f9d4442d_MD5.png",
-    "Extended-Learn/AI学习/assets/kiro安装与授权",
-    "通用文件夹/模板/📒📄🔨 ❤️🔍📌📖❌✅🐞 🛠️📦.md",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/❌废弃：第十期 热插拔",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/❌废弃：第十期 热插拔.md",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets/第十期 热插拔",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔/assets",
-    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十期 热插拔",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第五期_中断/第46章 延迟工作实验.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第111章 platform总线注册驱动流程实例分析实验.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/❌废弃：第九期 设备模型.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/assets/❌废弃：第九期 设备模型",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第110章 加载驱动和加载设备先后顺序分析实验.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第109章 probe函数执行流程分析实验.md",
-    "嵌入式知识学习（通用扩展）/linux基础知识/3-2、开发经验记录.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第108章 驱动注册流程分析实验.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第106章 为什么注册总线之前要先注册设备 - 实例分析实验.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第六期 平台总线/第51章 注册platform设备实验.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第六期 平台总线/第52章 注册platform驱动实验.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第103章 在总线下注册设备实验.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/第102章 platform总线注册流程实例分析实验.md",
-    "嵌入式知识学习（通用扩展）/linux驱动入门/第九期 设备模型/assets/第106章 为什么注册总线之前要先注册设备 - 实例分析实验",
-    "通用文件夹/canvas/编写设备树插件驱动.canvas",
-    "编写设备树插件驱动.canvas",
-    "XGRIDS/rk3588开发/💻camera驱动开发/📒设备树各级配置文件讲解.canvas",
-    "XGRIDS/rk3588开发/💻camera驱动开发/🔨媒体拓扑结构打印/4路mipi Camera连接情况（灵关K1）.canvas"
+    "XGRIDS/高通平台开发/💻屏幕驱动开发/1-1、TP-CST916E 驱动开发：TP2514.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/3-1、dtof 驱动开发.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/2-1、camera点亮：.md",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/poky/meta-qti-touch/recipes/touch_dlkm_kernel/touchdlkm_git.bb.md.part",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/poky/meta-qti-touch/recipes/touch_dlkm_kernel/files/touch_load.conf.md",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/poky/meta-qti-touch/recipes/touch_dlkm_kernel/files/start_touch_le.md",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/poky/meta-qti-touch/recipes/touch_dlkm_kernel/touchdlkm_git.bb.md",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/poky/meta-qti-touch/recipes/touch_dlkm_kernel/files",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/poky/meta-qti-touch/recipes/touch_dlkm_kernel",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/poky/meta-qti-touch/recipes",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/poky/meta-qti-touch",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/poky",
+    "Extended-Learn/电脑软件学习/linux开发工具软件.md",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/vendor/qcom/opensource/touch-drivers/Kbuild.md.part",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/display/vendor/qcom/proprietary/display-devicetree/display/kalama-sde-display.dtsi.md",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/display/vendor/qcom/proprietary/display-devicetree/display/kalama-sde-display-hdk.dtsi.md",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/display/vendor/qcom/proprietary/display-devicetree/display/kalama-sde-display-common.dtsi.md",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/display/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-ili9881d-720p-video.dtsi.md",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/display/vendor/qcom/opensource/display-drivers/msm/dsi/dsi_panel.h.md",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/display/vendor/qcom/opensource/display-drivers/msm/dsi/dsi_panel.c.md",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/vendor/qcom/opensource/touch-drivers/hynitron_ts/hyn_lib/hyn_ts_ext.c.md",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/vendor/qcom/opensource/touch-drivers/hynitron_ts/hyn_chips/hyn_cst923xx.c.md",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/display/vendor/qcom/opensource/display-drivers/msm/dsi",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/vendor/qcom/opensource/touch-drivers/hynitron_ts/hyn_lib",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/vendor/qcom/opensource/touch-drivers/hynitron_ts/hyn_core.c.md",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/vendor/qcom/opensource/touch-drivers/hynitron_ts/hyn_chips",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/vendor/qcom/opensource/touch-drivers/Kbuild.md",
+    "XGRIDS/高通平台开发/💻高通SDK优化/2-1、QCS8550 SDK 环镜塔建与编译(TP2511).md",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十二期_GPIO子系统/第130章 GPIO的调试方法.md",
+    "主页.md",
+    "Extended-Learn/电脑软件学习/📖 Git 分支合并与冲突解决复盘.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/2-1、camera点亮：/file-20260424121025614.png",
+    "XGRIDS/高通平台开发/💻高通SDK优化/📖 QCS8550 BSP 源码获取与编译指导手册.md",
+    "XGRIDS/高通平台开发/💻高通SDK优化/assets/2-1、QCS8550 SDK 环镜塔建与编译(TP2511)/img_v3_02112_c42e318c-1f3f-4af7-b661-1f9d9a7b27eg.jpg",
+    "XGRIDS/高通平台开发/💻屏幕驱动开发/assets/1-1、TP-CST916E 驱动开发：TP2514/file-20260424115658712.png",
+    "XGRIDS/高通平台开发/💻图像处理应用开发/🔨ADB 命令速查表.md",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/hynitron_ts/hyn_lib/hyn_ts_ext.c.md",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/hynitron_ts/hyn_lib/hyn_tool.c.md",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/hynitron_ts/hyn_lib/hyn_spi.c.md",
+    "XGRIDS/高通平台开发/💻屏幕驱动开发/assets/1-1、TP-CST916E 驱动开发：TP2514/996f337c-c6ba-4494-a9fc-8016128a18ff.png",
+    "XGRIDS/高通平台开发/💻高通SDK优化/assets/2-2、QCS8550 SDK cicd编译流程实现/file-20260422175620509.png",
+    "XGRIDS/高通平台开发/💻高通SDK优化/assets/2-2、QCS8550 SDK cicd编译流程实现/file-20260422172551788.png",
+    "XGRIDS/高通平台开发/💻高通SDK优化/assets/📖编译服务器安装与部署(参考)/dd2e4a9edd6e2140441a05406fff6588_MD5.png",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/2-1、camera点亮：/file-20260421170837698.png",
+    "XGRIDS/高通平台开发/💻高通SDK优化/assets/2-1、QCS8550 SDK 环镜塔建与编译(TP2511)/img_v3_0210v_b66884dc-d796-4a6f-b071-2e821c0d121g.jpg",
+    "XGRIDS/高通平台开发/📖资料库/QCS8550/PT/1.74寸屏-时序/电流参数1.png",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十一期_pinctrl子系统/canvas/2-pinctrl 运行时数据结构.canvas",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十一期_pinctrl子系统/canvas/第126章 pinctrl_bind_pins 函数分析.canvas",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十一期_pinctrl子系统/canvas/第125章 add_setting 函数分析.canvas",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十一期_pinctrl子系统/canvas/第124章 pinctrl_bind_pins 完整分析.canvas",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十一期_pinctrl子系统/canvas/1-pinctrl-probe 流程分析.canvas",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十一期_pinctrl子系统/canvas/第122章 groups 和 function 与操作集分析.canvas",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十一期_pinctrl子系统/canvas/第124章 pinctrl_bind_pins 函数分析.canvas",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十一期_pinctrl子系统/canvas/第123章 dt_node_to_map 函数分析.canvas",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十一期_pinctrl子系统/canvas/未命名.canvas",
+    "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十一期_pinctrl子系统/canvas/第121 章 pinctrl-probe 分析.canvas"
   ]
 }

@@ -1,0 +1,192 @@
+{
+  "edges": [
+    {
+      "fromNode": "a1b2c3d4e5f6g002",
+      "fromSide": "right",
+      "id": "9c9a71c90c238569",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g003",
+      "toSide": "left"
+    },
+    {
+      "color": "6",
+      "fromNode": "a1b2c3d4e5f6g002",
+      "fromSide": "right",
+      "id": "ee46d7a6f9a89ef2",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g004",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a1b2c3d4e5f6g005",
+      "fromSide": "right",
+      "id": "0d0bf0bb7da2b81a",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g004",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a1b2c3d4e5f6g006",
+      "fromSide": "right",
+      "id": "703ab208aa4f185e",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g004",
+      "toSide": "left"
+    },
+    {
+      "color": "6",
+      "fromNode": "a1b2c3d4e5f6g004",
+      "fromSide": "right",
+      "id": "3c7d3d5db9fc391b",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g008",
+      "toSide": "left"
+    },
+    {
+      "color": "6",
+      "fromNode": "a1b2c3d4e5f6g004",
+      "fromSide": "right",
+      "id": "4a457172e5f7fd6d",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g009",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a1b2c3d4e5f6g004",
+      "fromSide": "right",
+      "id": "935cb2ad9a5a228c",
+      "styleAttributes": {
+      },
+      "toNode": "a1b2c3d4e5f6g007",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "1",
+      "height": 530,
+      "id": "a1b2c3d4e5f6g002",
+      "styleAttributes": {
+      },
+      "text": "<span style=\"background:#ff4d4f\">create_pinctrl 函数</span>\n\n<span style=\"background:#affad1\">作用：为每个映射创建状态 cookie 持有者 struct pinctrl</span>\n\n所在文件：drivers/pinctrl/core.c\n\n```c\n步骤:\n1. 分配 pinctrl 结构体内存 (kzalloc)\n2. 初始化状态链表和 DT 映射链表\n3. 调用 pinctrl_dt_to_map 转换设备树映射\n4. 遍历引脚控制映射 (for_each_maps)\n   - 检查映射设备名称是否匹配\n   - 跳过不适用的映射\n5. 调用 add_setting 添加设置\n   - 处理 -EPROBE_DEFER 延迟探测\n6. 初始化引用计数 (kref_init)\n⭐ 7. 将 pinctrl 句柄添加到全局列表\n```",
+      "type": "text",
+      "width": 450,
+      "x": -675,
+      "y": -1300
+    },
+    {
+      "color": "2",
+      "height": 500,
+      "id": "a1b2c3d4e5f6g003",
+      "styleAttributes": {
+      },
+      "text": "<span style=\"background:#b1ffff\">for_each_maps 宏定义</span>\n\n<span style=\"background:#affad1\">作用：遍历映射表链表中的每个映射表条目</span>\n\n所在文件：drivers/pinctrl/core.h\n\n```c\n#define for_each_maps(_maps_node_, _i_, _map_) \\\n    list_for_each_entry(_maps_node_, &pinctrl_maps, node) \\\n        for (_i_ = 0, _map_ = &_maps_node_->maps[_i_]; \\\n             _i_ < _maps_node_->num_maps; \\\n             _i_++, _map_ = &_maps_node_->maps[_i_])\n```\n\n⭐ 关键：检查映射设备名称是否匹配，不匹配则跳过",
+      "type": "text",
+      "width": 450,
+      "x": 0,
+      "y": -1160
+    },
+    {
+      "color": "1",
+      "height": 640,
+      "id": "a1b2c3d4e5f6g004",
+      "styleAttributes": {
+      },
+      "text": "<span style=\"background:#ff4d4f\">add_setting 函数</span>\n\n<span style=\"background:#affad1\">作用：将映射添加到引脚控制器中</span>\n\n所在文件：drivers/pinctrl/core.c\n\n```c\n步骤:\n1. 定义状态对象指针和设置对象指针\n2. 查找状态对象 (find_state)，不存在则创建\n3. 检查映射类型，虚拟状态直接返回\n4. 分配设置对象内存 (kzalloc)\n5. 设置映射类型和引脚控制设备\n   - pctldev 非空则直接使用\n   - 否则通过 get_pinctrl_dev_from_devname 获取\n⭐ 6. 根据映射类型执行转换:\n   - PIN_MAP_TYPE_MUX_GROUP → pinmux_map_to_setting\n   - PIN_MAP_TYPE_CONFIGS_* → pinconf_map_to_setting\n7. 将设置对象插入状态对象的设置链表\n```",
+      "type": "text",
+      "width": 450,
+      "x": -480,
+      "y": -575
+    },
+    {
+      "color": "4",
+      "height": 480,
+      "id": "a1b2c3d4e5f6g005",
+      "styleAttributes": {
+      },
+      "text": "<span style=\"background:#b1ffff\">struct pinctrl_state</span>\n\n<span style=\"background:#affad1\">作用：状态对象，包含该状态的所有设置</span>\n\n所在文件：drivers/pinctrl/core.h\n\n```c\nstruct pinctrl_state {\n    struct list_head node;      // 状态链表节点\n    const char *name;           // 状态名称\n    ⭐ struct list_head settings;  // 设置对象链表\n};\n```",
+      "type": "text",
+      "width": 450,
+      "x": -1100,
+      "y": -700
+    },
+    {
+      "color": "4",
+      "height": 580,
+      "id": "a1b2c3d4e5f6g006",
+      "styleAttributes": {
+      },
+      "text": "<span style=\"background:#b1ffff\">struct pinctrl_setting</span>\n\n<span style=\"background:#affad1\">作用：设置对象，包含映射转换后的设置信息</span>\n\n所在文件：drivers/pinctrl/core.h\n\n```c\nstruct pinctrl_setting {\n    struct list_head node;           // 设置链表节点\n    enum pinctrl_map_type type;      // 映射类型\n    struct pinctrl_dev *pctldev;     // 引脚控制设备\n    const char *dev_name;            // 设备名称\n    ⭐ union {\n        struct pinctrl_setting_mux mux;\n        struct pinctrl_setting_configs configs;\n    } data;\n};\n```",
+      "type": "text",
+      "width": 450,
+      "x": -1100,
+      "y": -120
+    },
+    {
+      "color": "6",
+      "height": 140,
+      "id": "a1b2c3d4e5f6g001",
+      "styleAttributes": {
+      },
+      "text": "<span style=\"background:#ffd700\">add_setting 函数分析</span>\ncreate_pinctrl 函数解析",
+      "type": "text",
+      "width": 450,
+      "x": -225,
+      "y": -1520
+    },
+    {
+      "color": "2",
+      "height": 540,
+      "id": "a1b2c3d4e5f6g008",
+      "styleAttributes": {
+      },
+      "text": "<span style=\"background:#ff4d4f\">pinmux_map_to_setting 函数</span>\n\n<span style=\"background:#affad1\">作用：将引脚复用映射转换为设置对象</span>\n\n所在文件：drivers/pinctrl/pinmux.c\n\n```c\n步骤:\n1. 检查是否支持复用操作\n⭐ 2. 复用函数名称→选择器 (pinmux_func_name_to_selector)\n3. 查询函数对应的复用组信息 (get_function_groups)\n4. 选择复用组\n5. 获取复用组选择器 (pinctrl_get_group_selector)\n6. 设置 mux.func 和 mux.group 字段\n```",
+      "type": "text",
+      "width": 450,
+      "x": 80,
+      "y": -575
+    },
+    {
+      "color": "2",
+      "height": 380,
+      "id": "a1b2c3d4e5f6g007",
+      "styleAttributes": {
+      },
+      "text": "<span style=\"background:#ff4d4f\">create_state 函数</span>\n\n<span style=\"background:#affad1\">作用：创建新的状态对象</span>\n\n所在文件：drivers/pinctrl/core.c\n\n```c\n步骤:\n1. 为 pinctrl_state 结构体分配内存\n2. 设置状态名称\n3. 初始化状态的设置链表\n⭐ 4. 将状态添加到 pinctrl 的状态链表\n```",
+      "type": "text",
+      "width": 450,
+      "x": 80,
+      "y": 640
+    },
+    {
+      "color": "6",
+      "height": 570,
+      "id": "b1c2d3e4f5g6h001",
+      "styleAttributes": {
+      },
+      "text": "<span style=\"background:#d8b4fe\">总结</span>\n\n核心流程:\n\n1. create_pinctrl 创建 pinctrl 句柄\n2. for_each_maps 遍历映射表\n3. add_setting 处理每个映射:\n   - 创建/查找状态对象\n   - 创建设置对象\n   ⭐ 根据类型调用转换函数\n4. 转换函数:\n   - pinmux_map_to_setting (复用组)\n   - pinconf_map_to_setting (配置)\n5. 设置对象链接到状态链表\n\n关键数据:\n- pinctrl_state: 状态对象\n- pinctrl_setting: 设置对象",
+      "type": "text",
+      "width": 450,
+      "x": -520,
+      "y": 220
+    },
+    {
+      "color": "2",
+      "height": 440,
+      "id": "a1b2c3d4e5f6g009",
+      "styleAttributes": {
+      },
+      "text": "<span style=\"background:#ff4d4f\">pinconf_map_to_setting 函数</span>\n\n<span style=\"background:#affad1\">作用：将引脚配置映射转换为设置对象</span>\n\n所在文件：drivers/pinctrl/core.c\n\n```c\n步骤:\n1. 根据类型处理:\n   - CONFIGS_PIN: 获取引脚号 (pin_get_from_name)\n   - CONFIGS_GROUP: 获取组选择器\n⭐ 2. 设置 group_or_pin 字段\n⭐ 3. 设置配置数量和配置指针\n4. 返回 0 表示成功\n```",
+      "type": "text",
+      "width": 450,
+      "x": 80,
+      "y": 65
+    }
+  ]
+}

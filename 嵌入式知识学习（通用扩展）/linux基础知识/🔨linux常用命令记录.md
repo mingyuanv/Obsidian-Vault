@@ -353,7 +353,7 @@ root@ubuntu:/home/topeet# ls Desktop test root@ubuntu:/home/topeet# rm - ri test
 
 ![](assets/🔨linux常用命令记录/7d35faf0486e7f1d51e08d13600c13e9f1b384e259d609895aa847b7f7195a07.jpg)
 
-## 10.16、 find 命令：用于在目录结构中查找文件。
+## 10.16、 find 命令：用于在目录结构中查找文件。(❤️)
 
 > **find 路径 参数 查找信息**
 > 路径表示要查找的目录路径，如果不指定路径，则会在当前目录下进行查找。查找信息可以是文件名也可以是文件名的一部分。
@@ -380,13 +380,19 @@ root@ubuntu:/home/topeet# ls Desktop test root@ubuntu:/home/topeet# rm - ri test
 
 ```c
 # 方法1：使用通配符（需要引号）
-find -name "*tuning*.bin"
+find -name "server.sh"
 
 # 方法2：指定搜索路径
 find . -name "*tuning*.bin"
 
 # 方法3：更详细的搜索
 find . -type f -name "*tuning*.bin"
+
+
+find ~/.trae-cn-server -name "server.sh"
+
+
+
 ```
 
 
