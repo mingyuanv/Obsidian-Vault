@@ -22,77 +22,21 @@
             }
           },
           {
-            "id": "c26aaecf6b345405",
+            "id": "5596441fb114c99e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XGRIDS/高通平台开发/💻屏幕驱动开发/1-1、TP-CST916E 驱动开发：TP2514.md",
+                "file": "XGRIDS/高通平台开发/💻IMU驱动开发/1-1、IMU 驱动开发：.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-1、TP-CST916E 驱动开发：TP2514"
+              "title": "1-1、IMU 驱动开发："
             }
           },
           {
-            "id": "f6f56fb31f32dc20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XGRIDS/高通平台开发/💻高通SDK优化/2-2、QCS8550 SDK cicd编译流程实现.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2-2、QCS8550 SDK cicd编译流程实现"
-            }
-          },
-          {
-            "id": "0fb0514b9ca160af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XGRIDS/高通平台开发/💻camera驱动开发/3-1、dtof 驱动开发.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3-1、dtof 驱动开发"
-            }
-          },
-          {
-            "id": "84d47367faf3b2c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XGRIDS/高通平台开发/💻camera驱动开发/2-1、camera点亮：.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2-1、camera点亮："
-            }
-          },
-          {
-            "id": "d0bc4cb9dba69d57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Extended-Learn/电脑软件学习/linux开发工具软件.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "linux开发工具软件"
-            }
-          },
-          {
-            "id": "ce4ec4c7cae73427",
+            "id": "d48e5f3b2d06518b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -103,6 +47,20 @@
               },
               "icon": "lucide-file",
               "title": "2-1、QCS8550 SDK 环镜塔建与编译(TP2511)"
+            }
+          },
+          {
+            "id": "30f34319172d940d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XGRIDS/高通平台开发/💻camera驱动开发/📒高通tof相关知识扩展：.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "📒高通tof相关知识扩展："
             }
           },
           {
@@ -120,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -265,13 +223,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XGRIDS/高通平台开发/💻高通SDK优化/2-2、QCS8550 SDK cicd编译流程实现.md",
+                "file": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十二期_GPIO子系统/第130章 GPIO的调试方法.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2-2、QCS8550 SDK cicd编译流程实现 的大纲"
+              "title": "第130章 GPIO的调试方法 的大纲"
             }
           },
           {
@@ -313,6 +271,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "remotely-save:Remotely Save": false,
       "bases:新建数据库": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -337,54 +296,54 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "f6f56fb31f32dc20",
+  "active": "805acd2d8cb5081f",
   "lastOpenFiles": [
-    "XGRIDS/高通平台开发/💻屏幕驱动开发/1-1、TP-CST916E 驱动开发：TP2514.md",
-    "XGRIDS/高通平台开发/💻camera驱动开发/3-1、dtof 驱动开发.md",
-    "XGRIDS/高通平台开发/💻camera驱动开发/2-1、camera点亮：.md",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/poky/meta-qti-touch/recipes/touch_dlkm_kernel/touchdlkm_git.bb.md.part",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/poky/meta-qti-touch/recipes/touch_dlkm_kernel/files/touch_load.conf.md",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/poky/meta-qti-touch/recipes/touch_dlkm_kernel/files/start_touch_le.md",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/poky/meta-qti-touch/recipes/touch_dlkm_kernel/touchdlkm_git.bb.md",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/poky/meta-qti-touch/recipes/touch_dlkm_kernel/files",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/poky/meta-qti-touch/recipes/touch_dlkm_kernel",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/poky/meta-qti-touch/recipes",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/poky/meta-qti-touch",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/poky",
-    "Extended-Learn/电脑软件学习/linux开发工具软件.md",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/vendor/qcom/opensource/touch-drivers/Kbuild.md.part",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/display/vendor/qcom/proprietary/display-devicetree/display/kalama-sde-display.dtsi.md",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/display/vendor/qcom/proprietary/display-devicetree/display/kalama-sde-display-hdk.dtsi.md",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/display/vendor/qcom/proprietary/display-devicetree/display/kalama-sde-display-common.dtsi.md",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/display/vendor/qcom/proprietary/display-devicetree/display/dsi-panel-ili9881d-720p-video.dtsi.md",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/display/vendor/qcom/opensource/display-drivers/msm/dsi/dsi_panel.h.md",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/display/vendor/qcom/opensource/display-drivers/msm/dsi/dsi_panel.c.md",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/vendor/qcom/opensource/touch-drivers/hynitron_ts/hyn_lib/hyn_ts_ext.c.md",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/vendor/qcom/opensource/touch-drivers/hynitron_ts/hyn_chips/hyn_cst923xx.c.md",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/display/vendor/qcom/opensource/display-drivers/msm/dsi",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/vendor/qcom/opensource/touch-drivers/hynitron_ts/hyn_lib",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/vendor/qcom/opensource/touch-drivers/hynitron_ts/hyn_core.c.md",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/vendor/qcom/opensource/touch-drivers/hynitron_ts/hyn_chips",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/src/vendor/qcom/opensource/touch-drivers/Kbuild.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/📒高通tof相关知识扩展：.md",
     "XGRIDS/高通平台开发/💻高通SDK优化/2-1、QCS8550 SDK 环镜塔建与编译(TP2511).md",
     "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十二期_GPIO子系统/第130章 GPIO的调试方法.md",
     "主页.md",
-    "Extended-Learn/电脑软件学习/📖 Git 分支合并与冲突解决复盘.md",
+    "Extended-Learn/AI学习/AI 知识库/AI生成视频与AI生成漫画.md",
+    "XGRIDS/高通平台开发/💻IMU驱动开发/1-1、IMU 驱动开发：.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/build_cameradlkm_fast.sh.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/build_camera_dtbo_fast.sh.md",
+    "Extended-Learn/电脑软件学习/linux开发工具软件.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/3-1、dtof 驱动开发.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/📖ADS6401_QCS8550_dToF驱动开发复盘笔记.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/📖ADS6401_移植上下文压缩.md",
+    "XGRIDS/高通平台开发/💻IMU驱动开发/📖SSC传感器驱动注册流程详解.md",
+    "XGRIDS/rk3588开发/TOF-深度相机/2-1、tof相机数据获取与解析.md",
+    "XGRIDS/rk3588开发/TOF-深度相机/1-1、camera加tof相机出流失败问题.md",
+    "XGRIDS/rk3588开发/TOF-深度相机/2-2、tof 数据处理适配.md",
+    "XGRIDS/高通平台开发/💻IMU驱动开发/📒SSC与AP框架介绍：.md",
+    "芯片开发学习/全志V3s芯片开发/全志V3s开发记录/驱动开发.md",
+    "功能子仓库/code-notes/高通平台开发/💻IMU驱动开发/iim42652_0.json.md",
+    "功能子仓库/code-notes/高通平台开发/💻IMU驱动开发/qc_dt_schema_check.py.md",
+    "功能子仓库/code-notes/高通平台开发/💻IMU驱动开发/qc_dt_check.py.md",
+    "功能子仓库/code-notes/高通平台开发/💻IMU驱动开发/sns_icm4x6xx_sensor.c.md",
+    "功能子仓库/code-notes/高通平台开发/💻IMU驱动开发",
+    "嵌入式知识学习（通用扩展）/linux基础知识/🔨linux常用命令记录.md",
+    "XGRIDS/高通平台开发/💻图像处理应用开发/2-3、3camera同时编码报错解决.md",
+    "XGRIDS/高通平台开发/💻图像处理应用开发/2-1、现有问题整理(3A和编码).md",
+    "XGRIDS/高通平台开发/💻IMU驱动开发/assets/1-1、IMU 驱动开发：/file-20260429172740698.png",
+    "XGRIDS/高通平台开发/💻IMU驱动开发/📖IIM42652_高通8550平台移植方案.md",
+    "XGRIDS/高通平台开发/💻IMU驱动开发/assets/1-1、IMU 驱动开发：/file-20260429154801532.png",
+    "XGRIDS/高通平台开发/📖资料库/QCS8550/IMU/IIM-42652.pdf",
+    "XGRIDS/高通平台开发/📖资料库/QCS8550/IMU",
+    "XGRIDS/高通平台开发/📖资料库/QCS8550/80-P9301-61_REV_YD_Qualcomm_Spectra_Linux_Camera_Debugging_User_Guide-1.pdf",
+    "XGRIDS/高通平台开发/💻图像处理应用开发/assets/📒高通图像处理流程深入了解：",
+    "XGRIDS/高通平台开发/💻IMU驱动开发/assets/1-1、IMU 驱动开发：/file-20260428101644635.png",
+    "XGRIDS/高通平台开发/💻IMU驱动开发/assets/1-1、IMU 驱动开发：",
+    "XGRIDS/高通平台开发/💻IMU驱动开发/assets",
+    "XGRIDS/高通平台开发/💻IMU驱动开发",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/3-1、dtof 驱动开发/file-20260427113215446.png",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/3-1、dtof 驱动开发/file-20260427110455879.png",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/3-1、dtof 驱动开发/file-20260427105503737.png",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/3-1、dtof 驱动开发/file-20260427105152183.png",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/3-1、dtof 驱动开发",
+    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/poky/meta-qti-touch/recipes/touch_dlkm_kernel/touchdlkm_git.bb.md.part",
     "XGRIDS/高通平台开发/💻camera驱动开发/assets/2-1、camera点亮：/file-20260424121025614.png",
-    "XGRIDS/高通平台开发/💻高通SDK优化/📖 QCS8550 BSP 源码获取与编译指导手册.md",
     "XGRIDS/高通平台开发/💻高通SDK优化/assets/2-1、QCS8550 SDK 环镜塔建与编译(TP2511)/img_v3_02112_c42e318c-1f3f-4af7-b661-1f9d9a7b27eg.jpg",
     "XGRIDS/高通平台开发/💻屏幕驱动开发/assets/1-1、TP-CST916E 驱动开发：TP2514/file-20260424115658712.png",
-    "XGRIDS/高通平台开发/💻图像处理应用开发/🔨ADB 命令速查表.md",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/hynitron_ts/hyn_lib/hyn_ts_ext.c.md",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/hynitron_ts/hyn_lib/hyn_tool.c.md",
-    "功能子仓库/code-notes/高通平台开发/💻屏幕驱动开发/1@TP-CST916E 驱动开发/hynitron_ts/hyn_lib/hyn_spi.c.md",
-    "XGRIDS/高通平台开发/💻屏幕驱动开发/assets/1-1、TP-CST916E 驱动开发：TP2514/996f337c-c6ba-4494-a9fc-8016128a18ff.png",
-    "XGRIDS/高通平台开发/💻高通SDK优化/assets/2-2、QCS8550 SDK cicd编译流程实现/file-20260422175620509.png",
-    "XGRIDS/高通平台开发/💻高通SDK优化/assets/2-2、QCS8550 SDK cicd编译流程实现/file-20260422172551788.png",
-    "XGRIDS/高通平台开发/💻高通SDK优化/assets/📖编译服务器安装与部署(参考)/dd2e4a9edd6e2140441a05406fff6588_MD5.png",
-    "XGRIDS/高通平台开发/💻camera驱动开发/assets/2-1、camera点亮：/file-20260421170837698.png",
-    "XGRIDS/高通平台开发/💻高通SDK优化/assets/2-1、QCS8550 SDK 环镜塔建与编译(TP2511)/img_v3_0210v_b66884dc-d796-4a6f-b071-2e821c0d121g.jpg",
-    "XGRIDS/高通平台开发/📖资料库/QCS8550/PT/1.74寸屏-时序/电流参数1.png",
     "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十一期_pinctrl子系统/canvas/2-pinctrl 运行时数据结构.canvas",
     "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十一期_pinctrl子系统/canvas/第126章 pinctrl_bind_pins 函数分析.canvas",
     "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十一期_pinctrl子系统/canvas/第125章 add_setting 函数分析.canvas",
