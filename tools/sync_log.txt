@@ -1,4 +1,22 @@
 
+# 列出所有仓库（显示变更状态）
+python tools/git_sync.py -l
+
+# 仅提交有变更的仓库
+python tools/git_sync.py -v
+
+# 指定单个仓库提交
+python tools/git_sync.py -r XGRIDS -v
+
+# 指定单个仓库提交并推送
+python tools/git_sync.py -r 主库 -p -v
+
+# 强制提交（即使无变更）
+python tools/git_sync.py -f -v
+
+
+
+
 === 2026-05-04 16:28:44 ===
 模式: 仅提交
 ✓ 主库: 仅提交成功（未推送）
@@ -34,3 +52,18 @@
 ✓ code-notes: 提交并推送成功
 ✗ develop-skills: 不是Git仓库
 ✓ large-files: 提交并推送成功
+
+=== 2026-05-04 16:43:59 ===
+模式: 仅提交
+目标: 全部仓库
+✓ 主库: 仅提交成功（未推送）
+✓ Extended-Learn: 无变更需提交
+✓ XGRIDS: 无变更需提交
+✓ code-notes: 无变更需提交
+✗ develop-skills: 不是Git仓库
+✓ large-files: 无变更需提交
+
+=== 2026-05-04 16:44:09 ===
+模式: 仅提交
+目标: XGRIDS
+✓ XGRIDS: 无变更需提交
