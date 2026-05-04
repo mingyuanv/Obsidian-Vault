@@ -1,14 +1,3 @@
-# # Windows
-# python tools/git_sync.py -v       # 仅提交（不推送）
-# python tools/git_sync.py -p -v    # 提交并推送
-# python tools/git_sync.py -l       # 列出仓库
-
-# # Ubuntu/Linux
-# python3 tools/git_sync.py -v      # 仅提交
-# python3 tools/git_sync.py -p -v   # 提交并推送
-
-
-
 import subprocess
 import sys
 import os
@@ -53,6 +42,10 @@ class SilentGitSync:
     def _is_git_repo(self, path):
         git_dir = os.path.join(path, ".git")
         return os.path.exists(git_dir) and os.path.isdir(git_dir)
+    
+    def _has_changes(self, repo_path):
+        status, stdout, stderr = self._run_git_command([self.git_cmd, "status", "--porcelain"], repo_path)
+        return status == 0 and len(stdout) > 0
         
     def _run_git_command(self, args, cwd):
         try:
@@ -75,12 +68,15 @@ class SilentGitSync:
         except Exception as e:
             return -1, "", str(e)
             
-    def sync_repo(self, repo_path, repo_name, do_push=True):
+    def sync_repo(self, repo_path, repo_name, do_push=True, force=False):
         if not os.path.exists(repo_path):
             return False, f"路径不存在"
             
         if not self._is_git_repo(repo_path):
             return False, f"不是Git仓库"
+            
+        if not force and not self._has_changes(repo_path):
+            return True, "无变更需提交"
             
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         commit_msg = f"Auto sync at {timestamp}"
@@ -89,11 +85,9 @@ class SilentGitSync:
         if status != 0 and stderr:
             return False, f"[add] {stderr}"
             
-        status, stdout, stderr = self._run_git_command([self.git_cmd, "commit", "-m", commit_msg, "--allow-empty"], repo_path)
-        if status != 0 and "nothing to commit" not in stderr:
+        status, stdout, stderr = self._run_git_command([self.git_cmd, "commit", "-m", commit_msg], repo_path)
+        if status != 0:
             return False, f"[commit] {stderr}"
-        elif "nothing to commit" in stderr:
-            return True, "无变更需提交"
             
         if do_push:
             status, stdout, stderr = self._run_git_command([self.git_cmd, "push"], repo_path)
@@ -103,9 +97,15 @@ class SilentGitSync:
         else:
             return True, "仅提交成功（未推送）"
         
-    def sync_all(self, repos, do_push=True):
+    def sync_all(self, repos, do_push=True, repo_names=None):
         results = []
-        for repo_name, repo_path in repos.items():
+        
+        if repo_names:
+            target_repos = {name: path for name, path in repos.items() if name in repo_names}
+        else:
+            target_repos = repos
+            
+        for repo_name, repo_path in target_repos.items():
             success, message = self.sync_repo(repo_path, repo_name, do_push)
             results.append({
                 "repo": repo_name,
@@ -119,10 +119,13 @@ def main():
     parser.add_argument("-p", "--push", action="store_true", help="推送至远程仓库（默认仅提交，不推送）")
     parser.add_argument("-l", "--list", action="store_true", help="列出所有配置的仓库")
     parser.add_argument("-v", "--verbose", action="store_true", help="显示详细输出")
+    parser.add_argument("-r", "--repo", type=str, help="指定单个仓库名称，如: -r 主库")
+    parser.add_argument("-f", "--force", action="store_true", help="强制提交（即使无变更）")
     args = parser.parse_args()
     
     if getattr(sys, 'frozen', False):
         base_path = os.path.dirname(sys.executable)
+        tools_dir = base_path
     else:
         script_path = os.path.abspath(__file__)
         tools_dir = os.path.dirname(script_path)
@@ -141,11 +144,21 @@ def main():
         print("Repositories configured:")
         for name, path in repos.items():
             is_git = "OK" if os.path.exists(os.path.join(path, ".git")) else "NO"
-            print(f"  [{is_git}] {name}: {path}")
+            has_change = "有变更" if os.path.exists(os.path.join(path, ".git")) and SilentGitSync()._has_changes(path) else "无变更"
+            print(f"  [{is_git}] {name}: {path} ({has_change})")
         return
         
+    target_repos = None
+    if args.repo:
+        if args.repo in repos:
+            target_repos = [args.repo]
+        else:
+            print(f"错误：仓库 '{args.repo}' 不存在")
+            print("可用仓库: " + ", ".join(repos.keys()))
+            return
+        
     sync = SilentGitSync()
-    results = sync.sync_all(repos, do_push=args.push)
+    results = sync.sync_all(repos, do_push=args.push, repo_names=target_repos)
     
     if args.verbose:
         print("\n同步结果：")
@@ -157,6 +170,7 @@ def main():
     with open(log_path, "a", encoding="utf-8") as f:
         f.write(f"\n=== {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ===\n")
         f.write(f"模式: {'提交+推送' if args.push else '仅提交'}\n")
+        f.write(f"目标: {'全部仓库' if not target_repos else ','.join(target_repos)}\n")
         for result in results:
             status = "✓" if result["success"] else "✗"
             log_line = f"{status} {result['repo']}: {result['message']}"
