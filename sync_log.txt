@@ -1,0 +1,23 @@
+
+=== 2026-05-04 16:04:05 ===
+✗ 主库: [commit] error: pathspec 'sync' did not match any file(s) known to git
+error: pathspec 'at' did not match any file(s) known to git
+error: pathspec '2026-05-04' did not match any file(s) known to git
+error: pathspec '16:04:02'' did not match any file(s) known to git
+✗ Extended-Learn: [commit] error: pathspec 'sync' did not match any file(s) known to git
+error: pathspec 'at' did not match any file(s) known to git
+error: pathspec '2026-05-04' did not match any file(s) known to git
+error: pathspec '16:04:03'' did not match any file(s) known to git
+✗ XGRIDS: [commit] error: pathspec 'sync' did not match any file(s) known to git
+error: pathspec 'at' did not match any file(s) known to git
+error: pathspec '2026-05-04' did not match any file(s) known to git
+error: pathspec '16:04:03'' did not match any file(s) known to git
+✗ code-notes: [commit] error: pathspec 'sync' did not match any file(s) known to git
+error: pathspec 'at' did not match any file(s) known to git
+error: pathspec '2026-05-04' did not match any file(s) known to git
+error: pathspec '16:04:04'' did not match any file(s) known to git
+✗ develop-skills: 不是Git仓库: E:\obsidian\local_date\Obsidian-Vault\功能子仓库\develop-skills
+✗ large-files: [commit] error: pathspec 'sync' did not match any file(s) known to git
+error: pathspec 'at' did not match any file(s) known to git
+error: pathspec '2026-05-04' did not match any file(s) known to git
+error: pathspec '16:04:04'' did not match any file(s) known to git
