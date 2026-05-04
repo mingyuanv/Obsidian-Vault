@@ -251,16 +251,6 @@
               "icon": "checkmark",
               "title": "Todo List"
             }
-          },
-          {
-            "id": "1d1983c3797724ee",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
-            }
           }
         ],
         "currentTab": 4
@@ -272,7 +262,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "remotely-save:Remotely Save": false,
-      "bases:新建数据库": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "templates:插入模板": false,
