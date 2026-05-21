@@ -14,7 +14,7 @@ python tools/git_sync.py -r 主库 -p -v
 # 强制提交（即使无变更）
 python tools/git_sync.py -f -v
 
-# linux 系统用python3
+# linux 系统用python3   python3 tools/git_sync.py -p  就行。
 
 | 参数 | 简写 | 作用 | 说明 |
 | :--- | :---: | :--- | :--- |
@@ -76,3 +76,13 @@ python tools/git_sync.py -f -v
 模式: 仅提交
 目标: XGRIDS
 ✓ XGRIDS: 无变更需提交
+
+=== 2026-05-12 11:39:30 ===
+模式: 提交+推送
+目标: 全部仓库
+✓ 主库: 提交并推送成功
+✓ Extended-Learn: 提交并推送成功
+✓ XGRIDS: 提交并推送成功
+✓ code-notes: 提交并推送成功
+✓ develop-skills: 无变更需提交
+✓ large-files: 提交并推送成功

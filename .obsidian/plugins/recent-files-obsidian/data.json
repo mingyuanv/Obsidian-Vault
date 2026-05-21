@@ -1,28 +1,152 @@
 {
   "recentFiles": [
     {
-      "basename": "第130章 GPIO的调试方法",
-      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十二期_GPIO子系统/第130章 GPIO的调试方法.md"
+      "basename": "5-1、4camera之间同步模式配置处理：",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/5-1、4camera之间同步模式配置处理：.md"
     },
     {
-      "basename": "第129章 GPIO控制和操作实验",
-      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十二期_GPIO子系统/第129章 GPIO控制和操作实验.md"
+      "basename": "6-1、OV50H40 - AF驱动开发：",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/6-1、OV50H40 - AF驱动开发：.md"
     },
     {
-      "basename": "主页",
-      "path": "主页.md"
+      "basename": "2-1、QCS8550 SDK 环镜塔建与编译(TP2511)",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/2-1、QCS8550 SDK 环镜塔建与编译(TP2511).md"
+    },
+    {
+      "basename": "5-1、TP2514 长时间出流和编码报错问题：",
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/5-1、TP2514 长时间出流和编码报错问题：.md"
     },
     {
       "basename": "4-1、点亮SC133HGS camera(荣宏鑫)",
       "path": "XGRIDS/高通平台开发/💻camera驱动开发/4-1、点亮SC133HGS camera(荣宏鑫).md"
     },
     {
-      "basename": "📒高通图像处理流程深入了解：",
-      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/📒高通图像处理流程深入了解：.md"
+      "basename": "4-1、gst-launch出来的jpg图携带3A信息",
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/4-1、gst-launch出来的jpg图携带3A信息.md"
+    },
+    {
+      "basename": "📖ov50h40主模式-寄存器配置详细解析",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/📖ov50h40主模式-寄存器配置详细解析.md"
+    },
+    {
+      "basename": "📒camera驱动开发相关知识积累：",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/📒camera驱动开发相关知识积累：.md"
+    },
+    {
+      "basename": "主页",
+      "path": "主页.md"
+    },
+    {
+      "basename": "linux开发工具软件",
+      "path": "Extended-Learn/电脑软件学习/linux开发工具软件.md"
+    },
+    {
+      "basename": "📖VCM_非CCI总线_马达驱动开发流程详解",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/📖VCM_非CCI总线_马达驱动开发流程详解.md"
+    },
+    {
+      "basename": "📖VCM_自动对焦马达驱动添加流程",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/📖VCM_自动对焦马达驱动添加流程.md"
+    },
+    {
+      "basename": "📖 QCS8550 BSP 源码获取与编译指导手册",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/📖 QCS8550 BSP 源码获取与编译指导手册.md"
     },
     {
       "basename": "2-2、 Camera 4K 编码问题调试",
       "path": "XGRIDS/高通平台开发/💻图像处理应用开发/2-2、 Camera 4K 编码问题调试.md"
+    },
+    {
+      "basename": "2-1、现有问题整理(3A和编码)",
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/2-1、现有问题整理(3A和编码).md"
+    },
+    {
+      "basename": "1-7、移植media程序到modling_app",
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/1-7、移植media程序到modling_app.md"
+    },
+    {
+      "basename": "🔨linux常用命令记录",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/🔨linux常用命令记录.md"
+    },
+    {
+      "basename": "7-1、shell语言学习",
+      "path": "嵌入式知识学习（通用扩展）/linux基础知识/📒常用代码语言与工具学习/7-1、shell语言学习.md"
+    },
+    {
+      "basename": "🔨QCS8550 快速编译指南（绕过 bitbake）",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/🔨QCS8550 快速编译指南（绕过 bitbake）.md"
+    },
+    {
+      "basename": "第133章 GPIO操作函数实验",
+      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十二期_GPIO子系统/第133章 GPIO操作函数实验.md"
+    },
+    {
+      "basename": "1-3、配置DCG配置模式获取HDR图",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/1-3、配置DCG配置模式获取HDR图.md"
+    },
+    {
+      "basename": "2-1、DP 接口切换报错决解",
+      "path": "XGRIDS/高通平台开发/💻屏幕驱动开发/2-1、DP 接口切换报错决解.md"
+    },
+    {
+      "basename": "📒高通图像处理流程深入了解：",
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/📒高通图像处理流程深入了解：.md"
+    },
+    {
+      "basename": "📒高通平台camera驱动开发了解：",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/📒高通平台camera驱动开发了解：.md"
+    },
+    {
+      "basename": "engineering-embedded-linux-driver-engineer",
+      "path": "Extended-Learn/AI学习/智能体库/engineering-embedded-linux-driver-engineer.md"
+    },
+    {
+      "basename": "5-1、agency-agents 中文版（AI 智能体专家团队）",
+      "path": "Extended-Learn/AI学习/5-1、agency-agents 中文版（AI 智能体专家团队）.md"
+    },
+    {
+      "basename": "2-1、tof相机数据获取与解析",
+      "path": "XGRIDS/rk3588开发/TOF-深度相机/2-1、tof相机数据获取与解析.md"
+    },
+    {
+      "basename": "1-1、camera加tof相机出流失败问题",
+      "path": "XGRIDS/rk3588开发/TOF-深度相机/1-1、camera加tof相机出流失败问题.md"
+    },
+    {
+      "basename": "🔨tar命令表",
+      "path": "XGRIDS/rk3588开发/💻SDK编译/🔨tar命令表.md"
+    },
+    {
+      "basename": "1-1、IMU 驱动开发：",
+      "path": "XGRIDS/高通平台开发/💻IMU驱动开发/1-1、IMU 驱动开发：.md"
+    },
+    {
+      "basename": "第132章 获取单个gpio描述实验",
+      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十二期_GPIO子系统/第132章 获取单个gpio描述实验.md"
+    },
+    {
+      "basename": "第129章 GPIO控制和操作实验",
+      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十二期_GPIO子系统/第129章 GPIO控制和操作实验.md"
+    },
+    {
+      "basename": "第128章 GPIO入门实验",
+      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十二期_GPIO子系统/第128章 GPIO入门实验.md"
+    },
+    {
+      "basename": "2-3、3camera同时编码报错解决",
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/2-3、3camera同时编码报错解决.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十二期_GPIO子系统/未命名.md"
+    },
+    {
+      "basename": "第131章 GPIO子系统API函数的引入",
+      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十二期_GPIO子系统/第131章 GPIO子系统API函数的引入.md"
+    },
+    {
+      "basename": "第130章 GPIO的调试方法",
+      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十二期_GPIO子系统/第130章 GPIO的调试方法.md"
     },
     {
       "basename": "1-5、4K 3camera多通道开发",
@@ -33,48 +157,16 @@
       "path": "XGRIDS/高通平台开发/💻图像处理应用开发/1-6、线程阻塞问题与子码流实现.md"
     },
     {
-      "basename": "1-7、移植media程序到modling_app",
-      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/1-7、移植media程序到modling_app.md"
-    },
-    {
-      "basename": "2-3、3camera同时编码报错解决",
-      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/2-3、3camera同时编码报错解决.md"
-    },
-    {
-      "basename": "2-1、现有问题整理(3A和编码)",
-      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/2-1、现有问题整理(3A和编码).md"
-    },
-    {
       "basename": "1-4、AI嵌入式开发实践 -高通平台多媒体处理库开发(图像编解码)",
       "path": "XGRIDS/高通平台开发/💻图像处理应用开发/1-4、AI嵌入式开发实践 -高通平台多媒体处理库开发(图像编解码).md"
-    },
-    {
-      "basename": "🔨QCS8550 快速编译指南（绕过 bitbake）",
-      "path": "XGRIDS/高通平台开发/💻高通SDK优化/🔨QCS8550 快速编译指南（绕过 bitbake）.md"
-    },
-    {
-      "basename": "2-1、QCS8550 SDK 环镜塔建与编译(TP2511)",
-      "path": "XGRIDS/高通平台开发/💻高通SDK优化/2-1、QCS8550 SDK 环镜塔建与编译(TP2511).md"
     },
     {
       "basename": "3-1、dtof 驱动开发(不复用camera框架)(❌)",
       "path": "XGRIDS/高通平台开发/💻camera驱动开发/3-1、dtof 驱动开发(不复用camera框架)(❌).md"
     },
     {
-      "basename": "linux开发工具软件",
-      "path": "Extended-Learn/电脑软件学习/linux开发工具软件.md"
-    },
-    {
-      "basename": "2-1、DP 接口切换报错决解",
-      "path": "XGRIDS/高通平台开发/💻屏幕驱动开发/2-1、DP 接口切换报错决解.md"
-    },
-    {
       "basename": "1-1、TP-CST916E 驱动开发：TP2514",
       "path": "XGRIDS/高通平台开发/💻屏幕驱动开发/1-1、TP-CST916E 驱动开发：TP2514.md"
-    },
-    {
-      "basename": "1-3、配置DCG配置模式获取HDR图",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/1-3、配置DCG配置模式获取HDR图.md"
     },
     {
       "basename": "3-1、硬解码H265",
@@ -83,10 +175,6 @@
     {
       "basename": "📒DP 相关知识扩展",
       "path": "XGRIDS/高通平台开发/💻屏幕驱动开发/📒DP 相关知识扩展.md"
-    },
-    {
-      "basename": "1-1、IMU 驱动开发：",
-      "path": "XGRIDS/高通平台开发/💻IMU驱动开发/1-1、IMU 驱动开发：.md"
     },
     {
       "basename": "📒tof相关知识了解：",
@@ -111,94 +199,6 @@
     {
       "basename": "2-1、camera点亮：",
       "path": "XGRIDS/高通平台开发/💻camera驱动开发/2-1、camera点亮：.md"
-    },
-    {
-      "basename": "🔨linux常用命令记录",
-      "path": "嵌入式知识学习（通用扩展）/linux基础知识/🔨linux常用命令记录.md"
-    },
-    {
-      "basename": "1-1、初入DCG配置模式（失败）",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/1-1、初入DCG配置模式（失败）.md"
-    },
-    {
-      "basename": "2-1、tof相机数据获取与解析",
-      "path": "XGRIDS/rk3588开发/TOF-深度相机/2-1、tof相机数据获取与解析.md"
-    },
-    {
-      "basename": "📒高通tof相关知识扩展：",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/📒高通tof相关知识扩展：.md"
-    },
-    {
-      "basename": "AI生成视频与AI生成漫画",
-      "path": "Extended-Learn/AI学习/AI 知识库/AI生成视频与AI生成漫画.md"
-    },
-    {
-      "basename": "build_cameradlkm_fast.sh",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/build_cameradlkm_fast.sh.md"
-    },
-    {
-      "basename": "build_camera_dtbo_fast.sh",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/build_camera_dtbo_fast.sh.md"
-    },
-    {
-      "basename": "📖ADS6401_QCS8550_dToF驱动开发复盘笔记",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/📖ADS6401_QCS8550_dToF驱动开发复盘笔记.md"
-    },
-    {
-      "basename": "📖SSC传感器驱动注册流程详解",
-      "path": "XGRIDS/高通平台开发/💻IMU驱动开发/📖SSC传感器驱动注册流程详解.md"
-    },
-    {
-      "basename": "1-1、camera加tof相机出流失败问题",
-      "path": "XGRIDS/rk3588开发/TOF-深度相机/1-1、camera加tof相机出流失败问题.md"
-    },
-    {
-      "basename": "2-2、tof 数据处理适配",
-      "path": "XGRIDS/rk3588开发/TOF-深度相机/2-2、tof 数据处理适配.md"
-    },
-    {
-      "basename": "📒SSC与AP框架介绍：",
-      "path": "XGRIDS/高通平台开发/💻IMU驱动开发/📒SSC与AP框架介绍：.md"
-    },
-    {
-      "basename": "📖IIM42652_高通8550平台移植方案",
-      "path": "XGRIDS/高通平台开发/💻IMU驱动开发/📖IIM42652_高通8550平台移植方案.md"
-    },
-    {
-      "basename": "🔨tar命令表",
-      "path": "XGRIDS/rk3588开发/💻SDK编译/🔨tar命令表.md"
-    },
-    {
-      "basename": "📖 Git 分支合并与冲突解决复盘",
-      "path": "Extended-Learn/电脑软件学习/📖 Git 分支合并与冲突解决复盘.md"
-    },
-    {
-      "basename": "2-1、PWM PPS中断驱动编写",
-      "path": "XGRIDS/rk3588开发/PPS时间同步/2-1、PWM PPS中断驱动编写.md"
-    },
-    {
-      "basename": "2-1、用deb包代替bintray目录下文件",
-      "path": "XGRIDS/rk3588开发/💻SDK编译/2-1、用deb包代替bintray目录下文件.md"
-    },
-    {
-      "basename": "1-1、RK3588 SDK编译（灵光K1）",
-      "path": "XGRIDS/rk3588开发/💻SDK编译/1-1、RK3588 SDK编译（灵光K1）.md"
-    },
-    {
-      "basename": "4-1、gst-launch出来的jpg图携带3A信息",
-      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/4-1、gst-launch出来的jpg图携带3A信息.md"
-    },
-    {
-      "basename": "📖dtof 移植方案：",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/📖dtof 移植方案：.md"
-    },
-    {
-      "basename": "📒高通平台camera驱动开发了解：",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/📒高通平台camera驱动开发了解：.md"
-    },
-    {
-      "basename": "📖 QCS8550 BSP 源码获取与编译指导手册",
-      "path": "XGRIDS/高通平台开发/💻高通SDK优化/📖 QCS8550 BSP 源码获取与编译指导手册.md"
     }
   ],
   "omittedPaths": [],
