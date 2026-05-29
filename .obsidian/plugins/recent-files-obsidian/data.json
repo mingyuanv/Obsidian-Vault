@@ -5,12 +5,16 @@
       "path": "XGRIDS/高通平台开发/💻camera驱动开发/7-1、3个OV50h40驱动开发(要同步)-TP2511.md"
     },
     {
-      "basename": "2-1、QCS8550 SDK 环镜塔建与编译(TP2511)",
-      "path": "XGRIDS/高通平台开发/💻高通SDK优化/2-1、QCS8550 SDK 环镜塔建与编译(TP2511).md"
+      "basename": "linux开发工具软件",
+      "path": "Extended-Learn/电脑软件学习/linux开发工具软件.md"
     },
     {
       "basename": "4-1、点亮SC133HGS camera(荣宏鑫)",
       "path": "XGRIDS/高通平台开发/💻camera驱动开发/4-1、点亮SC133HGS camera(荣宏鑫).md"
+    },
+    {
+      "basename": "2-1、QCS8550 SDK 环镜塔建与编译(TP2511)",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/2-1、QCS8550 SDK 环镜塔建与编译(TP2511).md"
     },
     {
       "basename": "5-1、4camera之间同步模式配置处理：",
@@ -19,10 +23,6 @@
     {
       "basename": "第133章 GPIO操作函数实验",
       "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十二期_GPIO子系统/第133章 GPIO操作函数实验.md"
-    },
-    {
-      "basename": "linux开发工具软件",
-      "path": "Extended-Learn/电脑软件学习/linux开发工具软件.md"
     },
     {
       "basename": "📒camera驱动开发相关知识积累：",
