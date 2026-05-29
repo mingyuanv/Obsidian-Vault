@@ -46,7 +46,31 @@ class SilentGitSync:
     def _has_changes(self, repo_path):
         status, stdout, stderr = self._run_git_command([self.git_cmd, "status", "--porcelain"], repo_path)
         return status == 0 and len(stdout) > 0
-        
+
+    # ---------- 新增方法 ----------
+    def _has_unpushed_commits(self, repo_path):
+        """检查本地是否有未推送到上游的提交"""
+        # 获取当前分支名
+        status, branch, stderr = self._run_git_command(
+            [self.git_cmd, "rev-parse", "--abbrev-ref", "HEAD"], repo_path
+        )
+        if status != 0 or not branch:
+            return False
+        # 获取上游分支（如 origin/main）
+        status, upstream, stderr = self._run_git_command(
+            [self.git_cmd, "rev-parse", "--abbrev-ref", f"{branch}@{{u}}"], repo_path
+        )
+        if status != 0:
+            return False  # 无上游或出错
+        # 计算本地领先的提交数
+        status, count_str, stderr = self._run_git_command(
+            [self.git_cmd, "rev-list", "--count", "--left-only", f"{upstream}...{branch}"], repo_path
+        )
+        if status == 0 and count_str.strip().isdigit():
+            return int(count_str.strip()) > 0
+        return False
+    # --------------------------------
+
     def _run_git_command(self, args, cwd):
         try:
             process = subprocess.Popen(
@@ -75,9 +99,18 @@ class SilentGitSync:
         if not self._is_git_repo(repo_path):
             return False, f"不是Git仓库"
             
+        # ---------- 关键修复 ----------
         if not force and not self._has_changes(repo_path):
-            return True, "无变更需提交"
-            
+            if do_push and self._has_unpushed_commits(repo_path):
+                # 无新变更，但有未推送的提交 -> 直接推送
+                status, stdout, stderr = self._run_git_command([self.git_cmd, "push"], repo_path)
+                if status != 0:
+                    return False, f"[push] {stderr}"
+                return True, "推送了已有的本地提交"
+            else:
+                return True, "无变更需提交"
+        # ---------------------------------
+
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         commit_msg = f"Auto sync at {timestamp}"
         

@@ -83,15 +83,32 @@ gpiod_direction_output 函数用于配置GPIO的方向为输出，并可指定�
 
 
 ## 读取GPIO的电平状态函数：
-### 1 、
+### 1 、gpiod_get_value
+```c
+（1）函数原型：
+
+int gpiod_get_value(const struct gpio_desc *desc);
+
+（2）头文件：
+#include <linux/gpio/consumer.h>
+```
+
+> （3）参数：
+> desc：指向GPIO描述符的指针。
+> （4）函数功能：
+> gpiod_get_value 函数用于读取 GPIO 的电平状态。
+> （5）返回值：
+> 返回值为整型，表示GPIO的电平状态。
+> 如果成功读取到 GPIO 的电平状态，返回值为 0 或 1，分别表示低电平和高电平。
+> 如果读取失败，返回值为负数，表示错误码。
 
 
-### 2 、
+### 2 、可以获取GPIO当前的电平状态
 
 
 ### 3 、
 
-
+## 设置 GPIO 的电平状态函数：
 ### 4 、
 
 

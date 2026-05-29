@@ -11,8 +11,8 @@ python tools/git_sync.py -r XGRIDS -v
 # 指定单个仓库提交并推送
 python tools/git_sync.py -r 主库 -p -v
 
-# 强制提交（即使无变更）
-python tools/git_sync.py -f -v
+# 强制提交推送（即使无变更）
+python tools/git_sync.py -f -p -v
 
 # linux 系统用python3   python3 tools/git_sync.py -p  就行。
 
@@ -86,3 +86,23 @@ python tools/git_sync.py -f -v
 ✓ code-notes: 提交并推送成功
 ✓ develop-skills: 无变更需提交
 ✓ large-files: 提交并推送成功
+
+=== 2026-05-21 16:06:52 ===
+模式: 提交+推送
+目标: 全部仓库
+✓ 主库: 提交并推送成功
+✓ Extended-Learn: 提交并推送成功
+✓ XGRIDS: 提交并推送成功
+✓ code-notes: 无变更需提交
+✓ develop-skills: 无变更需提交
+✓ large-files: 无变更需提交
+
+=== 2026-05-21 16:09:49 ===
+模式: 提交+推送
+目标: code-notes
+✓ code-notes: 无变更需提交
+
+=== 2026-05-21 16:12:49 ===
+模式: 提交+推送
+目标: code-notes
+✓ code-notes: 提交并推送成功
