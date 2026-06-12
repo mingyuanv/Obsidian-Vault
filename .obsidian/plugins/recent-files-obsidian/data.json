@@ -5,12 +5,12 @@
       "path": "XGRIDS/高通平台开发/💻屏幕驱动开发/3-1、开机动画实现：.md"
     },
     {
-      "basename": "2-1、QCS8550 SDK 环镜塔建与编译(TP2511)",
-      "path": "XGRIDS/高通平台开发/💻高通SDK优化/2-1、QCS8550 SDK 环镜塔建与编译(TP2511).md"
-    },
-    {
       "basename": "linux开发工具软件",
       "path": "Extended-Learn/电脑软件学习/linux开发工具软件.md"
+    },
+    {
+      "basename": "2-1、QCS8550 SDK 环镜塔建与编译(TP2511)",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/2-1、QCS8550 SDK 环镜塔建与编译(TP2511).md"
     },
     {
       "basename": "第133章 GPIO操作函数实验",

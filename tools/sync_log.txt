@@ -133,3 +133,21 @@ python tools/git_sync.py -f -p -v
 ✓ code-notes: 提交并推送成功
 ✓ develop-skills: 无变更需提交
 ✓ large-files: 无变更需提交
+
+=== 2026-06-12 17:47:24 ===
+模式: 提交+推送
+目标: 全部仓库
+✗ 主库: [push] fatal: 'D:/Obsidia/locate_data/repo.bundle_master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✓ Extended-Learn: 提交并推送成功
+✗ XGRIDS: [push] fatal: 'D:/Obsidia/locate_data/Obsidian-Vault/repo.bundle_xgrids' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✓ code-notes: 提交并推送成功
+✓ develop-skills: 无变更需提交
+✓ large-files: 无变更需提交
