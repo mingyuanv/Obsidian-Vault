@@ -5,6 +5,8 @@ python tools/git_sync.py -l
 # 仅提交有变更的仓库
 python tools/git_sync.py -v
 
+python tools/git_sync.py -p
+
 # 指定单个仓库提交
 python tools/git_sync.py -r XGRIDS -v
 

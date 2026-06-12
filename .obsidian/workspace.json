@@ -22,21 +22,21 @@
             }
           },
           {
-            "id": "b4d26f3990ddc08f",
+            "id": "b7c9328c775188e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XGRIDS/高通平台开发/💻camera驱动开发/7-1、3个OV50h40驱动开发(要同步)-TP2511.md",
+                "file": "XGRIDS/高通平台开发/💻屏幕驱动开发/3-1、开机动画实现：.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7-1、3个OV50h40驱动开发(要同步)-TP2511"
+              "title": "3-1、开机动画实现："
             }
           },
           {
-            "id": "5a6475b1c54921ce",
+            "id": "d3142724247d002c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "baf9c1ec3e3f57a0",
+            "id": "7fd87a59da9028ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -151,15 +151,15 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 367.5
+    "width": 285.5
   },
   "right": {
     "id": "643bdfa272eae1e6",
@@ -237,13 +237,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XGRIDS/高通平台开发/💻camera驱动开发/7-1、3个OV50h40驱动开发(要同步)-TP2511.md",
+                "file": "XGRIDS/高通平台开发/💻屏幕驱动开发/3-1、开机动画实现：.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "7-1、3个OV50h40驱动开发(要同步)-TP2511 的大纲"
+              "title": "3-1、开机动画实现： 的大纲"
             }
           },
           {
@@ -265,6 +265,16 @@
               "icon": "checkmark",
               "title": "Todo List"
             }
+          },
+          {
+            "id": "27b035f243562c9f",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
           }
         ],
         "currentTab": 4
@@ -276,19 +286,18 @@
   "left-ribbon": {
     "hiddenItems": {
       "bases:新建数据库": false,
-      "remotely-save:Remotely Save": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "templates:插入模板": false,
+      "templater-obsidian:Templater": false,
       "command-palette:打开命令面板": false,
       "audio-recorder:开始/结束录音": false,
       "workspaces:管理工作区布局": false,
       "switcher:打开快速切换": false,
       "obsidian42-brat:BRAT": false,
       "digitalgarden:Digital Garden Publication Center": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "templater-obsidian:Templater": false,
-      "iconic:打开规则书": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "iconic:Open rulebook": false,
       "obsidian-importer:Open Importer": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
@@ -296,56 +305,58 @@
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-memos:Thino": false
+      "obsidian-memos:Thino": false,
+      "remotely-save:Remotely Save": false
     }
   },
-  "active": "b4d26f3990ddc08f",
+  "active": "b7c9328c775188e9",
   "lastOpenFiles": [
-    "Extended-Learn/电脑软件学习/linux开发工具软件.md",
-    "XGRIDS/高通平台开发/💻camera驱动开发/7-1、3个OV50h40驱动开发(要同步)-TP2511.md",
-    "XGRIDS/高通平台开发/💻camera驱动开发/4-1、点亮SC133HGS camera(荣宏鑫).md",
+    "out.txt",
+    "pyout.txt",
     "XGRIDS/高通平台开发/💻高通SDK优化/2-1、QCS8550 SDK 环镜塔建与编译(TP2511).md",
-    "XGRIDS/高通平台开发/💻camera驱动开发/5-1、4camera之间同步模式配置处理：.md",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/7@3个OV50h40驱动开发(要同步)-TP2511/TP2511/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/sensor/xgrids_ov50h40_cam1/ov50h40_sensor.xml.md.part",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/7@3个OV50h40驱动开发(要同步)-TP2511/TP2511/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/sensor/xgrids_ov50h40_cam0/ov50h40_sensor.xml.md.part",
+    "XGRIDS/高通平台开发/💻屏幕驱动开发/3-1、开机动画实现：.md",
+    "Extended-Learn/电脑软件学习/linux开发工具软件.md",
     "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十二期_GPIO子系统/第133章 GPIO操作函数实验.md",
-    "XGRIDS/高通平台开发/💻camera驱动开发/assets/7-1、3个OV50h40驱动开发(要同步)-TP2511/file-20260529120553585.png",
-    "XGRIDS/高通平台开发/💻camera驱动开发/📒camera驱动开发相关知识积累：.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/4-1、点亮SC133HGS camera(荣宏鑫).md",
     "主页.md",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/5@4camera之间同步模式配置处理：/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/sensor/sc133hgs_06/sc133hgs_sensor.xml.md",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/5@4camera之间同步模式配置处理：/src/vendor/qcom/proprietary/chi-cdk/tools/buildbins/linux64/ParameterParser.md",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/5@4camera之间同步模式配置处理：/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/sensor/xgrids_ov50h40_cam0/ov50h40_sensor.xml.md.part",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/5@4camera之间同步模式配置处理：/src/vendor/qcom/proprietary/chi-cdk/tools/buildbins/linux64",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/5@4camera之间同步模式配置处理：/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/sensor/sc133hgs_06",
-    "XGRIDS/高通平台开发/💻camera驱动开发/assets/5-1、4camera之间同步模式配置处理：/file-20260529100905981.png",
-    "XGRIDS/高通平台开发/📖资料库/QCS8550/camera/sc133at/0x3c_SC133AT_yuv_MIPI_24Mimput_2lane_540Mbps_8bit_1280x960_30fps_csp.ini",
-    "XGRIDS/高通平台开发/📖资料库/QCS8550/camera/sc133at/0x3d_SC133AT_yuv_MIPI_24Mimput_2lane_540Mbps_8bit_1280x960_30.048fps_csp_slave.ini",
-    "XGRIDS/高通平台开发/📖资料库/QCS8550/camera/sc133at",
-    "XGRIDS/高通平台开发/📖资料库/QCS8550/5@FSYNC-camera/【vts】Cleaned_0x18_SC133HGS_raw_MIPI_24Mimput_2lane_990Mbps_10bit_1288x968_帧率30fps_csp.ini",
-    "XGRIDS/高通平台开发/📖资料库/QCS8550/5@FSYNC-camera/SC133HGS_数据手册_V1.2.pdf",
-    "XGRIDS/高通平台开发/💻camera驱动开发/📖OV50H40_重要寄存器解析.md",
-    "XGRIDS/高通平台开发/💻camera驱动开发/assets/5-1、4camera之间同步模式配置处理：/img_v3_02124_7d2f0da2-2ff2-4ca1-a481-066e33a5d1cg.jpg",
-    "XGRIDS/高通平台开发/💻camera驱动开发/assets/5-1、4camera之间同步模式配置处理：/img_v3_02124_dbd4a40b-2613-4c87-9d27-9a7cf628c47g.jpg",
-    "XGRIDS/高通平台开发/💻camera驱动开发/assets/5-1、4camera之间同步模式配置处理：/img_v3_02124_3dd1cf1c-acce-4e23-ad6e-bcacc7568a2g.jpg",
-    "XGRIDS/高通平台开发/💻camera驱动开发/assets/5-1、4camera之间同步模式配置处理：/file-20260528142250528.png",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/7@3个OV50h40驱动开发(要同步)-TP2511/TP2511/src/kernel-5.15/kernel_platform/qcom/proprietary/devicetree/qcom/kalama-qrd.dtsi.md",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/7@3个OV50h40驱动开发(要同步)-TP2511/TP2511/poky/meta-qti-camera-prop/recipes/camx/chicdklib_0.1.bb.md",
-    "XGRIDS/高通平台开发/💻camera驱动开发/📖Camera偶现初始化失败_排查复盘.md",
-    "XGRIDS/高通平台开发/💻图像处理应用开发/1-7、移植media程序到modling_app.md",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/7@3个OV50h40驱动开发(要同步)-TP2511/TP2511/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/sensor/xgrids_ov50h40_cam2/build/linuxembedded/CMakeLists.txt.md",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/7@3个OV50h40驱动开发(要同步)-TP2511/TP2511/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/sensor/xgrids_ov50h40_cam2/build/android/Android.mk.md",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/7@3个OV50h40驱动开发(要同步)-TP2511/TP2511/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/buildbins/build/linuxembedded/binary_kalama/com.qti.sensormodule.xgrids_ov50h40_cam2.cmake.md",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/7@3个OV50h40驱动开发(要同步)-TP2511/TP2511/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/sensor/xgrids_ov50h40_cam2/ov50h40_pdaf.xml.md",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/7@3个OV50h40驱动开发(要同步)-TP2511/TP2511/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/sensor/xgrids_ov50h40_cam2/ov50h40_sensor.xml.md",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/7@3个OV50h40驱动开发(要同步)-TP2511/TP2511/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/sensor/xgrids_ov50h40_cam2/ov50h40_sensor.cpp.md",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/7@3个OV50h40驱动开发(要同步)-TP2511/TP2511/src/vendor/qcom/proprietary/chi-cdk/tools/buildbins/linux64/ParameterParser.md",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/7@3个OV50h40驱动开发(要同步)-TP2511/TP2511/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/module/xgrids_ov50h40_cam2_module.xml.md",
+    "XGRIDS/高通平台开发/💻图像处理应用开发/4-1、gst-launch出来的jpg图携带3A信息.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/9-2、OV50H40 8K配置.md",
+    "XGRIDS/高通平台开发/💻屏幕驱动开发/📖QCS8550_开机动画实现方案.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/8-1、OV50H40 OTP：EEPROM 驱动开发.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/5-1、4camera之间同步模式配置处理：.md",
+    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/9@OV50H40 DCG 模式配置/TP2514/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/sensor/xgrids_ov50h40_cam0/ov50h40_sensor.xml.md",
+    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/9@OV50H40 DCG 模式配置/TP2514/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/sensor/xgrids_ov50h40_cam0",
+    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/9@OV50H40 DCG 模式配置/TP2514/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/sensor",
+    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/9@OV50H40 DCG 模式配置/TP2514/src/vendor/qcom/proprietary/chi-cdk/oem/qcom",
+    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/9@OV50H40 DCG 模式配置/TP2514/src/vendor/qcom/proprietary/chi-cdk/oem",
+    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/9@OV50H40 DCG 模式配置/TP2514/src/vendor/qcom/proprietary/chi-cdk",
+    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/9@OV50H40 DCG 模式配置/TP2514/src/vendor/qcom/proprietary",
+    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/9@OV50H40 DCG 模式配置/TP2514/src/vendor/qcom",
+    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/9@OV50H40 DCG 模式配置/TP2514/src/vendor",
+    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/9@OV50H40 DCG 模式配置/TP2514/src",
+    "XGRIDS/高通平台开发/💻camera驱动开发/9-1、OV50H40 4kDCG配置.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/9-1、OV50H40 4kDCG配置/1e5211b9fef8b8f565baecf2a48fac8c_MD5.jpg",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/9-1、OV50H40 4kDCG配置/b72ff18d5c971ece6df834d5f100df3b_MD5.jpg",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/9-2、OV50H40 8K配置/53babaae3940ecf25ebefb62006a74ff_MD5.jpeg",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/9-2、OV50H40 8K配置/file-20260611142346448.png",
+    "XGRIDS/高通平台开发/💻camera驱动开发/7-1、3个OV50h40驱动开发(要同步)-TP2511.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/6-1、OV50H40 - AF驱动开发：.md",
+    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/9@OV50H40 DCG 模式配置/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/sensor/xgrids_ov50h40_cam2/ov50h40_sensor.xml.md",
+    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/9@OV50H40 DCG 模式配置/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/sensor/xgrids_ov50h40_cam1/ov50h40_sensor.xml.md",
+    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/9@OV50H40 DCG 模式配置/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/sensor/xgrids_ov50h40_cam0/ov50h40_sensor.xml.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/2-1、camera点亮：.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/1-3、配置DCG配置模式获取HDR图.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/9-1、OV50H40 4kDCG配置/b5077b206c0d61873c65a04f90454220_MD5.jpeg",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/9-1、OV50H40 DCG 模式配置/file-20260610121919743.png",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/9-1、OV50H40 4kDCG配置/100aedc2d8f78ac0573d34b66008b06b_MD5.jpg",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/9-1、OV50H40 4kDCG配置/dfe3d375f046fd67c57d1e11f876f839_MD5.jpeg",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/9-1、OV50H40 DCG 模式配置/file-20260609180628964.png",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/9-1、OV50H40 4kDCG配置/cf2b89a1e7d3747f2720c486cb3d3387_MD5.jpeg",
+    "XGRIDS/高通平台开发/💻camera驱动开发/1-2、DCG Combine 模式过曝问题调试全过程.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/1-1、初入DCG配置模式（失败）.md",
+    "XGRIDS/高通平台开发/💻图像处理应用开发/2-2、 Camera 4K 编码问题调试.md",
+    "XGRIDS/高通平台开发/💻图像处理应用开发/2-3、3camera同时编码报错解决.md",
     "XGRIDS/高通平台开发/💻图像处理应用开发/2-1、现有问题整理(3A和编码).md",
-    "XGRIDS/高通平台开发/💻camera驱动开发/assets/7-1、3个OV50h40驱动开发(要同步)-TP2511/file-20260526161915313.png",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/7@3个OV50h40驱动开发(要同步)-TP2511/TP2511/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/sensor/xgrids_ov50h40_cam1/build/linuxembedded/CMakeLists.txt.md",
-    "XGRIDS/高通平台开发/💻camera驱动开发/assets/5-1、4camera之间同步模式配置处理：/img_v3_0211u_6d951244-fad8-4ef4-b0c2-8f17f285aa4g.jpg",
-    "XGRIDS/高通平台开发/💻camera驱动开发/assets/4-1、点亮SC133HGS camera(荣宏鑫)/file-20260519095325952.png",
-    "XGRIDS/高通平台开发/💻camera驱动开发/assets/5-1、4camera之间同步模式配置处理：/file-20260515153614304.png",
     "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十一期_pinctrl子系统/canvas/2-pinctrl 运行时数据结构.canvas",
     "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十一期_pinctrl子系统/canvas/第126章 pinctrl_bind_pins 函数分析.canvas",
     "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十一期_pinctrl子系统/canvas/第125章 add_setting 函数分析.canvas",
