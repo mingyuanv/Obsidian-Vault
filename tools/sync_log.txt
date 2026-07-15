@@ -17,6 +17,7 @@ python3 tools/git_sync.py -r code-notes -p -f
 python tools/git_sync.py -f -p -v
 
 # linux 系统用python3   python3 tools/git_sync.py -p  就行,code-notes随便做一个修改吧。
+# windos 系统用python   python tools/git_sync.py -p  就行,code-notes随便做一个修改吧。
 
 | 参数 | 简写 | 作用 | 说明 |
 | :--- | :---: | :--- | :--- |
@@ -149,5 +150,15 @@ fatal: Could not read from remote repository.
 Please make sure you have the correct access rights
 and the repository exists.
 ✓ code-notes: 提交并推送成功
+✓ develop-skills: 无变更需提交
+✓ large-files: 无变更需提交
+
+=== 2026-06-12 18:02:17 ===
+模式: 提交+推送
+目标: 全部仓库
+✓ 主库: 提交并推送成功
+✓ Extended-Learn: 提交并推送成功
+✓ XGRIDS: 提交并推送成功
+✓ code-notes: 无变更需提交
 ✓ develop-skills: 无变更需提交
 ✓ large-files: 无变更需提交
