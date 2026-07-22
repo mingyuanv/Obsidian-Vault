@@ -1,36 +1,100 @@
 {
   "recentFiles": [
     {
-      "basename": "linux开发工具软件",
-      "path": "Extended-Learn/电脑软件学习/linux开发工具软件.md"
-    },
-    {
-      "basename": "📖 QCS8550 BSP 源码获取与编译指导手册",
-      "path": "XGRIDS/高通平台开发/💻高通SDK优化/📖 QCS8550 BSP 源码获取与编译指导手册.md"
-    },
-    {
-      "basename": "4-2、SC133AT 驱动移植与兼容",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/4-2、SC133AT 驱动移植与兼容.md"
+      "basename": "8-1、OV50H40 OTP：EEPROM 驱动开发",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/8-1、OV50H40 OTP：EEPROM 驱动开发.md"
     },
     {
       "basename": "主页",
       "path": "主页.md"
     },
     {
-      "basename": "3-1、LINUX基线代码合并",
-      "path": "XGRIDS/高通平台开发/💻高通SDK优化/3-1、LINUX基线代码合并.md"
-    },
-    {
       "basename": "2-1、QCS8550 SDK 环镜塔建与编译(TP2511)",
       "path": "XGRIDS/高通平台开发/💻高通SDK优化/2-1、QCS8550 SDK 环镜塔建与编译(TP2511).md"
     },
     {
-      "basename": "📖 Camera Sensor Probe 问题复盘笔记-Linux 基线",
-      "path": "XGRIDS/高通平台开发/💻高通SDK优化/📖 Camera Sensor Probe 问题复盘笔记-Linux 基线.md"
+      "basename": "linux开发工具软件",
+      "path": "Extended-Learn/电脑软件学习/linux开发工具软件.md"
+    },
+    {
+      "basename": "3-2、TP2511：LINUX基线代码合并",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/3-2、TP2511：LINUX基线代码合并.md"
+    },
+    {
+      "basename": "4-2、SC133AT 驱动移植与兼容",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/4-2、SC133AT 驱动移植与兼容.md"
+    },
+    {
+      "basename": "📖Audio_ES8311 驱动开发文档",
+      "path": "XGRIDS/高通平台开发/audio驱动开发/📖Audio_ES8311 驱动开发文档.md"
+    },
+    {
+      "basename": "4-1、点亮SC133HGS camera(荣宏鑫)",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/4-1、点亮SC133HGS camera(荣宏鑫).md"
+    },
+    {
+      "basename": "3-1、TP2514：LINUX基线代码合并",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/3-1、TP2514：LINUX基线代码合并.md"
     },
     {
       "basename": "9-1、OV50H40 4kDCG配置",
       "path": "XGRIDS/高通平台开发/💻camera驱动开发/9-1、OV50H40 4kDCG配置.md"
+    },
+    {
+      "basename": "📖WiFi-BT (RTL8852BE-BS) 移植开发流程文档",
+      "path": "XGRIDS/高通平台开发/wifi驱动开发/📖WiFi-BT (RTL8852BE-BS) 移植开发流程文档.md"
+    },
+    {
+      "basename": "📖qcs8550环境搭建",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/📖qcs8550环境搭建.md"
+    },
+    {
+      "basename": "📖TP2511：LINUX基线代码合并任务划分",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/📖TP2511：LINUX基线代码合并任务划分.md"
+    },
+    {
+      "basename": "📖 QCS8550 BSP 源码获取与编译指导手册",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/📖 QCS8550 BSP 源码获取与编译指导手册.md"
+    },
+    {
+      "basename": "3、深入 Pipeline 和 Session 的内部实现。",
+      "path": "XGRIDS/高通平台开发/💻camera 中间件/📒camx学习/3、深入 Pipeline 和 Session 的内部实现。.md"
+    },
+    {
+      "basename": "0、camx学习规划：",
+      "path": "XGRIDS/高通平台开发/💻camera 中间件/📒camx学习/0、camx学习规划：.md"
+    },
+    {
+      "basename": "2、CHI-CDK 定制化框架",
+      "path": "XGRIDS/高通平台开发/💻camera 中间件/📒camx学习/2、CHI-CDK 定制化框架.md"
+    },
+    {
+      "basename": "1、架构总览与接口层",
+      "path": "XGRIDS/高通平台开发/💻camera 中间件/📒camx学习/1、架构总览与接口层.md"
+    },
+    {
+      "basename": "📖QCS8550平台EEPROM-OTP 驱动开发指南",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/📖QCS8550平台EEPROM-OTP 驱动开发指南.md"
+    },
+    {
+      "basename": "📖GPU RGB 转换方案调试总结",
+      "path": "XGRIDS/高通平台开发/💻camera 中间件/📖GPU RGB 转换方案调试总结.md"
+    },
+    {
+      "basename": "2-1、视频色彩科学 和 视频信号处理",
+      "path": "XGRIDS/高通平台开发/💻camera 中间件/2-1、视频色彩科学 和 视频信号处理.md"
+    },
+    {
+      "basename": "📖骁龙相机ISP dump功能导通-高通8550 IOT基线",
+      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/📖骁龙相机ISP dump功能导通-高通8550 IOT基线.md"
+    },
+    {
+      "basename": "10-1、OV50H40 8K配置",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/10-1、OV50H40 8K配置.md"
+    },
+    {
+      "basename": "📖 Camera Sensor Probe 问题复盘笔记-Linux 基线",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/📖 Camera Sensor Probe 问题复盘笔记-Linux 基线.md"
     },
     {
       "basename": "7-1、3个OV50h40驱动开发(要同步)-TP2511",
@@ -39,10 +103,6 @@
     {
       "basename": "9-2、DCG遇到的其他问题处理：",
       "path": "XGRIDS/高通平台开发/💻camera驱动开发/9-2、DCG遇到的其他问题处理：.md"
-    },
-    {
-      "basename": "4-1、点亮SC133HGS camera(荣宏鑫)",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/4-1、点亮SC133HGS camera(荣宏鑫).md"
     },
     {
       "basename": "11-1、多相机ToF_挂掉 问题",
@@ -57,14 +117,6 @@
       "path": "XGRIDS/高通平台开发/💻图像处理应用开发/2-2、 Camera 4K 编码问题调试.md"
     },
     {
-      "basename": "10-1、OV50H40 8K配置",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/10-1、OV50H40 8K配置.md"
-    },
-    {
-      "basename": "2-1、视频色彩科学 和 视频信号处理",
-      "path": "XGRIDS/高通平台开发/💻camera 中间件/2-1、视频色彩科学 和 视频信号处理.md"
-    },
-    {
       "basename": "📖补丁依赖关系分析",
       "path": "XGRIDS/高通平台开发/💻高通SDK优化/📖补丁依赖关系分析.md"
     },
@@ -75,10 +127,6 @@
     {
       "basename": "1-1、图像数据流嵌入3A信息",
       "path": "XGRIDS/高通平台开发/💻camera 中间件/1-1、图像数据流嵌入3A信息.md"
-    },
-    {
-      "basename": "gpu_rgb_transform_investigation",
-      "path": "XGRIDS/高通平台开发/💻camera 中间件/gpu_rgb_transform_investigation.md"
     },
     {
       "basename": "1-7、移植media程序到modling_app",
@@ -149,56 +197,8 @@
       "path": "XGRIDS/高通平台开发/💻camera驱动开发/📖jsd：离线log&3A debug info dump导通需求.md"
     },
     {
-      "basename": "8-1、OV50H40 OTP：EEPROM 驱动开发",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/8-1、OV50H40 OTP：EEPROM 驱动开发.md"
-    },
-    {
       "basename": "1-1、系统时间偏快问题分析 - 2511",
       "path": "XGRIDS/高通平台开发/💻时间同步/1-1、系统时间偏快问题分析 - 2511.md"
-    },
-    {
-      "basename": "📖编译服务器安装与部署(参考)",
-      "path": "XGRIDS/高通平台开发/💻高通SDK优化/📖编译服务器安装与部署(参考).md"
-    },
-    {
-      "basename": "1-4、时间同步精度优化",
-      "path": "XGRIDS/rk3588开发/PPS时间同步/1-4、时间同步精度优化.md"
-    },
-    {
-      "basename": "1-2、同步不精确问题（高达几耗秒）",
-      "path": "XGRIDS/rk3588开发/PPS时间同步/1-2、同步不精确问题（高达几耗秒）.md"
-    },
-    {
-      "basename": "3-1、dtof 驱动开发(不复用camera框架)(❌)",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/3-1、dtof 驱动开发(不复用camera框架)(❌).md"
-    },
-    {
-      "basename": "1-3、虚拟串口死机问题",
-      "path": "XGRIDS/rk3588开发/PPS时间同步/1-3、虚拟串口死机问题.md"
-    },
-    {
-      "basename": "1-1、Linux时间同步改善了解",
-      "path": "XGRIDS/rk3588开发/PPS时间同步/1-1、Linux时间同步改善了解.md"
-    },
-    {
-      "basename": "📒AE 算法了解：",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/📒AE 算法了解：.md"
-    },
-    {
-      "basename": "📒Linux时间同步知识扩展",
-      "path": "XGRIDS/rk3588开发/PPS时间同步/📒Linux时间同步知识扩展.md"
-    },
-    {
-      "basename": "📒两主机间的时间戳同步机制",
-      "path": "XGRIDS/rk3588开发/PPS时间同步/📒两主机间的时间戳同步机制.md"
-    },
-    {
-      "basename": "2-1、PWM PPS中断驱动编写",
-      "path": "XGRIDS/rk3588开发/PPS时间同步/2-1、PWM PPS中断驱动编写.md"
-    },
-    {
-      "basename": "📒camera驱动开发相关知识积累：",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/📒camera驱动开发相关知识积累：.md"
     }
   ],
   "omittedPaths": [],
