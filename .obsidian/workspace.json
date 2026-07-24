@@ -36,17 +36,17 @@
             }
           },
           {
-            "id": "714bd0821d977813",
+            "id": "35442182c7cf294d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XGRIDS/高通平台开发/💻camera驱动开发/8-1、OV50H40 OTP：EEPROM 驱动开发.md",
+                "file": "通用文件夹/模板/主页.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8-1、OV50H40 OTP：EEPROM 驱动开发"
+              "title": "主页"
             }
           },
           {
@@ -141,8 +141,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -224,13 +223,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XGRIDS/高通平台开发/💻camera驱动开发/8-1、OV50H40 OTP：EEPROM 驱动开发.md",
+                "file": "通用文件夹/模板/主页.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "8-1、OV50H40 OTP：EEPROM 驱动开发 的大纲"
+              "title": "主页 的大纲"
             }
           },
           {
@@ -296,54 +295,54 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "714bd0821d977813",
+  "active": "35442182c7cf294d",
   "lastOpenFiles": [
+    "Extended-Learn/电脑软件学习/linux开发工具软件.md",
+    "XGRIDS/高通平台开发/💻高通SDK优化/2-1、QCS8550 SDK 环镜塔建与编译(TP2511).md",
+    "XGRIDS/高通平台开发/💻高通SDK优化/3-2、TP2511：LINUX基线代码合并.md",
+    "通用文件夹/模板/主页.md",
+    "通用文件夹/模板/开发记录模板(大版).md",
+    "通用文件夹/模板/开发记录(引脚)模板.md",
+    "通用文件夹/模板/开发记录-块.md",
+    "通用文件夹/模板/大纲框架图.md",
+    "通用文件夹/模板/创建新笔记模版.md",
+    "通用文件夹/模板/笔记整理模板(大版).md",
+    "通用文件夹/模板/笔记整理模板(大版)(AI开发).md",
+    "通用文件夹/模板/笔记整理模板(小版).md",
+    "通用文件夹/模板/报错与解决模板.md",
+    "通用文件夹/模板/📒📄🔨 ❤️🔍📌📖❌✅🐞 🛠️📦.md",
+    "通用文件夹/模板/笔记整理模板(中版).md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/9-2、DCG遇到的其他问题处理：.md",
     "主页.md",
     "XGRIDS/高通平台开发/💻camera驱动开发/8-1、OV50H40 OTP：EEPROM 驱动开发.md",
-    "XGRIDS/高通平台开发/💻高通SDK优化/2-1、QCS8550 SDK 环镜塔建与编译(TP2511).md",
-    "Extended-Learn/电脑软件学习/linux开发工具软件.md",
-    "XGRIDS/高通平台开发/💻高通SDK优化/3-2、TP2511：LINUX基线代码合并.md",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/8@OV50H40 OTP：EEPROM 驱动开发/src/vendor/qcom/proprietary/camx/src/core/camxeepromdata.h.md",
-    "XGRIDS/高通平台开发/💻camera驱动开发/4-2、SC133AT 驱动移植与兼容.md",
-    "XGRIDS/高通平台开发/audio驱动开发/📖Audio_ES8311 驱动开发文档.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/9-3、DCG完善：.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/9-3、DCG完善：/1ed9507774bd17942177b00da8c28637_MD5.jpeg",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/9-3、DCG完善：/file-20260724113122381.png",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/9-3、DCG完善：/813aef3ca10ff790f5fc64c93f3cd5ad_MD5.jpeg",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/9-3、DCG完善：/企业微信截图_17848629361308.png",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/9-3、DCG完善：/ae7498c4964d3295c1718e01b3f2f295_MD5.jpeg",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/9-3、DCG完善：/企业微信截图_17848629233048.png",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/9-3、DCG完善：/c3cbb7143f11903ba463055e03047c5f_MD5.jpeg",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/9-3、DCG完善：/file-20260724111250624.png",
+    "XGRIDS/高通平台开发/💻camera驱动开发/assets/9-3、DCG完善：",
+    "XGRIDS/高通平台开发/💻高通SDK优化/assets/3-2、TP2511：LINUX基线代码合并/e4e5685452626c19a7470ebf9906330a_MD5.jpeg",
+    "XGRIDS/高通平台开发/💻高通SDK优化/assets/3-2、TP2511：LINUX基线代码合并/file-20260724100802693.png",
+    "XGRIDS/高通平台开发/💻camera驱动开发/9-1、OV50H40 4kDCG配置.md",
+    "XGRIDS/高通平台开发/💻高通SDK优化/3-1、TP2514：LINUX基线代码合并.md",
     "XGRIDS/高通平台开发/💻camera驱动开发/4-1、点亮SC133HGS camera(荣宏鑫).md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/7-1、3个OV50h40驱动开发(要同步)-TP2511.md",
+    "XGRIDS/高通平台开发/💻camera驱动开发/4-2、SC133AT 驱动移植与兼容.md",
+    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/8@OV50H40 OTP：EEPROM 驱动开发/src/vendor/qcom/proprietary/camx/src/core/camxeepromdata.h.md",
+    "XGRIDS/高通平台开发/audio驱动开发/📖Audio_ES8311 驱动开发文档.md",
     "XGRIDS/高通平台开发/audio驱动开发",
     "XGRIDS/高通平台开发/新建文件夹",
-    "功能子仓库/code-notes/高通平台开发/💻高通SDK优化/3@LINUX基线代码合并/TP2511/poky/meta-quectel-core/recipes/alsa-conf/alsa-conf-custom_1.0.bb.md",
-    "功能子仓库/code-notes/高通平台开发/💻高通SDK优化/3@LINUX基线代码合并/TP2511/src/kernel-5.15/kernel_platform/msm-kernel/arch/arm64/configs/vendor/kalama_le-consolidate_defconfig.md",
     "功能子仓库/code-notes/高通平台开发/💻高通SDK优化/3@LINUX基线代码合并/TP2511/src/kernel-5.15/kernel_platform/msm-kernel/arch/arm64/configs/vendor",
     "功能子仓库/code-notes/高通平台开发/💻高通SDK优化/3@LINUX基线代码合并/TP2511/src/kernel-5.15/kernel_platform/msm-kernel/arch/arm64/configs",
     "功能子仓库/code-notes/高通平台开发/💻高通SDK优化/3@LINUX基线代码合并/TP2511/src/kernel-5.15/kernel_platform/msm-kernel/arch/arm64",
-    "功能子仓库/code-notes/高通平台开发/💻高通SDK优化/3@LINUX基线代码合并/TP2511/poky/meta-quectel-core/recipes/packagegroups/packagegroup-quectel-core.bb.md",
     "功能子仓库/code-notes/高通平台开发/💻高通SDK优化/3@LINUX基线代码合并/TP2511/poky/meta-quectel-core/recipes/packagegroups",
     "功能子仓库/code-notes/高通平台开发/💻高通SDK优化/3@LINUX基线代码合并/TP2511/src/kernel-5.15/kernel_platform/msm-kernel/arch",
-    "功能子仓库/code-notes/高通平台开发/💻高通SDK优化/3@LINUX基线代码合并/TP2511/poky/meta-quectel-core/recipes/alsa-conf/alsa-conf_1.0.bb.md",
     "功能子仓库/code-notes/高通平台开发/💻高通SDK优化/3@LINUX基线代码合并/TP2511/poky/meta-quectel-core/recipes/alsa-conf",
     "功能子仓库/code-notes/高通平台开发/💻高通SDK优化/3@LINUX基线代码合并/TP2511/src/kernel-5.15/kernel_platform/msm-kernel",
-    "功能子仓库/code-notes/高通平台开发/💻高通SDK优化/3@LINUX基线代码合并/TP2511/poky/meta-quectel-core/recipes",
-    "XGRIDS/高通平台开发/💻高通SDK优化/3-1、TP2514：LINUX基线代码合并.md",
-    "XGRIDS/高通平台开发/💻camera驱动开发/9-1、OV50H40 4kDCG配置.md",
-    "XGRIDS/高通平台开发/wifi驱动开发/📖WiFi-BT (RTL8852BE-BS) 移植开发流程文档.md",
-    "XGRIDS/高通平台开发/💻高通SDK优化/assets/3-2、TP2511：LINUX基线代码合并/7b629fd1522767c190dfaac6c7080c8b_MD5.jpg",
-    "XGRIDS/高通平台开发/💻高通SDK优化/assets/3-2、TP2511：LINUX基线代码合并/8212cd7efffa545d08256c6c29c8818d_MD5.jpeg",
-    "XGRIDS/高通平台开发/💻高通SDK优化/assets/3-2、TP2511：LINUX基线代码合并/file-20260720164056539.png",
-    "XGRIDS/高通平台开发/💻高通SDK优化/assets/3-2、TP2511：LINUX基线代码合并/221bd78fd32072acab3dc8fed63ef9b7_MD5.jpeg",
-    "XGRIDS/高通平台开发/💻高通SDK优化/assets/3-2、TP2511：LINUX基线代码合并/file-20260720162749851.png",
-    "XGRIDS/高通平台开发/💻高通SDK优化/📖qcs8550环境搭建.md",
-    "XGRIDS/高通平台开发/💻高通SDK优化/📖TP2511：LINUX基线代码合并任务划分.md",
-    "XGRIDS/高通平台开发/💻高通SDK优化/📖 QCS8550 BSP 源码获取与编译指导手册.md",
-    "功能子仓库/code-notes/高通平台开发/💻高通SDK优化/3@LINUX基线代码合并/src/kernel-5.15/kernel_platform/qcom/proprietary/devicetree/qcom/kalama-regulators.dtsi.md",
-    "XGRIDS/高通平台开发/💻camera 中间件/📒camx学习/3、深入 Pipeline 和 Session 的内部实现。.md",
-    "XGRIDS/高通平台开发/💻camera 中间件/📒camx学习/0、camx学习规划：.md",
-    "XGRIDS/高通平台开发/💻camera 中间件/📒camx学习/2、CHI-CDK 定制化框架.md",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/8@OV50H40 OTP：EEPROM 驱动开发/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/eeprom/bl24sa128d_ov50h40_eeprom.xml.md",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/8@OV50H40 OTP：EEPROM 驱动开发/poky/meta-qti-bsp/recipes-core/systemd/systemd-machine-units-ext4/data_wipe_mount_le.md",
-    "功能子仓库/code-notes/高通平台开发/💻camera驱动开发/8@OV50H40 OTP：EEPROM 驱动开发/src/vendor/qcom/proprietary/chi-cdk/oem/qcom/buildbins/build/linuxembedded/binary_kalama/com.qti.sensormodule.xgrids_ov50h40_cam0.cmake.md",
-    "XGRIDS/高通平台开发/💻camera 中间件/📖高通camx架构学习/assets/3、HalQcom Hal3 CamX/e03130e503929a26131e65e94e8842d6_MD5.png",
-    "XGRIDS/高通平台开发/💻camera 中间件/📖高通camx架构学习/assets/3、HalQcom Hal3 CamX/c9a785aea5d2ce84fad174b0408d0373_MD5.png",
-    "XGRIDS/高通平台开发/💻camera 中间件/📖高通camx架构学习/assets/3、HalQcom Hal3 CamX/b33409c832be270304b5689095d641b0_MD5.png",
-    "XGRIDS/高通平台开发/💻camera 中间件/📖高通camx架构学习/assets/3、HalQcom Hal3 CamX/90fb290a15f6d020680878a3b62e54d1_MD5.png",
-    "XGRIDS/高通平台开发/💻camera 中间件/📖高通camx架构学习/assets/3、HalQcom Hal3 CamX/9044786dd7705e81743e850b73050e98_MD5.png",
     "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十一期_pinctrl子系统/canvas/2-pinctrl 运行时数据结构.canvas",
     "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十一期_pinctrl子系统/canvas/第126章 pinctrl_bind_pins 函数分析.canvas",
     "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十一期_pinctrl子系统/canvas/第125章 add_setting 函数分析.canvas",

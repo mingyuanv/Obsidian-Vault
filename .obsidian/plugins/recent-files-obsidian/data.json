@@ -1,24 +1,92 @@
 {
   "recentFiles": [
     {
-      "basename": "8-1、OV50H40 OTP：EEPROM 驱动开发",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/8-1、OV50H40 OTP：EEPROM 驱动开发.md"
-    },
-    {
       "basename": "主页",
-      "path": "主页.md"
-    },
-    {
-      "basename": "2-1、QCS8550 SDK 环镜塔建与编译(TP2511)",
-      "path": "XGRIDS/高通平台开发/💻高通SDK优化/2-1、QCS8550 SDK 环镜塔建与编译(TP2511).md"
+      "path": "通用文件夹/模板/主页.md"
     },
     {
       "basename": "linux开发工具软件",
       "path": "Extended-Learn/电脑软件学习/linux开发工具软件.md"
     },
     {
+      "basename": "2-1、QCS8550 SDK 环镜塔建与编译(TP2511)",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/2-1、QCS8550 SDK 环镜塔建与编译(TP2511).md"
+    },
+    {
       "basename": "3-2、TP2511：LINUX基线代码合并",
       "path": "XGRIDS/高通平台开发/💻高通SDK优化/3-2、TP2511：LINUX基线代码合并.md"
+    },
+    {
+      "basename": "开发记录模板(大版)",
+      "path": "通用文件夹/模板/开发记录模板(大版).md"
+    },
+    {
+      "basename": "开发记录(引脚)模板",
+      "path": "通用文件夹/模板/开发记录(引脚)模板.md"
+    },
+    {
+      "basename": "开发记录-块",
+      "path": "通用文件夹/模板/开发记录-块.md"
+    },
+    {
+      "basename": "大纲框架图",
+      "path": "通用文件夹/模板/大纲框架图.md"
+    },
+    {
+      "basename": "创建新笔记模版",
+      "path": "通用文件夹/模板/创建新笔记模版.md"
+    },
+    {
+      "basename": "笔记整理模板(大版)",
+      "path": "通用文件夹/模板/笔记整理模板(大版).md"
+    },
+    {
+      "basename": "笔记整理模板(大版)(AI开发)",
+      "path": "通用文件夹/模板/笔记整理模板(大版)(AI开发).md"
+    },
+    {
+      "basename": "笔记整理模板(小版)",
+      "path": "通用文件夹/模板/笔记整理模板(小版).md"
+    },
+    {
+      "basename": "报错与解决模板",
+      "path": "通用文件夹/模板/报错与解决模板.md"
+    },
+    {
+      "basename": "📒📄🔨 ❤️🔍📌📖❌✅🐞 🛠️📦",
+      "path": "通用文件夹/模板/📒📄🔨 ❤️🔍📌📖❌✅🐞 🛠️📦.md"
+    },
+    {
+      "basename": "笔记整理模板(中版)",
+      "path": "通用文件夹/模板/笔记整理模板(中版).md"
+    },
+    {
+      "basename": "9-2、DCG遇到的其他问题处理：",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/9-2、DCG遇到的其他问题处理：.md"
+    },
+    {
+      "basename": "主页",
+      "path": "主页.md"
+    },
+    {
+      "basename": "8-1、OV50H40 OTP：EEPROM 驱动开发",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/8-1、OV50H40 OTP：EEPROM 驱动开发.md"
+    },
+    {
+      "basename": "9-1、OV50H40 4kDCG配置",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/9-1、OV50H40 4kDCG配置.md"
+    },
+    {
+      "basename": "3-1、TP2514：LINUX基线代码合并",
+      "path": "XGRIDS/高通平台开发/💻高通SDK优化/3-1、TP2514：LINUX基线代码合并.md"
+    },
+    {
+      "basename": "4-1、点亮SC133HGS camera(荣宏鑫)",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/4-1、点亮SC133HGS camera(荣宏鑫).md"
+    },
+    {
+      "basename": "7-1、3个OV50h40驱动开发(要同步)-TP2511",
+      "path": "XGRIDS/高通平台开发/💻camera驱动开发/7-1、3个OV50h40驱动开发(要同步)-TP2511.md"
     },
     {
       "basename": "4-2、SC133AT 驱动移植与兼容",
@@ -27,18 +95,6 @@
     {
       "basename": "📖Audio_ES8311 驱动开发文档",
       "path": "XGRIDS/高通平台开发/audio驱动开发/📖Audio_ES8311 驱动开发文档.md"
-    },
-    {
-      "basename": "4-1、点亮SC133HGS camera(荣宏鑫)",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/4-1、点亮SC133HGS camera(荣宏鑫).md"
-    },
-    {
-      "basename": "3-1、TP2514：LINUX基线代码合并",
-      "path": "XGRIDS/高通平台开发/💻高通SDK优化/3-1、TP2514：LINUX基线代码合并.md"
-    },
-    {
-      "basename": "9-1、OV50H40 4kDCG配置",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/9-1、OV50H40 4kDCG配置.md"
     },
     {
       "basename": "📖WiFi-BT (RTL8852BE-BS) 移植开发流程文档",
@@ -97,14 +153,6 @@
       "path": "XGRIDS/高通平台开发/💻高通SDK优化/📖 Camera Sensor Probe 问题复盘笔记-Linux 基线.md"
     },
     {
-      "basename": "7-1、3个OV50h40驱动开发(要同步)-TP2511",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/7-1、3个OV50h40驱动开发(要同步)-TP2511.md"
-    },
-    {
-      "basename": "9-2、DCG遇到的其他问题处理：",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/9-2、DCG遇到的其他问题处理：.md"
-    },
-    {
       "basename": "11-1、多相机ToF_挂掉 问题",
       "path": "XGRIDS/高通平台开发/💻camera驱动开发/11-1、多相机ToF_挂掉 问题.md"
     },
@@ -151,54 +199,6 @@
     {
       "basename": "1-6、线程阻塞问题与子码流实现",
       "path": "XGRIDS/高通平台开发/💻图像处理应用开发/1-6、线程阻塞问题与子码流实现.md"
-    },
-    {
-      "basename": "5-1、TP2514 长时间出流和编码报错问题：",
-      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/5-1、TP2514 长时间出流和编码报错问题：.md"
-    },
-    {
-      "basename": "5-1、4camera之间同步模式配置处理：",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/5-1、4camera之间同步模式配置处理：.md"
-    },
-    {
-      "basename": "📖SC133AT_寄存器完全解析",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/📖SC133AT_寄存器完全解析.md"
-    },
-    {
-      "basename": "📒高通图像处理流程深入了解：",
-      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/📒高通图像处理流程深入了解：.md"
-    },
-    {
-      "basename": "📒交叉编译器的了解",
-      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/📒交叉编译器的了解.md"
-    },
-    {
-      "basename": "📒图像处理知识扩展-Gstreamer",
-      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/📒图像处理知识扩展-Gstreamer.md"
-    },
-    {
-      "basename": "第133章 GPIO操作函数实验",
-      "path": "嵌入式知识学习（通用扩展）/linux外设驱动开发（未）/第十二期_GPIO子系统/第133章 GPIO操作函数实验.md"
-    },
-    {
-      "basename": "📖 gst-camera-capture-example_复盘笔记",
-      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/📖 gst-camera-capture-example_复盘笔记.md"
-    },
-    {
-      "basename": "3-1、硬解码H265",
-      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/3-1、硬解码H265.md"
-    },
-    {
-      "basename": "1-3、图像处理程序的进一步适配",
-      "path": "XGRIDS/高通平台开发/💻图像处理应用开发/1-3、图像处理程序的进一步适配.md"
-    },
-    {
-      "basename": "📖jsd：离线log&3A debug info dump导通需求",
-      "path": "XGRIDS/高通平台开发/💻camera驱动开发/📖jsd：离线log&3A debug info dump导通需求.md"
-    },
-    {
-      "basename": "1-1、系统时间偏快问题分析 - 2511",
-      "path": "XGRIDS/高通平台开发/💻时间同步/1-1、系统时间偏快问题分析 - 2511.md"
     }
   ],
   "omittedPaths": [],
